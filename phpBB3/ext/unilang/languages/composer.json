@@ -1,0 +1,25 @@
+{
+   "name": "unilang/languages",
+   "type": "phpbb-extension",
+   "description": "UniLang Language Information in profiles",
+   "homepage": "https://github.com/proycon/unilangforum",
+   "version": "0.1.0",
+   "time": "2015-03-14",
+   "license": "GPL-3.0",
+   "authors": [{
+      "name": "Maarten van Gompel",
+      "email": "proyconn@anaproy.nl",
+      "homepage": "https://github.com/proycon/",
+      "role": "Lead Developer"
+   }],
+   "require": {
+      "php": ">=5.3.3",
+      "composer/installers": "~1.0"
+   },
+   "extra": {
+      "display-name": "UniLang Languages Extension",
+      "soft-require" : {
+         "phpbb/phpbb": ">=3.1.0-RC2,<3.2.*@dev"
+      }
+   }
+}
