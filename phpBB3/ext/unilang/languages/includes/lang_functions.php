@@ -9,10 +9,10 @@
 *
 */
 
-namespace unilang\languages\includes;
-require_once('lang_data.php');
-require_once('region_data.php');
+require_once($phpbb_root_path . 'ext/unilang/languages/includes/lang_data.php');
+require_once($phpbb_root_path . 'ext/unilang/languages/includes/region_data.php');
 
+namespace unilang\languages\includes;
 
 /**
 * Compare two language codes and return whether they match (can be unified) or not. If strict is false, they will match when they have the same base-language, despite being different script/regional variants, it strict is true, all that is specified has to match. Example, under strict mode: es-ES and es-AR don't match, whilst under non-strict mode, they do. 'es-ES' against 'es' (or vice versa) will match in either mode.
@@ -129,13 +129,13 @@ function langicon($lang, $args = false,$absolute = false, $name = '') {
 	global $phpbb_root_path;
 	$ext = 'png';
 	if (lang_complex($lang)) {
-		if (file_exists($phpbb_root_path ."images/langicons/$lang.$ext")) {
+		if (file_exists($phpbb_root_path ."ext/unilang/languages/styles/all/images/langicons/$lang.$ext")) {
 			$imgsrc ="images/langicons/$lang.$ext";
 		} else {
 			list($lang,$script,$region) = split_language_code($lang,false);
 			$region = strtoupper($region);
-			if (file_exists($phpbb_root_path ."images/countryicons/$region.$ext")) { 
-				$imgsrc = "images/countryicons/$region.$ext";
+			if (file_exists($phpbb_root_path ."ext/unilang/languages/styles/all/images/countryicons/$region.$ext")) { 
+				$imgsrc = "ext/unilang/languages/styles/all/images/countryicons/$region.$ext";
 			} else {
 				$imgsrc = "images/langicons/$lang.$ext";
 			}
@@ -205,70 +205,6 @@ function get_browser_languages() {
 	}
 	return array_unique($langs);
 }
-
-/** 
-* Returns the desired language based on the GET/POST 'lang' override, phpBB settings, and browser preferences. Alters the phpBB language if necessary, but only the first time it is run. 
-*/
-function get_language($forcelang = '') {
-	global $user, $lang, $lang_forced;
-	if (defined('IN_FACEBOOK')) return 'en'; //facebook is monolingual;
-	if (!empty($lang)) return $lang; 
-	if (!isset($lang_forced)) $lang_forced = false;
-
-	if ($lang = request_var('lang','')) {
-		//1: Language explicitly passed over HTTP GET/POST
-		whisper("get_language(): (1) Got language from argument ('$lang')");
-	} elseif ($lang = request_var('l','')) {
-		//2: Language explicitly passed over HTTP GET/POST, old style
-		whisper("get_language(): (2) Got language from old-style argument ('$lang')");
-	} elseif (isset($_COOKIE['lang'])) {
-		//3: Language from cookie?
-		$lang = $_COOKIE['lang'];
-		whisper("get_language(): (3) Got language from cookie ('$lang')");
-	} elseif  ($user->data['user_id'] != ANONYMOUS) {
-		//4: Language from phpBB
-		$lang = $user->data['user_lang'];
-		whisper("get_language(): (4) Got language from phpbb ('$lang')");
-	} else {
-		//4: Get language from browser (User is an unregistered visitor or bot)
-		$langs = get_browser_languages();
-		if (count($langs) > 0) {
-			$lang = $langs[0]; //set language to first browser language
-			whisper("get_language(): (5) Got language from browser ('$lang')");
-		}
-	}
-	if (!$lang) {
-		$lang = 'en';
-		whisper("get_language(): (5) Got language by falling back to english"); 
-	}
-
-	if (!$lang_forced) {
-		//this is the first time we get_language, set cookie and set phpbb language
-		set_phpbb_language($lang);
-		setcookie('lang',$lang, time()+60*60*24*30);
-		$lang_forced = true;
-		whisper("Set language preferences");		
-	}
-	return $lang;
-}
-
-/**
-* Returns an array of possible fallbacks
-* @return array(string)
-*/
-function get_language_fallbacks($lang) {
-	$fallbacks = array();
-	list($baselang, $complexlang) = split_language_code($lang);
-	if ($complexlang) $fallbacks[] = $baselang; //fallback is base-language without complex component
-	if (($baselang == 'eu') || ($baselang == 'gl') || ($baselang == 'es')) { //fallback for languages in Spain is spanish:
-		 $fallbacks[] = 'es';
-	} elseif (($baselang == 'br') || ($baselang == 'oc')) { //fallback for languages in France is french
-		 $fallbacks[] = 'fr';		
-	}
-	if ($baselang != 'en') $fallbacks[] = 'en'; //ultimate fallback is english
-	return $fallbacks;
-}
-
 
 /** 
 * Get the full name for the specified language

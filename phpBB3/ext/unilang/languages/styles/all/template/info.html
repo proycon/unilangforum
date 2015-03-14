@@ -1,3 +1,33 @@
 <!-- INCLUDECSS @unilang_languages/languages.css -->
 <!-- INCLUDE overall_header.html -->
+
+<p>
+These languages are sorted by native name. Make requests in the <A HREF="http://www.unilang.org/viewtopic.php?f=9&t=24613&start=10000">"My languages" options</A> thread.
+</p>
+
+<table>
+<tr>
+<th style="padding: 2px;">Flag</th>
+<th style="padding: 2px;">Base code</th>
+<th style="padding: 2px;">Complex code</th>
+<th style="padding: 2px;">Name (Native)</th>
+<th style="padding: 2px;">Name (English)</th>
+<!-- <th style="padding: 2px;">Script</th> Removed due to lack of factual accuracy --> 
+</tr>
+<!-- BEGIN items -->
+<!-- IF items.COMPLEXLANG -->
+<tr style="background: #E0E0D8;">
+<!-- ELSE -->
+<tr>
+<!-- ENDIF -->
+<td style="padding: 2px; padding-right: 10px;">{items.FLAG}</td>
+<td style="padding: 2px; font-style: italic;">{items.BASELANG}</td>
+<td style="padding: 2px; font-style: italic;">{items.COMPLEXLANG}</td>
+<td style="padding: 2px;">{items.S_NATIVENAME}</td>
+<td style="padding: 2px;">{items.S_ENGLISHNAME}</td>
+<!-- <td style="padding: 2px;">{items.S_SCRIPTNAME}</td> Removed due to lack of factual accuracy --> 
+</tr>
+<!-- END items -->
+</table>
+
 <!-- INCLUDE overall_footer.html -->

@@ -23,9 +23,11 @@
 */
 
 namespace unilang\languages\includes;
+
 define('LANG_SCRIPTPROP_CASE','case'); #property holds for scripts knowing case (ex: latin, greek, cyrillic)
 define('LANG_SCRIPTPROP_RTL','rtl'); #property holds for right-to-left scripts (ex: arabic)
 define('LANG_SCRIPTPROP_NOSPACE','nospace'); #property holds for scripts not seperating words with spaces
+
 
 /**
 * List of all language names (native), try not to use directly, use get_language_name()
