@@ -4,22 +4,23 @@ body {
     font-family: "Trebuchet MS","Lucida Grande",Verdana, Arial, Helvetica, sans-serif;
 }
 
-#unilang-logo {
-    display: block;
-    background-image: url("./images/logo.png");
-    background-size: 320px 120px;
-    background-repeat: no-repeat;
-    width: 320px;
-    height: 120px;
-    min-width: 320px;
-    min-height: 120px;
-    margin-top: -70px;
-    margin-left: auto;
-    margin-right: auto;
-}
 
 @media only screen and (min-width: 700px), only screen and (min-device-width: 700px)
 {
+    #unilang-logo {
+        display: block;
+        background-image: url("./images/logo.png");
+        background-size: 320px 120px;
+        background-repeat: no-repeat;
+        width: 320px;
+        height: 120px;
+        min-width: 320px;
+        min-height: 120px;
+        margin-top: -70px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
     h1#title {
         display: block;
         text-align: center;
@@ -27,10 +28,26 @@ body {
         width: 100%;
         font-weight: normal;
     }
+
+    #wrap {
+        margin-top: 50px;
+    }
 }
 
 @media only screen and (max-width: 700px), only screen and (max-device-width: 700px)
 {
+    #unilang-logo {
+        display: block;
+        background-image: url("./images/logo.png");
+        background-size: 160px 80px;
+        background-repeat: no-repeat;
+        width: 160px;
+        height: 80px;
+        min-width: 160px;
+        min-height: 80px;
+        margin-left: auto;
+        margin-right: auto;
+    }
     h1#title {
         display: none;
     }
@@ -40,7 +57,4 @@ h1#title span {
     color: #88b4db;
 }
 
-#wrap {
-    margin-top: 50px;
-}
     
