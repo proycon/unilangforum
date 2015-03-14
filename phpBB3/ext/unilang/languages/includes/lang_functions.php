@@ -217,9 +217,35 @@ class lang_functions {
         } else {
             $extra = '';
         }
-        return "<img src=\"/ext/unilang/languages/styles/all/themeimages/countryicons/".strtoupper($country).".png\" alt=\"$country\" style=\"border:1px solid #DDD\" $extra/>";		
+        return "<img src=\"/ext/unilang/languages/styles/all/theme/images/countryicons/".strtoupper($country).".png\" alt=\"$country\" style=\"border:1px solid #DDD\" $extra/>";		
     }
 
+    /*
+    * Returns an xhtml img tag (string) holding a region icon (flag) for the given region. Actively checks if the file exists and returns an empty string if not.
+    *
+    * @param $country An iso3166 country code
+    * @param $region An iso3166-2 region code
+    * @param $args An associative array (or plain string) of optional arguments for the img tag
+    */
+    function regionicon($country, $region, $args = false){
+        global $phpbb_root_path;
+        if (is_array($args)) {
+            foreach ($args as $key => $value) {
+                $extra .= " $key=\"$value\"";
+            }
+            $extra .= ' ';
+        } elseif ($args === false) {
+            $extra = "$args ";
+        } else {
+            $extra = '';
+        }
+        $file = "ext/unilang/languages/styles/all/theme/images/regionicons/".strtoupper($country)."-".strtoupper($region).".png";
+        if (file_exists($this->phpbb_root_path . $file)) {
+            return "<img src=\"/$file\" alt=\"$country-$region\" style=\"border:1px solid #DDD\" $extra />";		
+        } else {
+            return '';
+        }
+    }
 
     function get_language_codes() {
         /* An alias preventing the need for the global variable */
