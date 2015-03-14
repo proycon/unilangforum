@@ -3,3 +3,22 @@ body {
     background-repeat: repeat-x;
     font-family: "Trebuchet MS","Lucida Grande",Verdana, Arial, Helvetica, sans-serif;
 }
+
+#unilang-logo {
+    display: block;
+	background-image: url("./images/logo.png");
+    background-size: 320px 120px;
+    background-repeat: no-repeat;
+    width: 320px;
+    height: 120px;
+    min-width: 320px;
+    min-height: 120px;
+    margin-top: -70px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#wrap {
+    margin-top: 50px;
+}
+    
