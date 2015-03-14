@@ -1,0 +1,3 @@
+unilang_languages_controller:
+    pattern: /lang_info
+    defaults: { _controller:unilang.languages.controller:info }
