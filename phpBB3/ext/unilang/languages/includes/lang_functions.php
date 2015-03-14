@@ -200,6 +200,25 @@ class lang_functions {
     }
 
 
+    /*
+    * Returns an xhtml img tag (string) holding a country icon (flag) for the given country code. 
+    *
+    * @param $country An iso3166 country code
+    * @param $args An associative array (or plain string) of optional arguments for the img tag
+    */
+    function countryicon($country, $args = false){
+        if (is_array($args)) {
+            foreach ($args as $key => $value) {
+                $extra .= " $key=\"$value\"";
+            }
+            $extra .= ' ';
+        } elseif ($args === false) {
+            $extra = "$args ";
+        } else {
+            $extra = '';
+        }
+        return "<img src=\"/ext/unilang/languages/styles/all/themeimages/countryicons/".strtoupper($country).".png\" alt=\"$country\" style=\"border:1px solid #DDD\" $extra/>";		
+    }
 
 
     function get_language_codes() {
