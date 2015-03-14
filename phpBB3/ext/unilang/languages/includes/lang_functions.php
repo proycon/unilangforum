@@ -1,9 +1,9 @@
 <?php
 /** 
 *
-* @package unilang_core
+* @package unilang
 * @name Language functions and definitions
-* @copyright (c) 2007 UniLang
+* @copyright (c) 2007-2015 UniLang
 * @author proycon
 * @license http://opensource.org/licenses/gpl-license.php GNU Public License 
 *
@@ -767,4 +767,171 @@ function iso639_3_to_unilang($lang) {
 	return false;
 }
 
+
+
+define('LANG_NATIVE',5);
+define('LANG_FLUENT',4);
+define('LANG_ADVANCED',3);
+define('LANG_INTERMEDIATE',2);
+define('LANG_BEGINNER',1);
+define('LANG_INTEREST',0); //interested in learning
+
+
+/*
+* Queries which languages are spoken by a particular user.
+* Will return an array of arrays with the following four elements:
+* - base-language
+* - complex-language
+* - proficiency (one of the LANG_* constants)
+* - canhelp (boolean)
+* - wanthelp (boolean)
+* The function has a caching mechanism if called with the user_id of the current logged in user, so you can safely call it over and over again.
+*
+* @param $user_id The user ID. Either one ID, or an array of multiple IDs, in which case the returned output will be an associative array with the user_id as key.
+*/
+function get_member_languages($user_id, $table = 'member_lang') {
+	global $db, $member_languages_cache, $user;
+	if (isset($user) && ($user->data['user_id'] == $user_id) && (isset($member_languages_cache))) return $member_languages_cache; //we cache data for the current logged-in user
+	$languages = array();
+	if (is_array($user_id)) {
+		$ids = array();	
+		foreach ($user_id as $id) {
+			$ids[] = "`user_id`='$id'";
+		}
+		$ids = implode(' OR ',$ids);
+		$sql = "SELECT user_id,baselang,complexlang,proficiency,canhelp,wanthelp FROM $table WHERE $ids ORDER BY proficiency DESC";
+	} else {
+		$sql = "SELECT user_id,baselang,complexlang,proficiency,canhelp,wanthelp FROM $table WHERE `user_id`='$user_id' ORDER BY proficiency DESC";
+	}
+	$result = $db->sql_query($sql);
+	if ($result) {
+		while ($row = $db->sql_fetchrow($result)) {
+			if (is_array($user_id)) {
+				if (!isset($languages[$row['user_id']])) {
+					$languages[$row['user_id']] = array($row);
+				} else {
+					$languages[$row['user_id']][] = $row;
+				}
+			} else {
+				$languages[] = $row;
+			}
+		}
+	}
+	if (isset($user) && ($user->data['user_id'] == $user_id) && (!isset($member_languages_cache))) {
+		$member_languages_cache = $languages; //we cache data for the current logged-in user
+	}
+	return $languages;
+}
+
+/*
+* Returns a list of members that speak the requested language
+*
+* @param $exactproficiency Boolean stating if the proficiency has to be matched exactly (true), or if the proficiency specified is a minimal required proficiency (false) 
+
+SELECT facebook_uid FROM `member_facebook` JOIN member_lang ON member_lang.user_id=member_facebook.unilang_uid WHERE member_lang.baselang='fr'
+
+*/
+function get_language_members($baselang = false,$complexlang = false,$proficiency = false, $canhelp = 0,$wanthelp = 0, $exactproficiency = true, $uidlist = false,  $facebook = false, $table = 'member_lang') {
+	global $db;
+	$query = array();
+	if ($baselang) {
+		$query[] = $table . ".baselang='$baselang'";
+	}
+	if ($complexlang) {
+		$query[] = $table . ".complexlang='$complexlang'";
+	}
+	if ($proficiency !== false) {
+		if ($exactproficiency) {
+			$query[] = $table . ".proficiency='$proficiency'";
+		} else {
+			$query[] = $table . ".proficiency >= $proficiency";
+		}
+	}
+	$limit = " LIMIT 50";
+	if ($uidlist !== false) {
+		$subquery = array();
+		foreach ($uidlist as $uid) {
+			if (($facebook) && ($table == 'member_lang')) {
+				$subquery[] = "member_facebook.facebook_uid=".$uid;
+			} else {
+				$subquery[] = "$table.user_id=$uid";
+			}
+		}
+		$query[] = '(.'.implode(' OR ',$subquery).')';
+		$limit = '';
+	}
+	if ($canhelp !== 0) {
+			$query[] = $table . ".canhelp='$canhelp'";
+	}
+	if ($wanthelp !== 0) {
+			$query[] = $table . ".wanthelp='$wanthelp'";
+	}
+	if (count($query) > 0) {
+		$query = implode(' AND ',$query);
+		if (($facebook) && ($table == 'member_lang')) {
+			$result = $db->sql_query("SELECT facebook_uid, member_lang.baselang, member_lang.complexlang, member_lang.proficiency, member_lang.canhelp,member_lang.wanthelp FROM member_facebook JOIN member_lang ON member_lang.user_id=member_facebook.unilang_uid WHERE $query ORDER BY member_lang.proficiency DESC,member_lang.canhelp DESC $limit ");
+		} else {
+			$result = $db->sql_query("SELECT user_id,baselang,complexlang,proficiency,canhelp,wanthelp FROM $table WHERE $query ORDER BY proficiency DESC,canhelp DESC $limit");
+		}
+	} else {
+		$result = $db->sql_query("SELECT user_id FROM $table $limit");
+	}
+	$members = array();
+	if ($result) {
+		while ($row = $db->sql_fetchrow($result)) {
+			if (($facebook) && ($table == 'member_lang')) {
+				$members[$row['facebook_uid']] = $row;
+			} else {
+				$members[$row['user_id']] = $row;
+			}
+		}
+	}
+	return $members;	
+}
+
+function member_delete_language($user_id, $baselang = false,$complexlang = '',$proficiency = false, $table = 'member_lang') {
+	global $db;
+	if ($baselang) {
+		$query = " AND baselang='$baselang' AND complexlang='$complexlang' AND proficiency='$proficiency'";
+	}
+	if ((!is_numeric($user_id)) && (!($user_id > 0))) die("Invalid user_id, courageously refusing to delete ($user_id)");
+	$db->sql_query("DELETE FROM $table WHERE user_id=$user_id $query");
+}
+
+function member_add_language($user_id, $baselang,$complexlang,$proficiency, $canhelp = 0,$wanthelp = 0, $table = 'member_lang') {
+	global $db;	
+	$sql = "INSERT INTO $table (`user_id`,`baselang`,`complexlang`,`proficiency`,`canhelp`,`wanthelp`) VALUES ('$user_id','$baselang','$complexlang','$proficiency','$canhelp','$wanthelp')";
+	if ($baselang == '') die("No baselang: " .$sql);
+	$db->sql_query($sql);
+
+}
+
+
+function member_edit_language($user_id, $old_baselang, $old_complexlang, $old_proficiency, $baselang,$complexlang,$proficiency, $canhelp = 0,$wanthelp = 0, $table = 'member_lang') {
+	global $db;	
+	$db->sql_query("UPDATE $table SET baselang='$baselang', complexlang='$complexlang', proficiency='$proficiency',canhelp=$canhelp,wanthelp='$wanthelp' WHERE user_id='$user_id' AND baselang='$old_baselang' AND complexlang='$old_complexlang' AND proficiency='$old_proficiency'");
+}
+
+/**
+* Return a list of proficiencies
+*/
+function proflist($selected = false) {
+	$r = "";
+	foreach (array(LANG_NATIVE => out('LANG_NATIVE'),
+		LANG_FLUENT => out('LANG_FLUENT'),
+		LANG_ADVANCED => out('LANG_ADVANCED'), 
+		LANG_INTERMEDIATE => out('LANG_INTERMEDIATE'),
+		LANG_BEGINNER => out('LANG_BEGINNER'),
+		LANG_INTEREST => out('LANG_INTEREST')) as $key => $value) {
+		if ($key === $selected) {
+			$extra = "selected=\"selected\"";
+		} else {
+			$extra = '';
+		}
+		$r .= "<option value=\"$key\" $extra>$value</option>";
+	}
+	return $r;
+}
+
 ?>
+
