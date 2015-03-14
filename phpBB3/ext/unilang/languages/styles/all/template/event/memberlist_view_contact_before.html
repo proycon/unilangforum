@@ -8,3 +8,14 @@
         <!-- IF CITY --><dt>{L_CITY}:</dt> <dd>{CITY}</dd><!-- ENDIF -->   
     </div>
 </div>
+<div class="panel bg2">
+	<div class="inner">
+        <h3>{L_LANG_TITLE}</h3>
+        <table>
+        <tr><th style="padding: 1px;"></th><th style="padding: 1px;">{L_LANGUAGE}</th><th style="padding: 1px;">{L_PROFICIENCY}</th></tr>
+        <!-- BEGIN languages -->
+            <tr {languages.ROWSTYLE}><td>{languages.ICON}</td><td><a href="{languages.U_SEARCHLINK}">{languages.NAME}</a></td><td>{languages.PROFICIENCY}</td></tr>
+        <!-- END languages -->
+        </table>
+    </div>
+</div>

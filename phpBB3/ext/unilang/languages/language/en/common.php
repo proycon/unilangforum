@@ -19,10 +19,13 @@ if (empty($lang) || !is_array($lang)) {
 
 
 $lang = array_merge($lang, array(
+    'LANG_TITLE' => "Languages",
     'NATIONALITY' => "Nationality",
     'REGION' => "Region",
     'CITY' => "City",
     'COUNTRY' => "Country",
+    'LANGUAGE' => "Language",
+    'PROFICIENCY' => "Proficiency",
     'LANG_INFO_PAGE' => "Language List",
     'LANG_NATIVE' => "Native language",
     'LANG_FLUENT' => "Fluently spoken (C2)",
