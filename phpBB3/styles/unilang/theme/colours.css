@@ -48,8 +48,7 @@ hr {
 }
 
 .headerbar {
-	background-color: #5778A1;
-	background-image: url("./images/bg_header.gif");
+	/*background-image: url("./images/bg_header.gif");*/
 	color: #FFFFFF;
 }
 
@@ -164,9 +163,9 @@ dl.details dd {
 ---------------------------------------- */
 
 .pagination li a {
-	color: #FFFFFF;
-	background-color: #6581A0;
-	border-color: #6581A0;
+	color: #000;
+	background-color: #e2e2e2;
+	border-color: #333;
 }
 
 .pagination li.ellipsis span {
@@ -187,7 +186,7 @@ dl.details dd {
 }
 
 .pagination li.next a, .pagination li.previous a, .pagination li.page-jump a {
-	background-image: url("./images/icons_pagination.png");
+	background-image: url("./images/icons_pagination.png"); 
 }
 
 /* Pagination in viewforum for multipage topics */
@@ -245,10 +244,10 @@ Colours and backgrounds for links.css
 -------------------------------------------------------------- */
 
 
-a:link	{ color: #838741;  } 
-a:visited	{ color: #535330; }
-a:hover	{ color: #838741; } 
-a:active	{ color: #444203; }
+a:link	{ color: #5a6a82;  } 
+a:visited	{ color: #5a6a82;  } 
+a:hover	{ color: #496b9d; } 
+a:active	{ color: #496b9d; }
 
 /* Links on gradient backgrounds */
 .forumbg .header a, .forabg .header a, th a {
@@ -264,24 +263,61 @@ a:active	{ color: #444203; }
 	background-color: #FFFFFF;
 }
 
+a.forumtitle {
+	color: #535330;
+}
+
+/* a.forumtitle:visited { color: #535330; } */
+
+a.forumtitle:hover {
+	color: #4e533d;
+}
+
+a.forumtitle:active {
+	color: #535330;
+}
+
+a.topictitle {
+	color: #535330;
+}
+
+/* a.topictitle:visited { color: #5E7BAA; } */
+
+a.topictitle:hover {
+	color: #4e533d;
+}
+
+a.topictitle:active {
+	color: #535330;
+}
+
 /* Post body links */
 .postlink {
-	color: #368AD2;
-	border-bottom-color: #368AD2;
+	color: #5E7BAA;
+	border-bottom-color: #5E7BAA;
 }
 
 .postlink:visited {
-	color: #5D8FBD;
-	border-bottom-color: #5D8FBD;
+	color: #7587A5;
+	border-bottom-color: #666666;
 }
 
 .postlink:hover {
-	background-color: #D0E4F6;
-	color: #0D4473;
+	background-color: #DAE1EC;
+	color: #273A59;
 }
 
 .signature a, .signature a:hover {
 	background-color: transparent;
+}
+
+/* Profile links */
+.postprofile a:link, .postprofile a:active, .postprofile a:visited, .postprofile dt.author a {
+	color: #535330;
+}
+
+.postprofile a:hover, .postprofile dt.author a:hover {
+	color: #2A63BA;
 }
 
 /* Back to top of page */
