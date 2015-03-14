@@ -388,7 +388,7 @@ class lang_functions {
         } else {
             if ($addnative) $locname = $this->get_country_name($country,false);
             if (isset($this->regiondata->country_names_en[$country])) {
-                if ((!empty($locname)) && ($locname != $country) && ($this->langdata->$country_names_en[$country] != $locname)) {
+                if ((!empty($locname)) && ($locname != $country) && ($this->langdata->country_names_en[$country] != $locname)) {
                     return $this->regiondata->country_names_en[$country].' ('.$locname.')';
                 } else {
                     return $this->regiondata->country_names_en[$country];
