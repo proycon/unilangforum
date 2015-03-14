@@ -404,6 +404,17 @@ class lang_functions {
     }
 
 
+
+    function get_region_name($user_country, $user_region) {
+        $region = "";
+        if (($user_country != '') && ($user_region != '')) {
+            if ((isset($this->regiondata->region_data[$user_country])) && (isset($this->regiondata->region_data[$user_country][$user_region]))) {
+                $region = $this->regionsdata->region_data[$user_country][$user_region];
+            }
+        }
+        return $region;
+    }
+
     /** 
     * Returns a script code for a given language, may return an array if the language is written in multiple scripts! If a script is already provided in the language-code, it will return that.
     * @return string
