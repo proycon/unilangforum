@@ -22,6 +22,7 @@ $lang = array_merge($lang, array(
     'NATIONALITY' => "Nationality",
     'REGION' => "Region",
     'CITY' => "City",
+    'COUNTRY' => "Country",
     'LANG_INFO_PAGE' => "Language List",
     'LANG_NATIVE' => "Native language",
     'LANG_FLUENT' => "Fluently spoken (C2)",
