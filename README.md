@@ -9,7 +9,11 @@ custom extensions are included here.
 The UniLang style resides in ``phpBB3/style/unilang/`` and inherits from the
 default prosilver style.
 
-Extensions reside in ``phpBB3/ext``.
+Extensions reside in ``phpBB3/ext``. Custom-made UniLang extensions are in
+``phpBB3/ext/unilang``. If you want to write a new extension or edit an
+existing one, please familiarize yourself with the phpBB3.1 extension framework:
+
+ * [Writing Extensions](https://www.phpbb.com/extensions/writing/)
 
 Modifying the phpBB3 sources should be avoided whenever possible, preferably
 add proper extensions instead or adapt the templates in the UniLang style (but
