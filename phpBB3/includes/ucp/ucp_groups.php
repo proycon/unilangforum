@@ -485,11 +485,11 @@ class ucp_groups
 							else
 							{
 								confirm_box(false, $user->lang('CONFIRM_AVATAR_DELETE'), build_hidden_fields(array(
-										'avatar_delete'     => true,
-										'i'                 => $id,
-										'mode'              => $mode,
-										'g'			        => $group_id,
-										'action'            => $action))
+										'avatar_delete'	 => true,
+										'i'				 => $id,
+										'mode'			  => $mode,
+										'g'					=> $group_id,
+										'action'			=> $action))
 								);
 							}
 						}

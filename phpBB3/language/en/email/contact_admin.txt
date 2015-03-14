@@ -16,7 +16,6 @@ E-mail address: {FROM_EMAIL_ADDRESS}
 IP Address: {FROM_IP_ADDRESS}
 <!-- ENDIF -->
 
-
 Message sent to you follows
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~
 

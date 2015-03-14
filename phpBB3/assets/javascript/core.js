@@ -50,7 +50,6 @@ phpbb.clearLoadingTimeout = function() {
 	}
 };
 
-
 /**
 * Close popup alert after a specified delay
 *
@@ -70,7 +69,7 @@ phpbb.closeDarkenWrapper = function(delay) {
  * @param string title Title of the message, eg "Information" (HTML).
  * @param string msg Message to display (HTML).
  * @param bool fadedark Remove the dark background when done? Defaults
- *     to yes.
+ *	 to yes.
  *
  * @returns object Returns the div created.
  */
@@ -155,9 +154,9 @@ phpbb.alert.close = function($alert, fadedark) {
  *
  * @param string msg Message to display (HTML).
  * @param function callback Callback. Bool param, whether the user pressed
- *     yes or no (or whatever their language is).
+ *	 yes or no (or whatever their language is).
  * @param bool fadedark Remove the dark background when done? Defaults
- *     to yes.
+ *	 to yes.
  *
  * @returns object Returns the div created.
  */
@@ -211,7 +210,6 @@ phpbb.parseQuerystring = function(string) {
 	return params;
 };
 
-
 /**
  * Makes a link use AJAX instead of loading an entire page.
  *
@@ -225,10 +223,10 @@ phpbb.parseQuerystring = function(string) {
  *
  * @param object options Options.
  * @param bool/function refresh If we are sent back a refresh, should it be
- *     acted upon? This can either be true / false / a function.
+ *	 acted upon? This can either be true / false / a function.
  * @param function callback Callback to call on completion of event. Has
- *     three parameters: the element that the event was evoked from, the JSON
- *     that was returned and (if it is a form) the form action.
+ *	 three parameters: the element that the event was evoked from, the JSON
+ *	 that was returned and (if it is a form) the form action.
  */
 phpbb.ajaxify = function(options) {
 	var $elements = $(options.selector),
@@ -425,7 +423,7 @@ phpbb.search = {
 };
 
 /**
- * Get cached search data. 
+ * Get cached search data.
  *
  * @param string id		Search ID.
  * @return bool|object.	Cached data object. Returns false if no data exists.
@@ -438,7 +436,7 @@ phpbb.search.cache.get = function(id) {
 };
 
 /**
- * Set search cache data value. 
+ * Set search cache data value.
  *
  * @param string id		Search ID.
  * @param string key	Data key.
@@ -454,7 +452,7 @@ phpbb.search.cache.set = function(id, key, value) {
 };
 
 /**
- * Cache search result. 
+ * Cache search result.
  *
  * @param string id			Search ID.
  * @param string keyword	Keyword.
@@ -496,7 +494,7 @@ phpbb.search.getKeyword = function($input, keyword, multiline) {
 
 /**
  * Get the textarea line number on which the keyword resides - for textareas
- * that support multiple keywords (one per line). 
+ * that support multiple keywords (one per line).
  *
  * @param jQuery $textarea	Search textarea.
  * @return int
@@ -512,7 +510,7 @@ phpbb.search.getKeywordLine = function ($textarea) {
  *
  * @param jQuery $input		Search input|textarea.
  * @param string value		Value to set.
- * @param bool multiline	Whether textarea supports multiple search keywords.	
+ * @param bool multiline	Whether textarea supports multiple search keywords.
  *
  * @return undefined
  */
@@ -527,7 +525,7 @@ phpbb.search.setValue = function($input, value, multiline) {
 };
 
 /**
- * Sets the onclick event to set the value on the input|textarea to the selected search result. 
+ * Sets the onclick event to set the value on the input|textarea to the selected search result.
  *
  * @param jQuery $input		Search input|textarea.
  * @param object value		Result object.
@@ -591,8 +589,8 @@ phpbb.search.filter = function(data, event, sendRequest) {
 					phpbb.search.cache.set(searchID, 'lastSearch', keyword);
 					phpbb.search.cache.setResults(searchID, keyword, []);
 					proceed = false;
-				}		
-			}		
+				}
+			}
 		}
 
 		if (proceed) {
@@ -605,7 +603,7 @@ phpbb.search.filter = function(data, event, sendRequest) {
 };
 
 /**
- * Handle search result response. 
+ * Handle search result response.
  *
  * @param object res		Data received from server.
  * @param jQuery $input		Search input|textarea.
@@ -795,7 +793,7 @@ phpbb.timezoneSwitchDate = function(keepSelection) {
 	} else {
 		$tzSelectDateSuggest.css('display', 'inline');
 	}
-	
+
 	var $tzOptions = $timezone.children('optgroup[data-tz-value="' + $tzDate.val() + '"]').children('option');
 
 	if ($tzOptions.length === 1) {
@@ -1118,7 +1116,6 @@ phpbb.inBBCodeTag = function(textarea, startTags, endTags) {
 	return (lastEnd < lastStart);
 };
 
-
 /**
 * Adjust textarea to manage code bbcode
 *
@@ -1394,8 +1391,8 @@ phpbb.registerDropdown = function(toggle, dropdown, options) {
 * @param int height Palette cell height.
 */
 phpbb.colorPalette = function(dir, width, height) {
-	var r = 0, 
-		g = 0, 
+	var r = 0,
+		g = 0,
 		b = 0,
 		numberList = new Array(6),
 		color = '',

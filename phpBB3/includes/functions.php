@@ -137,9 +137,9 @@ function request_var($var_name, $default, $multibyte = false, $cookie = false, $
 *
 * @param string $config_name   The configuration option's name
 * @param string $config_value  New configuration value
-* @param bool   $is_dynamic    Whether this variable should be cached (false) or
-*                              if it changes too frequently (true) to be
-*                              efficiently cached.
+* @param bool   $is_dynamic	Whether this variable should be cached (false) or
+*							  if it changes too frequently (true) to be
+*							  efficiently cached.
 *
 * @return null
 *
@@ -166,10 +166,10 @@ function set_config($config_name, $config_value, $is_dynamic = false, \phpbb\con
 * Increments an integer config value directly in the database.
 *
 * @param string $config_name   The configuration option's name
-* @param int    $increment     Amount to increment by
-* @param bool   $is_dynamic    Whether this variable should be cached (false) or
-*                              if it changes too frequently (true) to be
-*                              efficiently cached.
+* @param int	$increment	 Amount to increment by
+* @param bool   $is_dynamic	Whether this variable should be cached (false) or
+*							  if it changes too frequently (true) to be
+*							  efficiently cached.
 *
 * @return null
 *
@@ -2506,7 +2506,6 @@ function phpbb_request_http_version()
 
 //Form validation
 
-
 /**
 * Add a secret hash   for use in links/GET requests
 * @param string  $link_name The name of the link; has to match the name used in check_link_hash, otherwise no restrictions apply
@@ -2524,7 +2523,6 @@ function generate_link_hash($link_name)
 
 	return $user->data["hash_$link_name"];
 }
-
 
 /**
 * checks a link hash - for GET requests
@@ -2908,10 +2906,10 @@ function login_box($redirect = '', $l_explain = '', $l_success = '', $admin = fa
 		 * This event allows an extension to process when a user fails a login attempt
 		 *
 		 * @event core.login_box_failed
-		 * @var array   result      Login result data
-		 * @var string  username    User name used to login
-		 * @var string  password    Password used to login
-		 * @var string  err         Error message
+		 * @var array   result	  Login result data
+		 * @var string  username	User name used to login
+		 * @var string  password	Password used to login
+		 * @var string  err		 Error message
 		 * @since 3.1.3-RC1
 		 */
 		$vars = array('result', 'username', 'password', 'err');
@@ -4804,15 +4802,15 @@ function page_header($page_title = '', $display_online_list = false, $item_id = 
 		// the browser or error messages, compression is disabled in a few cases:
 		//
 		// 1) if headers have already been sent, this indicates plaintext output
-		//    has been started so further content must not be compressed
+		//	has been started so further content must not be compressed
 		// 2) the length of the current output buffer is non-zero. This means
-		//    there is already some uncompressed content in this output buffer
-		//    so further output must not be compressed
+		//	there is already some uncompressed content in this output buffer
+		//	so further output must not be compressed
 		// 3) if more than one level of output buffering is used because we
-		//    cannot test all output buffer level content lengths. One level
-		//    could be caused by php.ini output_buffering. Anything
-		//    beyond that is manual, so the code wrapping phpBB in output buffering
-		//    can easily compress the output itself.
+		//	cannot test all output buffer level content lengths. One level
+		//	could be caused by php.ini output_buffering. Anything
+		//	beyond that is manual, so the code wrapping phpBB in output buffering
+		//	can easily compress the output itself.
 		//
 		if (@extension_loaded('zlib') && !headers_sent() && ob_get_level() <= 1 && ob_get_length() == 0)
 		{
@@ -5079,7 +5077,7 @@ function page_header($page_title = '', $display_online_list = false, $item_id = 
 		'T_RANKS_PATH'			=> "{$web_path}{$config['ranks_path']}/",
 		'T_UPLOAD_PATH'			=> "{$web_path}{$config['upload_path']}/",
 		'T_STYLESHEET_LINK'		=> "{$web_path}styles/" . rawurlencode($user->style['style_path']) . '/theme/stylesheet.css?assets_version=' . $config['assets_version'],
-		'T_STYLESHEET_LANG_LINK'    => "{$web_path}styles/" . rawurlencode($user->style['style_path']) . '/theme/' . $user->lang_name . '/stylesheet.css?assets_version=' . $config['assets_version'],
+		'T_STYLESHEET_LANG_LINK'	=> "{$web_path}styles/" . rawurlencode($user->style['style_path']) . '/theme/' . $user->lang_name . '/stylesheet.css?assets_version=' . $config['assets_version'],
 		'T_JQUERY_LINK'			=> !empty($config['allow_cdn']) && !empty($config['load_jquery_url']) ? $config['load_jquery_url'] : "{$web_path}assets/javascript/jquery.min.js?assets_version=" . $config['assets_version'],
 		'S_ALLOW_CDN'			=> !empty($config['allow_cdn']),
 

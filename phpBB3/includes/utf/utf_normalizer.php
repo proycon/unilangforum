@@ -230,7 +230,6 @@ class utf_normalizer
 		$str = utf_normalizer::decompose($str, $pos, $len, $GLOBALS['utf_compatibility_decomp']);
 	}
 
-
 	/**
 	* Recompose a UTF string
 	*

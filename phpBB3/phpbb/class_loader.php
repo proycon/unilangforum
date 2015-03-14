@@ -44,7 +44,7 @@ class class_loader
 	* file extension from the given path.
 	*
 	* @param string $namespace Required namespace for files to be loaded
-	* @param string $path    Directory to load files from
+	* @param string $path	Directory to load files from
 	* @param string $php_ext The file extension for PHP files
 	* @param \phpbb\cache\driver\driver_interface $cache An implementation of the phpBB cache interface.
 	*/
@@ -103,11 +103,11 @@ class class_loader
 	/**
 	* Resolves a phpBB class name to a relative path which can be included.
 	*
-	* @param string       $class The class name to resolve, must be in the
-	*                            namespace the loader was constructed with.
-	*                            Has to begin with \
-	* @return string|bool        A relative path to the file containing the
-	*                            class or false if looking it up failed.
+	* @param string	   $class The class name to resolve, must be in the
+	*							namespace the loader was constructed with.
+	*							Has to begin with \
+	* @return string|bool		A relative path to the file containing the
+	*							class or false if looking it up failed.
 	*/
 	public function resolve_path($class)
 	{

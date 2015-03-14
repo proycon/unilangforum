@@ -609,7 +609,6 @@ class manager
 		return $subscription_methods;
 	}
 
-
 	/**
 	* Get user's notification data
 	*

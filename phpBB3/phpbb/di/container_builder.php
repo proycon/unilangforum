@@ -285,8 +285,8 @@ class container_builder
 	{
 		$dumper = new PhpDumper($this->container);
 		$cached_container_dump = $dumper->dump(array(
-			'class'         => 'phpbb_cache_container',
-			'base_class'    => 'Symfony\\Component\\DependencyInjection\\ContainerBuilder',
+			'class'		 => 'phpbb_cache_container',
+			'base_class'	=> 'Symfony\\Component\\DependencyInjection\\ContainerBuilder',
 		));
 
 		file_put_contents($container_filename, $cached_container_dump);

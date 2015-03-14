@@ -120,8 +120,8 @@ class diff
 	* </code>
 	*
 	* @return diff  A Diff object representing the inverse of the original diff.
-	*               Note that we purposely don't return a reference here, since
-	*               this essentially is a clone() method.
+	*			   Note that we purposely don't return a reference here, since
+	*			   this essentially is a clone() method.
 	*/
 	function reverse()
 	{
@@ -323,12 +323,12 @@ class mapped_diff extends diff
 	* This can be used to compute things like case-insensitve diffs, or diffs
 	* which ignore changes in white-space.
 	*
-	* @param array $from_lines         An array of strings.
-	* @param array $to_lines           An array of strings.
+	* @param array $from_lines		 An array of strings.
+	* @param array $to_lines		   An array of strings.
 	* @param array $mapped_from_lines  This array should have the same size number of elements as $from_lines.
-	*                                  The elements in $mapped_from_lines and $mapped_to_lines are what is actually
-	*                                  compared when computing the diff.
-	* @param array $mapped_to_lines    This array should have the same number of elements as $to_lines.
+	*								  The elements in $mapped_from_lines and $mapped_to_lines are what is actually
+	*								  compared when computing the diff.
+	* @param array $mapped_to_lines	This array should have the same number of elements as $to_lines.
 	*/
 	function mapped_diff(&$from_lines, &$to_lines, &$mapped_from_lines, &$mapped_to_lines)
 	{
@@ -473,7 +473,6 @@ class diff_op_change extends diff_op
 		return $reverse;
 	}
 }
-
 
 /**
 * A class for computing three way diffs.

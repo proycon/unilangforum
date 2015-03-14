@@ -251,7 +251,6 @@ class filespec
 		return @filesize($filename);
 	}
 
-
 	/**
 	* Check the first 256 bytes for forbidden content
 	*/
@@ -1062,7 +1061,6 @@ class fileupload
 
 		return (!empty($upload) && $upload['name'] !== 'none');
 	}
-
 
 	/**
 	* Check for bad content (IE mime-sniffing)

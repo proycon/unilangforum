@@ -167,7 +167,7 @@ class gravatar extends \phpbb\avatar\driver\driver
 	* Build gravatar URL for output on page
 	*
 	* @param array $row User data or group data that has been cleaned with
-	*        \phpbb\avatar\manager::clean_row
+	*		\phpbb\avatar\manager::clean_row
 	* @return string Gravatar URL
 	*/
 	protected function get_gravatar_url($row)

@@ -681,9 +681,9 @@ function validate_range($value_ary, &$error)
 * @param array $display_vars An array of existing config display vars
 * @param array $add_config_vars An array of new config display vars
 * @param array $where Where to place the new config vars,
-*              before or after an exisiting config, as an array
-*              of the form: array('after' => 'config_name') or
-*              array('before' => 'config_name').
+*			  before or after an exisiting config, as an array
+*			  of the form: array('after' => 'config_name') or
+*			  array('before' => 'config_name').
 * @return array The array of config display vars
 */
 function phpbb_insert_config_array($display_vars, $add_config_vars, $where)

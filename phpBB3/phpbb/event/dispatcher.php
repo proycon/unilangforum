@@ -26,8 +26,8 @@ use Symfony\Component\EventDispatcher\Event;
 *
 * Example:
 *
-*     $vars = array('page_title');
-*     extract($phpbb_dispatcher->trigger_event('core.index', compact($vars)));
+*	 $vars = array('page_title');
+*	 extract($phpbb_dispatcher->trigger_event('core.index', compact($vars)));
 *
 */
 class dispatcher extends ContainerAwareEventDispatcher implements dispatcher_interface

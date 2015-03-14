@@ -127,7 +127,7 @@ class manager
 	*
 	* @param string $name The extension name
 	* @return \phpbb\extension\extension_interface Instance of the extension meta class or
-	*                     \phpbb\extension\base if the class does not exist
+	*					 \phpbb\extension\base if the class does not exist
 	*/
 	public function get_extension($name)
 	{
@@ -410,7 +410,7 @@ class manager
 	* Retrieves a list of all available extensions on the filesystem
 	*
 	* @return array An array with extension names as keys and paths to the
-	*               extension as values
+	*			   extension as values
 	*/
 	public function all_available()
 	{
@@ -465,7 +465,7 @@ class manager
 	* extension that is no longer in the database is not configured.
 	*
 	* @return array An array with extension names as keys and and the
-	*               database stored extension information as values
+	*			   database stored extension information as values
 	*/
 	public function all_configured()
 	{
@@ -482,7 +482,7 @@ class manager
 	* Retrieves all enabled extensions.
 	*
 	* @return array An array with extension names as keys and and the
-	*               database stored extension information as values
+	*			   database stored extension information as values
 	*/
 	public function all_enabled()
 	{
@@ -501,7 +501,7 @@ class manager
 	* Retrieves all disabled extensions.
 	*
 	* @return array An array with extension names as keys and and the
-	*               database stored extension information as values
+	*			   database stored extension information as values
 	*/
 	public function all_disabled()
 	{

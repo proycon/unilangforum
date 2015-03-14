@@ -1478,7 +1478,6 @@ class session
 		}
 	}
 
-
 	/**
 	* Check if the request originated from the same page.
 	* @param bool $check_script_path If true, the path will be checked as well
@@ -1518,7 +1517,6 @@ class session
 
 		return true;
 	}
-
 
 	function unset_admin()
 	{

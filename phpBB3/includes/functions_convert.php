@@ -239,7 +239,6 @@ function make_uid($timestamp)
 	return $last_uid;
 }
 
-
 /**
 * Validate a website address
 */
@@ -1796,7 +1795,6 @@ function add_groups_to_teampage()
 	}
 }
 
-
 /**
 * Sync post count. We might need to do this in batches.
 */
@@ -2313,7 +2311,6 @@ function convert_bbcode($message, $convert_size = true, $extended_bbcodes = fals
 	return $message;
 }
 
-
 function copy_file($src, $trg, $overwrite = false, $die_on_failure = true, $source_relative_path = true)
 {
 	global $convert, $phpbb_root_path, $config, $user, $db;
@@ -2503,7 +2500,6 @@ function get_smiley_display()
 	$smiley_count++;
 	return ($smiley_count < 50) ? 1 : 0;
 }
-
 
 function fill_dateformat($user_dateformat)
 {

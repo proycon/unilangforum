@@ -168,7 +168,6 @@ class teampage implements \phpbb\groupposition\groupposition_interface
 		return $row;
 	}
 
-
 	/**
 	* {@inheritDoc}
 	*/

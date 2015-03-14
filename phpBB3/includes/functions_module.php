@@ -400,9 +400,9 @@ class p_master
 
 		// With the code below we make sure only those elements get eval'd we really want to be checked
 		preg_match_all('/(?:
-			"[^"\\\\]*(?:\\\\.[^"\\\\]*)*"         |
-			\'[^\'\\\\]*(?:\\\\.[^\'\\\\]*)*\'     |
-			[(),]                                  |
+			"[^"\\\\]*(?:\\\\.[^"\\\\]*)*"		 |
+			\'[^\'\\\\]*(?:\\\\.[^\'\\\\]*)*\'	 |
+			[(),]								  |
 			[^\s(),]+)/x', $module_auth, $match);
 
 		// Valid tokens for auth and their replacements
@@ -827,7 +827,7 @@ class p_master
 		// Generate the list of modules, we'll do this in two ways ...
 		// 1) In a linear fashion
 		// 2) In a combined tabbed + linear fashion ... tabs for the categories
-		//    and a linear list for subcategories/items
+		//	and a linear list for subcategories/items
 		foreach ($this->module_ary as $row_id => $item_ary)
 		{
 			// Skip hidden modules
@@ -976,7 +976,7 @@ class p_master
 	*
 	* @param string $class module class (acp/mcp/ucp)
 	* @param string $name module name (class name of the module, or its basename
-    *                     phpbb_ext_foo_acp_bar_module, ucp_zebra or zebra)
+	*					 phpbb_ext_foo_acp_bar_module, ucp_zebra or zebra)
 	* @param string $mode mode, as passed through to the module
 	*
 	*/
@@ -1098,7 +1098,7 @@ class p_master
 	*
 	* @param string $basename A module basename
 	* @return string The basename if it starts with phpbb_ or the basename with
-	*                the current p_class (e.g. acp_) stripped.
+	*				the current p_class (e.g. acp_) stripped.
 	*/
 	protected function get_short_name($basename)
 	{

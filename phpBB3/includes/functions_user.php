@@ -1501,7 +1501,6 @@ function validate_date($date_string, $optional = false)
 	return false;
 }
 
-
 /**
 * Validate Match
 *
@@ -2475,7 +2474,6 @@ function group_create(&$group_id, $type, $name, $desc, $group_attributes, $allow
 	return (sizeof($error)) ? $error : false;
 }
 
-
 /**
 * Changes a group avatar's filename to conform to the naming scheme
 */
@@ -2499,7 +2497,6 @@ function group_correct_avatar($group_id, $old_entry)
 	}
 }
 
-
 /**
 * Remove avatar also for users not having the group as default
 */
@@ -2513,7 +2510,6 @@ function avatar_remove_db($avatar_name)
 		WHERE user_avatar = '" . $db->sql_escape($avatar_name) . '\'';
 	$db->sql_query($sql);
 }
-
 
 /**
 * Group Delete
@@ -2886,7 +2882,6 @@ function group_user_del($group_id, $user_id_ary = false, $username_ary = false, 
 	// Return false - no error
 	return false;
 }
-
 
 /**
 * Removes the group avatar of the default group from the users in user_ids who have that group as default.
@@ -3468,8 +3463,6 @@ function group_update_listings($group_id)
 		phpbb_update_foes($db, $auth, array($group_id));
 	}
 }
-
-
 
 /**
 * Funtion to make a user leave the NEWLY_REGISTERED system group.

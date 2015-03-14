@@ -39,9 +39,9 @@ class db extends \phpbb\config\config
 	/**
 	* Creates a configuration container with a default set of values
 	*
-	* @param \phpbb\db\driver\driver_interface    $db    Database connection
+	* @param \phpbb\db\driver\driver_interface	$db	Database connection
 	* @param \phpbb\cache\driver\driver_interface $cache Cache instance
-	* @param string                       $table Configuration table name
+	* @param string					   $table Configuration table name
 	*/
 	public function __construct(\phpbb\db\driver\driver_interface $db, \phpbb\cache\driver\driver_interface $cache, $table)
 	{
@@ -90,9 +90,9 @@ class db extends \phpbb\config\config
 	/**
 	* Removes a configuration option
 	*
-	* @param  String $key       The configuration option's name
+	* @param  String $key	   The configuration option's name
 	* @param  bool   $use_cache Whether this variable should be cached or if it
-	*                           changes too frequently to be efficiently cached
+	*						   changes too frequently to be efficiently cached
 	* @return null
 	*/
 	public function delete($key, $use_cache = true)
@@ -112,10 +112,10 @@ class db extends \phpbb\config\config
 	/**
 	* Sets a configuration option's value
 	*
-	* @param string $key       The configuration option's name
-	* @param string $value     New configuration value
+	* @param string $key	   The configuration option's name
+	* @param string $value	 New configuration value
 	* @param bool   $use_cache Whether this variable should be cached or if it
-	*                          changes too frequently to be efficiently cached.
+	*						  changes too frequently to be efficiently cached.
 	*/
 	public function set($key, $value, $use_cache = true)
 	{
@@ -126,13 +126,13 @@ class db extends \phpbb\config\config
 	* Sets a configuration option's value only if the old_value matches the
 	* current configuration value or the configuration value does not exist yet.
 	*
-	* @param  string $key       The configuration option's name
+	* @param  string $key	   The configuration option's name
 	* @param  mixed  $old_value Current configuration value or false to ignore
-	*                           the old value
+	*						   the old value
 	* @param  string $new_value New configuration value
 	* @param  bool   $use_cache Whether this variable should be cached or if it
-	*                           changes too frequently to be efficiently cached
-	* @return bool              True if the value was changed, false otherwise
+	*						   changes too frequently to be efficiently cached
+	* @return bool			  True if the value was changed, false otherwise
 	*/
 	public function set_atomic($key, $old_value, $new_value, $use_cache = true)
 	{
@@ -176,10 +176,10 @@ class db extends \phpbb\config\config
 	* Using this method instead of setting the new value directly avoids race
 	* conditions and unlike set_atomic it cannot fail.
 	*
-	* @param string $key       The configuration option's name
-	* @param int    $increment Amount to increment by
+	* @param string $key	   The configuration option's name
+	* @param int	$increment Amount to increment by
 	* @param bool   $use_cache Whether this variable should be cached or if it
-	*                          changes too frequently to be efficiently cached.
+	*						  changes too frequently to be efficiently cached.
 	*/
 	function increment($key, $increment, $use_cache = true)
 	{

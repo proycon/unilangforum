@@ -577,9 +577,9 @@ class ucp_profile
 						if (!confirm_box(true))
 						{
 							confirm_box(false, $user->lang('CONFIRM_AVATAR_DELETE'), build_hidden_fields(array(
-									'avatar_delete'     => true,
-									'i'                 => $id,
-									'mode'              => $mode))
+									'avatar_delete'	 => true,
+									'i'				 => $id,
+									'mode'			  => $mode))
 							);
 						}
 						else

@@ -127,11 +127,11 @@ class extension extends \Twig_Extension
 	/**
 	* Grabs a subset of a loop
 	*
-	* @param \Twig_Environment $env          A Twig_Environment instance
-	* @param mixed            $item         A variable
-	* @param integer          $start        Start of the subset
-	* @param integer          $end   	     End of the subset
-	* @param Boolean          $preserveKeys Whether to preserve key or not (when the input is an array)
+	* @param \Twig_Environment $env		  A Twig_Environment instance
+	* @param mixed			$item		 A variable
+	* @param integer		  $start		Start of the subset
+	* @param integer		  $end   		 End of the subset
+	* @param Boolean		  $preserveKeys Whether to preserve key or not (when the input is an array)
 	*
 	* @return mixed The sliced variable
 	*/

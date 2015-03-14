@@ -18,20 +18,18 @@ Permission to participate at "{SITENAME}" - {U_BOARD}
 Username: {USERNAME}
 Email: {EMAIL_ADDRESS}
 
-I HAVE REVIEWED THE INFORMATION PROVIDED BY MY CHILD AND HEREBY GRANT PERMISSION TO "{SITENAME}" TO STORE THIS INFORMATION. 
-I UNDERSTAND THIS INFORMATION CAN BE CHANGED AT ANY TIME BY ENTERING A PASSWORD. 
+I HAVE REVIEWED THE INFORMATION PROVIDED BY MY CHILD AND HEREBY GRANT PERMISSION TO "{SITENAME}" TO STORE THIS INFORMATION.
+I UNDERSTAND THIS INFORMATION CAN BE CHANGED AT ANY TIME BY ENTERING A PASSWORD.
 I UNDERSTAND THAT I MAY REQUEST FOR THIS INFORMATION TO BE REMOVED FROM "{SITENAME}" AT ANY TIME.
 
-
-Parent or guardian 
+Parent or guardian
 (print your name here): _____________________
 
-(sign here): __________________ 
+(sign here): __________________
 
 Date: _______________
 
 ------------------------------ CUT HERE ------------------------------
-
 
 Once the administrator has received the above form via fax or regular mail, your account will be activated.
 

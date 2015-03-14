@@ -223,24 +223,24 @@ class ...
 	<p>There are some special constants application developers are able to utilize to bend some of phpBB's internal functionality to suit their needs.</p>
 
 	<div class="codebox"><pre>
-PHPBB_MSG_HANDLER          (overwrite message handler)
-PHPBB_DB_NEW_LINK          (overwrite new_link parameter for sql_connect)
-PHPBB_ROOT_PATH            (overwrite $phpbb_root_path)
-PHPBB_ADMIN_PATH           (overwrite $phpbb_admin_path)
+PHPBB_MSG_HANDLER		  (overwrite message handler)
+PHPBB_DB_NEW_LINK		  (overwrite new_link parameter for sql_connect)
+PHPBB_ROOT_PATH			(overwrite $phpbb_root_path)
+PHPBB_ADMIN_PATH		   (overwrite $phpbb_admin_path)
 PHPBB_USE_BOARD_URL_PATH   (use generate_board_url() for image paths instead of $phpbb_root_path)
 PHPBB_DISABLE_ACP_EDITOR   (disable ACP style editor for templates)
 PHPBB_DISABLE_CONFIG_CHECK (disable ACP config.php writeable check)
 
-PHPBB_ACM_MEMCACHE_PORT     (overwrite memcached port, default is 11211)
+PHPBB_ACM_MEMCACHE_PORT	 (overwrite memcached port, default is 11211)
 PHPBB_ACM_MEMCACHE_COMPRESS (overwrite memcached compress setting, default is disabled)
-PHPBB_ACM_MEMCACHE_HOST     (overwrite memcached host name, default is localhost)
+PHPBB_ACM_MEMCACHE_HOST	 (overwrite memcached host name, default is localhost)
 
-PHPBB_ACM_REDIS_HOST        (overwrite redis host name, default is localhost)
-PHPBB_ACM_REDIS_PORT        (overwrite redis port, default is 6379)
-PHPBB_ACM_REDIS_PASSWORD    (overwrite redis password, default is empty)
-PHPBB_ACM_REDIS_DB          (overwrite redis default database)
+PHPBB_ACM_REDIS_HOST		(overwrite redis host name, default is localhost)
+PHPBB_ACM_REDIS_PORT		(overwrite redis port, default is 6379)
+PHPBB_ACM_REDIS_PASSWORD	(overwrite redis password, default is empty)
+PHPBB_ACM_REDIS_DB		  (overwrite redis default database)
 
-PHPBB_QA                   (Set board to QA-Mode, which means the updater also checks for RC-releases)
+PHPBB_QA				   (Set board to QA-Mode, which means the updater also checks for RC-releases)
 </pre></div>
 
 <h4>PHPBB_USE_BOARD_URL_PATH</h4>
@@ -298,9 +298,9 @@ PHPBB_QA                   (Set board to QA-Mode, which means the updater also c
 	<div class="indent">
 		<p><code>$current_user</code> is right, but <code>$currentuser</code> and <code> $currentUser</code> are not.</p>
 	</div>
-	
+
 	<p>In JavaScript, variable names should use camel case:</p>
-	
+
 	<div class="indent">
 		<p><code>currentUser</code> is right, but <code>currentuser</code> and <code>current_user</code> are not.</p>
 	</div>
@@ -315,7 +315,7 @@ for ($i = 0; $i &lt; $outer_size; $i++)
 {
    for ($j = 0; $j &lt; $inner_size; $j++)
    {
-      foo($i, $j);
+	  foo($i, $j);
    }
 }
 	</pre></div>
@@ -342,17 +342,16 @@ for ($i = 0; $i &lt; $outer_size; $i++)
 phpbb/
   class_name.php
   dir/
-    class_name.php
-      subdir/
-        class_name.php
+	class_name.php
+	  subdir/
+		class_name.php
 	</pre></div>
 
 	<div class="codebox"><pre>
-\phpbb\class_name            - phpbb/class_name.php
-\phpbb\dir\class_name        - phpbb/dir/class_name.php
+\phpbb\class_name			- phpbb/class_name.php
+\phpbb\dir\class_name		- phpbb/dir/class_name.php
 \phpbb\dir\subdir\class_name - phpbb/dir/subdir/class_name.php
 	</pre></div>
-
 
 	<h4>Summary:</h4>
 	<p>The basic philosophy here is to not hurt code clarity for the sake of laziness. This has to be balanced by a little bit of common sense, though; <code>phpbb_print_login_status_for_a_given_user()</code> goes too far, for example -- that function would be better named <code>phpbb_print_user_login_status()</code>, or just <code>phpbb_print_login_status()</code>.</p>
@@ -429,7 +428,7 @@ function do_stuff()
 	...
 }
 	</pre></div>
-	
+
 	<p>In JavaScript code, braces always go on the same line:</p>
 
 	<div class="codebox"><pre>
@@ -545,7 +544,6 @@ $foo = array(
 	'boo' => 23,
 );
 	</pre></div>
-
 
 	<h4>Associative array keys:</h4>
 	<p>In PHP, it's legal to use a literal string as a key to an associative array without quoting that string. We don't want to do this -- the string should always be quoted to avoid confusion. Note that this is only when we're using a literal, not when we're using a variable, examples:</p>
@@ -1011,7 +1009,6 @@ for ($i = 0, $size = sizeof($post_data); $i &lt; $size; $i++)
 	<h4>Use of in_array(): </h4>
 	<p>Try to avoid using in_array() on huge arrays, and try to not place them into loops if the array to check consist of more than 20 entries. in_array() can be very time consuming and uses a lot of cpu processing time. For little checks it is not noticeable, but if checked against a huge array within a loop those checks alone can take several seconds. If you need this functionality, try using isset() on the arrays keys instead, actually shifting the values into keys and vice versa. A call to <code>isset($array[$var])</code> is a lot faster than <code>in_array($var, array_keys($array))</code> for example.</p>
 
-
 	<a name="general"></a><h3>2.v. General Guidelines</h3>
 
 	<h4>General things:</h4>
@@ -1077,7 +1074,6 @@ $action_ary = $request->variable('action', array('' =&gt; 0));
 	</pre></div>
 
 	<p>The string passed to <code>add_form_key()</code> needs to match the string passed to <code>check_form_key()</code>. Another requirement for this to work correctly is that all forms include the <code>{S_FORM_TOKEN}</code> template variable.</p>
-
 
 	<h4>Sessions: </h4>
 	<p>Sessions should be initiated on each page, as near the top as possible using the following code:</p>
@@ -1720,8 +1716,8 @@ This may span multiple lines.
 		<div class="codebox"><pre>event_name
 ===
 * Locations:
-    + first/file/path.html
-    + second/file/path.html
+	+ first/file/path.html
+	+ second/file/path.html
 * Purpose: Same as above.
 * Since: 3.1.0-b1
 </pre></div>
@@ -1729,8 +1725,8 @@ This may span multiple lines.
 		<div class="codebox"><pre>event_name
 ===
 * Locations:
-    + first/file/path.html (2)
-    + second/file/path.html
+	+ first/file/path.html (2)
+	+ second/file/path.html
 * Purpose: Same as above.
 * Since: 3.1.0-b1
 </pre></div></li>
@@ -1738,8 +1734,8 @@ This may span multiple lines.
 		<div class="codebox"><pre>forumlist_body_last_post_title_prepend
 ====
 * Locations:
-    + styles/prosilver/template/forumlist_body.html
-    + styles/subsilver2/template/forumlist_body.html
+	+ styles/prosilver/template/forumlist_body.html
+	+ styles/subsilver2/template/forumlist_body.html
 * Purpose: Add content before the post title of the latest post in a forum on the forum list.
 * Since: 3.1.0-a1
 </pre></div></ul><br />
@@ -1753,16 +1749,12 @@ This may span multiple lines.
 
 	<hr />
 
-
-
 <a name="charsets"></a><h2>5. Character Sets and Encodings</h2>
 
 	<div class="paragraph">
 		<div class="inner"><span class="corners-top"><span></span></span>
 
 		<div class="content">
-
-
 
 <h4>What are Unicode, UCS and UTF-8?</h4>
 <p>The <a href="http://en.wikipedia.org/wiki/Universal_Character_Set">Universal Character Set (UCS)</a> described in ISO/IEC 10646 consists of a large amount of characters. Each of them has a unique name and a code point which is an integer number. <a href="http://en.wikipedia.org/wiki/Unicode">Unicode</a> - which is an industry standard - complements the Universal Character Set with further information about the characters' properties and alternative character encodings. More information on Unicode can be found on the <a href="http://www.unicode.org/">Unicode Consortium's website</a>. One of the Unicode encodings is the <a href="http://en.wikipedia.org/wiki/UTF-8">8-bit Unicode Transformation Format (UTF-8)</a>. It encodes characters with up to four bytes aiming for maximum compatibility with the <a href="http://en.wikipedia.org/wiki/ASCII">American Standard Code for Information Interchange</a> which is a 7-bit encoding of a relatively small subset of the UCS.</p>

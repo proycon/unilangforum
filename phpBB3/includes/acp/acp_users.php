@@ -177,12 +177,12 @@ class acp_users
 				 * Run code at beginning of ACP users overview
 				 *
 				 * @event core.acp_users_overview_before
-				 * @var	array   user_row    Current user data
-				 * @var	string  mode        Active module
-				 * @var	string  action      Module that should be run
-				 * @var	bool    submit      Do we display the form only
-				 *                          or did the user press submit
-				 * @var	array   error       Array holding error messages
+				 * @var	array   user_row	Current user data
+				 * @var	string  mode		Active module
+				 * @var	string  action	  Module that should be run
+				 * @var	bool	submit	  Do we display the form only
+				 *						  or did the user press submit
+				 * @var	array   error	   Array holding error messages
 				 * @since 3.1.3-RC1
 				 */
 				$vars = array('user_row', 'mode', 'action', 'submit', 'error');
@@ -1789,7 +1789,7 @@ class acp_users
 						if (!confirm_box(true))
 						{
 							confirm_box(false, $user->lang('CONFIRM_AVATAR_DELETE'), build_hidden_fields(array(
-									'avatar_delete'     => true))
+									'avatar_delete'	 => true))
 							);
 						}
 						else
@@ -2443,10 +2443,10 @@ class acp_users
 	* @param bool $value True to set the option, false to clear the option.
 	* @param int $data Current bit field value, or false to use $user_row['user_options']
 	* @return int|bool If $data is false, the bit field is modified and
-	*                  written back to $user_row['user_options'], and
-	*                  return value is true if the bit field changed and
-	*                  false otherwise. If $data is not false, the new
-	*                  bitfield value is returned.
+	*				  written back to $user_row['user_options'], and
+	*				  return value is true if the bit field changed and
+	*				  false otherwise. If $data is not false, the new
+	*				  bitfield value is returned.
 	*/
 	function optionset(&$user_row, $key, $value, $data = false)
 	{

@@ -476,7 +476,6 @@ class qa
 		$this->load_answer();
 	}
 
-
 	/**
 	* See if there is already an entry for the current session.
 	*/
@@ -979,8 +978,6 @@ class qa
 
 		return $langs;
 	}
-
-
 
 	/**
 	*  See if there is a question other than the one we have

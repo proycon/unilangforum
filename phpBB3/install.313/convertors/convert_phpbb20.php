@@ -90,7 +90,7 @@ $tables = array(
 * 	'filename'	=>	'NAME OF FILE', // If the file is not in the root directory, the path needs to be added with no leading slash
 * 	'array_name' => 'NAME OF ARRAY', // Only used if the configuration file stores the setting in an array.
 * 	'settings'		=>	array(
-*        'board_email' => 'SUPPORT_EMAIL', // target config name => source target name
+*		'board_email' => 'SUPPORT_EMAIL', // target config name => source target name
 * 	)
 * );
 * 'table_format' can be an array if the values are stored in a table which is an assosciative array
@@ -206,7 +206,6 @@ if (!$get_info)
 	{
 		$src_db->sql_freeresult($result);
 	}
-
 
 	/**
 	* Tests for further MODs can be included here.
@@ -363,7 +362,6 @@ if (!$get_info)
 			array(
 				'target'	=> USERCONV_TABLE,
 				'query_first'   => array('target', $convert->truncate_statement . USERCONV_TABLE),
-
 
 				array('user_id',			'users.user_id', 	''),
 				array('username_clean',		'users.username',	array('function1' => 'phpbb_set_encoding', 'function2' => 'utf8_clean_string')),

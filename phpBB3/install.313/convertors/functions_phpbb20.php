@@ -1534,7 +1534,6 @@ function phpbb_avatar_type($type)
 	return 0;
 }
 
-
 /**
 * Just undos the replacing of '<' and '>'
 */
@@ -1574,7 +1573,6 @@ function phpbb_import_avatar($user_avatar)
 	return '';
 }
 
-
 /**
 * Find out about the avatar's dimensions
 */
@@ -1588,7 +1586,6 @@ function phpbb_get_avatar_height($user_avatar)
 	}
 	return get_avatar_height($user_avatar, 'phpbb_avatar_type', $convert_row['user_avatar_type']);
 }
-
 
 /**
 * Find out about the avatar's dimensions
@@ -1604,7 +1601,6 @@ function phpbb_get_avatar_width($user_avatar)
 
 	return get_avatar_width($user_avatar, 'phpbb_avatar_type', $convert_row['user_avatar_type']);
 }
-
 
 /**
 * Calculate the correct to_address field for private messages

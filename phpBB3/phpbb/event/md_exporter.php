@@ -251,10 +251,10 @@ class md_exporter
 		);
 
 		// Multi file list
-		if (strpos($file_details, "* Locations:\n    + ") === 0)
+		if (strpos($file_details, "* Locations:\n	+ ") === 0)
 		{
-			$file_details = substr($file_details, strlen("* Locations:\n    + "));
-			$files = explode("\n    + ", $file_details);
+			$file_details = substr($file_details, strlen("* Locations:\n	+ "));
+			$files = explode("\n	+ ", $file_details);
 			foreach ($files as $file)
 			{
 				if (!file_exists($this->path . $file) || substr($file, -5) !== '.html')

@@ -349,7 +349,7 @@ services:
             - %tables.user_notifications%
         tags:
             - { name: notification.type }
-            
+
 # ----- Notification's methods -----
 # Scope MUST be prototype for all the plugins to work.
     notification.method_collection:

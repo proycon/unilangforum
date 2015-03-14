@@ -310,7 +310,6 @@ class metadata_manager
 		return (substr_count($this->ext_name, '/') === 1 && $this->ext_name == $this->get_metadata('name'));
 	}
 
-
 	/**
 	* Validates the contents of the phpbb requirement field
 	*

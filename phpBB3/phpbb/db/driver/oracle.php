@@ -291,7 +291,6 @@ class oracle extends \phpbb\db\driver\driver
 						database restore script to work.  If you want to allow no posts longer than 4KB
 						and/or need the db restore script, uncomment this.
 
-
 							if (sizeof($cols) !== sizeof($vals))
 							{
 								// Try to replace some common data we know is from our restore script or from other sources

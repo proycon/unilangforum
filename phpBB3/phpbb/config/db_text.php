@@ -33,8 +33,8 @@ class db_text
 	protected $table;
 
 	/**
-	* @param \phpbb\db\driver\driver_interface $db        Database connection
-	* @param string          $table     Table name
+	* @param \phpbb\db\driver\driver_interface $db		Database connection
+	* @param string		  $table	 Table name
 	*/
 	public function __construct(\phpbb\db\driver\driver_interface $db, $table)
 	{
@@ -45,8 +45,8 @@ class db_text
 	/**
 	* Sets the configuration option with the name $key to $value.
 	*
-	* @param string $key       The configuration option's name
-	* @param string $value     New configuration value
+	* @param string $key	   The configuration option's name
+	* @param string $value	 New configuration value
 	*
 	* @return null
 	*/
@@ -58,10 +58,10 @@ class db_text
 	/**
 	* Gets the configuration value for the name $key.
 	*
-	* @param string $key       The configuration option's name
+	* @param string $key	   The configuration option's name
 	*
-	* @return string|null      String result on success
-	*                          null if there is no such option
+	* @return string|null	  String result on success
+	*						  null if there is no such option
 	*/
 	public function get($key)
 	{
@@ -73,7 +73,7 @@ class db_text
 	/**
 	* Removes the configuration option with the name $key.
 	*
-	* @param string $key       The configuration option's name
+	* @param string $key	   The configuration option's name
 	*
 	* @return null
 	*/
@@ -87,7 +87,7 @@ class db_text
 	* treats array keys as configuration option names and associated
 	* array values as their configuration option values.
 	*
-	* @param array $map        Map from configuration names to values
+	* @param array $map		Map from configuration names to values
 	*
 	* @return null
 	*/
@@ -121,9 +121,9 @@ class db_text
 	* array keys are configuration option names and array values are
 	* associated config option values.
 	*
-	* @param array $keys       Set of configuration option names
+	* @param array $keys	   Set of configuration option names
 	*
-	* @return array            Map from configuration names to values
+	* @return array			Map from configuration names to values
 	*/
 	public function get_array(array $keys)
 	{
@@ -145,7 +145,7 @@ class db_text
 	/**
 	* Mass delete configuration options.
 	*
-	* @param array $keys       Set of configuration option names
+	* @param array $keys	   Set of configuration option names
 	*
 	* @return null
 	*/
