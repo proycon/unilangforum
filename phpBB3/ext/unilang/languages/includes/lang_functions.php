@@ -10,8 +10,8 @@
 */
 
 namespace unilang\languages\includes;
-require_once('langdata.php');
-require_once('regiondata.php');
+require_once('lang_data.php');
+require_once('region_data.php');
 
 
 /**
