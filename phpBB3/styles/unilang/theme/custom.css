@@ -4,47 +4,38 @@ body {
     font-family: "Trebuchet MS","Lucida Grande",Verdana, Arial, Helvetica, sans-serif;
 }
 
-@media only screen and (min-width: 900px), only screen and (min-device-width: 900px)
-{
-    #unilang-logo {
-        display: block;
-        background-image: url("./images/logo.png");
-        background-size: 320px 120px;
-        background-repeat: no-repeat;
-        width: 320px;
-        height: 120px;
-        min-width: 320px;
-        min-height: 120px;
-        margin-top: -70px;
-        margin-left: auto;
-        margin-right: auto;
-    }
-}
-
-@media only screen and (max-width: 900px), only screen and (max-device-width: 900px)
-{
-    #unilang-logo {
-        display: block;
-        background-image: url("./images/logo_small.png");
-        background-size: 90px 45px;
-        background-repeat: no-repeat;
-        width: 90px;
-        height: 45px;
-        min-width: 90px;
-        min-height: 45px;
-        margin-top: -30px;
-        margin-left: auto;
-        margin-right: auto;
-    }
-}
-
-h1#title {
+#unilang-logo {
     display: block;
-    text-align: center;
-    color: #4d4d41;
-    width: 100%;
-    font-weight: normal;
+    background-image: url("./images/logo.png");
+    background-size: 320px 120px;
+    background-repeat: no-repeat;
+    width: 320px;
+    height: 120px;
+    min-width: 320px;
+    min-height: 120px;
+    margin-top: -70px;
+    margin-left: auto;
+    margin-right: auto;
 }
+
+@media only screen and (min-width: 700px), only screen and (min-device-width: 700px)
+{
+    h1#title {
+        display: block;
+        text-align: center;
+        color: #4d4d41;
+        width: 100%;
+        font-weight: normal;
+    }
+}
+
+@media only screen and (max-width: 700px), only screen and (max-device-width: 700px)
+{
+    h1#title {
+        display: none;
+    }
+}
+
 h1#title span {
     color: #88b4db;
 }
