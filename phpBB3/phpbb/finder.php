@@ -53,7 +53,7 @@ class finder
 	* @param \phpbb\cache\driver\driver_interface $cache A cache instance or null
 	* @param string $php_ext php file extension
 	* @param string $cache_name The name of the cache variable, defaults to
-	*                           _ext_finder
+	*						   _ext_finder
 	*/
 	public function __construct(\phpbb\filesystem $filesystem, $phpbb_root_path = '', \phpbb\cache\driver\driver_interface $cache = null, $php_ext = 'php', $cache_name = '_ext_finder')
 	{
@@ -360,7 +360,7 @@ class finder
 	*
 	* @param bool $cache Whether the result should be cached
 	* @param bool $is_dir Directories will be returned when true, only files
-	*                     otherwise
+	*					 otherwise
 	* @return array An array of paths to found items
 	*/
 	public function find($cache = true, $is_dir = false)
@@ -390,7 +390,7 @@ class finder
 	* @param string $extension_path Relative path to the extension root directory
 	* @param bool $cache Whether the result should be cached
 	* @param bool $is_dir Directories will be returned when true, only files
-	*                     otherwise
+	*					 otherwise
 	* @return array An array of paths to found items
 	*/
 	public function find_from_extension($extension_name, $extension_path, $cache = true, $is_dir = false)
@@ -417,7 +417,7 @@ class finder
 	* @param array $extensions Array of extensions (name => full relative path)
 	* @param bool $cache Whether the result should be cached
 	* @param bool $is_dir Directories will be returned when true, only files
-	*                     otherwise
+	*					 otherwise
 	* @return array An array of paths to found items
 	*/
 	public function find_from_paths($extensions, $cache = true, $is_dir = false)

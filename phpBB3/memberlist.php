@@ -603,7 +603,6 @@ switch ($mode)
 		$posts_per_day = $member['user_posts'] / $memberdays;
 		$percentage = ($config['num_posts']) ? min(100, ($member['user_posts'] / $config['num_posts']) * 100) : 0;
 
-
 		if ($member['user_sig'])
 		{
 			$parse_flags = ($member['user_sig_bbcode_bitfield'] ? OPTION_FLAG_BBCODE : 0) | OPTION_FLAG_SMILIES;
@@ -653,7 +652,7 @@ switch ($mode)
 		* @var	bool	zebra_enabled			Is the ucp zebra module enabled?
 		* @var	bool	friends_enabled			Is the ucp friends module enabled?
 		* @var	bool	foes_enabled			Is the ucp foes module enabled?
-		* @var	bool    friend					Is the user friend?
+		* @var	bool	friend					Is the user friend?
 		* @var	bool	foe						Is the user foe?
 		* @var	array	profile_fields			Array with user's profile field data
 		* @since 3.1.0-a1
@@ -906,7 +905,6 @@ switch ($mode)
 		// Additional sorting options for user search ... if search is enabled, if not
 		// then only admins can make use of this (for ACP functionality)
 		$sql_select = $sql_where_data = $sql_from = $sql_where = $order_by = '';
-
 
 		$form			= request_var('form', '');
 		$field			= request_var('field', '');

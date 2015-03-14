@@ -156,7 +156,6 @@ abstract class base implements \phpbb\notification\type\type_interface
 		return (!isset($this->data[$name])) ? null : $this->data[$name];
 	}
 
-
 	/**
 	* Magic method to set data on this notification
 	*
@@ -169,7 +168,6 @@ abstract class base implements \phpbb\notification\type\type_interface
 	{
 		$this->data[$name] = $value;
 	}
-
 
 	/**
 	* Magic method to get a string of this notification

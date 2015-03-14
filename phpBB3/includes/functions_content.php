@@ -257,7 +257,7 @@ function bump_topic_allowed($forum_id, $topic_bumped, $last_post_time, $topic_po
 function get_context($text, $words, $length = 400)
 {
 	// first replace all whitespaces with single spaces
-	$text = preg_replace('/ +/', ' ', strtr($text, "\t\n\r\x0C ", '     '));
+	$text = preg_replace('/ +/', ' ', strtr($text, "\t\n\r\x0C ", '	 '));
 
 	// we need to turn the entities back into their original form, to not cut the message in between them
 	$entities = array('&lt;', '&gt;', '&#91;', '&#93;', '&#46;', '&#58;', '&#058;');

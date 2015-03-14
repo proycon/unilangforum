@@ -111,8 +111,8 @@ phpbb.plupload.getIndex = function(attach_id) {
 
 /**
  * Set the data in phpbb.plupload.data and phpbb.plupload.ids arrays.
- * 
- * @param array data	Array containing the new data to use. In the form of 
+ *
+ * @param array data	Array containing the new data to use. In the form of
  * array(index => object(property: value). Requires attach_id to be one of the object properties.
  *
  * @return undefined
@@ -129,7 +129,7 @@ phpbb.plupload.setData = function(data) {
 
 /**
  * Update the attachment data in the HTML and the phpbb & phpbb.plupload objects.
- * 
+ *
  * @param array data		Array containing the new data to use.
  * @param string action		The action that required the update. Used to update the inline attachment bbcodes.
  * @param int index			The index from phpbb.plupload_ids that was affected by the action.
@@ -147,7 +147,7 @@ phpbb.plupload.update = function(data, action, index, downloadUrl) {
 
 /**
  * Update the relevant elements and hidden data for all attachments.
- * 
+ *
  * @param array downloadUrl	Optional array of download urls to update.
  * @return undefined
  */
@@ -162,7 +162,7 @@ phpbb.plupload.updateRows = function(downloadUrl) {
  * using the id "attach-row-tpl" to be present. This snippet is cloned and the
  * data for the file inserted into it. The row is then appended or prepended to
  * #file-list based on the attach_order setting.
- * 
+ *
  * @param object file	Plupload file object for the new attachment.
  * @return undefined
  */
@@ -182,9 +182,9 @@ phpbb.plupload.insertRow = function(file) {
 
 /**
  * Update the relevant elements and hidden data for an attachment.
- * 
+ *
  * @param int index	The index from phpbb.plupload.ids of the attachment to edit.
- * @param array downloadUrl	Optional array of download urls to update. 
+ * @param array downloadUrl	Optional array of download urls to update.
  * @return undefined
  */
 phpbb.plupload.updateRow = function(index, downloadUrl) {
@@ -197,7 +197,7 @@ phpbb.plupload.updateRow = function(index, downloadUrl) {
 			link = $('<a></a>');
 
 		link.attr('href', url).html(attach.real_filename);
-		row.find('.file-name').html(link)	
+		row.find('.file-name').html(link)
 	}
 
 	row.find('textarea').attr('name', 'comment_list[' + index + ']');
@@ -311,7 +311,7 @@ phpbb.plupload.hideEmptyList = function() {
 
 /**
  * Update the indices used in inline attachment bbcodes. This ensures that the bbcodes
- * correspond to the correct file after a file is added or removed. This should be called 
+ * correspond to the correct file after a file is added or removed. This should be called
  * before the phpbb.plupload,data and phpbb.plupload.ids arrays are updated, otherwise it will
  * not work correctly.
  *
@@ -458,17 +458,11 @@ phpbb.plupload.fileError = function(file, error) {
 	$('#' + file.id).find('.file-status').addClass('file-error').attr({'data-error-title': phpbb.plupload.lang.ERROR, 'data-error-message': error});
 }
 
-
-
-
 /**
  * Set up the Plupload object and get some basic data.
  */
 var	uploader = new plupload.Uploader(phpbb.plupload.config);
 phpbb.plupload.initialize();
-
-
-
 
 /**
  * Insert inline attachment bbcode.
@@ -477,7 +471,7 @@ phpbb.plupload.initialize();
 	var attachId = $(this).parents('.attach-row').attr('data-attach-id'),
 		index = phpbb.plupload.getIndex(attachId);
 
-	attach_inline(index, phpbb.plupload.data[index].real_filename);	
+	attach_inline(index, phpbb.plupload.data[index].real_filename);
 	e.preventDefault();
 });
 
@@ -620,7 +614,6 @@ uploader.bind('FilesAdded', function(up, files) {
 	up.start();
 });
 
-
 /**
  * Fires when an entire file has been uploaded. It checks for errors
  * returned by the server otherwise parses the list of attachment data and
@@ -672,7 +665,7 @@ uploader.bind('FileUploaded', function(up, file, response) {
 });
 
 /**
- * Fires when the entire queue of files have been uploaded. 
+ * Fires when the entire queue of files have been uploaded.
  *
  * @param object up		The plupload.Uploader object
  * @param array files	An array of plupload.File objects that have just

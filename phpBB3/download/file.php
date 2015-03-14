@@ -120,7 +120,6 @@ if (isset($_GET['avatar']))
 		$exit = true;
 	}
 
-
 	if (!$exit)
 	{
 		if (!$filename)

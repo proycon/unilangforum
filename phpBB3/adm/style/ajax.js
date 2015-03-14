@@ -62,8 +62,6 @@ phpbb.addAjaxCallback('row_delete', function(res) {
 	}
 });
 
-
-
 $('[data-ajax]').each(function() {
 	var $this = $(this),
 		ajax = $this.attr('data-ajax');
@@ -84,6 +82,5 @@ $('[data-ajax]').each(function() {
 $(function() {
 	phpbb.resizeTextArea($('textarea:not(.no-auto-resize)'), {minHeight: 75});
 });
-
 
 })(jQuery); // Avoid conflicts with other libraries

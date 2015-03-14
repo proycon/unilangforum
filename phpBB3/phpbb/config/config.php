@@ -48,7 +48,7 @@ class config implements \ArrayAccess, \IteratorAggregate, \Countable
 	* Checks if the specified config value exists.
 	*
 	* @param  string $key The configuration option's name.
-	* @return bool        Whether the configuration option exists.
+	* @return bool		Whether the configuration option exists.
 	*/
 	public function offsetExists($key)
 	{
@@ -59,7 +59,7 @@ class config implements \ArrayAccess, \IteratorAggregate, \Countable
 	* Retrieves a configuration value.
 	*
 	* @param  string $key The configuration option's name.
-	* @return string      The configuration value
+	* @return string	  The configuration value
 	*/
 	public function offsetGet($key)
 	{
@@ -103,9 +103,9 @@ class config implements \ArrayAccess, \IteratorAggregate, \Countable
 	/**
 	* Removes a configuration option
 	*
-	* @param  String $key       The configuration option's name
+	* @param  String $key	   The configuration option's name
 	* @param  bool   $use_cache Whether this variable should be cached or if it
-	*                           changes too frequently to be efficiently cached
+	*						   changes too frequently to be efficiently cached
 	* @return null
 	*/
 	public function delete($key, $use_cache = true)
@@ -116,10 +116,10 @@ class config implements \ArrayAccess, \IteratorAggregate, \Countable
 	/**
 	* Sets a configuration option's value
 	*
-	* @param string $key       The configuration option's name
-	* @param string $value     New configuration value
+	* @param string $key	   The configuration option's name
+	* @param string $value	 New configuration value
 	* @param bool   $use_cache Whether this variable should be cached or if it
-	*                          changes too frequently to be efficiently cached.
+	*						  changes too frequently to be efficiently cached.
 	*/
 	public function set($key, $value, $use_cache = true)
 	{
@@ -130,12 +130,12 @@ class config implements \ArrayAccess, \IteratorAggregate, \Countable
 	* Sets a configuration option's value only if the old_value matches the
 	* current configuration value or the configuration value does not exist yet.
 	*
-	* @param  string $key       The configuration option's name
+	* @param  string $key	   The configuration option's name
 	* @param  string $old_value Current configuration value
 	* @param  string $new_value New configuration value
 	* @param  bool   $use_cache Whether this variable should be cached or if it
-	*                           changes too frequently to be efficiently cached.
-	* @return bool              True if the value was changed, false otherwise.
+	*						   changes too frequently to be efficiently cached.
+	* @return bool			  True if the value was changed, false otherwise.
 	*/
 	public function set_atomic($key, $old_value, $new_value, $use_cache = true)
 	{
@@ -150,10 +150,10 @@ class config implements \ArrayAccess, \IteratorAggregate, \Countable
 	/**
 	* Increments an integer configuration value.
 	*
-	* @param string $key       The configuration option's name
-	* @param int    $increment Amount to increment by
+	* @param string $key	   The configuration option's name
+	* @param int	$increment Amount to increment by
 	* @param bool   $use_cache Whether this variable should be cached or if it
-	*                          changes too frequently to be efficiently cached.
+	*						  changes too frequently to be efficiently cached.
 	*/
 	function increment($key, $increment, $use_cache = true)
 	{

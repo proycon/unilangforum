@@ -808,7 +808,7 @@ class gd
 						),
 					),
 		'K'	=>		array(
-						array(    // New 'K', supplied by NeoThermic
+						array(	// New 'K', supplied by NeoThermic
 							array(1,0,0,0,0,0,0,0,1),
 							array(1,0,0,0,0,0,0,1,0),
 							array(1,0,0,0,0,0,1,0,0),
@@ -1705,7 +1705,7 @@ class gd
 				array(0,0,0,0,1,0,0,0,0),
 				array(0,1,1,1,1,1,1,1,0),
 			),
-			'2' => array(    // New '2' supplied by Anon
+			'2' => array(	// New '2' supplied by Anon
 				array(0,0,0,1,1,1,0,0,0),
 				array(0,0,1,0,0,0,1,0,0),
 				array(0,1,0,0,0,0,1,1,0),

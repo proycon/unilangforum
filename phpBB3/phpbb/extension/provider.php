@@ -51,7 +51,7 @@ abstract class provider implements \IteratorAggregate
 	/**
 	* Finds items using the extension manager.
 	*
-	* @return array     List of task names
+	* @return array	 List of task names
 	*/
 	abstract protected function find();
 

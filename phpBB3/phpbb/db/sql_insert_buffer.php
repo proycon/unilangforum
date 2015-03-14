@@ -21,13 +21,13 @@ namespace phpbb\db;
 * $db->sql_multi_insert() include:
 *
 *  - Going over max packet size of the database connection is usually prevented
-*    because the data is submitted in batches.
+*	because the data is submitted in batches.
 *
 *  - Reaching database connection timeout is usually prevented because
-*    submission of batches talks to the database every now and then.
+*	submission of batches talks to the database every now and then.
 *
 *  - Usage of less PHP memory because data no longer needed is discarded on
-*    buffer flush.
+*	buffer flush.
 *
 * Attention:
 * Please note that users of this class have to call flush() to flush the
@@ -65,8 +65,8 @@ class sql_insert_buffer
 
 	/**
 	* @param \phpbb\db\driver\driver_interface $db
-	* @param string          $table_name
-	* @param int             $max_buffered_rows
+	* @param string		  $table_name
+	* @param int			 $max_buffered_rows
 	*/
 	public function __construct(\phpbb\db\driver\driver_interface $db, $table_name, $max_buffered_rows = 500)
 	{
@@ -107,7 +107,7 @@ class sql_insert_buffer
 	* first building a huge rowset. Or at least sizeof($rows) should be kept
 	* small.
 	*
-	* @param array $rows 
+	* @param array $rows
 	*
 	* @return bool		True when some data was flushed to the database.
 	*					False otherwise.

@@ -184,7 +184,6 @@ class jabber
 		return (is_resource($this->connection) && !feof($this->connection)) ? true : false;
 	}
 
-
 	/**
 	* Initiates login (using data from contructor, after calling connect())
 	* @access public

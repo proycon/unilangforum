@@ -88,7 +88,6 @@ class report_pm extends \phpbb\notification\type\pm
 		return (!empty($m_approve));
 	}
 
-
 	/**
 	* Find the users who want to receive notifications
 	*  (copied from post_in_queue)

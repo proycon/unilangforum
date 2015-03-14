@@ -39,11 +39,11 @@ phpbb.addAjaxCallback('mark_forums_read', function(res) {
 	phpbb.closeDarkenWrapper(3000);
 });
 
-/** 
+/**
 * This callback will mark all topic icons read
 *
 * @param update_topic_links bool Whether "Mark topics read" links should be
-*     updated. Defaults to true.
+*	 updated. Defaults to true.
 */
 phpbb.addAjaxCallback('mark_topics_read', function(res, updateTopicLinks) {
 	var readTitle = res.NO_UNREAD_POSTS;
@@ -223,7 +223,7 @@ phpbb.addAjaxCallback('vote_poll', function(res) {
 			// If the user can still vote, simply slide down the results
 			poll.find('.resultbar, .poll_option_percent, .poll_total_votes').show(500);
 		}
-		
+
 		// Get the votes count of the highest poll option
 		poll.find('[data-poll-option-id]').each(function() {
 			var option = $(this);
@@ -328,7 +328,6 @@ $('[data-ajax]').each(function() {
 	}
 });
 
-
 /**
  * This simply appends #preview to the action of the
  * QR action when you click the Full Editor & Preview button
@@ -338,7 +337,6 @@ $('#qr_full_editor').click(function() {
 		return val + '#preview';
 	});
 });
-
 
 /**
  * Make the display post links to use JS
@@ -380,6 +378,5 @@ $(function() {
 	phpbb.resizeTextArea($('textarea:not(#message-box textarea, .no-auto-resize)'), {minHeight: 75, maxHeight: 250});
 	phpbb.resizeTextArea($('#message-box textarea'));
 });
-
 
 })(jQuery); // Avoid conflicts with other libraries

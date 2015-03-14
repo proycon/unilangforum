@@ -22,11 +22,9 @@ include($phpbb_root_path . 'includes/functions_posting.' . $phpEx);
 include($phpbb_root_path . 'includes/functions_display.' . $phpEx);
 include($phpbb_root_path . 'includes/message_parser.' . $phpEx);
 
-
 // Start session management
 $user->session_begin();
 $auth->acl($user->data);
-
 
 // Grab only parameters needed here
 $post_id	= request_var('p', 0);
@@ -801,7 +799,6 @@ if ($load && ($mode == 'reply' || $mode == 'quote' || $mode == 'post') && $post_
 {
 	load_drafts($topic_id, $forum_id);
 }
-
 
 if ($submit || $preview || $refresh)
 {
@@ -1711,7 +1708,6 @@ if (isset($captcha) && $captcha->is_solved() !== false)
 
 $form_enctype = (@ini_get('file_uploads') == '0' || strtolower(@ini_get('file_uploads')) == 'off' || !$config['allow_attachments'] || !$auth->acl_get('u_attach') || !$auth->acl_get('f_attach', $forum_id)) ? '' : ' enctype="multipart/form-data"';
 add_form_key('posting');
-
 
 // Build array of variables for main posting page
 $page_data = array(

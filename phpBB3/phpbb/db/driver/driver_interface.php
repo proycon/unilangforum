@@ -270,7 +270,7 @@ interface driver_interface
 	* Returns SQL string to cast a string expression to an int.
 	*
 	* @param  string $expression An expression evaluating to string
-	* @return string             Expression returning an int
+	* @return string			 Expression returning an int
 	*/
 	public function cast_expr_to_bigint($expression);
 

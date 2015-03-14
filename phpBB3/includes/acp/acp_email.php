@@ -118,7 +118,7 @@ class acp_email
 					if (!isset($_REQUEST['mail_banned_flag']))
 					{
 						$sql_ary['WHERE'] .= ' AND (b.ban_id IS NULL
-						        OR b.ban_exclude = 1)';
+								OR b.ban_exclude = 1)';
 						$sql_ary['LEFT_JOIN'] = array(
 							array(
 								'FROM'	=> array(

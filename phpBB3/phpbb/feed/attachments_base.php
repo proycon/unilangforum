@@ -30,10 +30,10 @@ abstract class attachments_base extends \phpbb\feed\base
 	{
 		$sql_array = array(
 			'SELECT'   => 'a.*',
-			'FROM'     => array(
+			'FROM'	 => array(
 				ATTACHMENTS_TABLE => 'a'
 			),
-			'WHERE'    => 'a.in_message = 0 ',
+			'WHERE'	=> 'a.in_message = 0 ',
 			'ORDER_BY' => 'a.filetime DESC, a.post_msg_id ASC',
 		);
 

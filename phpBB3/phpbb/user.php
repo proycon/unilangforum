@@ -279,7 +279,7 @@ class user extends \phpbb\session
 		$parsed_items = $cache->obtain_cfg_items($this->style);
 
 		$check_for = array(
-			'pagination_sep'    => (string) ', '
+			'pagination_sep'	=> (string) ', '
 		);
 
 		foreach ($check_for as $key => $default_value)
@@ -509,10 +509,10 @@ class user extends \phpbb\session
 	* Determine which plural form we should use.
 	* For some languages this is not as simple as for English.
 	*
-	* @param $number        int|float   The number we want to get the plural case for. Float numbers are floored.
-	* @param $force_rule    mixed   False to use the plural rule of the language package
-	*                               or an integer to force a certain plural rule
-	* @return   int     The plural-case we need to use for the number plural-rule combination
+	* @param $number		int|float   The number we want to get the plural case for. Float numbers are floored.
+	* @param $force_rule	mixed   False to use the plural rule of the language package
+	*							   or an integer to force a certain plural rule
+	* @return   int	 The plural-case we need to use for the number plural-rule combination
 	*/
 	function get_plural_form($number, $force_rule = false)
 	{
@@ -834,10 +834,10 @@ class user extends \phpbb\session
 	* @param bool $value True to set the option, false to clear the option.
 	* @param int $data Current bit field value, or false to use $this->data['user_options']
 	* @return int|bool If $data is false, the bit field is modified and
-	*                  written back to $this->data['user_options'], and
-	*                  return value is true if the bit field changed and
-	*                  false otherwise. If $data is not false, the new
-	*                  bitfield value is returned.
+	*				  written back to $this->data['user_options'], and
+	*				  return value is true if the bit field changed and
+	*				  false otherwise. If $data is not false, the new
+	*				  bitfield value is returned.
 	*/
 	function optionset($key, $value, $data = false)
 	{
@@ -896,7 +896,7 @@ class user extends \phpbb\session
 	/**
 	* Returns all password protected forum ids the user is currently NOT authenticated for.
 	*
-	* @return array     Array of forum ids
+	* @return array	 Array of forum ids
 	* @access public
 	*/
 	function get_passworded_forums()

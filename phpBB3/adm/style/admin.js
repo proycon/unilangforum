@@ -5,7 +5,7 @@
 /**
 * Parse document block
 */
-function parse_document(container) 
+function parse_document(container)
 {
 	var test = document.createElement('div'),
 		oldBrowser = (typeof test.style.borderRadius == 'undefined');
@@ -90,7 +90,7 @@ function parse_document(container)
 				}
 			});
 		}
-		
+
 		headersLength = headers.length;
 
 		// Add header text to each cell as <dfn>
@@ -157,7 +157,7 @@ function parse_document(container)
 		if ($this.html() == '&nbsp;') {
 			$this.addClass('responsive-hide');
 		}
-		
+
 	});
 
 	/**
