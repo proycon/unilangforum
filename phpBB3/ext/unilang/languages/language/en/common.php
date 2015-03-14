@@ -9,13 +9,11 @@
 *
 */
 
-if (!defined('IN_PHPBB'))
-{
+if (!defined('IN_PHPBB')) {
     exit;
 }
 
-if (empty($lang) || !is_array($lang))
-{
+if (empty($lang) || !is_array($lang)) {
     $lang = array();
 }
 
@@ -27,6 +25,7 @@ $lang = array_merge($lang, array(
     'LANG_ADVANCED' => "Known at an advanced level (B2,C1)",
     'LANG_INTERMEDIATE' => "Known at an intermediate level (A2,B1)",
     'LANG_BEGINNER' => "Known at a beginner's level (A1)",
-    'LANG_INTERESTED' => "Not known yet, but interested in learning",
-);
+    'LANG_INTERESTED' => "Not known yet, but interested in learning"
+));
 
+?>

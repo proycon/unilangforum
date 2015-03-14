@@ -22,7 +22,6 @@ class main_listener implements EventSubscriberInterface
 {
     static public function getSubscribedEvents() {
         return array(
-            'core.user_setup'   => 'load_language_on_setup',
             'core.page_header'  => 'add_page_header_link',
         );
     }
@@ -39,24 +38,19 @@ class main_listener implements EventSubscriberInterface
     * @param \phpbb\controller\helper $helper Controller helper object
     * @param \phpbb\template $template Template object
     */
-    public function __construct(\phpbb\controller\helper $helper, \phpbb\template\template $template) {
+    public function __construct(\phpbb\config\config $config, \phpbb\controller\helper $helper, \phpbb\template\template $template, \phpbb\user $user, \unilang\languages\includes\lang_functions $lf) {
+        $this->config = $config;
         $this->helper = $helper;
         $this->template = $template;
+        $this->user = $user;
+        $this->lf = $lf;
     }
 
-    public function load_language_on_setup($event)
-    {
-        $lang_set_ext = $event['lang_set_ext'];
-        $lang_set_ext[] = array(
-            'ext_name' => 'unilang/languages',
-            'lang_set' => 'common',
-        );
-        $event['lang_set_ext'] = $lang_set_ext;
-    }
 
     public function add_page_header_link($event) {
+        $this->user->add_lang_ext('unilang/languages', 'common');
         $this->template->assign_vars(array(
-            'U_LANG_INFO_PAGE'   => $this->helper->route('unilang_languages_controller', array('name' => 'world')),
+            'U_LANG_INFO_PAGE'   => $this->helper->route('unilang_languages_controller'),
         ));
     }
 }

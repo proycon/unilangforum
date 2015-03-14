@@ -1,4 +1,17 @@
 services:
+    unilang.languages.langdata:
+        class: unilang\languages\includes\lang_data
+    unilang.languages.regiondata:
+        class: unilang\languages\includes\region_data
+    unilang.languages.langfunctions:
+        class: unilang\languages\includes\lang_functions
+        arguments:
+            - @config
+            - @user
+            - @dbal.conn
+            - @unilang.languages.langdata
+            - @unilang.languages.regiondata
+            - %core.root_path%
     unilang.languages.controller:
         class: unilang\languages\controller\main
         arguments:
@@ -6,10 +19,14 @@ services:
             - @controller.helper
             - @template
             - @user
+            - @unilang.languages.langfunctions
     unilang.languages.listener:
         class: unilang\languages\event\main_listener
         arguments:
+            - @config
             - @controller.helper
             - @template
+            - @user
+            - @unilang.languages.langfunctions
         tags:
             - { name: event.listener }
