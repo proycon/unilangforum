@@ -18,6 +18,17 @@ body {
     margin-right: auto;
 }
 
+h1#title {
+    display: block;
+    text-align: center;
+    color: #4d4d41;
+    width: 100%;
+    font-weight: normal;
+}
+h1#title span {
+    color: #88b4db;
+}
+
 #wrap {
     margin-top: 50px;
 }
