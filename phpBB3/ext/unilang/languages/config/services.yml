@@ -6,3 +6,10 @@ services:
             - @controller.helper
             - @template
             - @user
+    unilang.languages.listener:
+        class: unilang\languages\event\main_listener
+        arguments:
+            - @controller.helper
+            - @template
+        tags:
+            - { name: event.listener }

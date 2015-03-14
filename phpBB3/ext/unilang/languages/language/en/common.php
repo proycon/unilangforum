@@ -21,6 +21,7 @@ if (empty($lang) || !is_array($lang))
 
 
 $lang = array_merge($lang, array(
+    'LANG_INFO_PAGE' => "Language List",
     'LANG_NATIVE' => "Native language",
     'LANG_FLUENT' => "Fluently spoken (C2)",
     'LANG_ADVANCED' => "Known at an advanced level (B2,C1)",
