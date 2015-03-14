@@ -18,6 +18,8 @@ RewriteCond %{REQUEST_FILENAME} !-f
 RewriteCond %{REQUEST_FILENAME} !-d
 RewriteRule ^(.*)$ app.php [QSA,L]
 
+
+RewriteRule ^(install) - [F,L,NC]
 #
 # If symbolic links are not already being followed,
 # uncomment the line below.
