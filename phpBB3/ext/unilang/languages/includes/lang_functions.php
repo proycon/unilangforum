@@ -75,7 +75,7 @@ class lang_functions {
     * @return array($baselang,$complexlang) in simple mode, array($baselang,$script,$region) otherwise
     */
     function split_language_code($lang, $simple = true) {
-        if ((empty($lang)) || (!is_string($lang))) throw new Exception("Language code specified is empty or no string!");
+        if ((empty($lang)) || (!is_string($lang))) throw new \Exception("Language code specified is empty or no string!");
         $l = strlen($lang);
         $baselang = '';
         $script = false;
@@ -846,12 +846,12 @@ class lang_functions {
         return $members;	
     }
 
-    function member_delete_language($user_id, $baselang = false,$complexlang = '',$proficiency = false, $table = 'member_lang') {
+    function member_delete_language($user_id, $baselang = false,$complexlang = '', $table = 'member_lang') {
         if ($baselang) {
-            $query = " AND baselang='$baselang' AND complexlang='$complexlang' AND proficiency='$proficiency'";
+            $query = " AND baselang='$baselang' AND complexlang='$complexlang'";
         }
         if ((!is_numeric($user_id)) && (!($user_id > 0))) die("Invalid user_id, courageously refusing to delete ($user_id)");
-        $this->db->sql_query("DELETE FROM $table WHERE user_id=$user_id $query");
+        if ($baselang) $this->db->sql_query("DELETE FROM $table WHERE user_id=$user_id $query");
     }
 
     function member_add_language($user_id, $baselang,$complexlang,$proficiency, $canhelp = 0,$wanthelp = 0, $table = 'member_lang') {
@@ -942,7 +942,8 @@ class lang_functions {
                 'PROF_CHANGED' => ($language['proficiency'] != $prevprof),
                 'PROFICIENCY' => $r,
                 'NAME' => $this->get_language_name($langcode,$sourcelang),
-                //'U_SEARCHLINK' => append_sid("{$this->lf->phpbb_root_path}memberlist.php","mode=searchuser&amp;search_proficiency=".LANG_BEGINNER."&amp;search_language=".$langcode),
+                'U_SEARCHLINK' => append_sid("{$this->lf->phpbb_root_path}memberlist.php","mode=searchuser&amp;search_proficiency=".LANG_BEGINNER."&amp;search_language=".$langcode),
+                'U_DELETELINK' => append_sid("{$this->lf->phpbb_root_path}ucp.php","i=-unilang-languages-ucp-main_module&mode=view&amp;delete=$langcode"),
             );
 
             $prevprof = $language['proficiency'];

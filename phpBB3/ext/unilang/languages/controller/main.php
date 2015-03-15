@@ -53,22 +53,22 @@ class main {
                 foreach ($value as $complexlang => $name) {
                 if ($complexlang === 0) $complexlang = '';
                 $this->template->assign_block_vars("items", array(
-                'FLAG' => $this->lf->langicon($baselang.$complexlang),
-                'BASELANG' => $baselang,
-                'COMPLEXLANG' => $complexlang,
-                'S_ENGLISHNAME' => $this->lf->get_language_name($baselang.$complexlang,'en',false),
-                'S_NATIVENAME' => $name,
-                'S_SCRIPTNAME' => $this->lf->get_script_name($this->lf->get_language_script($baselang.$complexlang))
+                    'FLAG' => $this->lf->langicon($baselang.$complexlang),
+                    'BASELANG' => $baselang,
+                    'COMPLEXLANG' => $complexlang,
+                    'S_ENGLISHNAME' => $this->lf->get_language_name($baselang.$complexlang,'en',false),
+                    'S_NATIVENAME' => $name,
+                    'S_SCRIPTNAME' => $this->lf->get_script_name($this->lf->get_language_script($baselang.$complexlang))
                 ));			
                 }
             } else {
                 $this->template->assign_block_vars("items",array(
-                'FLAG' => $this->lf->langicon($baselang),
-                'BASELANG' => $baselang,
-                'COMPLEXLANG' => '',
-                'S_ENGLISHNAME' => $this->lf->get_language_name($baselang,'en',false),
-                'S_NATIVENAME' => $value,
-                'S_SCRIPTNAME' => $this->lf->get_script_name($this->lf->get_language_script($baselang))
+                    'FLAG' => $this->lf->langicon($baselang),
+                    'BASELANG' => $baselang,
+                    'COMPLEXLANG' => '',
+                    'S_ENGLISHNAME' => $this->lf->get_language_name($baselang,'en',false),
+                    'S_NATIVENAME' => $value,
+                    'S_SCRIPTNAME' => $this->lf->get_script_name($this->lf->get_language_script($baselang))
                 ));					
             }
         }

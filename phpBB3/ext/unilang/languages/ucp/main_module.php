@@ -62,6 +62,12 @@ class main_module {
 
         $regionlist = $this->lf->regionlist($country, $region);
 
+        $delete = $this->request->variable('delete',''); //will contain the language code to delete
+        if ($delete) {
+            list($baselang,$complexlang) = $this->lf->split_language_code($delete,true);
+            $this->lf->member_delete_language($this->user->data['user_id'],$baselang,$complexlang);
+        }
+
         $this->template->assign_vars(array(
             'NATIONALITY' => $this->lf->countrylist($sourcelang, false,$nationality),
             'COUNTRY' => $this->lf->countrylist($sourcelang, false,$country),
