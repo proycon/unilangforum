@@ -55,7 +55,6 @@ h1#title span {
     color: #88b4db;
 }
 
-
 a.subforum {
     display: inline-block;
     width: 180px;
@@ -78,9 +77,22 @@ div.subforums { /* hides the commas between subforums */
     div.subforums { 
         width: 160%;
     }
+    #wrap {
+        background-image: url("./images/hellocorner.png");
+        background-repeat: no-repeat
+    }
+    h1#title {
+        margin-bottom: 30px;
+    }
 }
 @media only screen and (max-width: 700px), only screen and (max-device-width: 700px) {
     div.subforums { 
         width: 100%;
     }
+    .navbar {
+        margin-left: auto;
+        margin-right: auto;
+        width: 60%;
+    }
 }
+
