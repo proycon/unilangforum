@@ -20,6 +20,7 @@ services:
             - @template
             - @user
             - @unilang.languages.langfunctions
+            - @request
     unilang.languages.listener:
         class: unilang\languages\event\main_listener
         arguments:
@@ -30,11 +31,3 @@ services:
             - @unilang.languages.langfunctions
         tags:
             - { name: event.listener }
-    unilang.languages.wikiredirect:
-        class: unilang\languages\controller\wikipedia_redirect
-        arguments:
-            - @config
-            - @controller.helper
-            - @template
-            - @user
-            - @unilang.languages.langfunctions

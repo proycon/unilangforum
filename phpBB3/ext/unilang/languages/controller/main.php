@@ -36,7 +36,7 @@ class main {
     * @param \phpbb\template\template $template
     * @param \phpbb\user $user
     */
-    public function __construct(\phpbb\config\config $config, \phpbb\controller\helper $helper, \phpbb\template\template $template, \phpbb\user $user, \unilang\languages\includes\lang_functions $lf)
+    public function __construct(\phpbb\config\config $config, \phpbb\controller\helper $helper, \phpbb\template\template $template, \phpbb\user $user, \unilang\languages\includes\lang_functions $lf, $request)
     {
         $this->config = $config;
         $this->helper = $helper;
@@ -44,6 +44,7 @@ class main {
         $this->user = $user;
         $this->db = $db;
         $this->lf = $lf;
+        $this->request = $request;
     }
 
     public function info()
@@ -74,5 +75,20 @@ class main {
         }
 
         return $this->helper->render('info.html');
+    }
+
+    public function wikidirect() {
+        $lang = $this->request->variable('lang','');
+        
+        if ($lang) {
+            $wikipedialink = $this->lf->get_language_name($lang,$sourcelang = 'en',$addnative = false);
+            
+            header('Location: http://en.wikipedia.org/wiki/'.$wikipedialink.'_language');
+            return new RedirectResponse(302);
+        } else {
+            return $this->helper->message("Invalid language code", $code=404);
+        }
+
+        
     }
 }

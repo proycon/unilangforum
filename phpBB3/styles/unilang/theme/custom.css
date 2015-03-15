@@ -81,6 +81,7 @@ div.subforums { /* hides the commas between subforums */
         background-image: url("./images/hellocorner.png");
         background-repeat: no-repeat;
         max-width: 1024px;
+        background-size: 320px 229px;
     }
     h1#title {
         margin-bottom: 30px;
