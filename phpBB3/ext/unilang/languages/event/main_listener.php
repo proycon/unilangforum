@@ -25,6 +25,8 @@ class main_listener implements EventSubscriberInterface
             'core.user_setup'=> 'load_language_on_setup', 
             'core.page_header'  => 'add_page_header_link',
             'core.memberlist_view_profile' => 'add_profiledata',
+            'core.viewtopic_cache_user_data' => 'viewtopic_add_profiledata1',
+            'core.viewtopic_post_row_after' => 'viewtopic_add_profiledata2'
         );
     }
 
@@ -65,6 +67,28 @@ class main_listener implements EventSubscriberInterface
         ));
     }
 
+
+    public function viewtopic_add_profiledata1($event) {
+        //adds our custom location fields to the user_poster_data cache, for use by viewtopic_add_profiledata2
+        $event['user_cache_data'] = array_merge($event['user_cache_data'], array(
+                'country' => $event['row']['user_country'],
+                'nationality' => $event['row']['user_nationality'],
+                'region' => $event['row']['user_region']
+        ));
+    }
+
+    public function viewtopic_add_profiledata2($event) {
+        //assigns custom location fields from cached user data to template
+        $member = $event['user_poster_data'];
+        $this->template->assign_vars(array(
+            'NATIONALITY' => $this->lf->get_country_name($member['nationality']),
+            'NATIONALITYICON' => $this->lf->countryicon($member['nationality']),
+            'COUNTRY' => $this->lf->get_country_name($member['country']),
+            'COUNTRYICON' => $this->lf->countryicon($member['country']),
+            'REGION' => $this->lf->get_region_name($member['country'],$member['region']),
+            'REGIONICON' => $this->lf->regionicon($member['country'],$member['region'])
+        ));
+    }
 
     public function add_profiledata($event) {
         $member = $event['member'];
