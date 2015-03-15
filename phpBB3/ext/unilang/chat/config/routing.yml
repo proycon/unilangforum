@@ -1,4 +1,0 @@
-unilang_chat_controller:
-    pattern: /chat
-    defaults: { _controller:unilang.chat.controller:main }
-

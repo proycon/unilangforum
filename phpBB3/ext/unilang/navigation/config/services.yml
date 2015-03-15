@@ -1,6 +1,6 @@
 services:
-    unilang.chat.listener:
-        class: unilang\chat\event\main_listener
+    unilang.navigation.listener:
+        class: unilang\navigation\event\main_listener
         arguments:
             - @config
             - @controller.helper

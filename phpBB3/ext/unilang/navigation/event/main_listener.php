@@ -9,7 +9,7 @@
 *
 */
 
-namespace unilang\chat\event;
+namespace unilang\navigation\event;
 
 /**
 * @ignore
@@ -50,7 +50,7 @@ class main_listener implements EventSubscriberInterface
     public function load_language_on_setup($event) {
         $lang_set_ext = $event['lang_set_ext'];
         $lang_set_ext[] = array(
-            'ext_name' => 'unilang/chat',
+            'ext_name' => 'unilang/navigation',
             'lang_set' => 'common',
         );
         $event['lang_set_ext'] = $lang_set_ext;
@@ -60,6 +60,7 @@ class main_listener implements EventSubscriberInterface
         //add the page link, it links directly to the webchat
         $this->template->assign_vars(array(
             'U_CHAT'   => "http://widget00.mibbit.com/?server=irc.unilang.org&nick=" . $this->user->data['username_clean'] . "&channel=%23unilang&settings=fa406bc6d933906826dacc611fa60f67",
+            'U_DEVELOPMENT' => "https://github.com/proycon/unilangforum",
         ));
     }
 
