@@ -15,9 +15,10 @@ existing one, please familiarize yourself with the phpBB3.1 extension framework:
 
  * [Writing Extensions](https://www.phpbb.com/extensions/writing/)
 
-Modifying the phpBB3 sources should be avoided whenever possible, preferably
-add proper extensions instead or adapt the templates in the UniLang style (but
-keep this to a minimum too).
+Modifying the phpBB3 sources should be strictly avoided unless there is
+absolutely no other way. Always either write proper extensions (strongly
+preferred), or otherwise adapt the templates in the UniLang style ( keep this
+to a minimum too).
 
 
 
