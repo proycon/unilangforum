@@ -54,6 +54,16 @@ class main_module {
                 WHERE user_id = " . $this->user->data['user_id'];
                 $this->db->sql_query($sql);
             }
+
+            $langcode = $this->request->variable('langcode','');
+            $prof = $this->request->variable('proficiency','');
+            $wanthelp = $this->request->variable('wanthelp',0);
+            $canhelp = $this->request->variable('canhelp',0);
+            if ($langcode) {
+                list($baselang,$complexlang) = $this->lf->split_language_code($langcode,true);
+                $this->lf->member_add_language($this->user->data['user_id'],$baselang,$complexlang,$prof,$canhelp, $wanthelp);
+            }
+
         } else {
             $nationality = $this->user->data['user_nationality'];
             $country = $this->user->data['user_country'];
@@ -76,6 +86,7 @@ class main_module {
             'COUNTRY' => $this->lf->countrylist($sourcelang, false,$country),
             'REGION' => $regionlist,
             'LANGLIST' => $this->lf->langlist($sourcelang),
+            'PROFLIST' => $this->lf->proflist(),
             'S_UCP_ACTION' => append_sid("{$this->lf->phpbb_root_path}ucp.php","i=-unilang-languages-ucp-main_module"),
         ));
 
