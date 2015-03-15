@@ -42,9 +42,9 @@ class main_module {
         $this->tpl_name = 'ucp_language_panel';
         $this->page_title = 'LANG_TITLE';
 
-        $submit = $this->request->variable('submit',0);
+        $submitted = $this->request->variable('submitted',0);
 
-        if ($submit) {
+        if ($submitted) {
             $nationality = $this->request->variable('nationality','');
             $country = $this->request->variable('country','');
             $region = $this->request->variable('region','');
@@ -68,18 +68,18 @@ class main_module {
             $this->lf->member_delete_language($this->user->data['user_id'],$baselang,$complexlang);
         }
 
-        $this->template->assign_vars(array(
-            'NATIONALITY' => $this->lf->countrylist($sourcelang, false,$nationality),
-            'COUNTRY' => $this->lf->countrylist($sourcelang, false,$country),
-            'REGION' => $regionlist
-        ));
-
         //assign language data to the template
         $this->lf->assignlanguages($this->template, 'languages', $this->user->data['user_id']);
 
         $this->template->assign_vars(array(
+            'NATIONALITY' => $this->lf->countrylist($sourcelang, false,$nationality),
+            'COUNTRY' => $this->lf->countrylist($sourcelang, false,$country),
+            'REGION' => $regionlist,
             'LANGLIST' => $this->lf->langlist($sourcelang),
+            'S_UCP_ACTION' => append_sid("{$this->lf->phpbb_root_path}ucp.php","i=-unilang-languages-ucp-main_module"),
         ));
+
+
 
     }
 }
