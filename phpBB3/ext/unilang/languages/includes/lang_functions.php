@@ -872,12 +872,12 @@ class lang_functions {
     */
     function proflist($selected = false) {
         $r = "";
-        foreach (array($this->langdata->LANG_NATIVE => out('LANG_NATIVE'),
-            $this->langdata->LANG_FLUENT => out('LANG_FLUENT'),
-            $this->langdata->LANG_ADVANCED => out('LANG_ADVANCED'), 
-            $this->langdata->LANG_INTERMEDIATE => out('LANG_INTERMEDIATE'),
-            $this->langdata->LANG_BEGINNER => out('LANG_BEGINNER'),
-            $this->langdata->LANG_INTEREST => out('LANG_INTEREST')) as $key => $value) {
+        foreach (array(LANG_NATIVE => $this->user->lang['LANG_NATIVE'],
+            LANG_FLUENT => $this->user->lang['LANG_FLUENT'],
+            LANG_ADVANCED => $this->user->lang['LANG_ADVANCED'], 
+            LANG_INTERMEDIATE => $this->user->lang['LANG_INTERMEDIATE'],
+            LANG_BEGINNER => $this->user->lang['LANG_BEGINNER'],
+            LANG_INTEREST => $this->user->lang['LANG_INTEREST']) as $key => $value) {
             if ($key === $selected) {
                 $extra = "selected=\"selected\"";
             } else {
@@ -887,6 +887,17 @@ class lang_functions {
         }
         return $r;
     }
+
+    function proftext($prof) {
+        if ($prof == LANG_NATIVE) return $this->user->lang['LANG_NATIVE'];
+        if ($prof == LANG_FLUENT) return $this->user->lang['LANG_FLUENT'];
+        if ($prof == LANG_ADVANCED) return $this->user->lang['LANG_ADVANCED'];
+        if ($prof == LANG_INTERMEDIATE) return $this->user->lang['LANG_INTERMEDIATE'];
+        if ($prof == LANG_BEGINNER) return $this->user->lang['LANG_BEGINNER'];
+        if ($prof == LANG_INTEREST) return $this->user->lang['LANG_INTEREST'];
+        return "(unknown)";
+    }
+
 
     function assignlanguages($template, $templatevar, $user_id, $sourcelang = "en", $min_proficiency = 0) {
         $languages = $this->get_member_languages($user_id);
@@ -927,6 +938,7 @@ class lang_functions {
                 'CODE' => $langcode,
                 'ROWSTYLE' => $rowstyle,
                 'PROF_RAW' => $language['proficiency'],
+                'PROF_TEXT' => $this->proftext($language['proficiency']),
                 'PROF_ASCII' => $ascii,
                 'PROF_CHANGED' => ($language['proficiency'] != $prevprof),
                 'PROFICIENCY' => $r,

@@ -66,5 +66,8 @@ class main_module {
             'COUNTRY' => $this->lf->countrylist('en', false,$country),
             'REGION' => $regionlist
         ));
+
+        //assign language data to the template
+        $this->lf->assignlanguages($this->template, 'languages', $this->user->data['user_id']);
     }
 }

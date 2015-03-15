@@ -2,7 +2,7 @@
 
 <form id="ucp" method="post" action="{S_UCP_ACTION}" {S_FORM_ENCTYPE}>
 
-<h2>{L_COUNTRY}<h2>
+<h2>{L_LOCATION}</h2>
 
 
 <div class="panel">
@@ -35,7 +35,7 @@
 	<table>
 	 <tr><th style="padding: 2px;"></th><th style="padding: 2px;">{L_LANGUAGE}</th><th style="padding: 2px;">{L_PROFICIENCY}</th><th style="padding: 2px;"></th></tr>
 	 <!-- BEGIN languages -->
-		<tr {languages.ROWSTYLE}><td>{languages.ICON}</td><td><a href="{languages.U_SEARCHLINK}">{languages.NAME}</a></td><td>{languages.STARS} <span style="font-size: 90%">{languages.PROFICIENCY}</span></td><td>[ <a href="{languages.U_EDITLINK}">{L_EDIT}</a> | <a href="{languages.U_DELETELINK}">{L_DELETE}</a> ]</td></tr>
+		<tr {languages.ROWSTYLE}><td>{languages.ICON}</td><td><a href="{languages.U_SEARCHLINK}">{languages.NAME}</a></td><td>{languages.STARS} <span style="font-size: 90%">{languages.PROFICIENCY} {languages.PROF_TEXT} </span></td><td> [ <a href="{languages.U_DELETELINK}">{L_DELETE}</a> ]</td></tr>
 	 <!-- END languages -->
 	</table>
 
