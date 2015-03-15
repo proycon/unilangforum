@@ -75,7 +75,6 @@ if (!$forum_data)
 	trigger_error('NO_FORUM');
 }
 
-
 // Configure style, language, etc.
 $user->setup('viewforum', $forum_data['forum_style']);
 

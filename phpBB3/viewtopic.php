@@ -34,7 +34,6 @@ $voted_id	= request_var('vote_id', array('' => 0));
 
 $voted_id = (sizeof($voted_id) > 1) ? array_unique($voted_id) : $voted_id;
 
-
 $start		= request_var('start', 0);
 $view		= request_var('view', '');
 
@@ -952,7 +951,7 @@ if (!empty($topic_data['poll_start']))
 			'POLL_OPTION_PERCENT' 		=> $option_pct_txt,
 			'POLL_OPTION_PERCENT_REL' 	=> $option_pct_rel_txt,
 			'POLL_OPTION_PCT'			=> round($option_pct * 100),
-			'POLL_OPTION_WIDTH'     	=> round($option_pct * 250),
+			'POLL_OPTION_WIDTH'	 	=> round($option_pct * 250),
 			'POLL_OPTION_VOTED'			=> (in_array($poll_option['poll_option_id'], $cur_voted_id)) ? true : false,
 			'POLL_OPTION_MOST_VOTES'	=> $option_most_votes,
 		));
@@ -2133,7 +2132,6 @@ if ($s_can_vote || $s_quick_reply)
 	}
 }
 // now I have the urge to wash my hands :(
-
 
 // We overwrite $_REQUEST['f'] if there is no forum specified
 // to be able to display the correct online list.
