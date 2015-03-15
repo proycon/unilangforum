@@ -2,7 +2,7 @@
 /*
 *
 * @package unilang
-* @name Language functions and definitions
+* @name Translations
 * @copyright (c) 2007-2015 UniLang
 * @author proycon
 * @license http://opensource.org/licenses/gpl-license.php GNU Public License 
