@@ -26,7 +26,7 @@ class main_listener implements EventSubscriberInterface
             'core.page_header'  => 'add_page_header_link',
             'core.memberlist_view_profile' => 'add_profiledata',
             'core.viewtopic_cache_user_data' => 'viewtopic_add_profiledata1',
-            'core.viewtopic_post_row_after' => 'viewtopic_add_profiledata2'
+            'core.viewtopic_modify_post_row' => 'viewtopic_add_profiledata2'
         );
     }
 
@@ -80,7 +80,7 @@ class main_listener implements EventSubscriberInterface
     public function viewtopic_add_profiledata2($event) {
         //assigns custom location fields from cached user data to template
         $member = $event['user_poster_data'];
-        $this->template->assign_vars(array(
+        $event['post_row'] = array_merge($event['post_row'], array(
             'NATIONALITY' => $this->lf->get_country_name($member['nationality']),
             'NATIONALITYICON' => $this->lf->countryicon($member['nationality']),
             'COUNTRY' => $this->lf->get_country_name($member['country']),
