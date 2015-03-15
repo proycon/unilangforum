@@ -59,7 +59,7 @@ class main_listener implements EventSubscriberInterface
     public function add_page_header_link($event) {
         //add the page link, it links directly to the webchat
         $this->template->assign_vars(array(
-            'U_CHAT'   => "http://widget00.mibbit.com/?server=irc.unilang.org&nick=" . $this->user->data['user_name'] . "&channel=%23unilang&settings=fa406bc6d933906826dacc611fa60f67",
+            'U_CHAT'   => "http://widget00.mibbit.com/?server=irc.unilang.org&nick=" . $this->user->data['username_clean'] . "&channel=%23unilang&settings=fa406bc6d933906826dacc611fa60f67",
         ));
     }
 
