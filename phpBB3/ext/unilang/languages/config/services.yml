@@ -30,3 +30,11 @@ services:
             - @unilang.languages.langfunctions
         tags:
             - { name: event.listener }
+    unilang.languages.wikiredirect:
+        class: unilang\languages\controller\wikipedia_redirect
+        arguments:
+            - @config
+            - @controller.helper
+            - @template
+            - @user
+            - @unilang.languages.langfunctions
