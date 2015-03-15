@@ -25,6 +25,8 @@ existing one, please familiarize yourself with the phpBB3.1 extension framework:
  * [Writing Extensions](https://www.phpbb.com/extensions/writing/)
  * [Available PHP events (hooks) & Template events](https://wiki.phpbb.com/Event_List)
  * [Porting PhpBB3.0 mods to 3.1](https://github.com/nickvergessen/howto-convert-phpbb30mod-to-phpbb31ext)
+ * [PHPBB3.1 API
+   Documentation](https://area51.phpbb.com/docs/code/develop-ascraeus/)
 
 Modifying the phpBB3 sources should be *strictly avoided* unless there is
 absolutely no other way. Always either write proper extensions (strongly
