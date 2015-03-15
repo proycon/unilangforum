@@ -1,0 +1,94 @@
+<!-- INCLUDE ucp_header.html -->
+
+<form id="ucp" method="post" action="{S_UCP_ACTION}" {S_FORM_ENCTYPE}>
+
+<h2>{L_COUNTRY}<h2>
+
+
+<div class="panel">
+        <div class="inner">
+        <fieldset>
+
+            <dl>
+                <dt><label for="nationality">{L_NATIONALITY}:</label></dt>
+                <dd><select name="nationality" id="nationality" style="width: 350px">{NATIONALITY}</select></dd>
+            </dl>
+            <dl>
+                <dt><label for="country">{L_COUNTRY}:</label></dt>
+                <dd><!-- IF S_IE --><select name="country" id="country" onpropertychange="update_regions('country','region')" onkeyup="update_regions('country','region')"  style="width: 350px"><!-- ELSE --><select name="country" id="country" onchange="update_regions('country','region')" onkeyup="update_regions('country','region')"  style="width: 350px"><!-- ENDIF -->{COUNTRY}</select></dd>
+            </dl>
+            <dl>
+                <dt><label for="region">{L_REGION}:</label></dt>
+                <dd><select name="region" id="region" style="width: 350px">{REGION}</select></dd>
+            </dl>
+        </fieldset>
+        </div>
+</div>
+
+
+<h2>{L_LANG_TITLE}</h2>
+
+<div class="panel">
+        <div class="inner">
+
+    
+	<table>
+	 <tr><th style="padding: 2px;"></th><th style="padding: 2px;">{L_LANGUAGE}</th><th style="padding: 2px;">{L_PROFICIENCY}</th><th style="padding: 2px;"></th></tr>
+	 <!-- BEGIN languages -->
+		<tr {languages.ROWSTYLE}><td>{languages.ICON}</td><td><a href="{languages.U_SEARCHLINK}">{languages.NAME}</a></td><td>{languages.STARS} <span style="font-size: 90%">{languages.PROFICIENCY}</span></td><td>[ <a href="{languages.U_EDITLINK}">{L_EDIT}</a> | <a href="{languages.U_DELETELINK}">{L_DELETE}</a> ]</td></tr>
+	 <!-- END languages -->
+	</table>
+
+
+    <h3>{L_ADDLANGUAGE}</h3>
+
+	<!-- IF S_LANGEDIT_SUBMITTED -->
+		<p>{L_UPDATING_LANGLIST}</p>
+	<!-- ELSE -->
+
+ 	<fieldset>
+	<dl>
+		<dt><label for="langcode">{L_LANGUAGE}:</label></dt>
+		<dd>
+			<select name="langcode" style="width: 350px">{LANGLIST}</select>
+		</dd>
+	</dl>
+	<dl>
+		<dt><label for="proficiency">{L_PROFICIENCY}:</label></dt>
+		<dd><select name="proficiency">
+			<option value="{LANG_NATIVE}" <!-- IF LANGEDIT_PROFICIENCY == LANG_NATIVE -->selected="selected"<!-- ENDIF -->>{L_LANG_NATIVE}</option>
+			<option value="{LANG_FLUENT}" <!-- IF LANGEDIT_PROFICIENCY == LANG_FLUENT -->selected="selected"<!-- ENDIF -->>{L_LANG_FLUENT}</option>
+			<option value="{LANG_ADVANCED}" <!-- IF LANGEDIT_PROFICIENCY == LANG_ADVANCED -->selected="selected"<!-- ENDIF -->>{L_LANG_ADVANCED}</option>
+			<option value="{LANG_INTERMEDIATE}" <!-- IF LANGEDIT_PROFICIENCY == LANG_INTERMEDIATE -->selected="selected"<!-- ENDIF -->>{L_LANG_INTERMEDIATE}</option>
+			<option value="{LANG_BEGINNER}" <!-- IF LANGEDIT_PROFICIENCY == LANG_BEGINNER -->selected="selected"<!-- ENDIF -->>{L_LANG_BEGINNER}</option>
+			<option value="{LANG_INTEREST}" <!-- IF LANGEDIT_PROFICIENCY == LANG_INTEREST -->selected="selected"<!-- ENDIF -->>{L_LANG_INTEREST}</option>
+		</select></dd>
+	</dl>
+	<dl>
+		<dt></dt>
+		<dd>
+			<input type="checkbox" style="width: 15px;" name="wanthelp" value="1" <!-- IF LANGEDIT_WANTHELP -->checked="checked"<!-- ENDIF --> /> {L_WANTHELP}<br />
+			<input type="checkbox" style="width: 15px;" name="canhelp" value="1" <!-- IF LANGEDIT_CANHELP -->checked="checked"<!-- ENDIF --> /> {L_CANHELP}<br />
+		</dd>
+	</dl>
+
+	</fieldset>
+	<!-- ENDIF -->
+
+        </div>
+</div>
+
+<!-- IF not S_LANGEDIT_SUBMITTED -->
+<fieldset class="submit-buttons">
+			<input type="hidden" name="old_baselang" value="{LANGEDIT_BASELANG}" />
+			<input type="hidden" name="old_complexlang" value="{LANGEDIT_COMPLEXLANG}" />
+			<input type="hidden" name="old_proficiency" value="{LANGEDIT_PROFICIENCY}" />
+
+        {S_HIDDEN_FIELDS}<input type="reset" value="{L_RESET}" name="reset" class="button2" />&nbsp; 
+        <input type="submit" name="submit" value="{L_SUBMIT}" class="button1" />
+        {S_FORM_TOKEN}
+</fieldset>
+<!-- ENDIF -->
+</form>
+
+<!-- INCLUDE ucp_footer.html -->
