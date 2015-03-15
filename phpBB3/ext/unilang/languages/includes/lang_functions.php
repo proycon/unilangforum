@@ -700,15 +700,26 @@ class lang_functions {
     * @return string|false
     */
     function forum_bylanguage($lang, $idonly = false) {
-        if (isset($this->langdata->$forum_bylanguage[$lang])) {
+        if (isset($this->langdata->forum_bylanguage[$lang])) {
             if ($idonly) {
-                return $this->langdata->$forum_bylanguage[$lang];
+                return $this->langdata->forum_bylanguage[$lang];
             } else {
-                return $this->langdata->$forum_viewforum . $this->langdata->$forum_bylanguage[$lang];
+                return $this->langdata->forum_viewforum . $this->langdata->forum_bylanguage[$lang];
             }
         } else {
             return false;
         }
+    }
+
+    //Get an array of language codes for a forum ID (as multiple may be returned)
+    function languagesforforum($forum_id) {
+        $codes = array();
+        foreach($this->langdata->forum_bylanguage as $key => $fid) {
+            if ($forum_id == $fid) {
+                $codes[] = $key;
+            }
+        }
+        return $codes;
     }
 
 
