@@ -57,4 +57,20 @@ h1#title span {
     color: #88b4db;
 }
 
-    
+
+a.subforum {
+    display: inline-block;
+    width: 180px;
+    font-size: 90%;
+    overflow: hidden;
+} 
+a.subforum img {
+    height: 10px;
+}
+div.subforums strong { /* subforums label */
+    display: block;
+}
+div.subforums { /* hides the commas between subforums */
+    color: transparent;
+    width: 160%;
+}
