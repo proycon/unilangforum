@@ -13,8 +13,9 @@ if (!defined('IN_PHPBB')) {
     exit;
 }
 
+namespace unilang\languages\ucp;
 
-class language_panel {
+class main_module {
     /**
     * Constructor
     *
