@@ -37,6 +37,10 @@ $lang = array_merge($lang, array(
     'CANHELP' => "I can help others with this language",
     'WANTHELP' => "I want help with this language",
     'ADDLANGUAGE' => "Add a new language",
+    'REGIONNA' => "no regions available",
+    'NOREGION' => "no region specified",
+    'MYLANGS' => "My Languages",
+    'ALLLANGS' => "All Languages",
 ));
 
 ?>

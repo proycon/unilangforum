@@ -475,7 +475,9 @@ class lang_functions {
     */
     function langlist($sourcelang = false, $langs = false,$selected = false, $macro_selectable = true, $show_langicons = true) {
         
-        $firefox = (strstr($_SERVER['HTTP_USER_AGENT'],"Gecko") !== FALSE);
+
+        //$firefox = (strstr($this->request->server('HTTP_USER_AGENT', ''),"Gecko") !== FALSE);
+        $firefox = true;
 
 
         $r = '';
@@ -521,16 +523,13 @@ class lang_functions {
             /*if (count($prerendered) > 0) {
                 $r .= "<option disabled=\"disabled\" value=\"".$code."\">-----------</option>";	
             }*/
-            $r = '<optgroup label="'.out('mylangs').'">'.$r.'</optgroup><optgroup label="'.out('alllangs').'">';
+            $r = '<optgroup label="'.$this->user->lang['MYLANGS'].'">'.$r.'</optgroup><optgroup label="'.$this->user->lang['ALLLANGS'].'">';
         }
 
 
 
 
-
-
-
-        foreach ($names as $baselang => $value) {
+        foreach ($this->langdata->language_names_en as $baselang => $value) {
             if (($langs == false) || (in_array($baselang,$langs))) {
             if (is_array($value)) {
                 foreach ($value as $complexlang => $v) {
@@ -660,9 +659,9 @@ class lang_functions {
         }
         if ($dummy) {
             if ($r == '') {
-                return '<option value="">(no regions available)</option>';
+                return '<option value="">(' . $this->user->lang['REGIONNA'] . ')</option>';
             } else {
-                return '<option value="">(no region specified)</option>'.$r;
+                return '<option value="">(' . $this->user->lang['NOREGION'] . ')</option>'.$r;
             }
         } else {
             return $r;

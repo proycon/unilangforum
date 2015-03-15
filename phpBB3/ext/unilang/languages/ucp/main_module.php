@@ -38,6 +38,7 @@ class main_module {
     }
 
     function main($id, $mode) {
+        $sourcelang = 'en'; //TODO: get board language
         $this->tpl_name = 'ucp_language_panel';
         $this->page_title = 'LANG_TITLE';
 
@@ -62,12 +63,17 @@ class main_module {
         $regionlist = $this->lf->regionlist($country, $region);
 
         $this->template->assign_vars(array(
-            'NATIONALITY' => $this->lf->countrylist('en', false,$nationality),
-            'COUNTRY' => $this->lf->countrylist('en', false,$country),
+            'NATIONALITY' => $this->lf->countrylist($sourcelang, false,$nationality),
+            'COUNTRY' => $this->lf->countrylist($sourcelang, false,$country),
             'REGION' => $regionlist
         ));
 
         //assign language data to the template
         $this->lf->assignlanguages($this->template, 'languages', $this->user->data['user_id']);
+
+        $this->template->assign_vars(array(
+            'LANGLIST' => $this->lf->langlist($sourcelang),
+        ));
+
     }
 }
