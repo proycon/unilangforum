@@ -15,8 +15,8 @@ further documentation:
 
  * [UniLang Languages
    Extension](https://github.com/proycon/unilangforum/tree/master/phpBB3/ext/unilang/languages) - Provides language & location functionality: flags, languages in user profiles, subforum flags, etc..
- * [UniLang Chat
-   Extension](https://github.com/proycon/unilangforum/tree/master/phpBB3/ext/unilang/chat) - Trivial chat link 
+ * [UniLang Navigation
+   Extension](https://github.com/proycon/unilangforum/tree/master/phpBB3/ext/unilang/chat) - Navigation items: chat, development 
 
 
 If you want to write a new extension or edit an
