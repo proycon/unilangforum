@@ -104,14 +104,14 @@ class main_listener implements EventSubscriberInterface
             $r = '';
             $ascii = '';
             for ($i = 1; $i <= 4; $i++) {
-            $ascii .= '*';
-            if ($language['proficiency'] == 5) {
-            $r .= "<img src=\"//ext/unilang/languages/styles/all/theme/images/icons/starf2.png\" alt=\"star\" />";
-            } elseif ($i <= $language['proficiency']) {
-            $r .= "<img src=\"//ext/unilang/languages/styles/all/theme/images/icons/starf.png\" alt=\"star\" />";
-            } else {
-            $r .= "<img src=\"//ext/unilang/languages/styles/all/theme/images/icons/star.png\" alt=\"star\" />";
-            }
+                $ascii .= '*';
+                if ($language['proficiency'] == 5) {
+                    $r .= "<img src=\"/ext/unilang/languages/styles/all/theme/images/icons/starf2.png\" alt=\"star\" />";
+                } elseif ($i <= $language['proficiency']) {
+                    $r .= "<img src=\"/ext/unilang/languages/styles/all/theme/images/icons/starf.png\" alt=\"star\" />";
+                } else {
+                    $r .= "<img src=\"/ext/unilang/languages/styles/all/theme/images/icons/star.png\" alt=\"star\" />";
+                }
             }
             $r .= ' ';
 
