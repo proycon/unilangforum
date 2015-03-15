@@ -18,6 +18,10 @@ by definition:
    forms for editing
 
 
+Notes:
+ - There are no database migrations included whatsoever, the fields are assumed to already exist in the database, as is the case for UniLang
+ - The UCP module has to be explicitly added in the ACP
+
 
 
 

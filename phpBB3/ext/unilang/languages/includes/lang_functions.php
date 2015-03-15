@@ -618,7 +618,7 @@ class lang_functions {
     */
     function countrylist($sourcelang = false, $countries = false,$selected = false,$allownone = true) {
         $r = '';
-        if ($allownone) $r .= "<option value=\"\">(".out('no_selection').")</option>";
+        if ($allownone) $r .= "<option value=\"\">(no_selection)</option>";
         foreach ($this->regiondata->country_names_en as $country => $loc_name) {
             if (($countries == false) || (in_array($country,$countries))) {
                 if (isset($this->regiondata->country_names[$country])) {

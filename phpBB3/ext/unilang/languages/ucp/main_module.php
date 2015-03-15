@@ -8,12 +8,12 @@
 *
 */
 
+namespace unilang\languages\ucp;
 
 if (!defined('IN_PHPBB')) {
     exit;
 }
 
-namespace unilang\languages\ucp;
 
 class main_module {
     /**
@@ -33,7 +33,7 @@ class main_module {
         $this->user = $user;
         $this->template = $template;
         $this->db = $db;
-        $this->lf = $this->container->get('unilang.languages.langfunctions')
+        $this->lf = $this->container->get('unilang.languages.langfunctions');
         $this->user->add_lang_ext('unilang/languages', 'common');
     }
 
@@ -61,7 +61,7 @@ class main_module {
 
         $regionlist = $this->lf->regionlist($country, $region);
 
-        $template->assign_vars(array(
+        $this->template->assign_vars(array(
             'NATIONALITY' => $this->lf->countrylist('en', false,$nationality),
             'COUNTRY' => $this->lf->countrylist('en', false,$country),
             'REGION' => $regionlist

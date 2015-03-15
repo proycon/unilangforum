@@ -8,12 +8,12 @@
 *
 */
 
+namespace unilang\languages\ucp;
 
 if (!defined('IN_PHPBB')) {
     exit;
 }
 
-namespace unilang\languages\ucp;
 
 class main_info {
     function module() {

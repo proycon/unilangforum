@@ -19,6 +19,7 @@ if (empty($lang) || !is_array($lang)) {
 
 
 $lang = array_merge($lang, array(
+    'UCP_LANGUAGES' => "Languages & Location",
     'LANG_TITLE' => "Languages",
     'NATIONALITY' => "Nationality",
     'REGION' => "Region",
