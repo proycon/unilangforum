@@ -69,6 +69,22 @@ Associate one or more language codes with the forum ID, use
 ``$forum_bylanguage``, multiple language codes may exist for a single forum.
 
 
+**What functions are available?**
+
+The class ``lang_functions`` from ``lang_functions.php``, implemented as 
+service ``unilang.languages.langfunctions`` defined various functions for
+dealing with languages, countries, there codes and their labels. Consult the
+source for documentation. Notable methods are:
+
+ * ``get_language_name`` - Get the name given a language code
+ * ``get_country_name`` - Get the name given a country code
+ * ``langicon`` - Get HTML code (img) to render the language icon (flag)
+ * ``countryicon`` - Get HTML code (img) to render the country icon (flag)
+ * ``langlist`` - Generates a list of xhtml option elements for selecting languages
+ * ``compare_lang`` - Compares two languages codes
+ * ``split_language_code`` - Split a language code into a base part and complex part (regional, scriptural or temporal variant)
+
+
 
 
 
