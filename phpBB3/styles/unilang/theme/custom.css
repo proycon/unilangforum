@@ -64,6 +64,7 @@ a.subforum {
     display: inline-block;
     width: 180px;
     overflow: hidden;
+    font-size: 105%;
 } 
 a.subforum img {
     height: 10px;
