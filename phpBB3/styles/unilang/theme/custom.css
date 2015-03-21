@@ -64,7 +64,6 @@ a.subforum {
     display: inline-block;
     width: 180px;
     overflow: hidden;
-    font-size: 105%;
 } 
 a.subforum img {
     height: 10px;
@@ -99,7 +98,7 @@ div.subforums { /* hides the commas between subforums */
 }
 @media only screen and (max-width: 700px), only screen and (max-device-width: 700px) {
     div.subforums { 
-        width: 100%;
+        width: 120%;
     }
 }
 
