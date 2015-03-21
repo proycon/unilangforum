@@ -1,0 +1,5 @@
+services:
+    jv.deletemyregistration.listener:
+        class: jv\deletemyregistration\event\listener
+        tags:
+            - { name: event.listener }

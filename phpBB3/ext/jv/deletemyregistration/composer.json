@@ -1,0 +1,32 @@
+{
+	"name": "jv/deletemyregistration",
+	"type": "phpbb-extension",
+	"description": "An extension which allows users to delete their own account.",
+	"homepage": "http://jatek-vilag.com/viewtopic.php?p=146133#p146133",
+	"version": "1.0.1",
+	"time": "2014-12-08",
+	"keywords": ["phpbb", "extension", "delete", "my", "registration"],
+	"license": "GPL-2.0",
+	"authors": [
+		{
+			"name": "Péter Komlódi",
+			"email": "killbill@jatek-vilag.com",
+			"homepage": "http://jatek-vilag.com/",
+			"role": "Extensions Development Team Lead"
+		}
+	],
+	"require": {
+		"php": ">=5.3.3"
+	},
+	"extra": {
+		"display-name": "Delete my registration",
+		"soft-require": {
+			"phpbb/phpbb": ">=3.1.0"
+		},
+		"version-check": {
+			"host": "www.phpbb.com",
+			"directory": "/customise/db/extension/delete_my_registration",
+			"filename": "version_check"
+		}
+	}
+}
