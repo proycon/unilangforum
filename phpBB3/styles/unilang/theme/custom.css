@@ -101,7 +101,7 @@ div.subforums { /* hides the commas between subforums */
         width: 120%;
     }
 }
-#responsive-menu-link {
+.responsive-menu-link {
     font-weight: bold;
     color: #abcce8;
     font-size: 120px;
