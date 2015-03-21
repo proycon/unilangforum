@@ -20,6 +20,7 @@ if (empty($lang) || !is_array($lang)) {
 
 $lang = array_merge($lang, array(
     'CHAT' => "Chat",
+    'RESOURCE_ARCHIVE' => "Resource Archive",
     'DEVELOPMENT' => "Development",
 ));
 
