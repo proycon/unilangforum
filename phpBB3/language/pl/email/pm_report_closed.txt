@@ -1,0 +1,7 @@
+Subject: Zgłoszenie zostało zamknięte – „{PM_SUBJECT}”
+
+Witaj {USERNAME}!
+
+Otrzymujesz to powiadomienie, ponieważ wysłane przez Ciebie zgłoszenie dotyczące prywatnej wiadomości „{PM_SUBJECT}” z witryny „{SITENAME}” zostało przeczytane przez moderatora lub administratora i zamknięte. Jeśli masz jakieś pytania, skontaktuj się z {CLOSER_NAME} za pomocą prywatnej wiadomości.
+
+{EMAIL_SIG}

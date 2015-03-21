@@ -1,0 +1,7 @@
+Subject: Informe tancat - "{PM_SUBJECT}"
+
+Hola {USERNAME},
+
+Heu rebut aquesta notificació perquè l’informe que heu fet del missatge privat "{PM_SUBJECT}" a "{SITENAME}" ha estat gestionat per un moderador o un administrador. L’informe ja està tancat. Si teniu més preguntes poseu-vos en contacte amb {CLOSER_NAME} per missate privat.
+
+{EMAIL_SIG}

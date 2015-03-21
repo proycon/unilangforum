@@ -1,0 +1,17 @@
+Subject: „{SITENAME}” – Powiadom przyjaciela
+
+Witaj {TO_USERNAME}!
+
+Wiadomość ta została wysłana z witryny „{SITENAME}” przez {FROM_USERNAME}. Osoba ta uznała, że poniższy temat może Cię zainteresować:
+
+{TOPIC_NAME}
+
+Możesz zapoznać się z nim, odwiedzając ten adres:
+
+{U_TOPIC}
+
+Poniżej może być również załączona wiadomość od {FROM_USERNAME}. Nie była ona sprawdzana, ani akceptowana przez administratorów forum. Jeśli chcesz wnieść skargę dotyczącą tej wiadomości, skontaktuj się z administratorem witryny za pomocą e-maila {BOARD_CONTACT}. W przesyłanym e-mailu zacytuj nagłówki niechcianej wiadomości.
+
+----------
+
+{MESSAGE}

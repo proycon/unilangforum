@@ -1,0 +1,13 @@
+Subject: Posta modererings besked - "{TOPIC_TITLE}"
+
+Hej {USERNAME},
+
+Du får det här meddelandet eftersom inlägget "{POST_SUBJECT}" på "{SITENAME}" behöver godkännas.
+
+Om du vill visa inlägg, klicka på följande länk:
+{U_VIEW_POST}
+
+Om du vill titta på inägget klicka på följande länk:
+{U_TOPIC}
+
+{EMAIL_SIG}

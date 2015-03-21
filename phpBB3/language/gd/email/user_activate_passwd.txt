@@ -1,0 +1,17 @@
+Subject: Gnìomhaich am facal-faire ùr
+
+{USERNAME}, a charaid,
+
+Fhuair thu am fios seo a chionn 's gun do dh'iarr thu fhèin (no cuideigin a thug air gur tusa a bha ann) gun dèid facal-faire ùr airson a' chunntais agad air "{SITENAME}" a chur thugad. Mura robh dùil agad ris an teachdaireachd seo, leig seachad e. Ma gheibh thu tuilleadh dhiubh, cuir fios gu rianaire a' bhùird-bhrath.
+
+Feumaidh tu am facal-faire ùr a ghnìomhachadh gus a chleachdadh. Ma tha thu airson seo a dhèanamh lean air adhart leis a' cheangal seo:
+
+{U_ACTIVATE}
+
+Ma thèid agad leis, 's urrainn dhut logadh a-steach leis an fhacal-fhaire seo:
+
+Am facal-faire agad: {PASSWORD}
+
+Gu nàdarra, 's urrainn dhut fhèin am facal-faire seo atharrachadh fo roghainnean a' chunntais agad. Ma bhios duilgheadas sam bith agad le seo, cuir fios gu rianaire a' bhùird-bhrath.
+
+{EMAIL_SIG}

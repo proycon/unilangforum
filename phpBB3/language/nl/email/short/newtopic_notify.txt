@@ -1,0 +1,13 @@
+Subject: Nieuw onderwerp geplaatst in "{FORUM_NAME}"
+
+Hallo {USERNAME},
+
+Je ontvangt deze e-mail omdat je geabonneerd bent op het forum "{FORUM_NAME}" op "{SITENAME}". In dit forum is een nieuw onderwerp "{TOPIC_TITLE}" geplaatst <!-- IF AUTHOR_NAME --> door {AUTHOR_NAME}<!-- ENDIF --> sinds je laatste bezoek. Je kan de volgende link gebruiken om het forum te bekijken. Je ontvangt geen e-mails meer over dit forum totdat je dit onderwerp hebt bezocht.
+
+{U_FORUM}
+
+Als je niet langer geabonneerd wilt zijn op dit forum, klik dan op de volgende link:
+
+{U_STOP_WATCHING_FORUM}
+
+{EMAIL_SIG}

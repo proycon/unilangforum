@@ -1,0 +1,15 @@
+Subject: Fhuair thu teachdaireachd phearsanta ùr
+
+{USERNAME}, a charaid,
+
+Fhuair thu teachdaireachd phearsanta ùr o "{AUTHOR_NAME}" gun chunntas agad air "{SITENAME}" leis a chuspair a leanas:
+
+{SUBJECT}
+
+'S urrainn dhut an ceangal a leanas a chleachdadh gus an teachdaireachd ùr agad a leughadh:
+
+{U_VIEW_MESSAGE}
+
+Dh'iarr thu gun cuirear fios thugad nuair a thachras seo. Thoir fainear gur urrainn dhut roghainnean a' chunntais agad atharrachadh gus nach cuirear fios thugad mu theachdaireachdan ùra tuilleadh.
+
+{EMAIL_SIG}

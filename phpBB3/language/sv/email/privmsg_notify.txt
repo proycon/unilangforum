@@ -1,0 +1,15 @@
+Subject: Nytt personligt meddelande
+
+Hej {USERNAME},
+
+Du har fått ett nytt personligt meddelande från "{AUTHOR_NAME}" till ditt konto på "{SITENAME}" med ämnet:
+
+{SUBJECT}
+
+Du kan läsa meddelandet genom att klicka på följande länk:
+
+{U_VIEW_MESSAGE}
+
+Du har begärt att bli meddelad vid nya personliga meddelanden, men kom ihåg att du alltid kan välja att inte bli meddelad om nya meddelanden genom att ändra inställningarna i din profil.
+
+{EMAIL_SIG}

@@ -1,0 +1,11 @@
+Subject: Moderatorska obavijest o (ne)odobravanju teme - "{TOPIC_TITLE}"
+
+Poštovanje {USERNAME},
+
+ova obavijest ti je stigla jer je za objavu tvoje teme "{TOPIC_TITLE}", na forumu "{SITENAME}", potrebno odobrenje.
+
+Temu možeš vidjeti klikom na sljedeći link: {U_VIEW_TOPIC}.
+
+Forum možeš vidjeti klikom na sljedeći link: {U_FORUM}.
+
+{EMAIL_SIG}

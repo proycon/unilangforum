@@ -1,0 +1,23 @@
+Subject: phpBB air a stàladh
+
+Meal do naidheachd,
+
+Tha thu air phpBB a stàladh air an fhrithealaiche agad.
+
+Gheibh thu fiosrachadh cudromach air an stàladh agad is bu chòir dhut an aire a thoirt air.
+
+Chaidh am facal-faire agad a ghlèidheadh san stòr-dàta ann an cruth dìomhair is chan urrainnear aiseag dhut. 'S urrainn dhut fear ùr iarraidh ge-tà ma dhìochuimhnicheas tu am facal-faire agad .
+
+----------------------------
+Am far-ainm agad: {USERNAME}
+
+Seòladh a' bhùird-bhrath: {U_BOARD}
+----------------------------
+
+Gheibh thu fiosrachadh feumail air an stàladh phpBB agad ann am pasgan
+docs san stàlaidh agad is air an duilleag taice air phpBB.com - https://www.phpbb.com/support/
+
+Tha sinn a' fìor mholadh dhut gum faigh thu leasachaidhean as ùire a' bhathair-bhuig gus am bòrd-brath a chumail slàn sàbhailte.
+Tha seo furasta ri dhèanamh ma chlàraicheas tu sa liosta-phuist air phpBB.com a chì thu san t-seòladh gu h-àrd.
+
+{EMAIL_SIG}

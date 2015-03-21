@@ -1,0 +1,11 @@
+Subject: Cuspair air aontachadh - "{TOPIC_TITLE}"
+
+{USERNAME}, a charaid,
+
+Fhuair thu am fios seo a chionn 's gun do dh'aontaich maor no rianaire ris a' chuspair "{TOPIC_TITLE}" agad air "{SITENAME}".
+
+Ma tha thu airson an cuspair seo a shealltainn, lean air adhart leis a' cheangal seo:
+{U_VIEW_TOPIC}
+
+
+{EMAIL_SIG}

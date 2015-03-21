@@ -1,0 +1,17 @@
+Subject: Obavijest o odgovoru na temu - "{TOPIC_TITLE}"
+
+Poštovanje {USERNAME},
+
+ova obavijest ti je stigla jer je, od tvojeg zadnjeg posjeta, na temi, koju si bookmarkirao /la, "{TOPIC_TITLE}" na forumu "{SITENAME}" bilo odgovora [na temu].
+
+"Prvi" odgovor od tvojeg zadnjeg posjeta možeš vidjeti klikom na sljedeći link: {U_NEWEST_POST}.
+
+Temu možeš vidjeti klikom na sljedeći link: {U_TOPIC}.
+
+Forum možeš vidjeti klikom na sljedeći link: {U_FORUM}.
+
+[Neće ti biti slane nove obavijesti sve dok ne posjetiš temu.]
+
+Ukoliko ne želiš više primati obavijesti o novim postovima na teme koje si bookmarkirao /la - klikni na sljedeći link: {U_NOTIFICATION_SETTINGS} (a) kako bi podesio/la postavke obavješćivanja.
+
+{EMAIL_SIG}

@@ -1,0 +1,45 @@
+Subject: Dobrodošao/la na "{SITENAME}"
+
+{WELCOME_MSG}
+
+Poštovanje,
+
+u suglasnosti sa COPPA, tvoj korisnički račun je trenutno neaktivan.
+
+Ispiši ovu poruku te ju daj roditelju/ici odnosno staratelju/ici da ju potpiše i datumira.
+
+Zatim ju faksiraj na:
+
+{FAX_INFO}
+
+ili pošalji na:
+
+{MAIL_INFO}
+
+------------------------------ ODREŽI OVDJE ------------------------------
+
+Dopuštenje za sudjelovanje na forumu "{SITENAME}" - {U_BOARD}
+
+Korisničko ime: {USERNAME}
+E-mail: {EMAIL_ADDRESS}
+
+UPOZNAT/A SAM S PODATCIMA KOJE MI JE DALO NA UVID MOJE DIJETE I DOPUŠTAM DA {SITENAME} POHRANI TE PODATKE.
+UPOZNAT/A SAM S ČINJENICOM DA OVI PODATCI MOGU BITI IZMIJENJENI U BILO KOJEM TRENUTKU UNOŠENJEM ZAPORKE.
+UPOZNAT/A SAM S ČINJENICOM DA MOGU ZAHTIJEVATI, U BILO KOJEM TRENUTKU, DA OVI PODATCI BUDU UKLONJENI S(A) "{SITENAME}".
+
+Ime i prezime roditelja/ice odnosno staratelja/ice: _________________________________
+
+Potpis: _________________________________
+
+Datum: _____________
+
+------------------------------ ODREŽI OVDJE ------------------------------
+
+Nakon što administrator/ica, faksom odnosno poštanskim putem, primi potpisan formular, tvoj korisnički račun će biti aktiviran.
+
+Zapamti zaporku jer je kriptirana u našoj bazi i ne može ti biti ponovo poslana.
+Ukoliko zaboraviš zaporku, možeš zatražiti novu.
+
+Hvala ti što si se registrirao/la.
+
+{EMAIL_SIG}

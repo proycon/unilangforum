@@ -1,0 +1,11 @@
+Subject: Påminnelse om inaktivt konto
+
+Hej {USERNAME},
+
+Detta meddelande är en påminnelse om att ditt konto på "{SITENAME}", skapad {REGISTER_DATE}, är inaktivt. Om du vill aktivera detta konto, besök följande länk:
+
+{U_ACTIVATE}
+
+Tack för att du registrerade dig på "{SITENAME}", vi ser fram emot ditt deltagande.
+
+{EMAIL_SIG}

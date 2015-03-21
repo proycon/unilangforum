@@ -1,0 +1,11 @@
+Subject: Indlæg godkendt - "{POST_SUBJECT}"
+
+Hej {USERNAME}
+
+Dit indlæg "{POST_SUBJECT}" på "{SITENAME}" er blevet godkendt af en redaktør eller administrator. Benyt nedenstående link hvis du vil se:
+
+Indlægget: {U_VIEW_POST}
+
+Emnet: {U_VIEW_TOPIC}
+
+{EMAIL_SIG}

@@ -1,0 +1,8 @@
+Subject: Du er optaget som medlem af ny brugergruppe
+
+Tillykke, du er nu blevet medlem af brugergruppen "{GROUP_NAME}" på "{SITENAME}".
+Denne handling blev udført af en gruppeleder eller en boardadministrator, kontakt dem for mere information.
+
+Du kan se information om din gruppe her: {U_GROUP}
+
+{EMAIL_SIG}

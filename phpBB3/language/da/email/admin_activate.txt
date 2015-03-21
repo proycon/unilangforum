@@ -1,0 +1,11 @@
+Subject: Aktiver brugerkonto
+
+Hej
+
+Kontoen, der ejes af "{USERNAME}" er netop oprettet eller blevet deaktiveret. Du bedes kontrollere oplysningerne om denne bruger (hvis krævet) og aktivere den via disse links.
+
+Brugerens profil: {U_USER_DETAILS}
+
+Aktivering af kontoen: {U_ACTIVATE}
+
+{EMAIL_SIG}

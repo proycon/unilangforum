@@ -1,0 +1,22 @@
+{TO_USERNAME}, a charaid,
+
+Seo post-d a chaidh a chur thugad leis an duilleag "Fios thugainn" air "{SITENAME}".
+
+<!-- IF S_IS_REGISTERED -->
+Chaidh an teachdaireachd a chur thugad o chunntas air an làrach.
+Far-ainm: {FROM_USERNAME}
+Seòladh puist-d: {FROM_EMAIL_ADDRESS}
+Seòladh IP: {FROM_IP_ADDRESS}
+Pròifil: {U_FROM_PROFILE}
+<!-- ELSE -->
+Chaidh an teachdaireachd a chur thugad le aoigh a thug seachad am fiosrachadh conaltraidh seo:
+Ainm: {FROM_USERNAME}
+Seòladh puist-d: {FROM_EMAIL_ADDRESS}
+Seòladh IP: {FROM_IP_ADDRESS}
+<!-- ENDIF -->
+
+
+Leanaidh an teachdaireachd a chaidh a chur thugad
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+{MESSAGE}

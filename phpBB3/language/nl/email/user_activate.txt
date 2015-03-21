@@ -1,0 +1,9 @@
+Subject: Heractiveer je gebruikersaccount
+
+Hallo {USERNAME},
+
+Je gebruikersaccount op "{SITENAME}" is gedeactiveerd, waarschijnlijk door wijzigingen in je gebruikersprofiel. Om je gebruikersaccount te heractiveren klik dan op de volgende link:
+
+{U_ACTIVATE}
+
+{EMAIL_SIG}

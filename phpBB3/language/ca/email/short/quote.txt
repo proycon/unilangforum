@@ -1,0 +1,20 @@
+Subject: Notificació per resposta en una entrada - "{TOPIC_TITLE}"
+
+Hola {USERNAME},
+
+Heu rebut aquesta notificació perquè "{AUTHOR_NAME}" us ha citat al tema "{TOPIC_TITLE}" a "{SITENAME}". Podeu utilitzar l’enllaç següent per veure’n la resposta.
+
+Si voleu visualitzar l’entrada citada, feu clic a l’enllaç següent:
+{U_VIEW_POST}
+
+Si voleu visualitzar el tema, feu clic a l’enllaç següent:
+{U_TOPIC}
+
+Si voleu visualitzar el fòrum, feu clic a l’enllaç següent:
+{U_FORUM}
+
+Si ja no voleu rebre notificacions sobre respostes que us citen, actualitzeu la configuració de notificacions a l’enllaç següent:
+
+{U_NOTIFICATION_SETTINGS}
+
+{EMAIL_SIG}

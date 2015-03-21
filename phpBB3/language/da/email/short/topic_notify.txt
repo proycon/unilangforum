@@ -1,0 +1,17 @@
+Subject: Nyt indlæg i emnet - "{TOPIC_TITLE}"
+
+Hej {USERNAME}
+
+Du overvåger ovennævnte emne på "{SITENAME}", hvor <!-- IF AUTHOR_NAME !== '' -->{AUTHOR_NAME}<!-- ENDIF --> har skrevet et indlæg siden dit seneste besøg. Du modtager ikke flere beskeder vedrørende dette emne, før du har besøgt det. Benyt nedenstående link hvis du vil se:
+
+Seneste indlæg i emnet: {U_NEWEST_POST}
+
+Emnet: {U_TOPIC}
+
+Forummet: {U_FORUM}
+
+Ønsker du ikke længere at få besked om nye indlæg i emnet, stoppes overvågningen ved at klikke på følgende link:
+
+{U_STOP_WATCHING_TOPIC}
+
+{EMAIL_SIG}

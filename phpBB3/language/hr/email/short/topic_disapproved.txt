@@ -1,0 +1,9 @@
+Subject: Tema neodobrena - "{TOPIC_TITLE}"
+
+Poštovanje {USERNAME},
+
+ova obavijest ti je stigla jer ti tema "{TOPIC_TITLE}", na forumu "{SITENAME}", nije odobrena.
+
+Razlog neodobrenja je sljedeći: {REASON}.
+
+{EMAIL_SIG}

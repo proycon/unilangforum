@@ -1,0 +1,11 @@
+Subject: Przyjęto Cię do grupy „{GROUP_NAME}”
+
+Gratulujemy!
+
+Przyjęto Cię do grupy „{GROUP_NAME}” na witrynie „{SITENAME}”.
+Zrobił to lider tej grupy lub administrator forum. Aby uzyskać więcej informacji, skontaktuj się z nimi.
+
+Informacje o swoich grupach możesz zobaczyć tutaj:
+{U_GROUP}
+
+{EMAIL_SIG}

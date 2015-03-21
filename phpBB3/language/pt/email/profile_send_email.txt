@@ -1,0 +1,15 @@
+
+Olá {TO_USERNAME},
+
+
+O email que se segue foi enviado por {FROM_USERNAME} através da sua conta em {SITENAME}.
+Se há material abusivo, "spam", ou comentários que considera ofensivos contate o seguinte endereço:
+{BOARD_CONTACT}
+enviando este email completo, particularmente os cabeçalhos.
+Por favor note que o endereço da resposta para este email é do {FROM_USERNAME}.
+
+Mensagem que lhe foi enviada é a seguinte:
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+{MESSAGE}

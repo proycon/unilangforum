@@ -1,0 +1,19 @@
+Subject: Velkommen til «{SITENAME}»
+
+{WELCOME_MSG}
+
+Ta vare på denne e-posten. Kontoinformasjonen din er som følger:
+
+----------------------------
+Brukernavn: {USERNAME}
+
+System-URL: {U_BOARD} 
+----------------------------
+
+Kontoen er for øyeblikket inaktiv og må godkjennes av en administrator før du kan logge inn. Du vil motta en ny e-post når dette har skjedd.
+
+Passordet er trygt lagret i databasen vår, og kan ikke hentes ut. Hvis du glemmer det, vil du kunne tilbakestille det ved hjelp av e-postadressen som er tilknyttet kontoen.
+
+Takk for at du registrerte deg.
+
+{EMAIL_SIG}

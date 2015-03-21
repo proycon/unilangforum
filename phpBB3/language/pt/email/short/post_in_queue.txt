@@ -1,0 +1,13 @@
+Subject: Notificação de mensagem moderada - "{TOPIC_TITLE}"
+
+Olá {USERNAME},
+
+Está a receber esta notificação porque a mensagem "{POST_SUBJECT}" em "{SITENAME}" aguarda aprovação.
+
+Para ver a mensagem, clique no seguinte link:
+{U_VIEW_POST}
+
+Para ver o tópico, clique no seguinte link:
+{U_TOPIC}
+
+{EMAIL_SIG}

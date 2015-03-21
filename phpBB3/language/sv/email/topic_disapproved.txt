@@ -1,0 +1,11 @@
+Subject: Tråd avslagen — "{TOPIC_TITLE}"
+
+Hej {USERNAME},
+
+Du får detta meddelande för att din tråd "{TOPIC_TITLE}" på "{SITENAME}" har avslagits av en moderator eller administratör.
+
+Följande skäl gavs:
+
+{REASON}
+
+{EMAIL_SIG}

@@ -1,0 +1,13 @@
+Subject: Zgłoszono do moderacji post – „{TOPIC_TITLE}”
+
+Witaj {USERNAME},
+
+Otrzymujesz to powiadomienie, ponieważ na witrynie „{SITENAME}” został zgłoszony do moderacji post „{POST_SUBJECT}”.
+
+Jeśli chcesz zobaczyć zgłoszenie, kliknij poniższy odnośnik:
+{U_VIEW_REPORT}
+
+Jeśli chcesz zobaczyć post, kliknij ten odnośnik:
+{U_VIEW_POST}
+
+{EMAIL_SIG}

@@ -1,0 +1,7 @@
+Subject: Rapport slettet - "{POST_SUBJECT}"
+
+Hej {USERNAME}
+
+Den rapport du har indgivet for indlægget "{POST_SUBJECT}" i "{TOPIC_TITLE}" på "{SITENAME}" er blevet slettet af en redaktør eller af en administrator.
+
+{EMAIL_SIG}

@@ -1,0 +1,10 @@
+Subject: Korisnički račun deaktiviran
+
+Poštovanje {USERNAME},
+
+tvoj korisnički račun na forumu "{SITENAME}" je deaktiviran, najvjerojatnije zbog promjena napravljenih u korisničkom profilu.
+
+Administrator/ica foruma ga mora aktivirati.
+Obavijest o aktivaciji će ti stići elektroničkom poštom.
+
+{EMAIL_SIG}

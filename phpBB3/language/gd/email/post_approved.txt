@@ -1,0 +1,14 @@
+Subject: Post air aontachadh - "{POST_SUBJECT}"
+
+{USERNAME}, a charaid,
+
+Fhuair thu am fios seo a chionn 's gun deach aontachadh ris a' phost "{POST_SUBJECT}" agad air "{SITENAME}" le maor no rianaire.
+
+Ma tha thu airson am post seo a shealltainn, lean air adhart leis a' cheangal seo:
+{U_VIEW_POST}
+
+Ma tha thu airson an cuspair seo a shealltainn, lean air adhart leis a' cheangal seo:
+{U_VIEW_TOPIC}
+
+
+{EMAIL_SIG}

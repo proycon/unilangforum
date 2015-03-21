@@ -1,0 +1,19 @@
+Subject: {FORUM_NAME} - Notificação de resposta ao Fórum
+
+Olá {USERNAME},
+
+Está a receber esta notificação porque está a observar o fórum, "{FORUM_NAME}" em "{SITENAME}". Este fórum recebeu uma nova resposta no tópico "{TOPIC_TITLE}"<!-- IF AUTHOR_NAME !== '' --> por {AUTHOR_NAME}<!-- ENDIF --> desde a sua última visita. Pode usar o link seguinte para ver as respostas. Não serão enviadas mais notificações até que visite o tópico.
+
+{U_NEWEST_POST}
+
+Se deseja ver o tópico, clique no seguinte link:
+{U_TOPIC}
+
+Se deseja ver o fórum, clique no seguinte link:
+{U_FORUM}
+
+Se não quer vigiar a este fórum, pode clicar em "Parar de Observar Fórum" na parte inferior do fórum acima indicado, ou clicando no seguinte link:
+
+{U_STOP_WATCHING_FORUM}
+
+{EMAIL_SIG}

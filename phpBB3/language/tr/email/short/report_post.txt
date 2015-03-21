@@ -1,0 +1,13 @@
+Subject: Mesaj bildirisi - "{TOPIC_TITLE}"
+
+Merhaba {USERNAME},
+
+"{SITENAME}" mesaj panosunda "{POST_SUBJECT}" konulu mesaj bildirildiği için bu bildirimi alıyorsanız.
+
+Eğer bildiriyi görüntülemek istiyorsanız, alttaki bağlantıya tıklayın:
+{U_VIEW_REPORT}
+
+Eğer mesajı görüntülemek istiyorsanız, alttaki bağlantıyı tıklayın:
+{U_VIEW_POST}
+
+{EMAIL_SIG}

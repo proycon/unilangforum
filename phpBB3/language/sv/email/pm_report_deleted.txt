@@ -1,0 +1,7 @@
+Subject: Rapport borttagen - "{PM_SUBJECT}"
+
+Hej {USERNAME},
+
+Du får detta meddelande eftersom rapporten du gjorde angående det privata meddelandet "{PM_SUBJECT}" på "{SITENAME}" har tagits bort av en moderator eller administratör.
+
+{EMAIL_SIG}

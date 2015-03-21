@@ -1,0 +1,14 @@
+Subject: Gnìomhaich cunntas ùr
+
+A charaid chòir,
+
+Chaidh an cunntas aig "{USERNAME}" a chuir à gnìomh no a chruthachadh an-dràsta fhèin. Bu chòir dhut sùil a thoirt air fiosrachadh an neach seo (ma bhios feum air seo) agus dèiligeadh ris mar as còir.
+
+Cleachd an ceangal seo gus sùil a thoirt air cunntas an neach seo:
+{U_USER_DETAILS}
+
+Cleachd an ceangal seo gus an cunntas a ghnìomhachadh:
+{U_ACTIVATE}
+
+
+{EMAIL_SIG}

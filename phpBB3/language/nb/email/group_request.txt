@@ -1,0 +1,10 @@
+Subject: En forespørsel om å bli med i gruppen din er mottatt
+
+Kjære {USERNAME}!
+
+Brukeren «{REQUEST_USERNAME}» har bedt om å få bli med i gruppen «{GROUP_NAME}», som du modererer på «{SITENAME}».
+Du kan godkjenne eller avslå denne forespørselen om gruppemedlemskap ved å gå til følgende lenke:
+
+{U_PENDING}
+
+{EMAIL_SIG}

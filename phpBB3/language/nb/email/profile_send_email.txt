@@ -1,0 +1,13 @@
+
+Hei, {TO_USERNAME}!
+
+Følgende er en e-post send til deg av {FROM_USERNAME} via kontoen din på «{SITENAME}». Hvis du anser denne meldingen som spam, hvis den inneholder støtende eller på andre måter upassende innhold, kan du kontakte nettstedets webmaster på følgende adresse:
+
+{BOARD_CONTACT}
+
+Inkluder hele denne e-posten (spesielt meldingshodene). Merk at svaradressen for denne e-posten er angitt til {FROM_USERNAME}.
+
+Meldingen som ble sendt deg, følger:
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+{MESSAGE}

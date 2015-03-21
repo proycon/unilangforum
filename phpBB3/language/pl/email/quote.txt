@@ -1,0 +1,20 @@
+Subject: Powiadomienie o odpowiedzi w temacie – „{TOPIC_TITLE}”
+
+Witaj {USERNAME},
+
+Otrzymujesz to powiadomienie, ponieważ na witrynie „{SITENAME}” w wątku „{TOPIC_TITLE}” „{AUTHOR_NAME}” zacytował Twój post. Możesz użyć jednego z poniższych odnośników, aby zobaczyć cytat.
+
+Jeśli chcesz przejść bezpośrednio do zacytowanego posta, skorzystaj z poniższego odnośnika:
+{U_VIEW_POST}
+
+Jeśli chcesz przejść na początek wątku, użyj tego odnośnika:
+{U_TOPIC}
+
+Jeśli chcesz przejść do forum, w którym napisano ten post, skorzystaj z tego odnośnika:
+{U_FORUM}
+
+Jeśli nie chcesz już otrzymywać informacji o cytowaniu Twoich postów, zmień ustawienia powiadomień, klikając poniższy odnośnik:
+
+{U_NOTIFICATION_SETTINGS}
+
+{EMAIL_SIG}

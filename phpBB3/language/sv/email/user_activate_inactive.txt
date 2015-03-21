@@ -1,0 +1,7 @@
+Subject: Ditt konto har inaktiverats
+
+Hej {USERNAME},
+
+Ditt konto på "{SITENAME}" har inaktiverats, förmodligen på grund av ändringar som har gjorts i din profil. Administratören måste aktivera det igen innan du kan logga in. Du kommer få ett nytt meddelande när detta har skett.
+
+{EMAIL_SIG}

@@ -1,0 +1,8 @@
+Subject: Gearan air a sguabadh às - "{POST_SUBJECT}"
+
+{USERNAME}, a charaid,
+
+Fhuair thu am fios seo a chionn 's gun deach an gearan a rinn thu mun phost "{POST_SUBJECT}" air "{TOPIC_TITLE}" air "{SITENAME}" air a sguabadh às le maor no rianaire.
+
+
+{EMAIL_SIG}

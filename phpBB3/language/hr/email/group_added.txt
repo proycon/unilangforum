@@ -1,0 +1,11 @@
+Subject: Korisnički račun pridodan korisničkoj grupi
+
+Poštovanje,
+
+tvoj korisnički račun, na forumu "{SITENAME}", pridodan je korisničkoj grupi "{GROUP_NAME}".
+
+Pridodavanje je obavljeno posredstvom moderatora/ice korisničke grupe odnosno administratora/ice foruma [koje možeš kontaktirati za podrobnije informacije].
+
+Informacije o korisničkoj grupi možeš vidjeti ovdje: {U_GROUP}.
+
+{EMAIL_SIG}

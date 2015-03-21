@@ -1,0 +1,10 @@
+Subject: En ansökan om medlemskap i din grupp har gjorts
+
+Hej {USERNAME},
+
+Användaren "{REQUEST_USERNAME}" har ansökt om medlemskap i gruppen "{GROUP_NAME}" som du leder på "{SITENAME}".
+För att godkänna eller avslå denna ansökan, besök följande länk:
+
+{U_PENDING}
+
+{EMAIL_SIG}

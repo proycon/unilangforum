@@ -1,0 +1,20 @@
+Subject: Post ùr air "{TOPIC_TITLE}"
+
+{USERNAME}, a charaid,
+
+Fhuair thu am fios seo a chionn 's gu bheil thu a' cumail sùil air a' chuspair "{TOPIC_TITLE}" air "{SITENAME}".  Chaidh freagairt ùr a sgrìobhadh fon chuspair sin<!-- IF AUTHOR_NAME !== '' --> le {AUTHOR_NAME}<!-- ENDIF --> on a thadhail thu ann turas mu dheireadh. Chan fhaigh thu teachdaireachd eile mar seo gus an tadhail thu air a' chuspair sin.
+
+Ma tha thu airson am post as ùire on a thadhail thu ann turas mu dheireadh a leughadh, lean air adhart leis a' cheangal seo:
+{U_NEWEST_POST}
+
+Ma tha thu airson an cuspair a shealltainn, lean air adhart leis a' cheangal seo:
+{U_TOPIC}
+
+Ma tha thu airson am fòram a shealltainn, lean air adhart leis a' cheangal seo:
+{U_FORUM}
+
+Mur eil thu airson sùil a chumail air a' chuspair seo tuilleadh, 's urrainn dhut an ceangal "Na cum sùil air tuilleadh" a chleachdadh a chì thu sa chuspair gu h-àrd no leis a' cheangal a leanas:
+
+{U_STOP_WATCHING_TOPIC}
+
+{EMAIL_SIG}

@@ -1,0 +1,17 @@
+Subject: 「{SITENAME}」 - E-mail 好友
+
+親愛的 {TO_USERNAME} 您好：
+
+這個電子郵件由 {FROM_USERNAME} 發送自「{SITENAME}」，他覺得您也許會對下面的主題感到興趣：
+
+{TOPIC_NAME}
+
+您可以點選下面的連結去檢視這個主題：
+
+{U_TOPIC}
+
+由 {FROM_USERNAME} 發送的訊息也包含在下面。請注意！這些訊息並沒有經過討論區管理員的審查或核准。如果您想要抱怨收到這個電子郵件，請聯絡討論區管理員 {BOARD_CONTACT}。當您聯絡討論區管理員時，請引用這個開頭訊息。
+
+----------
+
+{MESSAGE}

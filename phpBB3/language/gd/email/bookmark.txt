@@ -1,0 +1,20 @@
+Subject: Freagairt do chuspair – "{TOPIC_TITLE}"
+
+{USERNAME}, a charaid,
+
+Fhuair thu am brath seo a chionn 's gu bheil comharra-leabhair agad ris a' chuspair "{TOPIC_TITLE}" air "{SITENAME}" agus gun deach freagairt a sgrìobhadh ann on a thadhail thu ann turas mu dheireadh. 'S urrainn dhut an ceangal gu h-ìosal a chleachdadh gus na freagairtean a shealltainn agus chan fhaigh thu teachdaireachd eile mar seo gus an tadhail thu air a' chuspair sin.
+
+Ma tha thu airson am post as ùire on a thadhail thu ann turas mu dheireadh a leughadh, lean air adhart leis a' cheangal seo:
+{U_NEWEST_POST}
+
+Ma tha thu airson an cuspair a shealltainn, lean air adhart leis a' cheangal seo:
+{U_TOPIC}
+
+Ma tha thu airson am fòram a shealltainn, lean air adhart leis a' cheangal seo:
+{U_FORUM}
+
+Mur eil thu airson brathan mu fhreagairtean do chomharran-leabhair fhaighinn tuilleadh, feuch an ùraich thu roghainnean nam brathan-fiosa agad an-seo:
+
+{U_NOTIFICATION_SETTINGS}
+
+{EMAIL_SIG}

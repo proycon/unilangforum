@@ -1,0 +1,42 @@
+Subject: "{SITENAME}" forumlarına hoşgeldiniz
+
+{WELCOME_MSG}
+
+COPPA ilkelerine göre, hesabınız şu anda aktif değildir.
+
+Lütfen bu mesajı yazdırın ve ailenize ya da velinize tarihi yazarak imzalatın. Daha sonra şuraya fakslayın:
+
+{FAX_INFO}
+
+Veya e-posta gönderin:
+
+{MAIL_INFO}
+
+------------------------------ BURADAN KESİNİZ ------------------------------
+"{SITENAME}" - {U_BOARD} katılma izni
+
+Kullanıcı adı: {USERNAME}
+E-posta: {EMAIL_ADDRESS}
+
+"{SITENAME}" HAKKINDAKİ BİLGİLERİ ALDIM VE ADI GEÇEN KİŞİNİN ÜYELİĞİNİ ONAYLIYORUM.
+BU BİLGİLERİN HERHANGİ BİR ZAMANDA ŞİFRE VE KULLANICI ADI GİRİLEREK DEĞİŞTİRİLEBİLECEĞİNİ KABUL EDİYORUM.
+"{SITENAME}" SİTESİNİN İSTEDİĞİ ZAMAN BU BİLGİLERİ BENDEN TALEP EDEBİLECEĞİNİ KABUL EDİYORUM.
+
+
+Aile veya Sorumlunun
+(Adı): _____________________
+
+(İmzası): __________________ 
+
+Tarih: _______________
+
+------------------------------ BURADAN KESİNİZ ------------------------------
+
+
+Mesaj panosu yöneticisi üstteki formu faks ya da normal posta yoluyla aldıktan sonra, hesabınız aktifleştirilecektir.
+
+Şifreniz veritabanımızda güvenli bir şekilde saklanmaktadır ve ele geçirilemeyecek durumdadır. Eğer şifrenizi unutursanız, hesabınız ile tanımlı olan e-posta adresinizi kullanarak şifrenizi sıfırlayabilirsiniz.
+
+Üye olduğunuz için teşekkürler.
+
+{EMAIL_SIG}

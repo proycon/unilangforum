@@ -1,0 +1,12 @@
+Poštovanje {TO_USERNAME},
+
+posredstvom tvojeg korisničkog računa na forumu "{SITENAME}", korisnik/ca {FROM_USERNAME} ti je poslao/la poruku.
+
+Ukoliko ovu poruku smatraš spamom, odnosno sadrži uvredljive ili druge nepoželjne komentare, kontaktiraj administratora/icu foruma na: {BOARD_CONTACT} [priloži čitavu poruku, uključujući i zaglavlja].
+Kao adresa elektroničke pošte za odgovor na ovu poruku postavljena je: {FROM_USERNAME}.
+
+Slijedi poslana ti poruka...
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+{MESSAGE}

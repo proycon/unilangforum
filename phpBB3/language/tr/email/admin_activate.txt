@@ -1,0 +1,13 @@
+Subject: Kullanıcı hesabı aktifleştirme
+
+Merhaba,
+
+"{USERNAME}" kullanıcı adı deaktif edildi veya yeni oluşturuldu. Bu kullanıcı hakkındaki bilgileri (eğer gerekiyorsa) kontrol etmelisiniz ve uygun olanı yapmalısınız.
+
+Bu bağlantıyı kullanarak kullanıcının profilini görüntüleyin:
+{U_USER_DETAILS}
+
+Bu bağlantıyı kullanarak hesabı aktifleştirin:
+{U_ACTIVATE}
+
+{EMAIL_SIG}

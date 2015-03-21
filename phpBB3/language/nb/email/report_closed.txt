@@ -1,0 +1,7 @@
+Subject: Rapport lukket – «{POST_SUBJECT}»
+
+Hei, {USERNAME}!
+
+Du mottar dette varselet fordi rapporten du sendte inn om innlegget «{POST_SUBJECT}» under «{TOPIC_TITLE}» på «{SITENAME}», er behandlet av en moderator eller administrator. Rapporten ble deretter lukket. Kontakt {CLOSER_NAME} via personlige meldinger hvis du vil ha mer informasjon.
+
+{EMAIL_SIG}

@@ -1,0 +1,19 @@
+Subject: Varsel om foruminnlegg – «{FORUM_NAME}»
+
+Hei, {USERNAME}!
+
+Du mottar dette varselet fordi du overvåker forumet «{FORUM_NAME}» på «{SITENAME}». Dette forumet har mottatt et nytt svar på emnet «{TOPIC_TITLE}»<!-- IF AUTHOR_NAME !== '' --> av {AUTHOR_NAME}<!-- ENDIF --> siden ditt forrige besøk. Du kan bruke følgende lenke for å vise det nyeste uleste svaret. Du vil ikke motta flere varsler før du besøker emnet.
+
+{U_NEWEST_POST}
+
+Hvis du vil vise emnet, klikker du følgende lenke:
+{U_TOPIC}
+
+Hvis du vil vise forumet, klikker du følgende lenke:
+{U_FORUM}
+
+Hvis du ikke lenger ønsker å overvåke dette forumet, kan du enten klikke lenken «Stopp abonnement på forum» på forumet ovenfor eller ved å klikke følgende lenke:
+
+{U_STOP_WATCHING_FORUM}
+
+{EMAIL_SIG}

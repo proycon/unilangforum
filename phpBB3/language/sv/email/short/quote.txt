@@ -1,0 +1,20 @@
+Subject: Notifikation om svar på inlägg - "{TOPIC_TITLE}"
+
+Hej {USERNAME},
+
+Du får det här meddelandet eftersom "{AUTHOR_NAME}"citerade dig i ämnet "{TOPIC_TITLE}" på "{SITENAME}". Du kan använda följande länk för att se svaret.
+
+Om du vill se det citerade inlägg, klicka på följande länk:
+{U_VIEW_POST}
+
+Om du vill titta på inägget klicka på följande länk:
+{U_TOPIC}
+
+Om du vill titta i forumet, klicka på följande länk:
+{U_FORUM}
+
+Om du inte längre vill få uppdateringar om svar citerar dig, uppdatera dina meddelandeinställningar här:
+
+{U_NOTIFICATION_SETTINGS}
+
+{EMAIL_SIG}

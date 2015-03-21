@@ -1,0 +1,13 @@
+
+Merhaba {TO_USERNAME},
+
+Bu e-posta size {FROM_USERNAME} tarafından "{SITENAME}" mesaj panosunda bulunan hesabınız aracılığı ile gönderildi. Eğer bu e-postanın spam olduğunu düşünüyorsanız veya içeriğinden rahatsız olduysanız lütfen alttaki e-posta adresiyle iletişime geçin.
+
+{BOARD_CONTACT}
+
+Not: Gönderici adresi mesaj panosunda bulunan IM hesabına (yahoo, icq, msn v.b.) göre ayarlandı.
+
+Alttaki mesaj size gönderildi
+~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+{MESSAGE}

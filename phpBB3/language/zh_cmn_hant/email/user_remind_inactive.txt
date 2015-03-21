@@ -1,0 +1,11 @@
+Subject: 未啟用帳號提醒
+
+親愛的 {USERNAME} 您好：
+
+這個通知是提醒您：您於 {REGISTER_DATE} 在「{SITENAME}」 註冊了一個帳號，至今尚未啟用。如果您想要啟用它，那麼請訪問以下連結：
+
+{U_ACTIVATE}
+
+感謝您在「{SITENAME}」 註冊，我們期待您的參與。
+
+{EMAIL_SIG}

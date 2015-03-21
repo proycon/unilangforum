@@ -1,0 +1,7 @@
+Subject: Informe eliminat - "{PM_SUBJECT}"
+
+Hola {USERNAME},
+
+Heu rebut aquesta notificació perquè l’informe que heu fet de l’entrada "{PM_SUBJECT}" a "{SITENAME}" ha estat eliminada per un moderador o un administrador.
+
+{EMAIL_SIG}

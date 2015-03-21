@@ -1,0 +1,19 @@
+Subject: Witamy na witrynie „{SITENAME}”
+
+{WELCOME_MSG}
+
+Zachowaj, wydrukuj tę wiadomość lub zapamiętaj dane swojego konta.
+
+Informacje o Twoim koncie:
+
+----------------------------
+Nazwa użytkownika: {USERNAME}
+
+Adres witryny: {U_BOARD}
+----------------------------
+
+Nie zapomnij swojego hasła, ponieważ zostało ono zakodowane w naszej bazie danych i nie ma możliwości jego odzyskania. Jeśli zdarzy się, że je zapomnisz – możesz je zresetować, używając adresu e-mail skojarzonego z Twoim kontem.
+
+Dziękujemy za dokonanie rejestracji.
+
+{EMAIL_SIG}

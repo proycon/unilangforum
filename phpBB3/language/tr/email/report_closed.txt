@@ -1,0 +1,8 @@
+Subject: Bildiri Kapatıldı - "{POST_SUBJECT}"
+
+Merhaba {USERNAME},
+
+Bu bildiriyi alıyorsunuz çünkü "{SITENAME}" mesaj panosunda bulunan "{TOPIC_TITLE}" isimli başlıktaki "{POST_SUBJECT}" isimli mesaja yaptığınız bildiri bir moderatör veya yönetici tarafından incelendi. Bildiri daha sonra kapatıldı. Eğer başka sorunuz varsa {CLOSER_NAME} ile özel mesaj yoluyla iletişime geçin.
+
+
+{EMAIL_SIG}

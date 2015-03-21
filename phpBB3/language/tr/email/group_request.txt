@@ -1,0 +1,10 @@
+Subject: Grubunuza katılım için bir istek yapıldı
+
+Değerli {USERNAME},
+
+"{SITENAME}" mesaj panosunda bulunan "{REQUEST_USERNAME}" adlı kullanıcı, yöneticisi olduğunuz "{GROUP_NAME}" grubuna katılmak istiyor.
+Grup üyeliğini onaylamak veya reddetmek için lütfen aşağıdaki bağlantıyı ziyaret edin:
+
+{U_PENDING}
+
+{EMAIL_SIG}

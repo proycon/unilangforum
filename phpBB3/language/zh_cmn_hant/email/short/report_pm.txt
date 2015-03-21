@@ -1,0 +1,10 @@
+Subject: 私人訊息檢舉 -「{TOPIC_TITLE}」
+
+親愛的 {USERNAME} 您好：
+
+您會收到這個通知是因為 {AUTHOR_NAME} 在「{SITENAME}」所發送的私訊「{SUBJECT}」被檢舉了。
+
+如果您希望檢視這個檢舉，點選以下連結：
+{U_VIEW_REPORT}
+
+{EMAIL_SIG}

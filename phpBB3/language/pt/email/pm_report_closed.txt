@@ -1,0 +1,8 @@
+Subject: Denúncia fechada - "{PM_SUBJECT}"
+
+Olá {USERNAME},
+
+Está a receber esta notificação, porque o denúncia que apresentou sobre a mensagem privada "{PM_SUBJECT}" em "{SITENAME}" foi analisada por um Moderador ou Administrador. O relatório já foi encerrado. Se você tiver dúvidas, entre em contato com {CLOSER_NAME} por mensagem privada.
+
+
+{EMAIL_SIG}

@@ -1,0 +1,10 @@
+Subject: Privat meddelanderapport - "{TOPIC_TITLE}"
+
+Hej {USERNAME},
+
+Du får det här meddelandet eftersom ett privat meddelande med titeln "{SUBJECT}" av "{AUTHOR_NAME}" på "{SITENAME}" rapporterades.
+
+If you vill du se rapporten, klicka på följande länk:
+{U_VIEW_REPORT}
+
+{EMAIL_SIG}

@@ -1,0 +1,13 @@
+Subject: Nyt emne i forummet - "{FORUM_NAME}"
+
+Hej {USERNAME}
+
+Du overvåger ovennævnte forum på "{SITENAME}". Siden dit seneste besøg er emnet "{TOPIC_TITLE}" oprettet<!-- IF AUTHOR_NAME !== '' --> af {AUTHOR_NAME}<!-- ENDIF -->. Du modtager ikke flere beskeder vedrørende dette forum, før du har besøgt det. Brug nedenstående link til forummet:
+
+{U_FORUM}
+
+Ønsker du ikke længere at få besked om nye emner i forummet, stoppes overvågningen ved at klikke på følgende link:
+
+{U_STOP_WATCHING_FORUM}
+
+{EMAIL_SIG}

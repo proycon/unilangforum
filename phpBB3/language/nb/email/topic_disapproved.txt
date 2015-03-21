@@ -1,0 +1,11 @@
+Subject: Emne avslått – «{TOPIC_TITLE}»
+
+Hei, {USERNAME}!
+
+Du mottar dette varselet fordi emnet ditt, «{TOPIC_TITLE}» på «{SITENAME}» ble avslått av en moderator eller administrator.
+
+Følgende begrunnelse ble gitt for avslaget:
+
+{REASON}
+
+{EMAIL_SIG}

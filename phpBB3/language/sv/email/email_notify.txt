@@ -1,0 +1,17 @@
+Subject: "{SITENAME}" — Tipsa en vän
+
+Hej {TO_USERNAME},
+
+Detta e-postmeddelande skickades från "{SITENAME}" av {FROM_USERNAME} som tror att du skulle vara intresserad av följande tråd:
+
+{TOPIC_NAME}
+
+Du kan hitta den här:
+
+{U_TOPIC}
+
+Ett meddelande från {FROM_USERNAME} kan också finnas nedan. Notera att detta meddelande inte har setts eller godkänts av administratörerna. Om du vill klaga på nedanstående meddelande, kontakta administratören på {BOARD_CONTACT}. Inkludera hela detta meddelande (framförallt överdelen) när du kontaktar denna adress.
+
+----------
+
+{MESSAGE}

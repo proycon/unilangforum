@@ -1,0 +1,13 @@
+
+Hallo {TO_USERNAME},
+
+Het volgende is een bericht die {FROM_USERNAME} naar je heeft gestuurd via "{SITENAME}". Mocht dit bericht ongewenste of beledigende inhoud hebben, neem dan contact op met de beheerder van het forum via onderstaand adres: 
+
+{BOARD_CONTACT}
+
+Sluit het volledige bericht (inclusief header) bij. Let op: het antwoordadres van dit bericht is ingesteld op het forums IM-account.
+
+Onderstaand bericht is naar je verstuurd:
+~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+{MESSAGE}

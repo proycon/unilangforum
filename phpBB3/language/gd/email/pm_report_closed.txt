@@ -1,0 +1,7 @@
+Subject: Gearan air a dùnadh - "{PM_SUBJECT}"
+
+{USERNAME}, a charaid,
+
+Fhuair thu am fios seo a chionn 's gun deach dèiligeadh le maor no rianaire ris a' ghearan a rinn thu mun teachdaireachd phearsanta "{PM_SUBJECT}" air "{SITENAME}". Chaidh an gearan a dhùnadh an uairsin. Ma bhios ceist sam bith eile agad, cuir fios gu {CLOSER_NAME} le teachdaireachd phearsanta.
+
+{EMAIL_SIG}

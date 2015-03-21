@@ -1,0 +1,11 @@
+Subject: Nyt emne - "{TOPIC_TITLE}"
+
+Hej {USERNAME}
+
+Du modtager denne besked, fordi emnet "{TOPIC_TITLE}" på "{SITENAME}" skal godkendes. Benyt nedenstående links hvis du vil se:
+
+Emnet: {U_VIEW_TOPIC}
+
+Forummet: {U_FORUM}
+
+{EMAIL_SIG}

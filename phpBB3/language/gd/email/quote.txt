@@ -1,0 +1,20 @@
+Subject: Freagairt do chuspair - "{TOPIC_TITLE}"
+
+{USERNAME}, a charaid,
+
+Fhuair thu am brath seo on a thug "{AUTHOR_NAME}" iomradh ort sa chuspair "{TOPIC_TITLE}" air "{SITENAME}". 'S urrainn dhut an ceangal gu h-ìosal a chleachdadh gus an fhreagairt a shealltainn.
+
+Ma tha thu airson am post leis an iomradh ann a shealltainn, lean air adhart leis a' cheangal seo:
+{U_VIEW_POST}
+
+Ma tha thu airson an cuspair a shealltainn, lean air adhart leis a' cheangal seo:
+{U_TOPIC}
+
+Ma tha thu airson am fòram a shealltainn, lean air adhart leis a' cheangal seo:
+{U_FORUM}
+
+Mur eil thu airson brathan mu fhreagairtean le iomradh ort fhaighinn tuilleadh, feuch an ùraich thu roghainnean nam brathan-fiosa agad an-seo:
+
+{U_NOTIFICATION_SETTINGS}
+
+{EMAIL_SIG}

@@ -1,0 +1,10 @@
+Subject: 主題已核准 -「{TOPIC_TITLE}」
+
+親愛的 {USERNAME} 您好：
+
+您會收到這個通知是因為您在「{SITENAME}」所發表的主題「{TOPIC_TITLE}」已通過版主或管理員的審核。
+
+如果您要檢視這個主題，那麼請點選下面的連結：
+{U_VIEW_TOPIC}
+
+{EMAIL_SIG}

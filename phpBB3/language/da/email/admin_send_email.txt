@@ -1,0 +1,13 @@
+
+Nedenstående email er sendt til dig fra en administrator på "{SITENAME}". Finder du indholdet af emailen anstødende eller på anden måde upassende bedes du kontakte boardets webmaster på denne adresse:
+
+{CONTACT_EMAIL}
+
+Inkluder hele emailen (specielt overskrifterne).
+
+Indholdet af emailen er som følger:
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+{MESSAGE}
+
+{EMAIL_SIG}

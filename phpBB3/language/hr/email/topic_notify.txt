@@ -1,0 +1,19 @@
+Subject: Obavijest o odgovoru na temu - "{TOPIC_TITLE}"
+
+Poštovanje {USERNAME},
+
+ova obavijest ti je stigla jer si izabrao/la opciju obavješćivanja o raspravljanju na "{TOPIC_TITLE}" na forumu "{SITENAME}".
+
+Od tvojeg zadnjeg posjeta,<!-- IF AUTHOR_NAME !== '' --> od strane korisnika/ce: {AUTHOR_NAME},<!-- ENDIF --> bilo je odgovora na temu.
+
+"Prvi" odgovor od tvojeg zadnjeg posjeta možeš vidjeti klikom na sljedeći link: {U_NEWEST_POST}.
+
+Temu možeš vidjeti klikom na sljedeći link: {U_TOPIC}.
+
+Forum možeš vidjeti klikom na sljedeći link: {U_FORUM}.
+
+[Neće ti biti slane nove obavijesti sve dok ne posjetiš temu.]
+
+Ukoliko ne želiš više pratiti ovu temu - klikni na sljedeći link: {U_STOP_WATCHING_TOPIC}.
+
+{EMAIL_SIG}

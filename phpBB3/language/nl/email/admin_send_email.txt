@@ -1,0 +1,14 @@
+
+De volgende e-mail is verzonden door een beheerder van "{SITENAME}". Als dit een spambericht is, het bevat krachttermen of andere opmerkingen die niet getolereerd kunnen worden, neem dan contact op met de beheerder van het forum op het volgende e-mailadres:
+
+{CONTACT_EMAIL}
+
+Voeg de gehele e-mail toe (in het bijzonder de headers).
+
+Het bericht wat naar je is gestuurd, is het volgende:
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+{MESSAGE}
+
+
+{EMAIL_SIG}

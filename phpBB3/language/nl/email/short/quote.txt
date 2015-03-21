@@ -1,0 +1,20 @@
+Subject: Nieuwe reactie op onderwerp: "{TOPIC_TITLE}"
+
+Hallo {USERNAME},
+
+Je ontvangt deze e-mail omdat "{AUTHOR_NAME}" je geciteerd heeft in het onderwerp "{TOPIC_TITLE}" op "{SITENAME}". 
+
+Als je het geciteerde bericht wilt bekijken, klik dan op de volgende link:
+{U_VIEW_POST}
+
+Als je naar het onderwerp wilt gaan, klik dan op de volgende link:
+{U_TOPIC}
+
+Als je naar het forum wilt gaan, klik dan op de volgende link:
+{U_FORUM}
+
+Als je geen e-mails wilt ontvangen over geciteerde berichten, kan je dit aanpassen in je instellingen via de volgende link:
+
+{U_NOTIFICATION_SETTINGS}
+
+{EMAIL_SIG}

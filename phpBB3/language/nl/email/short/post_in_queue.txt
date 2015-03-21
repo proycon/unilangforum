@@ -1,0 +1,13 @@
+Subject: Goedkeuring nodig voor - "{TOPIC_TITLE}"
+
+Hallo {USERNAME},
+
+Je ontvangt deze e-mail omdat het bericht "{POST_SUBJECT}" op "{SITENAME}" wacht op goedkeuring.
+
+Als je het bericht wilt lezen, klik dan op de volgende link:
+{U_VIEW_POST}
+
+Als je het onderwerp wilt lezen, klik dan op de volgende link:
+{U_TOPIC}
+
+{EMAIL_SIG}

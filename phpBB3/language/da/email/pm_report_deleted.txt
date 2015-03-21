@@ -1,0 +1,7 @@
+Subject: Rapport slettet - "{PM_SUBJECT}"
+
+Hej {USERNAME},
+
+Din rapport vedrørende den private besked "{PM_SUBJECT}", modtaget på "{SITENAME}", blev slettet af en redaktør eller administrator.
+
+{EMAIL_SIG}

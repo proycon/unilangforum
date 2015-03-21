@@ -1,0 +1,20 @@
+Subject: Reaktywuj swoje konto na „{SITENAME}”
+
+Administrator witryny wymusił ponowną aktywację Twojego konta. Obecnie jest ono nieaktywne.
+Wykonaj poniższe polecenia, by aktywować konto ponownie.
+
+Zachowaj tę wiadomość lub zapamiętaj dane swojego konta.
+
+Informacje o Twoim koncie:
+
+----------------------------
+Nazwa użytkownika: {USERNAME}
+----------------------------
+
+Twoje hasło zostało zakodowane w naszej bazie danych i nie ma możliwości jego odzyskania. Jeśli zdarzy się, że je zapomnisz – możesz je zresetować, używając adresu e-mail skojarzonego z Twoim kontem.
+
+Aby ponownie uaktywnić konto, kliknij poniższy odnośnik:
+
+{U_ACTIVATE}
+
+{EMAIL_SIG}

@@ -1,0 +1,9 @@
+Subject: Konto zostało uaktywnione
+
+Witaj {USERNAME}!
+
+Twoje konto na witrynie „{SITENAME}” zostało aktywowane przez administratora – teraz możesz się zalogować.
+
+Twoje hasło zostało zakodowane w naszej bazie danych i nie ma możliwości jego odzyskania. Jeśli zdarzy się, że je zapomnisz – możesz je zresetować, używając adresu e-mail skojarzonego z Twoim kontem.
+
+{EMAIL_SIG}

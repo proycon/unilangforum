@@ -1,0 +1,9 @@
+Subject: Konto aktiveret
+
+Hej {USERNAME}
+
+Din konto på "{SITENAME}" er nu aktiveret af en administrator. Du kan logge ind.
+
+Dit kodeord er gemt krypteret i vores database og kan derfor ikke genfindes eller genskabes. Skulle du glemme eller miste kodeordet, kan det nulstilles ved at anvende den emailadresse du anvendte ved din tilmelding, i kombination med dit brugernavn.
+
+{EMAIL_SIG}

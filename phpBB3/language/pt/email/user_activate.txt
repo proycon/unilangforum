@@ -1,0 +1,14 @@
+Subject: Reativação de Registo
+
+Olá {USERNAME},
+
+Devido a uma alteração do seu Perfil em "{SITENAME}" o registo necessita de ser reativado.
+Para isso deverá proceder à sua ativação no endereço seguinte:
+{U_ACTIVATE}
+
+
+{USERNAME}, obrigado pelo seu registo em "{SITENAME}".
+Participe ativamente. A sua colaboração é fundamental para todos nós.
+
+
+{EMAIL_SIG}

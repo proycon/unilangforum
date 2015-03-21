@@ -1,0 +1,11 @@
+Subject: Bu kullanıcı grubuna eklendiniz
+
+Tebrikler,
+
+"{SITENAME}" mesaj panosunda bulunan "{GROUP_NAME}" grubuna eklendiniz.
+Bu eylem, bir grup lideri veya mesaj panosu yöneticisi tarafından yapılmış olabilir, daha fazla bilgi için onlarla iletişime geçin.
+
+Grup bilgilerini buradan görüntüleyebilirsiniz:
+{U_GROUP}
+
+{EMAIL_SIG}

@@ -1,0 +1,23 @@
+
+Merhaba {TO_USERNAME},
+
+Alttaki e-posta "{SITENAME}" üzerindeki iletişim sayfası aracılığıyla size gönderildi.
+
+<!-- IF S_IS_REGISTERED -->
+Mesaj site üzerindeki bir hesaptan gönderildi.
+Kullanıcı adı: {FROM_USERNAME}
+E-posta adresi: {FROM_EMAIL_ADDRESS}
+IP Adresi: {FROM_IP_ADDRESS}
+Profil: {U_FROM_PROFILE}
+<!-- ELSE -->
+Mesaj alttaki iletişim bilgilerini belirten bir misafir tarafından gönderildi:
+İsim: {FROM_USERNAME}
+E-posta adresi: {FROM_EMAIL_ADDRESS}
+IP Adresi: {FROM_IP_ADDRESS}
+<!-- ENDIF -->
+
+
+Size gönderilen e-posta:
+~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+{MESSAGE}

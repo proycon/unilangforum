@@ -1,0 +1,13 @@
+Subject: Aktywacja konta użytkownika
+
+Witaj!
+
+Zostało utworzone lub dezaktywowane konto „{USERNAME}”. Sprawdź – jeśli to konieczne – jego szczegóły i podejmij stosowne działanie.
+
+Użyj tego odnośnika, aby zobaczyć profil użytkownika:
+{U_USER_DETAILS}
+
+Użyj tego odnośnika, aby aktywować konto:
+{U_ACTIVATE}
+
+{EMAIL_SIG}

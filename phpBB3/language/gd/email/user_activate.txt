@@ -1,0 +1,9 @@
+Subject: Gnìomhaich an cunntas agad a-rithist
+
+{USERNAME}, a charaid,
+
+Chaidh an cunntas agad air "{SITENAME}" a chur à gnìomh, 's dòcha gun deach atharrachadh a chur ris a' chunntas agad. Gus an cunntas a ghnìomhachadh agad a-rithist, lean air adhart leis a' cheangal seo:
+
+{U_ACTIVATE}
+
+{EMAIL_SIG}

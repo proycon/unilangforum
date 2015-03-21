@@ -1,0 +1,14 @@
+Subject: Nieuw privébericht
+
+Hallo {USERNAME},
+
+Je hebt een nieuw privébericht ontvangen van "{AUTHOR_NAME}" op het forum "{SITENAME}" met het volgende onderwerp:
+
+{SUBJECT}
+
+Klik op de volgende link om het privébericht te bekijken:
+{U_VIEW_MESSAGE}
+
+Je kan deze melding uitschakelen via de foruminstellingen in je gebruikerspaneel.
+
+{EMAIL_SIG}

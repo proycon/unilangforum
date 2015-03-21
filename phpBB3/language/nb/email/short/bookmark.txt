@@ -1,0 +1,20 @@
+Subject: Varsel om svar på emne – «{TOPIC_TITLE}»
+
+Hei, {USERNAME}!
+
+Du mottar dette varselet fordi et emne du har bokmerket, «{TOPIC_TITLE}» på «{SITENAME}», Har mottatt er svar siden ditt forrige besøk. Du kan bruke følgende lenke til å vise svarene. Det vil ikke bli sendt flere varsler før du besøker emnet.
+
+Hvis du vil vise det nyeste innlegget siden ditt forrige besøk, klikker du følgende lenke:
+{U_NEWEST_POST}
+
+Hvis du vil vise emnet, klikker du følgende lenke:
+{U_TOPIC}
+
+Hvis du vil vise forumet, klikker du følgende lenke:
+{U_FORUM}
+
+Hvis du ikke lenger ønsker å motta oppdateringer om svar på bokmerker, kan du oppdatere varslingsinnstillingene dine her:
+
+{U_NOTIFICATION_SETTINGS}
+
+{EMAIL_SIG}

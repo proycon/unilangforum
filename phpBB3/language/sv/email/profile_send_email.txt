@@ -1,0 +1,13 @@
+
+Hej {TO_USERNAME},
+
+Följande är ett e-postmeddelande som har skickats till dig från {FROM_USERNAME} via ditt konto på "{SITENAME}". Om detta meddelande är skräppost eller innehåller stötande/kränkande material/kommentarer, kontakta diskussionsforumets administratör på följande adress:
+
+{BOARD_CONTACT}
+
+Inkludera hela detta meddelande (framförallt överdelen) när du kontaktar denna adress. Notera att svarsadressen för detta e-postmeddelande tillhör {FROM_USERNAME}.
+
+Meddelandet som skickades till dig följer nedan
+~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+{MESSAGE}

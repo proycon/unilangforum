@@ -1,0 +1,11 @@
+Subject: Onderwerp goedgekeurd - {TOPIC_TITLE}
+
+Hallo {USERNAME},
+
+Je hebt deze e-mail ontvangen omdat je onderwerp "{TOPIC_TITLE}" op {SITENAME} is goedgekeurd door een moderator of een beheerder. 
+
+Als je het onderwerp wilt lezen, klik dan op de volgende link:
+{U_VIEW_TOPIC}
+
+
+{EMAIL_SIG}

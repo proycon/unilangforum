@@ -1,0 +1,7 @@
+Subject: Rapport borttagen — "{POST_SUBJECT}"
+
+Hej {USERNAME},
+
+Du får detta meddelande eftersom rapporten du gjorde angående inlägget "{POST_SUBJECT}" i "{TOPIC_TITLE}" på "{SITENAME}" har tagits bort av en moderator eller administratör.
+
+{EMAIL_SIG}

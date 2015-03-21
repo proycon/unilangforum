@@ -1,0 +1,23 @@
+Subject: Witamy na witrynie „{SITENAME}”
+
+{WELCOME_MSG}
+
+Zachowaj, wydrukuj tę wiadomość lub zapamiętaj dane swojego konta.
+
+Informacje o Twoim koncie:
+
+----------------------------
+Nazwa użytkownika: {USERNAME}
+
+Adres witryny: {U_BOARD}
+----------------------------
+
+Twoje konto jest nieaktywne. Nie możesz używać tego konta, dopóki go nie uaktywnisz, klikając poniższy odnośnik:
+
+{U_ACTIVATE}
+
+Zapamiętaj swoje hasło! Zostało ono zakodowane w naszej bazie danych i nie ma możliwości jego odzyskania. Jeśli zdarzy się, że je zapomnisz – możesz je zresetować, używając adresu e-mail skojarzonego z Twoim kontem.
+
+Dziękujemy za dokonanie rejestracji.
+
+{EMAIL_SIG}

@@ -1,0 +1,247 @@
+<?php
+/**
+*
+* This file is part of the phpBB Forum Software package.
+*
+* @copyright (c) phpBB Limited <https://www.phpbb.com>
+* @license GNU General Public License, version 2 (GPL-2.0)
+* @author 2014-05-30 - GunChleoc http://www.foramnagaidhlig.net is akerbeltz http://www.akerbeltz.org
+* For full copyright and license information, please see
+* the docs/CREDITS.txt file.
+*
+*/
+
+/**
+* DO NOT CHANGE
+*/
+if (!defined('IN_PHPBB'))
+{
+	exit;
+}
+
+if (empty($lang) || !is_array($lang))
+{
+	$lang = array();
+}
+
+// DEVELOPERS PLEASE NOTE
+//
+// All language files should use UTF-8 as their encoding and the files must not contain a BOM.
+//
+// Placeholders can now contain order information, e.g. instead of
+// 'Page %s of %s' you can (and should) write 'Page %1$s of %2$s', this allows
+// translators to re-order the output of data while ensuring it remains correct
+//
+// You do not need this where single placeholders are used, e.g. 'Message %d' is fine
+// equally where a string contains only two placeholders which are used to wrap text
+// in a url you again do not need to specify an order e.g., 'Click %sHERE%s' is fine
+
+$lang = array_merge($lang, array(
+	'ACP_BBCODES_EXPLAIN'	=> '’S e tionndadh sònraichte de HTML a tha ann am BBCode a bheir smachd dhut air na ghabhas a shealltainn is an dòigh a thèid seo a dhèanamh. ’S urrainn dhut BBCodes gnàthaichte a chur ris, a thoirt air falbh ’s a dheasachadh on duilleag seo.',
+	'ADD_BBCODE'	=> 'Cuir BBCode ùr ris',
+	'BBCODE_DANGER'	=> 'Cleachdaidh a’ BBCode a tha thu a’ feuchainn ri cur ris tòcan {TEXT} taobh a-staigh buadh HTML a-rèir coltais. Faodaidh seo a bhith ’na chunnart tèarainteachd XSS. Feuch an cleachd thu an t&#8209;seòrsa {SIMPLETEXT} no {INTTEXT} ’na àite a tha nas cuingichte. Na lean air adhart ach ma thuigeas tu an cunnart ’s ma tha thu dhen bheachd nach gabh {TEXT} a sheachnadh.',
+	'BBCODE_DANGER_PROCEED'	=> 'Lean air adhart',
+	'BBCODE_ADDED'	=> 'Tha thu air BBCode a chur ris.',
+	'BBCODE_EDITED'	=> 'Tha thu air a’ BBCode a dheasachadh.',
+	'BBCODE_DELETED'	=> 'Tha thu air a’ BBCode a thoirt air falbh.',
+	'BBCODE_NOT_EXIST'	=> 'Chan eil a’ BBCode a thagh thu ann.',
+	'BBCODE_HELPLINE'	=> 'Loidhne cobharach',
+	'BBCODE_HELPLINE_EXPLAIN'	=> 'Seo an teacsa a nochdas nuair a chuirear an luchag air a’ BBCode.',
+	'BBCODE_HELPLINE_TEXT'	=> 'Teacsa na loidhne cobharach',
+	'BBCODE_HELPLINE_TOO_LONG'	=> 'Tha teacsa na loidhne cobharach a chuir thu ann ro fhada.',
+	'BBCODE_INVALID_TAG_NAME'	=> 'Tha ainm an taga BBCode a thagh thu ann mar-thà.',
+	'BBCODE_INVALID'	=> 'Thog thu a’ BBCode agad ann an dòigh nach eil dligheach.',
+	'BBCODE_OPEN_ENDED_TAG'	=> 'Feumaidh an dà chuid taga fosglaidh is taga dùnaidh a bhith aig a’ BBCode ghnàthaichte agad.',
+	'BBCODE_TAG'	=> 'Taga',
+	'BBCODE_TAG_TOO_LONG'	=> 'Tha ainm an taga a thagh thu ro fhada.',
+	'BBCODE_TAG_DEF_TOO_LONG'	=> 'Tha mìneachadh an taga a chuir thu ann ro fhada, feuch an giorraich thu e.',
+	'BBCODE_USAGE'	=> 'Cleachdadh BBCode',
+	'BBCODE_USAGE_EXAMPLE'	=> '[highlight={COLOR}]{TEXT}[/highlight]<br /><br />[font={SIMPLETEXT1}]{SIMPLETEXT2}[/font]',
+	'BBCODE_USAGE_EXPLAIN'	=> 'Mìnichidh tu an-seo mar a chleachdar a’ BBCode. Cuir an tòcan freagarrach an àite gach caochladair ion-chuir (%sfaic gu h&#8209;ìosal%s).',
+	'EXAMPLE'	=> 'Ball-eisimpleir:',
+	'EXAMPLES'	=> 'Buill-eisimpleir:',
+	'HTML_REPLACEMENT'	=> 'HTML ’na àite',
+	'HTML_REPLACEMENT_EXAMPLE'	=> '&lt;span style="background-color: {COLOR};"&gt;{TEXT}&lt;/span&gt;<br /><br />&lt;span style="font-family: {SIMPLETEXT1};"&gt;{SIMPLETEXT2}&lt;/span&gt;',
+	'HTML_REPLACEMENT_EXPLAIN'	=> 'Mìnichidh tu an HTML a thèid a chur ’na àite a ghnàth an-seo. Na dìochuimhnich gun cuir thu na tòcanan ann a chleachd thu gu h&#8209;àrd!',
+	'TOKEN'	=> 'Tòcan',
+	'TOKENS'	=> 'Tòcanan',
+	'TOKENS_EXPLAIN'	=> '’S e glèidheadairean-àite airson na chuireas na cleachdaichean a-steach a tha sna tòcanan. Cha dèid an t&#8209;ion-chur a dhearbhadh ach ma fhreagras e ris a’ mhìneachadh a bhuineas dha. Faodaidh tu an òrdugh a shònrachadh ma bhios feum air seo ’s tu a’ cur àireamh air deireadh an teacsa eadar na camagan, mar eisimpleir: {TEXT1}, {TEXT2}.<br /><br />’S urrainn dhut sreang cànain sam bith a tha sa phasgan language/ a chur ris an HTML ’na àite mar sin: {L_<em>&lt;AINM_NA_SREINGE&gt;</em>} is <em>&lt;AINM_NA_SREINGE&gt;</em> ainm na sreinge air eadar-theangachadh a tha thu airson cur ris. Mar eisimpleir, thèid {L_WROTE} a shealltainn mar “wrote” no mar an t&#8209;eadar-theangachadh a-rèir sgeama ionadail a’ chleachdaiche.<br /><br /><strong>Thoir an aire nach gabh ach na tòcanan a chì thu gu h&#8209;ìosal cleachdadh ann am BBCode gnàthaichte.</strong>',
+	'TOKEN_DEFINITION'	=> 'Dè dh’fhaodas a bhith ann?',
+	'TOO_MANY_BBCODES'	=> 'Chan urrainn dhut BBCode a bharrachd a chruthachadh. Thoir air falbh BBCode no dhà is feuch ris a-rithist an uairsin.',
+
+	'tokens'	=> array(
+		'TEXT'	=> 'Teacsa sam bith, a’ gabhail a-steach caractaran cèine, àireamhan agus msaa… Cha bu chòir dhut an tòcan seo a chleachdadh ann an tagaichean HTML. Feuch an cleachd thu IDENTIFIER, INTTEXT no SIMPLETEXT ’na àite.',
+		'SIMPLETEXT'	=> 'Caractaran on aibidil Laideann (A-Z), àireamhan, beàrnan, cromagan, dotagan, samhla toirt air falbh, samhla cuir ris, tàthan is fo-loidhne.',
+		'INTTEXT'	=> 'Caractaran litir Unicode, àireamhan, beàrnan, cromagan, dotagan, samhla toirt air falbh, samhla cuir ris, tàthan, fo-loidhne is geal-spàsan.',
+		'IDENTIFIER'	=> 'Caractaran on aibidil Laideann (A-Z), àireamhan, tàthan is fo-loidhne.',
+		'NUMBER'	=> 'Sreath de dh’àireamhan.',
+		'EMAIL'	=> 'Seòladh puist-d dligheach.',
+		'URL'	=> 'URL dligheach le pròtacal sam bith (http, ftp, agus msaa… cha ghabh a chleachdadh airson dubh-shaothrachadh javascript). Ma tha am pròtacal a dhìth, thèid, “http://” a chur ri toiseach na sreinge.',
+		'LOCAL_URL'	=> 'URL ionadail. Feumaidh an URL a bhith dàimheach ri duilleig a’ chuspair is chan fhaod ainm frithealaiche no pròtacal a bhith ann on a thèid “%s” a chur ri toiseach nan ceanglaichean.',
+		'RELATIVE_URL'	=> 'URL dàimheach. ’S urrainn dhut seo a chleachdadh gus pàirt de URLa mhaidseadh ach thoir an aire gu bheil URL slàn ’na URL dàimheach dligheach. Cleachd an tòcan LOCAL_URL ma tha thu airson URLaichean dàimheach ris a’ bhòrd agad a chleachdadh.',
+		'COLOR'	=> 'Dath HTML an dàrna cuid ann an dreach àireamhail <samp>#FF1234</samp> no an cuid eile ’na <a href="http://www.w3.org/TR/CSS21/syndata.html#value-def-color">fhacal datha CSS</a> mar <samp>fuchsia</samp> no <samp>InactiveBorder</samp>.',
+	),
+
+	'ACP_ICONS_EXPLAIN'	=> '’S urrainn dhut na h&#8209;ìomhaigheagan a dh’fhaodas cleachdaichean a chur ris na cuspairean no postaichean aca a chur ris, a thoirt air falbh no a dheasachadh on duilleag seo. Thèid na h&#8209;ìomhaigheagan sin a shealltainn ri taobh tiotalan nan cuspairean ann an sealladh an fhòraim no cuspairrean nam postaichean ann an sealladh a’ chuspair. ’S urrainn dhut pacaidean de dh’ìomhaigheagan ùra a stàladh no a chruthachadh cuideachd.',
+	'ACP_SMILIES_EXPLAIN'	=> '’S e dealbhan beaga a thèid a bheòthachadh aig amannan a tha sna samhlaidhean-gnùis ’s thathar ’gan cleachdadh gus faireachdainnean a shealltainn. ’S urrainn dhut na samhlaidhean-gnùis a dh’fhaodas na chleachdaichean a cur ris na postaichean is teachdaireachdan pearsanta a chur ris, a thoirt air falbh is a dheasachadh on duilleag seo. ’S urrainn dhut pacaidean de shamhlaidhean-gnùis ùra a stàladh is a chruthachadh cuideachd.',
+	'ADD_SMILIES'	=> 'Cuir iomadh samhla-gnùis ris',
+	'ADD_SMILEY_CODE'	=> 'Cuir còd samhla-ghnùis a bharrachd ris',
+	'ADD_ICONS'	=> 'Cuir iomadh ìomhaigheag ris',
+	'AFTER_ICONS'	=> 'Às dèidh %s',
+	'AFTER_SMILIES'	=> 'Às dèidh %s',
+	'CODE'	=> 'Còd',
+	'CURRENT_ICONS'	=> 'Na h&#8209;ìomhaigheagan làithreach',
+	'CURRENT_ICONS_EXPLAIN'	=> 'Tagh na nì thu leis na h&#8209;ìomhaigheagan stàlaichte làithreach.',
+	'CURRENT_SMILIES'	=> 'Na samhlaidhean-gnùis làithreach',
+	'CURRENT_SMILIES_EXPLAIN'	=> 'Tagh na nì thu leis na samhlaidhean-gnùis stàlaichte làithreach.',
+	'DISPLAY_ON_POSTING'	=> 'Seall air an duilleag postaidh',
+	'DISPLAY_POSTING'	=> 'Air an duilleag postaidh',
+	'DISPLAY_POSTING_NO'	=> 'Chan ann air an duilleag postaidh',
+	'EDIT_ICONS'	=> 'Deasaich na h&#8209;ìomhaigheagan',
+	'EDIT_SMILIES'	=> 'Deasaich na samhlaidhean-gnùis',
+	'EMOTION'	=> 'Faireachdainn',
+	'EXPORT_ICONS'	=> 'Às-phortaich is luchdaich a-nuas icons.pak',
+	'EXPORT_ICONS_EXPLAIN'	=> '%sNuair a bhriogas tu air a’ cheangal seo, thèid rèiteachadh nan ìomhaigheagan stàlaichte agad  a chur ann am pacaid <samp>icons.pak</samp> as urrainn dhut luchdadh a-nuas is cleachdadh gus faidhle <samp>.zip</samp> no <samp>.tgz</samp> a chruthachadh sa bheil na h&#8209;uile ìomhaigheag is am faidhle rèiteachaidh <samp>icons.pak</samp> seo%s.',
+	'EXPORT_SMILIES'	=> 'Às-phortaich is luchdaich a-nuas smilies.pak',
+	'EXPORT_SMILIES_EXPLAIN'	=> '%sNuair a bhriogas tu air a’ cheangal seo, thèid rèiteachadh nan samhlaidhean-gnùis stàlaichte agad  a chur ann am pacaid <samp>smilies.pak</samp> as urrainn dhut luchdadh a-nuas is cleachdadh gus faidhle <samp>.zip</samp> no <samp>.tgz</samp> a chruthachadh sa bheil na h&#8209;uile samhla-gnùis is am faidhle rèiteachaidh <samp>smilies.pak</samp> seo%s.',
+	'FIRST'	=> 'Air thoiseach air càch',
+	'ICONS_ADD'	=> 'Cuir ìomhaigheag ùr ris',
+	'ICONS_ADDED'			=> array(
+		0	=> 'Cha deach ìomhaigheag a chur ris.',
+		1	=> 'Tha thu air ìomhaigheag a chur ris.',
+		2	=> 'Tha thu air na h&#8209;ìomhaigheagan a chur ris.',
+		3	=> 'Tha thu air na h&#8209;ìomhaigheagan a chur ris.',
+		4	=> 'Tha thu air na h&#8209;ìomhaigheagan a chur ris.',
+	),
+	'ICONS_CONFIG'	=> 'Rèiteachadh nan ìomhaigheagan',
+	'ICONS_DELETED'	=> 'Tha thu air an ìomhaigheag a thoirt air falbh.',
+	'ICONS_EDIT'	=> 'Deasaich an ìomhaigheag',
+	'ICONS_EDITED'			=> array(
+		0	=> 'Cha deach ìomhaigheag ùrachadh.',
+		1	=> 'Tha thu air ìomhaigheag ùrachadh.',
+		2	=> 'Tha thu air na h&#8209;ìomhaigheagan ùrachadh.',
+		3	=> 'Tha thu air na h&#8209;ìomhaigheagan ùrachadh.',
+		4	=> 'Tha thu air na h&#8209;ìomhaigheagan ùrachadh.',
+	),
+	'ICONS_HEIGHT'	=> 'Àirde na h&#8209;ìomhaigheige',
+	'ICONS_IMAGE'	=> 'Dealbh na h&#8209;ìomhaigheige',
+	'ICONS_IMPORTED'	=> 'Tha thu air a’ phacaid ìomhaigheagan a stàladh.',
+	'ICONS_IMPORT_SUCCESS'	=> 'Tha thu air a’ phacaid ìomhaigheagan ion-phortadh.',
+	'ICONS_LOCATION'	=> 'Ionad na h&#8209;ìomhaigheige',
+	'ICONS_NOT_DISPLAYED'	=> 'Cha dèid na h&#8209;ìomhaigheagan a leanas a shealltainn air an duilleag postaidh',
+	'ICONS_ORDER'	=> 'Òrdugh nan ìomhaigheagan',
+	'ICONS_URL'	=> 'Dealbh na h&#8209;ìomhaigheige',
+	'ICONS_WIDTH'	=> 'Leud na h&#8209;ìomhaigheige',
+	'IMPORT_ICONS'	=> 'Stàlaich pacaid ìomhaigheagan',
+	'IMPORT_SMILIES'	=> 'Stàlaich pacaid shamhlaidhean-gnùis',
+	'KEEP_ALL'	=> 'Cum na h&#8209;uile',
+	'MASS_ADD_SMILIES'	=> 'Cuir iomadh samhla-gnùis ris',
+	'NO_ICONS_ADD'	=> 'Chan eil ìomhaigheag ri làimh gus a cur ris.',
+	'NO_ICONS_EDIT'	=> 'Chan eil ìomhaigheag ri làimh gus a deasachadh.',
+	'NO_ICONS_EXPORT'	=> 'Chan eil ìomhaigheagan ri làimh gus pacaid a dhèanamh dhiubh.',
+	'NO_ICONS_PAK'	=> 'Cha deach pacaid ìomhaigheagan a lorg.',
+	'NO_SMILIES_ADD'	=> 'Chan eil samhla-gnùis ri làimh gus a chur ris.',
+	'NO_SMILIES_EDIT'	=> 'Chan eil samhla-gnùis ri làimh gus a dheasachadh.',
+	'NO_SMILIES_EXPORT'	=> 'Chan eil samhlaidhean-gnùis ri làimh gus pacaid a dhèanamh dhiubh.',
+	'NO_SMILIES_PAK'	=> 'Cha deach pacaid shamhlaidhean-gnùis a lorg.',
+	'PAK_FILE_NOT_READABLE'	=> 'Cha b’ urrainn dhuinn am faidhle <samp>.pak</samp> a leughadh.',
+	'REPLACE_MATCHES'	=> 'Cuir seisean ’nan àite',
+	'SELECT_PACKAGE'	=> 'Tagh faidhle pacaide',
+	'SMILIES_ADD'	=> 'Cuir samhla-gnùis ùr ris',
+	'SMILIES_ADDED'				=> array(
+		0	=> 'Cha deach samhla-gnùis a chur ris.',
+		1	=> 'Tha thu air samhla-gnùis a chur ris.',
+		2	=> 'Tha thu air na samhlaidhean-gnùis a chur ris.',
+		3	=> 'Tha thu air na samhlaidhean-gnùis a chur ris.',
+		4	=> 'Tha thu air na samhlaidhean-gnùis a chur ris.',
+	),
+	'SMILIES_CODE'	=> 'Còd an t&#8209;samhla-ghnùis',
+	'SMILIES_CONFIG'	=> 'Rèiteachadh nan samhlaidhean-gnùis',
+	'SMILIES_DELETED'	=> 'Tha thu air an samhla-gnùis a thoirt air falbh.',
+	'SMILIES_EDIT'	=> 'Deasaich an samhla-gnùis',
+	'SMILIE_NO_CODE'	=> 'Chaidh an samhla-gnùis “%s” a leigeil seachad on nach deach còd a chur a-steach.',
+	'SMILIE_NO_EMOTION'	=> 'Chaidh an samhla-gnùis “%s” a leigeil seachad on nach deach faireachdainn a chur a-steach.',
+	'SMILIE_NO_FILE'	=> 'Chaidh an samhla-gnùis “%s” a leigeil seachad on a tha am faidhle a dhìth.',
+	'SMILIES_EDITED'			=> array(
+		0	=> 'Cha deach samhla-gnùis ùrachadh.',
+		1	=> 'Tha thu air samhla-gnùis ùrachadh.',
+		2	=> 'Tha thu air na samhlaidhean-gnùis ùrachadh.',
+		3	=> 'Tha thu air na samhlaidhean-gnùis ùrachadh.',
+		4	=> 'Tha thu air na samhlaidhean-gnùis ùrachadh.',
+	),
+	'SMILIES_EMOTION'	=> 'Faireachdainn',
+	'SMILIES_HEIGHT'	=> 'Àirde an t&#8209;samhla-ghnùis',
+	'SMILIES_IMAGE'	=> 'Dealbh an t&#8209;samhla-ghnùis',
+	'SMILIES_IMPORTED'	=> 'Tha thu air a’ phacaid shamhlaidhean-ghnùis a stàladh.',
+	'SMILIES_IMPORT_SUCCESS'	=> 'Tha thu air a’ phacaid shamhlaidhean-ghnùis ion-phortadh.',
+	'SMILIES_LOCATION'	=> 'Ionad an t&#8209;samha-ghnùis',
+	'SMILIES_NOT_DISPLAYED'	=> 'Cha dèid na samhlaidhean-gnùis a leanas a shealltainn air an duilleag postaidh',
+	'SMILIES_ORDER'	=> 'Òrdugh nan samhlaidhean-gnùis',
+	'SMILIES_URL'	=> 'Dealbh an t&#8209;ghnùis',
+	'SMILIES_WIDTH'	=> 'Leud an t&#8209;samhla-ghnùis',
+	'TOO_MANY_SMILIES'			=> array(
+		1	=> 'Ràinig thu na tha ceadaichte dhut de %d samhla-gnùis.',
+		2	=> 'Ràinig thu na tha ceadaichte dhut de %d shamhla-gnùis.',
+		3	=> 'Ràinig thu na tha ceadaichte dhut de %d samhlaidhean-gnùis.',
+		4	=> 'Ràinig thu na tha ceadaichte dhut de %d samhla-gnùis.',
+	),
+	'WRONG_PAK_TYPE'	=> 'Chan eil an dàta iomchaidh sa phacaid a shònraich thu.',
+	'ACP_WORDS_EXPLAIN'	=> '’S urrainn dhut faclan a chur ris, a dheasachadh is a thoirt air falbh an-seo a bhios fo cheansarachd fèin-obrachail air na fòraman agad. Faodaidh buill clàradh le far-ainmean sa bheil na faclan seo fhathast. Gabhar ri saoragan (*) ann an raon nam faclan, m.e. Freagraidh <strong>*cuimhne*</strong> ri <em>dìochuimhneachadh</em>,  <strong>cuimhne*</strong> ri <em>cuimhneachadh</em> is <strong>*cuimhne</strong> ri <em>dìochuimhne</em>.',
+	'ADD_WORD'	=> 'Cuir facal ùr ris',
+	'EDIT_WORD'	=> 'Deasaich ceansarachd facail',
+	'ENTER_WORD'	=> 'Feumaidh tu facal a chur a-steach is na thèid a chur ’na àite.',
+	'NO_WORD'	=> 'Cha deach facal a thaghad gus a dheasachadh.',
+	'REPLACEMENT'	=> 'Na chuirear ’na àite',
+	'UPDATE_WORD'	=> 'Ùraich ceansarachd facail',
+	'WORD'	=> 'Facal',
+	'WORD_ADDED'	=> 'Tha thu air ceansarachd facail a chur ris.',
+	'WORD_REMOVED'	=> 'Tha thu air a’ cheansarachd a thagh thu a thoirt air falbh.',
+	'WORD_UPDATED'	=> 'Tha thu air a’ cheansarachd a thagh thu ùrachadh.',
+	'ACP_RANKS_EXPLAIN'	=> '’S urrainn dhut rangan a chur ris, a dheasachadh is a thoirt air falbh leis an fhoirm seo. Faodaidh tu rangan sònraichte a chruthachadh cuideachd as urrainn dhut a chur an sàs air ball ann an stiùireadh nam ball.',
+	'ADD_RANK'	=> 'Cuir rang ùr ris',
+	'MUST_SELECT_RANK'	=> 'Feumaidh tu rang a thaghadh.',
+	'NO_ASSIGNED_RANK'	=> 'Cha deach rang sònraichte a shònrachadh dha.',
+	'NO_RANK_TITLE'	=> 'Cha do chuir thu tiotal an raing a-steach.',
+	'NO_UPDATE_RANKS'	=> 'Tha thu air an rang a sguabadh às. Cha deach na cunntasan aig a bheil an rang seo ùrachadh ge-tà. Feumaidh tu na rangan airson nan cunntasan sin ath-shuidheachadh a làimh.',
+	'RANK_ADDED'	=> 'Tha thu air an rang a chur ris.',
+	'RANK_IMAGE'	=> 'Dealbh an raing',
+	'RANK_IMAGE_EXPLAIN'	=> 'Cleachd seo gus ìomhaigheag co-cheangailte ris an rang seo a shònrachadh. Tha an t&#8209;slighe dàimheach ris a’ phasgan freumha aig phpBB.',
+	'RANK_IMAGE_IN_USE'	=> '(’Ga chleachdadh)',
+	'RANK_MINIMUM'	=> 'Uiread as lugha de phostaichean',
+	'RANK_REMOVED'	=> 'Tha thu air an rang a aguabadh às.',
+	'RANK_SPECIAL'	=> 'Suidhich mar rang sònraichte',
+	'RANK_TITLE'	=> 'Tiotal an raing',
+	'RANK_UPDATED'	=> 'Tha thu air an rang ùrachadh.',
+	'ACP_DISALLOW_EXPLAIN'	=> '’S urrainn dhut na far-ainmean nach fhaodar cleachdadh a stiùireadh an-seo. Faodaidh saorag (*) a bhith am broinn far-ainmean a tha ’gan diùltadh.',
+	'ADD_DISALLOW_EXPLAIN'	=> '’S urrainn dhut far-ainm a dhiùltadh leis an t&#8209;saorag (*) a fhreagras do charactar sam bith.',
+	'ADD_DISALLOW_TITLE'	=> 'Cuir ris far-ainm ’ga dhiùltadh',
+	'DELETE_DISALLOW_EXPLAIN'	=> 'Ma tha thu airson far-ainm ’ga dhiùltadh a thoirt air falbh, tagh am far-ainm on liosta seo ’s briog air “Cuir a-null”.',
+	'DELETE_DISALLOW_TITLE'	=> 'Thoir far-ainm ’ga dhiùltadh air falbh',
+	'DISALLOWED_ALREADY'	=> 'Tha am far-ainm a chuir thu a-steach ’ga dhiùltadh mar-thà.',
+	'DISALLOWED_DELETED'	=> 'Tha thu air am far-ainm ’ga dhiùltadh a thoirt air falbh.',
+	'DISALLOW_SUCCESSFUL'	=> 'Tha thu air am far-ainm ’ga dhiùltadh a chur ris.',
+	'NO_DISALLOWED'	=> 'Gun fhar-ainm ’ga dhiùltadh.',
+	'NO_USERNAME_SPECIFIED'	=> 'Cha do thagh no chuir thu a-steach far-ainm gus seo a dhèanamh.',
+	'ACP_REASONS_EXPLAIN'	=> '’S urrainn dhut na h&#8209;adhbharan a stiùireadh an-seo a chleachdar ann an teachdaireachdan gearain is diùltaidh nuair a thèid easaontachadh ri post. Tha bun-adhbhar ann (le comharra * ris) nach urrainn dhut a thoirt air falbh. Thèid an t&#8209;adhbhar sin a chleachdadh mar as trice airson teachdaireachdan gnàthaichte mur eil adhbhar sam bith eile iomchaidh.',
+	'ADD_NEW_REASON'	=> 'Cuir adhbhar ùr ris',
+	'AVAILABLE_TITLES'	=> 'Tiotalan adhbhair air an ionadaileadh',
+	'IS_NOT_TRANSLATED'	=> '<strong>Cha deach</strong> an t&#8209;adhbhar ionadaileadh.',
+	'IS_NOT_TRANSLATED_EXPLAIN'	=> '<strong>Cha deach</strong> an t&#8209;adhbhar ionadaileadh. Sònraich an iuchair cheart o earrann nan adhbharan gearain sna faidhlichean cànain ma tha thu airson tionndadh air ionadaileadh a sholar.',
+	'IS_TRANSLATED'	=> 'Chaidh an t&#8209;adhbhar ionadaileadh.',
+	'IS_TRANSLATED_EXPLAIN'	=> 'Chaidh an t&#8209;adhbhar ionadaileadh. Thèid an tiotal is na tuairisgeulan air an ionadaileadh a chleachdadh ma chaidh an tiotal a chuireas tu a-steach an-seo a shònrachadh ann an earrann nan adhbharan gearain sna faidhlichean cànain.',
+	'NO_REASON'	=> 'Cha deach an t&#8209;adhbhar a lorg.',
+	'NO_REASON_INFO'	=> 'Feumaidh tu tiotal is tuairisgeul a chur a-steach airson an adhbhair seo.',
+	'NO_REMOVE_DEFAULT_REASON'	=> 'Chan urrainn dhut am bun-adhbhar “Eile” a thoirt air falbh.',
+	'REASON_ADD'	=> 'Cuir adhbhar gearain/diùltaidh ris',
+	'REASON_ADDED'	=> 'Tha thu air adhbhar gearain/diùltaidh a chur ris.',
+	'REASON_ALREADY_EXIST'	=> 'Tha adhbhar air a bheil an tiotal seo ann mar-thà, feuch an cuir thu a-steach tiotal eile airson an adhbhair seo.',
+	'REASON_DESCRIPTION'	=> 'Tuairisgeul an adhbhair',
+	'REASON_DESC_TRANSLATED'	=> 'Tuairisgeul an adhbhair a thèid a shealltainn',
+	'REASON_EDIT'	=> 'Deasaich an t&#8209;adhbhar gearain/diùltaidh',
+	'REASON_EDIT_EXPLAIN'	=> '’S urrainn dhut adhbhar a chur ris no a dheasachadh an-seo. Thèid an tuairisgeul air ionadaileadh a chleachdadh seach an fhear a chuireas tu ann an-seo ma chaidh an t&#8209;adhbhar eadar-theangachadh.',
+	'REASON_REMOVED'	=> 'Tha thu air an t&#8209;adhbhar gearain/diùltaidh a thoirt air falbh.',
+	'REASON_TITLE'	=> 'Tiotal an adhbhair',
+	'REASON_TITLE_TRANSLATED'	=> 'Tiotal an adhbhair a thèid a shealltainn',
+	'REASON_UPDATED'	=> 'Tha thu air an t&#8209;adhbhar gearain/diùltaidh ùrachadh.',
+	'USED_IN_REPORTS'	=> 'Cleachdadh ann an gearanan',
+));

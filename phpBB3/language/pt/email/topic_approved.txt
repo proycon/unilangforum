@@ -1,0 +1,17 @@
+Subject: Tópico {TOPIC_TITLE} aprovado
+
+Olá {USERNAME};
+
+
+O seu Tópico "{TOPIC_TITLE}" em {SITENAME} foi aprovado por um Moderador ou Administrador.
+Pode vê-lo no seguinte endereço:
+{U_VIEW_TOPIC}
+
+
+Obrigado {USERNAME}.
+Continue a participar ativamente.
+A sua colaboração é fundamental para todos nós.
+
+
+
+{EMAIL_SIG}

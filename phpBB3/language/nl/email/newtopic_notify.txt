@@ -1,0 +1,13 @@
+Subject: Nieuw onderwerpmelding - "{FORUM_NAME}"
+
+Hallo {USERNAME},
+
+Je ontvangt deze e-mail omdat je een forum volgt, "{FORUM_NAME}" op "{SITENAME}". Dit forum heeft een nieuw onderwerp<!-- IF AUTHOR_NAME !== '' --> door {AUTHOR_NAME}<!-- ENDIF --> sinds je laatste bezoek, "{TOPIC_TITLE}". Je kan door gebruik te maken van de volgende link het forum bekijken. Er worden geen nieuwe meldingen verzonden totdat je het forum weer hebt bezocht.
+
+{U_FORUM}
+
+Als je dit forum niet langer wilt volgen, klik dan op de "Uitschrijven forum" link onderaan het forum, of door te klikken op de volgende link:
+
+{U_STOP_WATCHING_FORUM}
+
+{EMAIL_SIG}

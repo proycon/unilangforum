@@ -1,0 +1,12 @@
+Subject: Neaktivan korisnički račun
+
+Poštovanje {USERNAME},
+
+dana {REGISTER_DATE} otvorio/la si korisnički račun na forumu "{SITENAME}".
+
+Da bi se mogao/la prijaviti, trebaš aktivirati korisnički račun, što još nisi napravio/la, a što možeš napraviti klikom na sljedeći link: {U_ACTIVATE}.
+
+Hvala ti što si se registrirao/la.
+Radujemo se tvojem sudjelovanju na "{SITENAME}".
+
+{EMAIL_SIG}

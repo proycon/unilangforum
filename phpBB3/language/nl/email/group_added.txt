@@ -1,0 +1,11 @@
+Subject: Je bent toegevoegd aan deze gebruikersgroep
+
+Gefeliciteerd,
+
+Je bent toegevoegd aan de "{GROUP_NAME}" groep op "{SITENAME}".
+Deze actie is gedaan door een groepsleider of de beheerder, neem contact op voor meer informatie met de groepsleider of beheerder.
+
+Je kan hier de groepsinformatie bekijken:
+{U_GROUP}
+
+{EMAIL_SIG}

@@ -1,0 +1,15 @@
+Subject: Ny privat melding er mottatt
+
+Hei, {USERNAME}!
+
+Du har mottatt en ny privat melding fra «{AUTHOR_NAME}» til kontoen din på «{SITENAME}» med følgende emne:
+
+{SUBJECT}
+
+Du kan vise den nye meldingen ved å klikke på følgende lenke:
+
+{U_VIEW_MESSAGE}
+
+Du har bedt om å bli varslet om dette. Husk at du når som helst kan velge ikke å bli varslet om nye meldinger ved å endre den aktuelle innstillingen i profilen din.
+
+{EMAIL_SIG}

@@ -1,0 +1,10 @@
+Subject: Foi feito um pedido de adesão ao seu grupo
+
+Olá {USERNAME};
+
+O Utilizador {REQUEST_USERNAME} pediu para aderir ao Grupo "{GROUP_NAME}" no qual é Líder em "{SITENAME}".
+Poderá aprovar ou recusar este pedido no endereço seguinte:
+
+{U_PENDING}
+
+{EMAIL_SIG}

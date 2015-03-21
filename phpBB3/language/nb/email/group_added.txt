@@ -1,0 +1,11 @@
+Subject: Du er lagt til i denne brukergruppen
+
+Gratulerer!
+
+Du er lagt til i gruppen «{GROUP_NAME}» på «{SITENAME}».
+Denne handlingen ble gjort av en gruppeleder eller systemadministratoren, kontakt dem for mer informasjon.
+
+Du kan vise gruppeinformasjonen her:
+{U_GROUP}
+
+{EMAIL_SIG}

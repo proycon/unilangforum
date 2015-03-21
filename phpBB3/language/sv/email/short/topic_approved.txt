@@ -1,0 +1,10 @@
+Subject: Tråd godkänd — "{TOPIC_TITLE}"
+
+Hej {USERNAME},
+
+Du får detta meddelande för att din tråd "{TOPIC_TITLE}" på "{SITENAME}" har godkänts av en moderator eller administratör.
+
+Om du vill besöka tråden, klicka på följande länk:
+{U_VIEW_TOPIC}
+
+{EMAIL_SIG}

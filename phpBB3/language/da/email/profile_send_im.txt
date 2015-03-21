@@ -1,0 +1,7 @@
+
+Hej {TO_USERNAME}
+
+Nedenstående besked er sendt til fra {FROM_USERNAME} via din konto på "{SITENAME}". Finder du beskeden generende eller upassende, kan du rapportere den til boardets administratorer på denne emailadresse: {BOARD_CONTACT}. Kopier den fulde besked ind i emailen. Afsender er boardets IM-konto, og kan derfor ikke besvares.
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+{MESSAGE}

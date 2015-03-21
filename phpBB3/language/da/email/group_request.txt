@@ -1,0 +1,9 @@
+Subject: Anmodning gruppemedlemsskab
+
+Hej {USERNAME}
+
+Brugeren "{REQUEST_USERNAME}" anmoder om medlemskab af gruppen "{GROUP_NAME}", som du administrerer på "{SITENAME}".
+
+For at godkende eller afslå denne anmodning om gruppemedlemsskab, bedes du klikke på linket: {U_PENDING}
+
+{EMAIL_SIG}

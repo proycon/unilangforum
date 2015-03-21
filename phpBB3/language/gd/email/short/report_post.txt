@@ -1,0 +1,13 @@
+Subject: Gearan air post - "{TOPIC_TITLE}"
+
+{USERNAME}, a charaid,
+
+Fhuair thu am brath seo on a rinn cuideigin gearan mu phost air a bheil "{POST_SUBJECT}" at "{SITENAME}".
+
+Ma tha thu airson an gearan a shealltainn, lean air adhart leis a' cheangal seo:
+{U_VIEW_REPORT}
+
+Ma tha thu airson am post a shealltainn, lean air adhart leis a' cheangal seo:
+{U_VIEW_POST}
+
+{EMAIL_SIG}

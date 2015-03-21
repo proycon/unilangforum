@@ -1,0 +1,20 @@
+Subject: Nieuw onderwerpberichtmelding - "{TOPIC_TITLE}"
+
+Hallo {USERNAME},
+
+Je ontvangt deze e-mail omdat je bent geabonneerd op het onderwerp, "{TOPIC_TITLE}" op "{SITENAME}", dat een nieuw bericht is geplaatst sinds je laatste bezoek. Je kan gebruik maken van de volgende link om de nieuwe berichten te bekijken. Er worden geen nieuwe meldingen verzonden totdat je het onderwerp weer hebt bezocht.
+
+Als je de nieuwe berichten sinds je laatste bezoek wilt bekijken, klik op de volgende link:
+{U_NEWEST_POST}
+
+Als je het onderwerp wilt bekijken, klik op de volgende link:
+{U_TOPIC}
+
+Als je het forum wilt bekijken, klik op de volgende link:
+{U_FORUM}
+
+Als je niet langer e-mails wilt ontvangen over nieuwe berichten, bewerk dan je instellingen hier:
+
+{U_NOTIFICATION_SETTINGS}
+
+{EMAIL_SIG}

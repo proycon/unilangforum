@@ -1,0 +1,13 @@
+
+Este email foi enviado pelo Administrador de "{SITENAME}". Se há material abusivo, "spam", ou comentários que considera ofensivos contate o seguinte endereço:
+
+{CONTACT_EMAIL}
+
+Inclua este email completo (particularmente os cabeçalhos). 
+
+A mensagem enviada para si é a seguinte:
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+{MESSAGE}
+
+{EMAIL_SIG}

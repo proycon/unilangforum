@@ -1,0 +1,20 @@
+Subject: Varsel om svar på emne – «{TOPIC_TITLE}»
+
+Hei, {USERNAME}!
+
+Du mottar dette varselet fordi «{AUTHOR_NAME}» siterte deg i emnet «{TOPIC_TITLE}» på «{SITENAME}». Du kan bruke følgende lenke til å vise svaret.
+
+Hvis du vil vise det siterte innlegget, klikker du følgende lenke:
+{U_VIEW_POST}
+
+Hvis du vil vise emnet, klikker du følgende lenke:
+{U_TOPIC}
+
+Hvis du vil vise forumet, klikker du følgende lenke:
+{U_FORUM}
+
+Hvis du ikke lenger ønsker å motta oppdateringer om svar der du siteres, kan du oppdatere varslingsinnstillingene her:
+
+{U_NOTIFICATION_SETTINGS}
+
+{EMAIL_SIG}

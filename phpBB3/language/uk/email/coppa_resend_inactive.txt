@@ -1,0 +1,42 @@
+Subject: Вітаємо вас на "{SITENAME}"
+
+{WELCOME_MSG}
+
+Згідно з актом COPPA ваш обліковий запис ще неактивний.
+
+Будь-ласка, роздрукуйте це повідомлення і попросіть когось з ваших батьків чи опікуна підписати його і поставити дату. Потім відправте його по факсу:
+
+{FAX_INFO}
+
+Або по пошті:
+
+{MAIL_INFO}
+
+------------------------------ CUT HERE ------------------------------
+Permission to participate at "{SITENAME}" - {U_BOARD}
+
+Username: {USERNAME}
+Email: {EMAIL_ADDRESS}
+
+I HAVE REVIEWED THE INFORMATION PROVIDED BY MY CHILD AND HEREBY GRANT PERMISSION TO "{SITENAME}" TO STORE THIS INFORMATION. 
+I UNDERSTAND THIS INFORMATION CAN BE CHANGED AT ANY TIME BY ENTERING A PASSWORD. 
+I UNDERSTAND THAT I MAY REQUEST FOR THIS INFORMATION TO BE REMOVED FROM "{SITENAME}" AT ANY TIME.
+
+
+Parent or guardian 
+(print your name here): _____________________
+
+(sign here): __________________ 
+
+Date: _______________
+
+------------------------------ CUT HERE ------------------------------
+
+
+Як тільки адміністратор отримає цю форму по факсу чи поштою ваш обліковий запис буде активовано.
+
+Будь-ласка, не забудьте ваш пароль, оскільки він зберігається в нашій базі даних в зашифрованому вигляді і ми не зможемо відновити його для вас. Якщо ви все ж таки забудете ваш пароль, ви можете відіслати запит на новий пароль, який потрібно буде активувати таким чином, як і цей обліковий запис.
+
+Дякуємо за реєстрацію!
+
+{EMAIL_SIG}

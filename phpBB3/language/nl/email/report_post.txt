@@ -1,0 +1,13 @@
+Subject: Berichtmelding - "{TOPIC_TITLE}"
+
+Hallo {USERNAME},
+
+Je ontvangt dit bericht omdat het bericht getiteld "{POST_SUBJECT}" op "{SITENAME}" is gemeld.
+
+Als je de melding wilt bekijken, klik op de volgende link:
+{U_VIEW_REPORT}
+
+Als je het bericht wilt bekijken, klik op de volgende link:
+{U_VIEW_POST}
+
+{EMAIL_SIG}

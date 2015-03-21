@@ -1,0 +1,20 @@
+Subject: Başlık Cevap Bildirimi - "{TOPIC_TITLE}"
+
+Merhaba {USERNAME},
+
+Bu bildirimi alıyorsunuz çünkü "{SITENAME}" mesaj panosundaki "{TOPIC_TITLE}" isimli başlığı takip ediyorsunuz. Bu başlığa son ziyaretinizden sonra<!-- IF AUTHOR_NAME --> {AUTHOR_NAME} tarafından<!-- ENDIF --> yeni bir cevap geldi. Siz başlığı ziyaret edene kadar daha fazla bildirim gönderilmeyecektir.
+
+Eğer son ziyaretinizden beri gelen yeni mesajı görüntülemek istiyorsanız, alttaki bağlantıya tıklayın:
+{U_NEWEST_POST}
+
+Eğer başlığı görüntülemek istiyorsanız, alttaki bağlantıya tıklayın:
+{U_TOPIC}
+
+Eğer forumu görüntülemek istiyorsanız, alttaki bağlantıya tıklayın:
+{U_FORUM}
+
+Eğer bu başlığı takip etmek istemiyorsanız başlığın altındaki "Bu başlığa abone olmayı bırak" bağlantısını bulup kullanabilirsiniz, ya da alttaki bağlantıya tıklayabilirsiniz:
+
+{U_STOP_WATCHING_TOPIC}
+
+{EMAIL_SIG}

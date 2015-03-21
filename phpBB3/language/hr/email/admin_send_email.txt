@@ -1,0 +1,13 @@
+Poštovanje,
+
+ovu poruku ti je poslao/la administrator/ica foruma "{SITENAME}".
+
+Ukoliko ovu poruku smatraš spamom, odnosno sadrži uvredljive ili druge nepoželjne komentare, kontaktiraj administratora/icu foruma na: {CONTACT_EMAIL} [priloži čitavu poruku, uključujući i zaglavlja].
+
+Slijedi poslana ti poruka...
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+{MESSAGE}
+
+{EMAIL_SIG}

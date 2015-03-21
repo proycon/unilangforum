@@ -1,0 +1,13 @@
+Subject: Novo utilizador registado
+
+Olá;
+
+Uma conta em nome de "{USERNAME}" foi desativada ou criada de novo. Deverá verificar os seus dados (se necessário) e ativá-la.
+
+Pode ver o Perfil do Utilizador no seguinte endereço:
+{U_USER_DETAILS}
+
+Pode ativar a conta no seguinte endereço:
+{U_ACTIVATE}
+
+{EMAIL_SIG}

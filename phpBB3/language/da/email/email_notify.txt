@@ -1,0 +1,13 @@
+Subject: "{SITENAME}" - Email en ven
+
+Hej {TO_USERNAME}
+
+Denne email er blevet sendt fra "{SITENAME}" af {FROM_USERNAME}, som tænkte du kunne være interesseret i emnet: {TOPIC_NAME}
+
+Emnet findes via dette link: {U_TOPIC}
+
+En meddelelse fra {FROM_USERNAME} kan også være medtaget nedenfor. Bemærk venligst at denne meddelelse ikke er blevet set eller godkendt af boardets administratorer. Ønsker du at klage over denne email, bedes du kontakte boardets administratorer på {BOARD_CONTACT}. Citer venligst meddelelsens overskrift i forbindelse med indsendelse af klagen.
+
+----------
+
+{MESSAGE}

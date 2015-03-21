@@ -1,0 +1,20 @@
+Subject: Välkommen till "{SITENAME}"
+
+{WELCOME_MSG}
+
+Spara detta e-postmeddelande för framtida bruk. Dina kontouppgifter:
+
+----------------------------
+Användarnamn: {USERNAME}
+
+Forumadress: {U_BOARD}
+----------------------------
+
+Ditt konto är för närvarande inaktiverat, administratören måste aktivera det innan du kan logga in. Det kommer att sändas ett nytt e-postmeddelande när detta har skett.
+
+Glöm inte bort ditt lösenord eftersom det har krypterats i vår databas och vi inte kan ge dig tillbaka det. 
+Skulle du glömma ditt lösenord så kan du dock begära ett nytt lösenord till e-postadressen, som hör ihop med ditt konto.
+
+Tack för att du registrerade dig.
+
+{EMAIL_SIG}

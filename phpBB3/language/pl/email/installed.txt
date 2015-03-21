@@ -1,0 +1,19 @@
+Subject: Witryna phpBB została zainstalowana
+
+Gratulacje!
+
+Twoja witryna oparta na skrypcie phpBB3 została zainstalowana.
+
+Wiadomość zawiera ważne informacje dotyczące tej instalacji. Hasło zostało zakodowane w naszej bazie danych i nie ma możliwości jego odzyskania. Jeśli je zapomnisz, możesz poprosić o przysłanie nowego hasła, dopełniając odpowiednią procedurę.
+
+----------------------------
+Nazwa użytkownika: {USERNAME}
+
+Adres witryny: {U_BOARD}
+----------------------------
+
+Przydatne informacje o phpBB możesz znaleźć w folderze „docs” znajdującym się w katalogu instalacyjnym phpBB3, a także na stronie internetowej – https://www.phpbb.com/support/.
+
+Aby otrzymywać powiadomienia o nowych wersjach phpBB, trzeba zapisać się na naszą listę dystrybucyjną znajdującą się na stronie, której adres podaliśmy powyżej.
+
+{EMAIL_SIG}

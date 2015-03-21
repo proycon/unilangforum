@@ -1,0 +1,23 @@
+
+Olá {TO_USERNAME},
+
+Segue-se, um email enviado para si através da página de contacto da administração em "{SITENAME}".
+
+<!-- IF S_IS_REGISTERED -->
+A mensagem foi enviada a partir de uma conta no site.
+Utilizador: {FROM_USERNAME}
+Email: {FROM_EMAIL_ADDRESS}
+Endereço IP: {FROM_IP_ADDRESS}
+Perfil: {U_FROM_PROFILE}
+<!-- ELSE -->
+A mensagem foi enviada por um visitante com as informações de contacto especificadas a seguir:
+Nome: {FROM_USERNAME}
+Email: {FROM_EMAIL_ADDRESS}
+Endereço IP: {FROM_IP_ADDRESS}
+<!-- ENDIF -->
+
+
+A mensagem enviada é a seguinte:
+~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+{MESSAGE}

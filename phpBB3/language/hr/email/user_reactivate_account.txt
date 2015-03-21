@@ -1,0 +1,19 @@
+Subject: Reaktivacija korisničkog računa na "{SITENAME}"
+
+Poštovanje,
+
+administrator/ica je podnio/la zahtjev za reaktivacijom tvojeg korisničkog računa [koji je trenutno neaktivan].
+
+Korisnički račun možeš reaktivirati slijedeći donje korake.
+
+Postavke tvojeg korisničkog računa su sljedeće:
+
+----------------------------
+Korisničko ime: {USERNAME}
+----------------------------
+
+Tvoja zaporka je kriptirana u našoj bazi. Ukoliko si ju zaboravio/la, možeš zatražiti novu [bit će aktivirana na isti način kao i tvoj korisnički račun].
+
+Za reaktivaciju korisničkog računa, klikni na sljedeći link: {U_ACTIVATE}.
+
+{EMAIL_SIG}

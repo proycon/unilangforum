@@ -1,0 +1,10 @@
+Subject: Privat besked rapporteret - "{TOPIC_TITLE}"
+
+Hej {USERNAME}
+
+Du modtager denne besked, fordi en privat besked med titlen "{SUBJECT}" af "{AUTHOR_NAME}" på "{SITENAME}" blev rapporteret.
+
+Benyt dette link hvis du vil se rapporten:
+{U_VIEW_REPORT}
+
+{EMAIL_SIG}

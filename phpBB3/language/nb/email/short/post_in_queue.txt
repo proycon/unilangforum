@@ -1,0 +1,13 @@
+Subject: Varsel om innleggsmoderering – «{TOPIC_TITLE}»
+
+Hei, {USERNAME}!
+
+Du mottar dette varselet fordi innlegget «{POST_SUBJECT}» på «{SITENAME}» trenger godkjenning.
+
+Hvis du vil vise innlegget, klikker du følgende lenke:
+{U_VIEW_POST}
+
+Hvis du vil vise emnet, klikker du følgende lenke:
+{U_TOPIC}
+
+{EMAIL_SIG}

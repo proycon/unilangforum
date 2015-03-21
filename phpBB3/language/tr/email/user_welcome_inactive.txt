@@ -1,0 +1,20 @@
+Subject: "{SITENAME}" mesaj panosuna hoşgeldiniz
+
+{WELCOME_MSG}
+
+Lütfen bu e-postayı saklayın. Kullanıcı bilgileriniz altta bulunmaktadır:
+
+----------------------------
+Kullanıcı adı: {USERNAME}
+Mesaj panosu URL adresi: {U_BOARD}
+----------------------------
+
+Hesabınızı aktif hale getirmek için lütfen alttaki bağlantıyı ziyaret edin:
+
+{U_ACTIVATE}
+
+Şifreniz veritabanımızda güvenli bir şekilde saklanmaktadır ve ele geçirilemeyecek durumdadır. Eğer şifrenizi unutursanız, hesabınız ile tanımlı olan e-posta adresinizi kullanarak şifrenizi sıfırlayabilirsiniz.
+
+Kayıt olduğunuz için teşekkür ederiz.
+
+{EMAIL_SIG}

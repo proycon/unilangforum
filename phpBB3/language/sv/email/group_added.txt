@@ -1,0 +1,11 @@
+Subject: Du har lagts till i en användargrupp
+
+Grattis,
+
+Du har lagts till i gruppen "{GROUP_NAME}" på "{SITENAME}".
+Denna åtgärd utfördes av en gruppledare eller en administratör, kontakta någon av dem för mer information.
+
+Du kan se information om gruppen här:
+{U_GROUP}
+
+{EMAIL_SIG}

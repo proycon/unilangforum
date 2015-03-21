@@ -1,0 +1,9 @@
+Subject: Reaktiver kontoen din
+
+Hei, {USERNAME}!
+
+Kontoen din på «{SITENAME}» har blitt deaktivert, sannsynligvis på grunn av endringer i profilen. Du reaktiverer kontoen ved å klikke på lenken nedenfor:
+
+{U_ACTIVATE}
+
+{EMAIL_SIG}

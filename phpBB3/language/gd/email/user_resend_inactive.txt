@@ -1,0 +1,20 @@
+Subject: Fàilte gu "{SITENAME}"
+
+{WELCOME_MSG}
+
+Glèidh am post-dealain seo mar chlàr dhut. Seo fiosrachadh a' chunntais agad:
+
+----------------------------
+Am far-ainm agad: {USERNAME}
+----------------------------
+
+Chaidh am facal-faire agad a ghlèidheadh san stòr-dàta againn ann an cruth dìomhair is chan urrainn dhuinn aiseag dhut. 'S urrainn dhut fear ùr iarraidh ge-tà ma dhìochuimhnicheas tu am facal-faire agad. Thèid am fear ùr a ghnìomhachadh an uairsin air an dearbh dhòigh 's a chaidh an cunntas seo a ghnìomhachadh.
+
+Chan eil an cunntas agad gnìomhach an-dràsta is chan urrainn dhut a chleachdadh mus lean tu air adhart leis a' cheangal seo:
+
+{U_ACTIVATE}
+
+
+Gun robh math agad airson clàradh.
+
+{EMAIL_SIG}

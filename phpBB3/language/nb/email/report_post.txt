@@ -1,0 +1,13 @@
+Subject: Rapportering av innlegg – «{TOPIC_TITLE}»
+
+Hei, {USERNAME}!
+
+Du mottar dette varselet fordi innlegget «{POST_SUBJECT}» på «{SITENAME}» ble rapportert.
+
+Hvis du vil vise rapporten, klikker du følgende lenke:
+{U_VIEW_REPORT}
+
+Hvis du vil vise innlegget, klikker du følgende lenke:
+{U_VIEW_POST}
+
+{EMAIL_SIG}

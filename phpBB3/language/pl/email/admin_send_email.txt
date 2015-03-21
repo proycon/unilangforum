@@ -1,0 +1,14 @@
+
+Tę wiadomość wysłał do Ciebie administrator „{SITENAME}”. Jeżeli uznasz ją za spam, jest obraźliwa lub w jakikolwiek sposób Cię niepokoi, poinformuj o tym webmastera witryny, wysyłając informację na poniższy adres:
+
+{CONTACT_EMAIL}
+
+Dołącz do e-maila całą otrzymaną wiadomość (wraz z nagłówkami).
+
+Treść wiadomości:
+~~~~~~~~~~~~~~~~~
+
+{MESSAGE}
+
+
+{EMAIL_SIG}

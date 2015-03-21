@@ -1,0 +1,11 @@
+Subject: Påmindelse om inaktiv konto
+
+Hej {USERNAME},
+
+Du modtager denne påmindelse, fordi den konto du oprettede {REGISTER_DATE} på "{SITENAME}" stadig er inaktiv. Klik venligst på nedenstående link hvis du ønsker at aktivere kontoen.
+
+{U_ACTIVATE}
+
+Tak for din tilmelding på "{SITENAME}", vi ser frem til din deltagelse.
+
+{EMAIL_SIG}

@@ -1,0 +1,11 @@
+Subject: Aktif olmayan hesap hatırlatıcı
+
+Merhaba {USERNAME},
+
+Bu bildiri "{SITENAME}" sitesinde, {REGISTER_DATE} tarihinde oluşturulmuş, aktif olmayan hesabınız için bir hatırlatıcı niteliğindedir. Eğer hesabınızı aktif hale getirmek istiyorsanız, lütfen alttaki bağlantıyı ziyaret edin:
+
+{U_ACTIVATE}
+
+"{SITENAME}" mesaj panosuna kayıt olduğunuz için teşekkür ederiz, katılımlarınızı bekliyoruz.
+
+{EMAIL_SIG}

@@ -1,0 +1,13 @@
+Subject: Mesaj yönetim bildirimi - "{TOPIC_TITLE}"
+
+Merhaba {USERNAME},
+
+"{SITENAME}" mesaj panosunda "{POST_SUBJECT}" konulu mesaja onay gerektiği için bu bildiriyi alıyorsunuz.
+
+Eğer mesajı görüntülemek istiyorsanız, alttaki bağlantıya tıklayın:
+{U_VIEW_POST}
+
+Eğer başlığı görüntülemek istiyorsanız, alttaki bağlantıya tıklayın:
+{U_TOPIC}
+
+{EMAIL_SIG}

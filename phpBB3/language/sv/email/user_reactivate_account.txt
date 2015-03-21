@@ -1,0 +1,18 @@
+Subject: Återaktivera ditt konto på "{SITENAME}"
+
+En administratör har begärt att ditt konto återaktiveras. Ditt konto är för närvarande inaktiverat.
+Följ instruktionerna nedan för att återaktivera ditt konto.
+
+Spara detta e-postmeddelande för framtida bruk. 
+
+----------------------------
+Ditt användarnamn: {USERNAME}
+----------------------------
+
+Ditt lösenord har krypteras i vår databas och kan inte hämtas därifrån av oss. Om du glömmer ditt lösenord så kan du nollställa det och begära ett nytt till e-postadressen, som hör ihop med ditt konto.
+
+Klicka på följande länk för att åkteraktivera ditt konto:
+
+{U_ACTIVATE}
+
+{EMAIL_SIG}

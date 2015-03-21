@@ -1,0 +1,7 @@
+Subject: Hesabınızı deaktif edildi
+
+Merhaba {USERNAME},
+
+"{SITENAME}" mesaj panosunda bulunan hesabınız aktif değil, bu genellikle profil değişikliklerinde olur. Giriş yapmadan önce mesaj panosu yöneticisinin hesabınızı aktif hale getirmesi gerekiyor. Bu işlem yapıldığı zaman başka bir bildiri alacaksınız.
+
+{EMAIL_SIG}

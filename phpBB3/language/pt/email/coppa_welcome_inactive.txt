@@ -1,0 +1,42 @@
+Subject: Bem vindo ao Fórum {SITENAME}
+
+{WELCOME_MSG}
+
+Em conformidade com o COPPA, sua conta encontra-se inativa.
+
+Por favor, imprima esta mensagem, obtenha a assinatura, com a data, dos seus pais ou tutor e envie por fax para:
+
+{FAX_INFO}
+
+ou email para:
+
+{MAIL_INFO}
+
+------------------------------ Recorte por aqui ------------------------------
+Autorização para a participação em {SITENAME} - {U_BOARD}
+
+Nome de Utilizador: {USERNAME}
+Email: {EMAIL_ADDRESS}
+
+Li as regras de utilização e autorizo o "{SITENAME}" a guardar os dados do meu educando numa Base de Dados. 
+Tenho consciência que estes dados podem ser alterados com o uso da senha correcta. 
+A qualquer momento e a meu pedido, o "{SITENAME}" eliminará da Base de Dados toda a informação relativa ao meu educando.
+
+
+Pais ou Encarregados de Educação
+escreva o seu Nome de forma legível: _____________________________________________________________________________________
+
+Assine _____________________________________________________________________________________
+
+Data: ______/_______/_____
+
+------------------------------ Recorte por aqui ------------------------------
+
+
+Quando o administrador receber o formulário, a sua conta será ativada.
+
+A sua senha foi armazenada na nossa Base de Dados de forma segura e não pode ser recuperada. No caso de a esquecer, poderá redefini-la, usando o endereço de e-mail associado à sua conta.
+
+Obrigado pelo seu registo.
+
+{EMAIL_SIG}

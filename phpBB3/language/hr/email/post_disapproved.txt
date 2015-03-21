@@ -1,0 +1,9 @@
+Subject: Post neodobren - "{POST_SUBJECT}"
+
+Poštovanje {USERNAME},
+
+ova obavijest ti je stigla jer ti post "{POST_SUBJECT}", na forumu "{SITENAME}", nije odobren.
+
+Razlog neodobrenja je sljedeći: {REASON}.
+
+{EMAIL_SIG}

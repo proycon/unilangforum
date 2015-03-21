@@ -1,0 +1,13 @@
+Subject: Inläggsrapport - "{TOPIC_TITLE}"
+
+Hej {USERNAME},
+
+Du får det här meddelandet eftersom inlägg "{POST_SUBJECT}" på "{SITENAME}" rapporterades.
+
+Om du vill du se rapporten, klicka på följande länk:
+{U_VIEW_REPORT}
+
+Om du vill titta på inlägget, klicka på följande länk:
+{U_VIEW_POST}
+
+{EMAIL_SIG}

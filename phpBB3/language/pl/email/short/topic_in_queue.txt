@@ -1,0 +1,13 @@
+Subject: Powiadomienie o moderacji tematu - „{TOPIC_TITLE}”
+
+Witaj {USERNAME},
+
+Otrzymujesz to powiadomienie, ponieważ temat „{TOPIC_TITLE}” na witrynie „{SITENAME}” wymaga zaakceptowania.
+
+Jeśli chcesz zobaczyć temat, kliknij poniższy odnośnik:
+{U_VIEW_TOPIC}
+
+Jeśli chcesz zobaczyć forum, kliknij ten odnośnik:
+{U_FORUM}
+
+{EMAIL_SIG}

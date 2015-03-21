@@ -1,0 +1,22 @@
+Subject: Pedido de Nova Senha
+
+Olá {USERNAME};
+
+Pediu (ou alguém por si) uma nova senha para a sua conta em "{SITENAME}".
+Se não a solicitou ignore este email. Se continuar a receber emails com este conteúdo informe imediatamente o Administrador do Fórum.
+
+A nova senha é a seguinte:
+==============================================
+Senha: {PASSWORD}
+==============================================
+
+Antes de poder utilizá-la tem que proceder à sua ativação no seguinte endereço:
+{U_ACTIVATE}
+
+A sua senha foi codificada na nossa Base de Dados e não é recuperável.
+Se a perder continua a ser possível alterar a senha na página do seu Perfil.
+Em caso de dificuldade contate o Administrador.
+
+
+
+{EMAIL_SIG}

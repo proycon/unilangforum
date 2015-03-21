@@ -1,0 +1,18 @@
+Subject: phpBB (je) instaliran
+
+Poštovanje,
+
+uspješno si instalirao/la phpBB forum.
+
+Postavke tvojeg korisničkog računa su sljedeće:
+
+----------------------------
+Korisničko ime: {USERNAME}
+URL: {U_BOARD}
+----------------------------
+
+Korisne informacije o phpBB forumu možeš pročitati u mapi docs [koja se nalazi "u" instalaciji foruma] odnosno [baciti pogled] na https://www.phpbb.com/support/ [naš sajt podrške].
+
+Predlažemo da se pretplatiš na našu mailing listu, što možeš preko gornjeg URL-a, a kako bi bio/la u toku s novostima vezanima uz phpBB forum.
+
+{EMAIL_SIG}

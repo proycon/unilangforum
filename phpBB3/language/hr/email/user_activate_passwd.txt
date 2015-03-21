@@ -1,0 +1,17 @@
+Subject: Aktivacija nove zaporke
+
+Poštovanje {USERNAME},
+
+ova poruka ti je stigla jer si zatražio/la [ili netko drugi "u tvoje ime"] novu zaporku na forumu "{SITENAME}".
+
+Ukoliko nisi zatražio/la ovu poruku - ignoriraj ju, ukoliko ti nastavi stizati - kontaktiraj administratora/icu foruma.
+
+Za korištenje nove zaporke moraš ju aktivirati. To možeš učiniti klikom na sljedeći link: {U_ACTIVATE}.
+
+Ukoliko je sve prošlo kako treba, moći ćeš se prijaviti koristeći sljedeću zaporku: {PASSWORD}.
+
+Zaporku možeš promijeniti u svojem korisničkom profilu.
+
+Ako imaš poteškoća s aktivacijom/promjenom zaporke - kontaktiraj administratora/icu foruma.
+
+{EMAIL_SIG}

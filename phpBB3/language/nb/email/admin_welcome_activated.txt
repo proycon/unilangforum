@@ -1,0 +1,9 @@
+Subject: Konto aktivert
+
+Hei, {USERNAME}!
+
+Kontoen din på «{SITENAME}» eraktivert av en administrator. Du kan logge inn nå.
+
+Passordet er trygt lagret i databasen vår, og kan ikke hentes ut. Hvis du glemmer det, vil du kunne tilbakestille det ved hjelp av e-postadressen som er tilknyttet kontoen.
+
+{EMAIL_SIG}

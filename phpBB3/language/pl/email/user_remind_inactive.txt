@@ -1,0 +1,11 @@
+Subject: Przypomnienie o nieaktywnym koncie
+
+Witaj {USERNAME},
+
+Przypominamy, że Twoje konto na witrynie „{SITENAME}” utworzone {REGISTER_DATE} jest nieaktywne. Jeśli chcesz aktywować konto, kliknij poniższy odnośnik:
+
+{U_ACTIVATE}
+
+Dziękujemy za zarejestrowanie na witrynie „{SITENAME}”. Liczymy na Twoje zaangażowanie.
+
+{EMAIL_SIG}

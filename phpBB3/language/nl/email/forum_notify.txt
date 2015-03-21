@@ -1,0 +1,19 @@
+Subject: Nieuw bericht - "{FORUM_NAME}"
+
+Hallo {USERNAME},
+
+Je ontvangt dit bericht omdat je geabonneerd bent op een forum, "{FORUM_NAME}" op "{SITENAME}". Dit forum heeft een nieuw bericht in het onderwerp "{TOPIC_TITLE}"<!-- IF AUTHOR_NAME !== '' --> van {AUTHOR_NAME}<!-- ENDIF --> sinds je laatste bezoek. Je kan door gebruik te maken van de volgende link het ongelezen bericht bekijken. Er worden geen nieuwe meldingen verzonden totdat je het onderwerp weer hebt bezocht.
+
+{U_NEWEST_POST}
+
+Als je het onderwerp wilt bekijken, klik op de volgende link:
+{U_TOPIC}
+
+Als je het forum wilt bekijken, klik op de volgende link:
+{U_FORUM}
+
+Als je niet langer meer geabonneerd wilt zijn op dit forum, klik dan op "Uitschrijven forum" link onderaan het forum, of door te klikken op de volgende link:
+
+{U_STOP_WATCHING_FORUM}
+
+{EMAIL_SIG}

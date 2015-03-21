@@ -1,0 +1,11 @@
+Subject: Aktivacija korisničkog računa
+
+Poštovanje,
+
+korisnički račun "{USERNAME}" je deaktiviran ili prepravljen/ponovo kreiran.
+
+Trebao/la bi:
+a) provjeriti detalje korisničkog računa klikom na sljedeći link: {U_USER_DETAILS};
+b) aktivirati ga klikom na sljedeći link: {U_ACTIVATE}.
+
+{EMAIL_SIG}

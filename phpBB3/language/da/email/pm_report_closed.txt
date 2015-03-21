@@ -1,0 +1,7 @@
+Subject: Rapport lukket - "{PM_SUBJECT}"
+
+Hej {USERNAME}
+
+Din rapport vedrørende den private besked "{PM_SUBJECT}", du modtog på "{SITENAME}", er blevet behandlet af en redaktør eller administrator. Rapporten er nu lukket. Har du spørgsmål i den forbindelse, bedes du sende en privat besked til {CLOSER_NAME}.
+
+{EMAIL_SIG}

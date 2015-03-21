@@ -1,0 +1,22 @@
+Poštovanje {TO_USERNAME},
+
+ova poruka ti je, s foruma "{SITENAME}", poslana putem administratorske stranice za Kontakt.
+
+<!-- IF S_IS_REGISTERED -->
+Poruka je poslana s korisničkog računa na forumu.
+Korisničko ime: {FROM_USERNAME}.
+Adresa elektroničke pošte: {FROM_EMAIL_ADDRESS}.
+IP adresa: {FROM_IP_ADDRESS}.
+Profil: {U_FROM_PROFILE}.
+<!-- ELSE -->
+Poruka nije poslana s korisničkog računa na forumu već u svojstvu gosta na forumu.
+Ime: {FROM_USERNAME}
+Adresa elektroničke pošte: {FROM_EMAIL_ADDRESS}
+IP adresa: {FROM_IP_ADDRESS}
+<!-- ENDIF -->
+
+Slijedi poslana ti poruka...
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+{MESSAGE}

@@ -1,0 +1,7 @@
+Subject: Din konto er blevet deaktiveret
+
+Hej {USERNAME}
+
+Din konto på "{SITENAME}" er blevet deaktiveret, mest sandsynligt på grund af ændringer foretaget i din profil. Boardets administrator er nødt til at aktivere den før du kan logge ind. Du vil modtage endnu en besked når dette er sket.
+
+{EMAIL_SIG}

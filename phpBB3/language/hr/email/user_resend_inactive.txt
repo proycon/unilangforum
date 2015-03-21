@@ -1,0 +1,21 @@
+Subject: Dobrodošao/la na "{SITENAME}"
+
+{WELCOME_MSG}
+
+Poštovanje,
+
+postavke tvojeg korisničkog računa su sljedeće:
+
+----------------------------
+Korisničko ime: {USERNAME}
+----------------------------
+
+Tvoja zaporka je kriptirana u bazi. Ukoliko si ju zaboravio/la, možeš zatražiti novu.
+
+Tvoj korisnički račun je trenutno neaktivan.
+
+Možeš ga aktivirati klikom na sljedeći link: {U_ACTIVATE}.
+
+Hvala ti što si se registrirao/la.
+
+{EMAIL_SIG}

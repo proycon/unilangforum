@@ -1,0 +1,7 @@
+Subject: Chunntas air a ghnìomhachadh
+
+{USERNAME}, fàilte ort!
+
+Chaidh an cunntas agad air "{SITENAME}" a ghnìomhachadh le rianaire is 's urrainn dhut logadh a-steach a-nis.
+
+{EMAIL_SIG}

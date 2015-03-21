@@ -1,0 +1,17 @@
+Subject: "{SITENAME}" - Post-dealain gu caraid
+
+{TO_USERNAME}, a charaid,
+
+Chaidh am post-dealain seo a chur thugad o {SITENAME} le {FROM_USERNAME} 's iad an dùil gum biodh ùidh agad sa chuspair a leanas:
+
+{TOPIC_NAME}
+
+Gheibh thu e aig:
+
+{U_TOPIC}
+
+'S mathaid gum bi teachdaireachd ann o {FROM_USERNAME} cuideachd gu h-ìosal. Thoir an aire nach deach an teachdaireachd seo a chur thugad le rianairean a' bhùird-bhrath agus nach deach a sgrùdadh leotha.  Ma tha thu airson gearan a dhèanamh air sgàth 's gun d' fhuair thu am post-dealain seo, leig fios gu rianaire a' bhùird-bhrath aig {BOARD_CONTACT}. Saoil an dèan thu lethbhreac de bhannan-cinn a' phuist-dhealain ma sgrìobhas tu thuige air an t-seòladh sin?
+
+----------
+
+{MESSAGE}

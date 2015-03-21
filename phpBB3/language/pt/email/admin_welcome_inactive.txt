@@ -1,0 +1,19 @@
+Subject: Bem vindo ao Fórum {SITENAME}
+
+{WELCOME_MSG}
+
+Por favor, guarde este email para consultas posteriores. As informações do seu Registo são as seguintes:
+
+----------------------------
+Utilizador: {USERNAME}
+
+Endereço do Fórum: {U_BOARD}
+----------------------------
+
+A sua conta está inativa e terá de ser aprovada por um Administrador antes de poder entrar no Fórum. Será enviado outro e-mail quando a conta for ativada.
+
+A sua senha foi armazenada na nossa Base de Dados de forma segura e não pode ser recuperada. No caso de a esquecer, poderá redefini-la, usando o endereço de e-mail associado à sua conta.
+
+Obrigado pelo seu registo.
+
+{EMAIL_SIG}

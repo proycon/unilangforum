@@ -1,0 +1,11 @@
+Subject: Indlæg afvist - "{POST_SUBJECT}"
+
+Hej {USERNAME}
+
+Dit indlæg "{POST_SUBJECT}" på "{SITENAME}" er blevet afvist af en redaktør eller administrator.
+
+Følgende begrundelse blev givet for afvisningen:
+
+{REASON}
+
+{EMAIL_SIG}

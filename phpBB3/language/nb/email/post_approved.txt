@@ -1,0 +1,13 @@
+Subject: Innlegg godkjent – «{POST_SUBJECT}»
+
+Hei, {USERNAME}!
+
+Du mottar dette varselet fordi innlegget ditt, «{POST_SUBJECT}» på «{SITENAME}» ble godkjent av en moderator eller administrator.
+
+Hvis du vil vise innlegget, klikker du følgende lenke:
+{U_VIEW_POST}
+
+Hvis du vil vise emnet, klikker du følgende lenke:
+{U_VIEW_TOPIC}
+
+{EMAIL_SIG}

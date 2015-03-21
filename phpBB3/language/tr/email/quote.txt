@@ -1,0 +1,20 @@
+Subject: Başlık cevap bildirimi - "{TOPIC_TITLE}"
+
+Merhaba {USERNAME},
+
+"{SITENAME}" mesaj panosundaki "{TOPIC_TITLE}" adlı başlıkta "{AUTHOR_NAME}" adlı kullanıcı sizin mesajınızı alıntı yaptığı için bu bildirimi alıyorsunuz. Alttaki bağlantıyı kullanarak gelen cevabı görüntüleyebilirsiniz.
+
+Eğer alıntı yapılan mesajı görüntülemek istiyorsanız, alttaki bağlantıya tıklayın:
+{U_VIEW_POST}
+
+Eğer başlığı görüntülemek istiyorsanız, alttaki bağlantıya tıklayın:
+{U_TOPIC}
+
+Eğer forumu görüntülemek istiyorsanız, alttaki bağlantıya tıklayın:
+{U_FORUM}
+
+Eğer sizi alıntı yapılan cevaplar hakkındaki güncellemeleri artık almak istemiyorsanız, lütfen bildirim ayarlarınızı buradan güncelleyin:
+
+{U_NOTIFICATION_SETTINGS}
+
+{EMAIL_SIG}

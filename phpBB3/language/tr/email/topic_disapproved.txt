@@ -1,0 +1,12 @@
+Subject: Başlık onaylanmadı - "{TOPIC_TITLE}"
+
+Merhaba {USERNAME},
+
+Bu bildiriyi alıyorsunuz çünkü "{SITENAME}" mesaj panosunda bulunan "{TOPIC_TITLE}" isimli başlığınız bir moderatör veya yönetici tarafından onaylanmadı.
+
+Alttaki verilen sebepten dolayı onaylanmamıştır:
+
+{REASON}
+
+
+{EMAIL_SIG}

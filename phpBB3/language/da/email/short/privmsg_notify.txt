@@ -1,0 +1,15 @@
+Subject: Ny privat besked er ankommet
+
+Hej {USERNAME}
+
+Du har modtaget en privat besked fra "{AUTHOR_NAME}" til din konto på "{SITENAME}" med følgende titel:
+
+{SUBJECT}
+
+Læs beskeden ved at klikke på dette link:
+
+{U_VIEW_MESSAGE}
+
+Du har anmodet om at blive informeret ved nye private beskeder. Denne automatik kan fravælges i brugerkontrolpanelet under boardindstillingerne.
+
+{EMAIL_SIG}

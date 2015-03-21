@@ -1,0 +1,20 @@
+Subject: Notificació de respostes al tema "{TOPIC_TITLE}"
+
+Hola {USERNAME},
+
+Heu rebut aquesta notificació perquè esteu subscrits al tema "{TOPIC_TITLE}" a "{SITENAME}". En aquest tema<!-- IF AUTHOR_NAME !== '' --> {AUTHOR_NAME} ha<!-- ENDIF --><!-- IF AUTHOR_NAME === '' --> s’ha<!-- ENDIF --> publicat una resposta des de la vostra darrera visita. Podeu utilitzar l’enllaç següent per veure les respostes que s’han fet, no rebreu més notificacions fins que visiteu el tema.
+
+Si voleu veure les entrades publicades des de la vostra darrera visita, feu clic al l’enllaç següent:
+{U_NEWEST_POST}
+
+Si voleu veure el tema, feu clic al l’enllaç següent:
+{U_TOPIC}
+
+Si voleu veure el fòrum, feu clic al l’enllaç següent:
+{U_FORUM}
+
+Si ja no voleu estar subscrit a aquest tema podeu fer clic a l’enllaç "Cancel·la la subscripció a aquest tema" ubicat a la part inferior del tema indicat, o bé fent clic a l’enllaç següent:
+
+{U_STOP_WATCHING_TOPIC}
+
+{EMAIL_SIG}

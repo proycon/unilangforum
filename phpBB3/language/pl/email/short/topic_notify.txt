@@ -1,0 +1,20 @@
+Subject: Powiadomienie o odpowiedzi w temacie „{TOPIC_TITLE}”
+
+Witaj {USERNAME}!
+
+Otrzymujesz to powiadomienie, ponieważ na forum „{SITENAME}” obserwujesz temat „{TOPIC_TITLE}”<!-- IF AUTHOR_NAME !== '' --> założony przez {AUTHOR_NAME}<!-- ENDIF -->. Od czasu Twojej ostatniej wizyty, w tym temacie pojawił się nowy post. Możesz użyć jednego z poniższych odnośników, aby przejrzeć ten temat. Aby otrzymywać kolejne powiadomienia o zmianach w tym temacie musisz zapoznać się z obecną zmianą.
+
+Jeśli chcesz przejść bezpośrednio do nowego posta, skorzystaj z poniższego odnośnika:
+{U_NEWEST_POST}
+
+Jeśli chcesz przejść na początek tematu, użyj tego odnośnika:
+{U_TOPIC}
+
+Jeśli chcesz przejść do forum, w którym napisano ten post, skorzystaj z tego odnośnika:
+{U_FORUM}
+
+Jeśli nie chcesz już obserwować tego tematu, kliknij odnośnik „Zaprzestań obserwacji tematu” znajdujący się na dole tematu na forum lub użyj odnośnika zamieszczonego poniżej:
+
+{U_STOP_WATCHING_TOPIC}
+
+{EMAIL_SIG}

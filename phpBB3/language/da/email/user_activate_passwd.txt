@@ -1,0 +1,13 @@
+Subject: Aktivering af nyt kodeord
+
+Hej {USERNAME}
+
+Du modtager denne meddelelse fordi du (eller nogen der lader som om, de er dig) har bedt om at få et nyt kodeord tilsendt til din konto på "{SITENAME}". Har du ikke bedt om et nyt kodeord, kan du blot ignorere denne besked, og undlade at aktivere det nye kodeord. Bliver du ved med at modtage meddelelser herom, bedes du kontakte boardets administrator.
+
+Dit nye kodeord aktiveres ved at klikke på linket: {U_ACTIVATE}
+
+Når denne aktivering er udført, kan du logge ind med dette nye kodeord: {PASSWORD}
+
+Du kan selvfølgelig selv ændre ovennævnte nye kodeord via brugerkontrolpanelets profilindstillinger. Kontakt venligst boardets administratior, hvis du oplever problemer med det.
+
+{EMAIL_SIG}

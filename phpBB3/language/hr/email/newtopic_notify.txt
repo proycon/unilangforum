@@ -1,0 +1,15 @@
+Subject: Obavijest o novoj temi - "{FORUM_NAME}"
+
+Poštovanje {USERNAME},
+
+ova obavijest ti je stigla jer si izabrao/la opciju obavješćivanja o raspravljanju na "{FORUM_NAME}" na forumu "{SITENAME}".
+
+Od tvojeg zadnjeg posjeta,<!-- IF AUTHOR_NAME !== '' --> od strane korisnika/ce: {AUTHOR_NAME},<!-- ENDIF --> započeta [otvorena] je nova tema "{TOPIC_TITLE}".
+
+Forum možeš vidjeti klikom na sljedeći link: {U_FORUM}.
+
+[Neće ti biti slane nove obavijesti sve dok ne posjetiš forum.]
+
+Ukoliko ne želiš više pratiti ovaj forum - klikni na sljedeći link: {U_STOP_WATCHING_FORUM}.
+
+{EMAIL_SIG}

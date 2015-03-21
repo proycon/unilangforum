@@ -1,0 +1,11 @@
+Subject: Tema rebutjat - "{TOPIC_TITLE}"
+
+Hola {USERNAME},
+
+Heu rebut aquesta notificació perquè el vostre tema "{TOPIC_TITLE}" a "{SITENAME}" ha estat rebutjat per un moderador o un administrador.
+
+S’ha donat la següent raó per al rebuig:
+
+{REASON}
+
+{EMAIL_SIG}

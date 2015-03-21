@@ -1,0 +1,19 @@
+Subject: 版面文章通知 -「{FORUM_NAME}」
+
+親愛的 {USERNAME} 您好：
+
+您會收到這個通知是因為您在「{SITENAME}」 訂閱了版面「{FORUM_NAME}」， 自從您最後訪問後在這個版面<!-- IF AUTHOR_NAME !== '' -->由 {AUTHOR_NAME} 發表<!-- ENDIF -->的主題「{TOPIC_TITLE}」收到了新的回覆。您可以點選下面的連結檢視最新尚未閱讀的回覆文章，在您檢視這個主題之前不會再有更多的通知。
+
+{U_NEWEST_POST}
+
+如果您要檢視這個主題，那麼請點選下面的連結：
+{U_TOPIC}
+
+如果您要檢視這個版面，那麼請點選下面的連結：
+{U_FORUM}
+
+如果您不想要再訂閱這個版面，那麼您可以點選版面上的「取消訂閱版面」連結，或者點選下面的連結：
+
+{U_STOP_WATCHING_FORUM}
+
+{EMAIL_SIG}

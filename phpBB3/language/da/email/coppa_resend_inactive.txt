@@ -1,0 +1,38 @@
+Subject: Velkommen til "{SITENAME}"
+
+{WELCOME_MSG}
+
+I overensstemmelse med COPPA lovgivning er din konto på nuværende tidspunkt ikke aktiv.
+
+Udskriv venligst denne besked og få dine forældre eller værge til at underskrive og datere den. Fax den derefter til: {FAX_INFO}
+
+ELLER send den til: {MAIL_INFO}
+
+------------------------------ KLIP HER ------------------------------
+Tilladelse til at deltage på "{SITENAME}" - {U_BOARD}
+
+Brugernavn: {USERNAME}
+Email: {EMAIL_ADDRESS}
+
+JEG HAR LÆST INFORMATIONERNE MODTAGET FRA MIT BARN, OG GIVER HERMED "{SITENAME}" TILLADELSE TIL AT OPBEVARE DISSE INFORMATIONER. 
+JEG FORSTÅR, AT DISSE INFORMATIONER KAN ÆNDRES NÅR SOM HELST VED INDTASTNING AF ET KODEORD.
+JEG FORSTÅR, AT JEG NÅR SOM HELST KAN BEDE OM AT FÅ DISSE INFORMATIONER FJERNET FRA "{SITENAME}".
+
+
+Forældre eller værge
+(skriv dit navn her): _____________________
+
+(underskriv her): __________________ 
+
+Dato: _______________
+
+------------------------------ KLIP HER ------------------------------
+
+
+Din konto vil blive aktiveret, så snart administratoren har modtaget den ovenstående formular via fax eller traditionel post.
+
+Dit kodeord er gemt krypteret og sikkert i vores database, og kan derfor ikke genfindes. Glemmer du kodeordet, er du istand til at nulstille det ved brug af emailadressen knyttet til din konto.
+
+Tak fordi du tilmeldte dig hos os.
+
+{EMAIL_SIG}

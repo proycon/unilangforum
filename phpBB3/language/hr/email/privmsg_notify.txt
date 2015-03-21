@@ -1,0 +1,11 @@
+Subject: Nova privatna poruka
+
+Poštovanje {USERNAME},
+
+na forumu "{SITENAME}", pod naslovom {SUBJECT}, od strane korisnika/ce "{AUTHOR_NAME}", čeka te nova privatna poruka.
+
+Poruku možeš pročitati klikom na sljedeći link: {U_VIEW_MESSAGE}.
+
+U postavkama svojeg korisničkog računa možeš ugasiti opciju primanja ovih obavijesti ukoliko ne želiš primati obavijesti o novim pristiglim privatnim porukama.
+
+{EMAIL_SIG}

@@ -1,0 +1,14 @@
+Subject: Inlägg godkänt — "{POST_SUBJECT}"
+
+Hej {USERNAME},
+
+Du får detta meddelande för att ditt inlägg "{POST_SUBJECT}" på "{SITENAME}" har godkänts av en moderator eller administratör.
+
+Om du vill besöka inlägget, klicka på följande länk:
+{U_VIEW_POST}
+
+Om du vill besöka tråden, klicka på följande länk:
+{U_VIEW_TOPIC}
+
+
+{EMAIL_SIG}

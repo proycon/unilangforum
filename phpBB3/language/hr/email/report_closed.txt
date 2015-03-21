@@ -1,0 +1,11 @@
+Subject: Prijava zaključena - "{POST_SUBJECT}"
+
+Poštovanje {USERNAME},
+
+ova obavijest ti je stigla zbog prijave posta "{POST_SUBJECT}" [u temi "{TOPIC_TITLE}"] na forumu "{SITENAME}".
+
+Prijavu je obradio/la moderator(ica)/administrator(ica) i zaključio/la ju.
+
+Ukoliko imaš daljnjih pitanja vezanih uz nju - kontaktiraj {CLOSER_NAME} privatnom porukom.
+
+{EMAIL_SIG}

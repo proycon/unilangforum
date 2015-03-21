@@ -1,0 +1,11 @@
+Subject: Bem-vindo ao Grupo
+
+Congratulations,
+
+Foi adicionado ao Grupo "{GROUP_NAME}" em "{SITENAME}".
+Este procedimento é da responsabilidade do Líder do Grupo ou do Administrador do Fórum. Contacte-o para mais informações.
+
+Saiba mais sobre este Grupo no seguinte endereço:
+{U_GROUP}
+
+{EMAIL_SIG}

@@ -1,0 +1,13 @@
+Subject: Notificação de moderação do Tópico - "{TOPIC_TITLE}"
+
+Olá {USERNAME},
+
+Está a receber esta notificação porque o Tópico "{TOPIC_TITLE}" em "{SITENAME}" precisa de aprovação.
+
+Para ver o tópico, clique no seguinte link:
+{U_VIEW_TOPIC}
+
+Para ver o fórum, clique no seguinte link:
+{U_FORUM}
+
+{EMAIL_SIG}

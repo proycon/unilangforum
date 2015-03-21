@@ -1,0 +1,13 @@
+Subject: Başlık yönetim bildirimi - "{TOPIC_TITLE}"
+
+Merhaba {USERNAME},
+
+"{SITENAME}" mesaj panosunda "{TOPIC_TITLE}" konulu başlığa onay gerektiği için bu bildirimi alıyorsunuz.
+
+Eğer başlığı görüntülemek istiyorsanız, alttaki bağlantıya tıklayın:
+{U_VIEW_TOPIC}
+
+Eğer forumu görüntülemek istiyorsanız, alttaki bağlantıya tıklayın:
+{U_FORUM}
+
+{EMAIL_SIG}

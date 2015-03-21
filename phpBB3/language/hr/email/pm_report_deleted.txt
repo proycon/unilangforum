@@ -1,0 +1,9 @@
+Subject: Prijava izbrisana - "{PM_SUBJECT}"
+
+Poštovanje {USERNAME},
+
+ova obavijest ti je stigla zbog prijave privatne poruke "{PM_SUBJECT}" na forumu "{SITENAME}".
+
+Prijavu je obradio/la moderator(ica)/administrator(ica) i izbrisao/la ju.
+
+{EMAIL_SIG}

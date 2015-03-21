@@ -1,0 +1,13 @@
+Subject: Powiadomienie o nowym temacie na forum „{FORUM_NAME}”
+
+Witaj {USERNAME}!
+
+Wiadomość ta została wysłana do Ciebie, ponieważ obserwujesz forum „{FORUM_NAME}” na witrynie „{SITENAME}”. Od czasu Twojej ostatniej wizyty, na forum pojawił się nowy temat „{TOPIC_TITLE}”<!-- IF AUTHOR_NAME !== '' --> założony przez {AUTHOR_NAME}<!-- ENDIF -->. Możesz użyć poniższego odnośnika, aby zobaczyć to forum. Dopóki tego nie zrobisz, nie otrzymasz żadnego kolejnego powiadomienia o zmianach na tym forum.
+
+{U_FORUM}
+
+Jeśli nie chcesz już obserwować tego forum, kliknij odnośnik „Zaprzestań obserwacji forum” znajdujący się na dole forum lub użyj odnośnika znajdującego się poniżej:
+
+{U_STOP_WATCHING_FORUM}
+
+{EMAIL_SIG}

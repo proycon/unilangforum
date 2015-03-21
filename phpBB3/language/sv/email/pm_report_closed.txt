@@ -1,0 +1,7 @@
+Subject: Rapport stängd - "{PM_SUBJECT}"
+
+Hej {USERNAME},
+
+Du får detta meddelande eftersom rapporten du gjorde angående det privata meddelandet "{PM_SUBJECT}" på "{SITENAME}" nu har hanterats av en moderator eller administratör. Rapporten har markerats som avklarad och stängd. Kontakta {CLOSER_NAME} med ett personligt meddelande om du har några frågor.
+
+{EMAIL_SIG}

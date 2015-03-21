@@ -1,0 +1,9 @@
+Subject: Tha an cunntas agad à gnìomh
+
+{USERNAME}, a charaid,
+
+Chaidh an cunntas agad air "{SITENAME}" a chur à gnìomh, 's dòcha gun deach atharrachadh a chur ris a' chunntas agad. Bidh aig rianaire a' bhùird-bhrath ris a ghnìomhachadh mus urrainn dhut logadh a-steach.
+
+Gheibh thu fios eile nuair a bhios seo air a thachairt.
+
+{EMAIL_SIG}

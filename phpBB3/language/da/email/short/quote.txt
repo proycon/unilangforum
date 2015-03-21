@@ -1,0 +1,17 @@
+Subject: Indlæg indsendt i - "{TOPIC_TITLE}"
+
+Hej {USERNAME}
+
+Du modtager denne besked, fordi "{AUTHOR_NAME}" citerede dig i emnet "{TOPIC_TITLE}" på "{SITENAME}". Benyt nedenstående links hvis du vil se:
+
+Indlægget: {U_VIEW_POST}
+
+Emnet: {U_TOPIC}
+
+Forummet: {U_FORUM}
+
+Hvis du ikke længere ønsker at modtage beskeder når du citeres i indlæg, bedes du opdatere dine indstillinger her:
+
+{U_NOTIFICATION_SETTINGS}
+
+{EMAIL_SIG}

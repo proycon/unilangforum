@@ -1,0 +1,11 @@
+Subject: Prijava posta - "{TOPIC_TITLE}"
+
+Poštovanje {USERNAME},
+
+ova obavijest ti je stigla zbog prijave posta naslova "{POST_SUBJECT}" na forumu "{SITENAME}".
+
+Prijavu možeš vidjeti klikom na sljedeći link: {U_VIEW_REPORT}.
+
+Post možeš vidjeti klikom na sljedeći link: {U_VIEW_POST}.
+
+{EMAIL_SIG}

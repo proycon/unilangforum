@@ -1,0 +1,9 @@
+Subject: Zahtjev za članstvom u korisničkoj grupi
+
+Poštovanje {USERNAME},
+
+korisnik/ca "{REQUEST_USERNAME}" je zatražio/la pristupanje korisničkoj grupi "{GROUP_NAME}", na forumu "{SITENAME}", koje si moderator/ica.
+
+Za odobrenje/neodobrenje zahtjeva klikni na sljedeći link: {U_PENDING}.
+
+{EMAIL_SIG}

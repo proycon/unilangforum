@@ -1,0 +1,11 @@
+Subject: Post odobren - "{POST_SUBJECT}"
+
+Poštovanje {USERNAME},
+
+ova obavijest ti je stigla jer ti je post "{POST_SUBJECT}", na forumu "{SITENAME}", odobren.
+
+Post možeš vidjeti klikom na sljedeći link: {U_VIEW_POST}.
+
+Temu možeš vidjeti klikom na sljedeći link: {U_VIEW_TOPIC}.
+
+{EMAIL_SIG}

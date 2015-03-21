@@ -1,0 +1,13 @@
+Subject: Aktivera användarkonto
+
+Hej,
+
+Kontot "{USERNAME}" har inaktiverats eller skapats, du bör granska användares uppgifter (om det krävs) och hantera det på lämpligt sätt.
+
+Använd denna länk för att visa användarens profil:
+{U_USER_DETAILS}
+
+Använd denna länk för att aktivera kontot:
+{U_ACTIVATE}
+
+{EMAIL_SIG}

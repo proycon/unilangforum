@@ -1,0 +1,10 @@
+Subject: Rapportering av privat melding – «{TOPIC_TITLE}»
+
+Hei, {USERNAME}!
+
+Du mottar dette varselet fordi den private meldingen med tittelen «{SUBJECT}» av «{AUTHOR_NAME}» på «{SITENAME}» ble rapportert.
+
+Hvis du vil vise rapporten, klikker du følgende lenke:
+{U_VIEW_REPORT}
+
+{EMAIL_SIG}

@@ -1,0 +1,9 @@
+Subject: 重新啟用您的帳號
+
+親愛的 {USERNAME} 您好：
+
+您在「{SITENAME}」的帳號已經被停用了，原因可能是您修改了自己的個人資料。要重新啟用它，請點選以下連結：
+
+{U_ACTIVATE}
+
+{EMAIL_SIG}

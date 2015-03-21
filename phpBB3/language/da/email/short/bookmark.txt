@@ -1,0 +1,17 @@
+Subject: Indlæg indsendt i - "{TOPIC_TITLE}"
+
+Hej {USERNAME}
+
+Du modtager denne besked, fordi du har bogmærket emnet "{TOPIC_TITLE}" på "{SITENAME}". En bruger har indsendt et indlæg siden dit seneste besøg. Du kan anvende nedenstående links for at se indsendte indlæg. Du modtager ikke flere beskeder vedrørende dette emne, før du har besøgt det. Benyt nedenstående link hvis du vil se:
+
+Seneste indlæg i emnet: {U_NEWEST_POST}
+
+Emnet: {U_TOPIC}
+
+Forummet: {U_FORUM}
+
+Hvis du ikke længere ønsker at modtage beskeder om indlæg i bogmærkede emner, bedes du opdatere dine indstillinger her:
+
+{U_NOTIFICATION_SETTINGS}
+
+{EMAIL_SIG}

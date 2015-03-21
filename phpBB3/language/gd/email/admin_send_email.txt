@@ -1,0 +1,12 @@
+Chaidh am post-d seo a chur thugad le rianaire aig "{SITENAME}".  Mas e spama a tha ann no ma tha droch-chainnt ann no rud sam bith eile a tha oilbheumach nad bheachd, leig fios do rianaire a' bhùird-bhrath leis an t-seòladh a leanas:
+
+{CONTACT_EMAIL}
+
+Cuir thuige am post-d iomlan seo (gu h-àraidh bannan-cinn a' phuist-dhealain). 
+
+Chì thu an teachdaireachd a chaidh a chur thugad gu h-ìosal:
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+{MESSAGE}
+
+{EMAIL_SIG}

@@ -1,0 +1,13 @@
+
+Hej {TO_USERNAME}
+
+Denne email er sendt til dig fra {FROM_USERNAME} via din konto på "{SITENAME}". Finder du indholdet af emailen anstødende eller på anden måde upassende, kan boardets administratorer kontaktes på denne adresse:
+
+{BOARD_CONTACT}
+
+Inkluder hele emailen (specielt overskrifterne). Bemærk venligst, at afsenderadressen på denne email tilhører {FROM_USERNAME}.
+
+Indholdet af emailen er som følger:
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+{MESSAGE}

@@ -1,0 +1,15 @@
+
+Hello {TO_USERNAME},
+
+
+A mensagem que se segue foi enviada para si de {FROM_USERNAME} através da sua conta em {SITENAME}.
+Se há material abusivo, "spam", ou comentários que considera ofensivos contate o seguinte endereço:
+{BOARD_CONTACT}
+enviando este email completo, particularmente os cabeçalhos.
+Por favor, note que o remetente desta mensagem é o Fórum {FROM_USERNAME}.
+
+A Mensagem que lhe foi enviada é a seguinte:
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+{MESSAGE}

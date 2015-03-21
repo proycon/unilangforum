@@ -1,0 +1,20 @@
+Subject: Notificació per resposta en una entrada - "{TOPIC_TITLE}"
+
+Hola {USERNAME},
+
+Heu rebut aquesta notificació perquè el tema "{TOPIC_TITLE}" a "{SITENAME}" que heu afegit a les adreces d’interès ha rebut una resposta des de la vostra darrera visita. Podeu utilitzar l’enllaç següent per veure les respostes, no rebreu més notificacions fins que visiteu el tema.
+
+Si voleu visualitzar l’entrada més recent des de la vostra darrera visita, feu clic a l’enllaç següent:
+{U_NEWEST_POST}
+
+Si voleu visualitzar el tema, feu clic a l’enllaç següent:
+{U_TOPIC}
+
+Si voleu visualitzar el fòrum, feu clic a l’enllaç següent:
+{U_FORUM}
+
+Si ja no voleu rebre notificacions sobre respostes a adreces d’interès, actualitzeu la configuració de notificacions a l’enllaç següent:
+
+{U_NOTIFICATION_SETTINGS}
+
+{EMAIL_SIG}

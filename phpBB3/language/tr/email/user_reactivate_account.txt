@@ -1,0 +1,18 @@
+Subject: "{SITENAME}" mesaj panosunda hesabınızın yeniden aktivasyonu
+
+Bir mesaj panosu yöneticisi, hesabınızın yeniden aktivasyon edilmesini istiyor. Hesabınız şu anda aktif değil.
+Hesabınızı yeniden aktif etmek için lütfen burada listelenen adımları takip edin.
+
+Lütfen bu e-postayı kayıtlarınızda saklayın. Hesap bilginiz alttaki gibidir:
+
+----------------------------
+Kullanıcı adı: {USERNAME}
+----------------------------
+
+Şifreniz veritabanımızda güvenli bir şekilde saklanmaktadır ve ele geçirilemeyecek durumdadır. Eğer şifrenizi unutursanız, hesabınız ile tanımlı olan e-posta adresinizi kullanarak şifrenizi sıfırlayabilirsiniz.
+
+Hesabınızı yeniden aktif etmek için lütfen alttaki bağlantıyı ziyaret edin:
+
+{U_ACTIVATE}
+
+{EMAIL_SIG}

@@ -1,0 +1,13 @@
+Subject: Varsel om nytt emne – «{FORUM_NAME}»
+
+Hei, {USERNAME}!
+
+Du mottar dette varselet fordi du overvåker forumet «{FORUM_NAME}» på «{SITENAME}». Dette forumet har mottatt et nytt emne<!-- IF AUTHOR_NAME !== '' --> av {AUTHOR_NAME}<!-- ENDIF --> siden ditt forrige besøk: «{TOPIC_TITLE}». Du kan bruke følgende lenke til å vise forumet, det vil ikke bli sendt flere varsler før du besøker forumet.
+
+{U_FORUM}
+
+Hvis du ikke lenger ønsker å overvåke dette forumet, kan du enten klikke lenken «Stopp abonnement på forum» på forumet ovenfor eller ved å klikke følgende lenke:
+
+{U_STOP_WATCHING_FORUM}
+
+{EMAIL_SIG}

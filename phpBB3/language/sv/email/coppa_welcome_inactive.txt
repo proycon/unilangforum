@@ -1,0 +1,42 @@
+Subject: Välkommen till "{SITENAME}"
+
+{WELCOME_MSG}
+
+I enlighet med COPPA-lagen så är ditt konto för närvarande inaktiverat.
+
+Skriv ut detta meddelande och be din förälder eller förmyndare att skriva under och datera det. Faxa det sedan till:
+
+{FAX_INFO}
+
+ELLER skicka det per post till:
+
+{MAIL_INFO}
+
+------------------------------ KLIPP HÄR ------------------------------
+Tillåtelse att delta på "{SITENAME}" - {U_BOARD}
+
+Användarnamn: {USERNAME}
+E-postadress: {EMAIL_ADDRESS}
+
+JAG HAR GRANSKAT INFORMATIONEN TILLHANDAHÅLLEN AV MITT BARN OCH TILLÅTER HÄRMED "{SITENAME}" ATT LAGRA DENNA INFORMATION. 
+JAG ÄR MEDVETEN OM ATT DENNA INFORMATION KAN ÄNDRAS NÄR SOM HELST GENOM ATT ANGE ETT LÖSENORD. 
+JAG ÄR MEDVETEN OM ATT JAG KAN BEGÄRA ATT DENNA INFORMATION TAS BORT FRÅN "{SITENAME}" NÄR SOM HELST.
+
+
+Förälder eller förmyndare
+(Texta ditt namn här): _____________________
+
+(Underskrift): __________________ 
+
+Datum: _______________
+
+------------------------------ KLIPP HÄR ------------------------------
+
+
+När administratören mottagit ovanstående formulär via fax eller vanlig post så kommer ditt konto aktiveras.
+
+Glöm inte bort ditt lösenord eftersom det har krypterats i vår databas och vi inte kan ge dig tillbaka det. Om du skulle glömma ditt lösenord så kan du dock begära ett nytt lösenord till e-postadressen, som hör ihop med ditt konto.
+
+Tack för att du registrerade dig.
+
+{EMAIL_SIG}

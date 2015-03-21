@@ -1,0 +1,9 @@
+Subject: Tema odobrena - "{TOPIC_TITLE}"
+
+Poštovanje {USERNAME},
+
+ova obavijest ti je stigla jer ti je tema "{TOPIC_TITLE}", na forumu "{SITENAME}", odobrena.
+
+Temu možeš vidjeti klikom na sljedeći link: {U_VIEW_TOPIC}.
+
+{EMAIL_SIG}

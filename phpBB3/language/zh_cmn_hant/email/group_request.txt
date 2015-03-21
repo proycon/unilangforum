@@ -1,0 +1,10 @@
+Subject: 申請加入您的群組通知
+
+親愛的 {USERNAME} 您好：
+
+會員「{REQUEST_USERNAME}」希望加入您在「{SITENAME}」 所負責的群組「{GROUP_NAME}」中。
+請點選底下的連結來核准或是拒絕：
+
+{U_PENDING}
+
+{EMAIL_SIG}

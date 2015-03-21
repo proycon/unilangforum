@@ -1,0 +1,7 @@
+Subject: 檢舉已結案 -「{PM_SUBJECT}」
+
+親愛的 {USERNAME} 您好：
+
+您會收到這個通知是因為您在「{SITENAME}」關於這則私訊「{PM_SUBJECT}」所提出的檢舉已經在版主或管理員處理後結案。如果您有任何的問題，那麼請以私人訊息聯絡 {CLOSER_NAME}。
+
+{EMAIL_SIG}

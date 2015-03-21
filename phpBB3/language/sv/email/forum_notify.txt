@@ -1,0 +1,19 @@
+Subject: Meddelande om nytt inlägg i kategori — "{FORUM_NAME}"
+
+Hej {USERNAME},
+
+Du får detta meddelande för att du bevakar kategorin "{FORUM_NAME}" på "{SITENAME}". Denna kategori har fått ett nytt svar i tråden "{TOPIC_TITLE}"<!-- IF AUTHOR_NAME !== '' --> utav {AUTHOR_NAME}<!-- ENDIF -->  sedan ditt senaste besök. Du kan använda följande länk för att visa det senaste olästa svaret, inga fler meddelanden kommer att skickas till dig förrän du besökt tråden.
+
+{U_NEWEST_POST}
+
+Om du vill besöka tråden, klicka på följande länk:
+{U_TOPIC}
+
+Om du vill besöka kategorin, klicka på följande länk:
+{U_FORUM}
+
+Om du inte längre vill bevaka denna kategori kan du antingen klicka på "Sluta bevaka denna kategori"-länken som du hittar i kategorin ovan, eller genom att klicka på följande länk:
+
+{U_STOP_WATCHING_FORUM}
+
+{EMAIL_SIG}

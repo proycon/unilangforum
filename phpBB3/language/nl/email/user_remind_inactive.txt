@@ -1,0 +1,11 @@
+Subject: Herinnering inactief account
+
+Hallo {USERNAME},
+
+Dit e-mailbericht is een herinnering dat je gebruikersaccount op "{SITENAME}", geregistreerd op {REGISTER_DATE}, inactief is. Gebruik deze link om het gebruikersaccount te activeren:
+
+{U_ACTIVATE}
+
+Bedankt voor je registratie op "{SITENAME}", wij kijken uit naar je deelname.
+
+{EMAIL_SIG}

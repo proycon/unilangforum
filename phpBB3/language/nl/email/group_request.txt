@@ -1,0 +1,10 @@
+Subject: Een aanvraag ingediend om deel te nemen aan je groep
+
+Hallo {USERNAME},
+
+De gebruiker "{REQUEST_USERNAME}" heeft een aanvraag ingediend om deel te nemen aan de groep "{GROUP_NAME}" die jij modereert op "{SITENAME}".
+Om deze aanvraag te accepteren of te weigeren kan je op de volgende link klikken:
+
+{U_PENDING}
+
+{EMAIL_SIG}

@@ -1,0 +1,7 @@
+Subject: Bildiri silindi - "{PM_SUBJECT}"
+
+Merhaba {USERNAME},
+
+Bu bildiriyi alıyorsunuz çünkü "{SITENAME}" mesaj panosunda bildiri yaptığınız "{PM_SUBJECT}" başlıklı özel mesaj bir moderatör ya da yönetici tarafından silindi.
+
+{EMAIL_SIG}

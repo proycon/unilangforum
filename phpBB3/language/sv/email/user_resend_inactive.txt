@@ -1,0 +1,19 @@
+Subject: Välkommen till "{SITENAME}"
+
+{WELCOME_MSG}
+
+Spara detta e-postmeddelande för framtida bruk. Dina kontouppgifter:
+
+----------------------------
+Användarnamn: {USERNAME}
+----------------------------
+
+Ditt lösenord har krypteras i vår databas och kan inte hämtas därifrån av oss. Om du glömmer ditt lösenord så kan du nollställa det och begära ett nytt till e-postadressen, som hör ihop med ditt konto.
+
+Var god, besök följande länk för att aktivera ditt konto:
+
+{U_ACTIVATE}
+
+Tack för att du registrerade dig.
+
+{EMAIL_SIG}

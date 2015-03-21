@@ -1,0 +1,13 @@
+{TO_USERNAME}, a charaid,
+
+
+Seo post-d a chaidh a chur thugad le {FROM_USERNAME} tron chunntas agad air "{SITENAME}". Mas e spama a tha sa phost-d seo no ma bheil càineadh no beachd sam bith eile ann a tha oilbheumach dhut, cuir fios do rianaire a' bhùird-bhrath aig an t-seòladh a leanas:
+
+{BOARD_CONTACT}
+
+Cuir am post-d shlàn seo ris. Thoir an aire gun deach seòladh an t-seòladair a chur gu cunntas grad-theachdaireachdan a' bhùird-bhrath.
+
+Chì thu an teachdaireachd a chaidh a chur thugad gu h-ìosal
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+{MESSAGE}

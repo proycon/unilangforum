@@ -1,0 +1,20 @@
+Subject: Svar på tråd - "{TOPIC_TITLE}"
+
+Hej {USERNAME},
+
+Du får det här meddelandet eftersom ett ämne du bokmärkt, "{TOPIC_TITLE}" at "{SITENAME}", har fått svar sedan ditt senaste besök. Du kan använda följande länk för att se svaren som gjorts, inga fler anmälningar kommer att skickas förrän du besöker ämnet.
+
+Om du vill visa de nyaste inlägg som gjorts sedan ditt senaste besök, klicka på följande länk:
+{U_NEWEST_POST}
+
+Om du vill titta på ämnet genom så klicka på följande länk:
+{U_TOPIC}
+
+Om du vill titta i forumet, klicka på följande länk:
+{U_FORUM}
+
+Om du inte längre vill få uppdateringar om svar på bokmärken, uppdatera dina meddelandeinställningar här:
+
+{U_NOTIFICATION_SETTINGS}
+
+{EMAIL_SIG}

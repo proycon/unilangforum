@@ -1,0 +1,7 @@
+Subject: Rapport slettet – «{PM_SUBJECT}»
+
+Hei, {USERNAME}!
+
+Du mottar dette varselet fordi rapporten du sendte om den private meldingen «{PM_SUBJECT}» på «{SITENAME}» ble slettet av en moderator eller administrator.
+
+{EMAIL_SIG}

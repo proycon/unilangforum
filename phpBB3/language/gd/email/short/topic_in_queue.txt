@@ -1,0 +1,13 @@
+Subject: Brath air maorsainneachd cuspair - "{TOPIC_TITLE}"
+
+{USERNAME}, a charaid,
+
+Fhuair thu am brath seo air sgàth 's gu bheil an cuspair "{TOPIC_TITLE}" air "{SITENAME}" feumach air aontachadh.
+
+Ma tha thu airson an cuspair a shealltainn, lean air adhart leis a' cheangal seo:
+{U_VIEW_TOPIC}
+
+Ma tha thu airson am fòram a shealltainn, lean air adhart leis a' cheangal seo:
+{U_FORUM}
+
+{EMAIL_SIG}

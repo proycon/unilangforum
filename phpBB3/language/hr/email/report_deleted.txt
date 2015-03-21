@@ -1,0 +1,9 @@
+Subject: Prijava izbrisana - "{POST_SUBJECT}"
+
+Poštovanje {USERNAME},
+
+ova obavijest ti je stigla zbog prijave posta "{POST_SUBJECT}" [u temi "{TOPIC_TITLE}"] na forumu "{SITENAME}".
+
+Prijavu je obradio/la moderator(ica)/administrator(ica) i izbrisao/la ju.
+
+{EMAIL_SIG}

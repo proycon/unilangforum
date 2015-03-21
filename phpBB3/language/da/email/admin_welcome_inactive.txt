@@ -1,0 +1,19 @@
+Subject: Velkommen til "{SITENAME}"
+
+{WELCOME_MSG}
+
+Gem denne email til fremtidig brug. Din kontoinformation er som følger:
+
+----------------------------
+Brugernavn: {USERNAME}
+
+Boardets URL: {U_BOARD}
+----------------------------
+
+Din konto er på nuværende tidspunkt ikke aktiveret, den afventer godkendelse fra en boardadministrator, før du kan logge ind. Du modtager endnu en email, når dette er sket.
+
+Dit kodeord er gemt krypteret og sikkert i vores database, og kan derfor ikke genfindes. Glemmer du kodeordet, er du istand til at nulstille det ved brug af emailadressen knyttet til din konto.
+
+Tak fordi du tilmeldte dig hos os.
+
+{EMAIL_SIG}

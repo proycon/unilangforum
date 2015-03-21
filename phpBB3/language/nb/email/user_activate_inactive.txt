@@ -1,0 +1,7 @@
+Subject: Kontoen din er deaktivert
+
+Hei, {USERNAME}!
+
+Kontoen din på «{SITENAME}» har blitt deaktivert, sannsynligvis på grunn av endringer i profilen. Systemets administrator må aktivere den før du kan logge inn. Du vil motta et nytt varsel når dette har skjedd.
+
+{EMAIL_SIG}

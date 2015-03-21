@@ -1,0 +1,20 @@
+Subject: {FORUM_NAME} - Novo Tópico
+
+Olá {USERNAME},
+
+Está a observar o "{FORUM_NAME}" em "{SITENAME}". Este fórum tem um novo tópico<!-- IF AUTHOR_NAME !== '' --> por {AUTHOR_NAME}<!-- ENDIF -->, "{TOPIC_TITLE}". 
+
+Pode vê-lo no seguinte endereço:
+{U_FORUM}
+Não receberá mais notificações enquanto não visitar este Fórum.
+
+
+Se não pretende continuar a observar o Fórum, tanto poderá clicar em
+"Parar de observar este Fórum" no Fórum mencionado, visitando o seguinte endereço:
+{U_STOP_WATCHING_FORUM}
+
+Continue a participar ativamente.
+A sua colaboração é fundamental para todos nós.
+
+
+{EMAIL_SIG}

@@ -1,0 +1,13 @@
+Subject: Cuspair ùr air "{FORUM_NAME}"
+
+{USERNAME}, a charaid,
+
+Fhuair thu am fios seo a chionn 's gu bheil thu a' cumail sùil air an fhòram, "{FORUM_NAME}" air "{SITENAME}".  Chaidh cuspair ùr, "{TOPIC_TITLE}" a sgrìobhadh<!-- IF AUTHOR_NAME --> le {AUTHOR_NAME}<!-- ENDIF --> on a thadhail thu ann turas mu dheireadh.  'S urrainn dhut an ceangal a leanas a chleachdadh gus a dhol dhan fhòram.  Chan fhaigh thu teachdaireachd eile mar seo gus an tadhail thu air an fhòram sin.
+
+{U_FORUM}
+
+Mur eil thu airson sùil a chumail air an fhòram seo tuilleadh, 's urrainn dhut an ceangal "Na cum sùil air tuilleadh" a chleachdadh a chì thu san fhòram gu h-àrd no an ceangal a leanas:
+
+{U_STOP_WATCHING_FORUM}
+
+{EMAIL_SIG}

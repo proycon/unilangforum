@@ -1,0 +1,17 @@
+Subject: Aktivering av nytt passord
+
+Hei, {USERNAME}!
+
+Du mottar dette varselet fordi du (eller noen som utgir seg for å være deg) har bedt om å bli tilsendt et nytt passord til kontoen din på «{SITENAME}». Hvis du ikke ba om dette, kan du ignorere denne e-posten. Hvis du fortsetter å motta slike e-poster, kontakter du systemadministratoren.
+
+Du må aktivere passordet for å kunne bruke det. Dette gjør du ved å klikke på lenken nedenfor.
+
+{U_ACTIVATE}
+
+Hvis dette lykkes, vil du kunne logge inn med følgende passord:
+
+Passord: {PASSWORD}
+
+Du kan selvsagt endre dette passordet selv, fra profilsiden din. Kontakt systemadministratoren hvis du ikke får dette til.
+
+{EMAIL_SIG}

@@ -1,0 +1,10 @@
+Följande är ett e-postmeddelande som har skickats till dig av en administratör på "{SITENAME}". Om detta meddelande är skräppost eller innehåller stötande/kränkande material/kommentarer, kontakta diskussionsforumets administratör på följande adress: {CONTACT_EMAIL}
+
+Inkludera hela detta meddelande (framförallt överdelen).
+
+Meddelandet som skickades till dig följer nedan
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+{MESSAGE}
+
+{EMAIL_SIG}

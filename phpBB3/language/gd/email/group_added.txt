@@ -1,0 +1,11 @@
+Subject: Chaidh do chur ris a' bhuidheann seo
+
+Meal do naidheachd,
+
+Chaidh do chur ris a' bhuidheann "{GROUP_NAME}" air "{SITENAME}".
+Chaidh seo a dhèanamh le rianaire a' bhuidhinn no a' bhùird-bhrath. Cuir fios thuca ma tha thu airson barrachd fiosrachaidh fhaighinn.
+
+Chì thu fiosrachadh mun bhuidheann agad an-seo:
+{U_GROUP}
+
+{EMAIL_SIG}

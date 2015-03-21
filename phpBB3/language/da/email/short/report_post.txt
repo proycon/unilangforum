@@ -1,0 +1,11 @@
+Subject: Indlæg rapporteret i "{TOPIC_TITLE}"
+
+Hej {USERNAME}
+
+Du modtager denne besked, fordi indlægget "{POST_SUBJECT}" på "{SITENAME}" blev rapporteret. Benyt nedenstående links hvis du vil se:
+
+Rapporten: {U_VIEW_REPORT}
+
+Indlægget: {U_VIEW_POST}
+
+{EMAIL_SIG}

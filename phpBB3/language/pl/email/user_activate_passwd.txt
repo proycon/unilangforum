@@ -1,0 +1,18 @@
+Subject: Aktywacja nowego hasła
+
+Witaj {USERNAME}!
+
+Wysłano to powiadomienie, ponieważ Ty lub ktoś podający się za Ciebie prosił o zmianę hasła do Twojego konta na forum „{SITENAME}”. Jeśli prośba o zmianę hasła nie miała miejsca, zignoruj tę wiadomość. Jeśli ciągle otrzymujesz tego typu powiadomienia, skontaktuj się z administratorem forum.
+
+Aby użyć nowego hasła, musisz je uaktywnić. Zrobisz to, klikając poniższy odnośnik:
+
+
+{U_ACTIVATE}
+
+Jeśli aktywacja się powiedzie, będziesz mógł/mogła zalogować się, używając poniższego hasła:
+
+{PASSWORD}
+
+Możesz zmienić hasło samodzielnie z poziomu panelu zarządzania kontem. Jeśli masz z tym problemy, skontaktuj się z administratorem witryny.
+
+{EMAIL_SIG}

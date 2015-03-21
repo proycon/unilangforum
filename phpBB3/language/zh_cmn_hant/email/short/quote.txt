@@ -1,0 +1,20 @@
+Subject: 主題回覆通知 -「{TOPIC_TITLE}」
+
+親愛的 {USERNAME} 您好：
+
+您會收到這個通知是因為您在「{SITENAME}」上的主題「{TOPIC_TITLE}」被「{AUTHOR_NAME}」引用了。您可以透過以下連結來檢視回覆的文章。
+
+如果您希望檢視引用您主題的文章，點選以下連結：
+{U_VIEW_POST}
+
+如果您希望檢視這個主題，點選以下連結：
+{U_TOPIC}
+
+如果您希望檢視這個版本，點選以下連結：
+{U_FORUM}
+
+如果您不希望再收到引用您主題的文章的通知，請點選下面的連結更新您的通知設定：
+
+{U_NOTIFICATION_SETTINGS}
+
+{EMAIL_SIG}

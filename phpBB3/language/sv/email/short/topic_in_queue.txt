@@ -1,0 +1,13 @@
+Subject: Notifikation om inläggsmoderering - "{TOPIC_TITLE}"
+
+Hej {USERNAME},
+
+Du får det här meddelandet eftersom inlägget "{TOPIC_TITLE}" på "{SITENAME}" behöver godkännas.
+
+Om du vill titta på inägget klicka på följande länk:
+{U_VIEW_TOPIC}
+
+Om du vill titta på forumet, klicka på följande länk:
+{U_FORUM}
+
+{EMAIL_SIG}

@@ -1,0 +1,17 @@
+Subject: "{SITENAME}" - Bir arkadaş e-postası
+
+Merhaba {TO_USERNAME},
+
+Bu e-posta size "{SITENAME}" mesaj panosunda kayıtlı olan {FROM_USERNAME} kullanıcısı tarafından gönderildi, alttaki başlığın ilginizi çekebileceğini düşünüyor:
+
+{TOPIC_NAME}
+
+Buradan inceleyebilirsiniz:
+
+{U_TOPIC}
+
+{FROM_USERNAME} kullanıcısı tarafından aşağıdaki bölüme bir mesaj eklenmiş olabilir. Not: Bu mesaj yöneticiler tarafından görüntülenemez veya onaylanamaz. Eğer bu mesajın içeriğinden rahatsız olduysanız lütfen {BOARD_CONTACT} adresinden mesaj panosu yöneticileri ile iletişime geçin. Bu adresle iletişime geçeceğiniz zaman lütfen bu mesajı alıntı yapın.
+
+----------
+
+{MESSAGE}

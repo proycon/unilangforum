@@ -1,0 +1,19 @@
+Subject: "{SITENAME}" forumlarına hoşgeldiniz
+
+{WELCOME_MSG}
+
+Lütfen bu e-postayı saklayın. Kullanıcı bilginiz altta bulunmaktadır:
+
+----------------------------
+Kullanıcı adı: {USERNAME}
+----------------------------
+
+Şifreniz veritabanımızda güvenli bir şekilde saklanmaktadır ve ele geçirilemeyecek durumdadır. Eğer şifrenizi unutursanız, hesabınız ile tanımlı olan e-posta adresinizi kullanarak şifrenizi sıfırlayabilirsiniz.
+
+Hesabınızı aktif hale getirmek için lütfen alttaki bağlantıyı ziyaret edin:
+
+{U_ACTIVATE}
+
+Kayıt olduğunuz için teşekkürler.
+
+{EMAIL_SIG}

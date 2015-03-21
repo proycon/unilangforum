@@ -1,0 +1,23 @@
+
+Hej {TO_USERNAME}
+
+Følgende er en email fremsendt via kontaktformularen på "{SITENAME}".
+
+<!-- IF S_IS_REGISTERED -->
+Beskeden er afsendt fra en konto på sitet.
+Brugernavn: {FROM_USERNAME}
+Emailadresse: {FROM_EMAIL_ADDRESS}
+IP-adresse: {FROM_IP_ADDRESS}
+Profil: {U_FROM_PROFILE}
+<!-- ELSE -->
+Beskeden er afsendt fra en gæst som angav følgende kontaktdata:
+Navn: {FROM_USERNAME}
+Emailadresse: {FROM_EMAIL_ADDRESS}
+IP-adresse: {FROM_IP_ADDRESS}
+<!-- ENDIF -->
+
+
+Emailens indhold er
+~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+{MESSAGE}

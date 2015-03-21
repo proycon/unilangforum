@@ -1,0 +1,13 @@
+Subject: Yeni başlık bildirimi - "{FORUM_NAME}"
+
+Merhaba {USERNAME},
+
+"{SITENAME}" mesaj panosunda "{FORUM_NAME}" isimli forumu takip ettiğiniz için bu bildirimi alıyorsunuz. Bu forumda son ziyaretinizden sonra<!-- IF AUTHOR_NAME --> {AUTHOR_NAME} tarafından<!-- ENDIF --> "{TOPIC_TITLE}" konusuyla yeni bir başlık açıldı. Alttaki bağlantıyı kullanarak bu forumu görüntüleyebilirsiniz, siz forumu ziyaret edene kadar daha fazla bildirim gönderilmeyecektir.
+
+{U_FORUM}
+
+Eğer bu forumu takip etmek istemiyorsanız forum içerisindeki "Bu foruma abone olmayı bırak" bağlantısını bulup kullanabilirsiniz, veya alttaki bağlantıya tıklayabilirsiniz:
+
+{U_STOP_WATCHING_FORUM}
+
+{EMAIL_SIG}

@@ -1,0 +1,18 @@
+Subject: Reaktiver kontoen din på «{SITENAME}»
+
+En systemadministrator har bedt om at kontoen din reaktiveres. Kontoen din er for øyeblikket inaktiv.
+Følg trinnene her for å reaktivere kontoen.
+
+Ta vare på denne e-posten. Kontoinformasjonen din er som følger:
+
+----------------------------
+Brukernavn: {USERNAME}
+----------------------------
+
+Passordet er trygt lagret i databasen vår, og kan ikke hentes ut. Hvis du glemmer det, vil du kunne tilbakestille det ved hjelp av e-postadressen som er tilknyttet kontoen.
+
+Bruk følgende lenke for å reaktivere kontoen:
+
+{U_ACTIVATE}
+
+{EMAIL_SIG}

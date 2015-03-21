@@ -1,0 +1,43 @@
+Subject: Fàilte gu "{SITENAME}"
+
+{WELCOME_MSG}
+
+Tha an cunntas agad gun ghnìomhachadh a-rèir COPPA an-dràsta.
+
+Clò-bhuail an teachdaireachd seo is dh'iarr do phàrant no neach-dìona ainm is ceann-latha a chur ris. An uairsin, cuir facs gu:
+
+{FAX_INFO}
+
+NO cuir e leis a' phost gu:
+
+{MAIL_INFO}
+
+------------------------------ GEÀRR AN-SEO ------------------------------
+
+Cead gus pàirt a ghabhail air "{SITENAME}" - {U_BOARD}
+
+Far-ainm: {USERNAME}
+Post-d: {EMAIL_ADDRESS}
+
+
+THA MI AIR AM FIOSRACHADH A THUG MO PHÀISTE THUGAM A SGRÙDADH AGUS BHEIR MI CEAD DO "{SITENAME}" AM FIOSRACHADH SEO A GHLÈIDHEADH LE SEO.
+THA MI A' TUIGSINN GUR URRAINNEAR FACAL-FAIRE A CHUR A-STEACH AGUS AM FIOSRACHADH SEO ATHARRACHADH UAIR SAM BITH.
+THA MI A' TUIGSINN GUR URRAINN DHOMH IARRAIDH GUN SGUABAR ÀS DON FHIOSRACHADH SEO O "{SITENAME}" UAIR SAM BITH.
+
+
+Pàrant no neach-dìona
+(Litrich d' ainm an-seo): _____________________
+
+(Cuir do làmh ris an-seo): __________________ 
+
+Ceann-latha: _______________
+
+------------------------------ GEÀRR AN-SEO ------------------------------
+
+Thèid an cunntas agad a ghnìomhachadh nuair a bhios an rianaire air an fhoirm seo fhaighinn le facs no post cumanta.
+
+Na dìochuimhnich am facal-faire agad a chionn 's gun deach a ghlèidheadh san stòr-dàta againn ann an cruth dìomhair is chan urrainn dhuinn aiseag dhut. 'S urrainn dhut fear ùr iarraidh ge-tà ma dhìochuimhnicheas tu am facal-faire agad. Thèid am fear ùr a ghnìomhachadh an uairsin air an dearbh dhòigh 's a chaidh an cunntas seo a ghnìomhachadh.
+
+Gun robh math agad airson clàradh.
+
+{EMAIL_SIG}

@@ -1,0 +1,7 @@
+Subject: Rapport lukket – «{PM_SUBJECT}»
+
+Hei, {USERNAME}!
+
+Du mottar dette varselet fordi rapporten du sendte om den private meldingen «{PM_SUBJECT}» på «{SITENAME}» er behandlet av en moderator eller administrator. Rapporten er nå lukket. Hvis du har flere spørsmål, kan du kontakte {CLOSER_NAME} per privat melding.
+
+{EMAIL_SIG}

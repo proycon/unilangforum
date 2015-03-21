@@ -1,0 +1,9 @@
+Subject: Prijava privatne poruke - "{TOPIC_TITLE}"
+
+Poštovanje {USERNAME},
+
+ova obavijest ti je stigla zbog prijave privatne poruke naslova "{SUBJECT}", od strane "{AUTHOR_NAME}", na forumu "{SITENAME}".
+
+Prijavu možeš vidjeti klikom na sljedeći link: {U_VIEW_REPORT}.
+
+{EMAIL_SIG}

@@ -1,0 +1,9 @@
+Subject: Reaktivacija korisničkog racuna
+
+Poštovanje {USERNAME},
+
+tvoj korisnički račun na forumu "{SITENAME}" je deaktiviran, najvjerojatnije zbog promjena napravljenih u korisničkom profilu.
+
+Za reaktivaciju korisničkog računa klikni na sljedeći link: {U_ACTIVATE}.
+
+{EMAIL_SIG}

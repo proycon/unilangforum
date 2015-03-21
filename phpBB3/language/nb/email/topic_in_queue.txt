@@ -1,0 +1,13 @@
+Subject: Varsel om emnemoderering – «{TOPIC_TITLE}»
+
+Hei, {USERNAME}!
+
+Du mottar dette varselet fordi emnet «{TOPIC_TITLE}» på «{SITENAME}» trenger godkjenning.
+
+Hvis du vil vise emnet, klikker du følgende lenke:
+{U_VIEW_TOPIC}
+
+Hvis du vil vise forumet, klikker du følgende lenke:
+{U_FORUM}
+
+{EMAIL_SIG}

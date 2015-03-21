@@ -1,0 +1,8 @@
+Subject: Gearan air a sguabadh às - "{PM_SUBJECT}"
+
+{USERNAME}, a charaid,
+
+Fhuair thu am fios seo a chionn 's gun deach an gearan a rinn thu mun teachdaireachd phearsanta "{PM_SUBJECT}" air "{SITENAME}" a sguabadh às le maor no rianaire.
+
+
+{EMAIL_SIG}

@@ -1,0 +1,7 @@
+Subject: Kontot aktiverat
+
+Hej {USERNAME},
+
+Ditt konto på "{SITENAME}" har nu aktiverats, du kan nu logga in. Ditt lösenord har krypterats i vår databas och kan inte hämtas därifrån av oss. Om du glömmer ditt lösenord så kan du nollställa det och begära ett nytt till e-postadressen, som hör ihop med ditt konto.
+
+{EMAIL_SIG}

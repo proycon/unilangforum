@@ -1,0 +1,20 @@
+Subject: Powiadomienie o odpowiedzi w temacie – „{TOPIC_TITLE}”
+
+Witaj {USERNAME},
+
+Otrzymujesz to powiadomienie, ponieważ w temacie „{TOPIC_TITLE}” na witrynie „{SITENAME}”, do którego została dodana zakładka, od czasu Twojego ostatniego pobytu został opublikowany nowy post. By go zobaczyć, możesz użyć  poniższego odnośnika. Kolejne powiadomienia o zmianach będą wysyłane dopiero, gdy zapoznasz się z tym postem.
+
+Jeśli chcesz zobaczyć najnowszy post kliknij poniższy odnośnik:
+{U_NEWEST_POST}
+
+Jeśli chcesz zobaczyć temat, kliknij ten odnośnik:
+{U_TOPIC}
+
+Jeśli chcesz zobaczyć forum, użyj tego odnośnika:
+{U_FORUM}
+
+Jeśli nie chcesz już otrzymywać informacji o nowych postach w temacie, do którego została dodana zakładka, zmień ustawienia powiadomień, klikając poniższy odnośnik:
+
+{U_NOTIFICATION_SETTINGS}
+
+{EMAIL_SIG}

@@ -1,0 +1,13 @@
+Subject: Denúncia de Mensagem - "{TOPIC_TITLE}"
+
+Olá {USERNAME},
+
+Está a receber esta notificação porque a mensagem "{POST_SUBJECT}" em "{SITENAME}" foi denunciada.
+
+Para ver o relatório, clique no seguinte link:
+{U_VIEW_REPORT}
+
+Para ver a mensagem, clique no seguinte link:
+{U_VIEW_POST}
+
+{EMAIL_SIG}

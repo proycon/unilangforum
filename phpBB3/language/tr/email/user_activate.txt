@@ -1,0 +1,9 @@
+Subject: Hesabınızı yeniden aktif edin
+
+Merhaba {USERNAME},
+
+"{SITENAME}" mesaj panosunda bulunan hesabınız aktif değil. Bu, genellikle profil değişikliklerinde olur. Hesabınızı aktif etmek için lütfen alttaki bağlantıya tıklayın: 
+
+{U_ACTIVATE}
+
+{EMAIL_SIG}

@@ -1,0 +1,19 @@
+Subject: phpBB yüklendi
+
+Tebrikler,
+
+phpBB'yi sunucunuza başarıyla yüklediniz.
+
+Bu e-posta kurulumunuz hakkında önemli bilgiler içermektedir ve gerektiğinde başvurma açısından saklanmalıdır. Şifreniz veritabanımızda güvenli bir şekilde saklanmaktadır ve ele geçirilemeyecek durumdadır. Eğer şifrenizi unutursanız, hesabınız ile tanımlı olan e-posta adresinizi kullanarak şifrenizi sıfırlayabilirsiniz.
+
+----------------------------
+Kullanıcı adı: {USERNAME}
+
+Mesaj Panosu URL adresi: {U_BOARD}
+----------------------------
+
+phpBB yazılımı hakkında ihtiyacınız olabilecek bilgilere kurulumunuz içerisindeki docs klasöründen ve phpBB.com'un destek sayfasından ulaşabilirsiniz. - https://www.phpbb.com/support/
+
+Mesaj panonuzu güvende ve emniyette tutmanız için, yazılım güncelleme duyurularını takip etmenizi kesinlikle öneririz. Size yardımcı olması için, sayfanın altındaki e-posta listesini kullanabilirsiniz.
+
+{EMAIL_SIG}

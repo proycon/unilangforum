@@ -1,0 +1,13 @@
+Subject: "{SITENAME}" - Elektronička pošta od prijatelja/ice
+
+Poštovanje {TO_USERNAME},
+
+ovu poruku ti je, s foruma "{SITENAME}", poslao/la korisnik/ca {FROM_USERNAME}, vezano uz temu {TOPIC_NAME} koju možeš pročitati klikom na sljedeći link: {U_TOPIC}.
+
+Dodatan tekst poruci, od korisnika/ce {FROM_USERNAME}, ako ga ima, nalazi se ispod.
+Nije viđen/odobren od strane administratora/ice foruma.
+Ukoliko ovu poruku smatraš spamom, odnosno sadrži uvredljive ili druge nepoželjne komentare, kontaktiraj administratora/icu foruma na: {BOARD_CONTACT} [priloži čitavu poruku, uključujući i zaglavlja].
+
+----------
+
+{MESSAGE}

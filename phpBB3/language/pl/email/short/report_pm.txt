@@ -1,0 +1,10 @@
+Subject: Zgłoszono do moderacji prywatną wiadomość – „{TOPIC_TITLE}”
+
+Witaj {USERNAME},
+
+Otrzymujesz to powiadomienie, ponieważ na witrynie „{SITENAME}” „{AUTHOR_NAME}” zgłosił do przejrzenia przez moderatorów prywatną wiadomość zatytułowaną „{SUBJECT}”.
+
+Jeśli chcesz zobaczyć zgłoszenie, kliknij poniższy odnośnik:
+{U_VIEW_REPORT}
+
+{EMAIL_SIG}

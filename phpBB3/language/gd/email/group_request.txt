@@ -1,0 +1,10 @@
+Subject: Iarrtas ùr airson ballrachd sa bhuidheann agad
+
+{USERNAME}, a charaid,
+
+Dh'iarr am ball "{REQUEST_USERNAME}" ballrachd sa bhuidheann "{GROUP_NAME}" far a bheil thu nad mhaor air "{SITENAME}".
+Cleachd an ceangal a leanas gus aontachadh ris an iarrtas seo no a dhiùltadh:
+
+{U_PENDING}
+
+{EMAIL_SIG}

@@ -1,0 +1,10 @@
+Subject: Prośba o przyjęcie do Twojej grupy
+
+Drogi {USERNAME}!
+
+Użytkownik „{REQUEST_USERNAME}}” poprosił o przyjęcie do grupy „{GROUP_NAME}”, której jesteś moderatorem na witrynie „{SITENAME}”.
+Aby zaakceptować lub odrzucić tę prośbę, przejdź do odpowiedniej strony, klikając poniższy odnośnik:
+
+{U_PENDING}
+
+{EMAIL_SIG}

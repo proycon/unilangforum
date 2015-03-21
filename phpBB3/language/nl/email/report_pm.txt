@@ -1,0 +1,10 @@
+Subject: Privébericht melding - "{TOPIC_TITLE}"
+
+Hallo {USERNAME},
+
+Je ontvangt dit bericht omdat een melding van een privébericht getiteld "{SUBJECT}" door "{AUTHOR_NAME}" op "{SITENAME}" is gemeld.
+
+Als je deze melding wilt bekijken, klik dan op de volgende link:
+{U_VIEW_REPORT}
+
+{EMAIL_SIG}

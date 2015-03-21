@@ -1,0 +1,19 @@
+Subject: Notificação de resposta ao tópico - "{TOPIC_TITLE}"
+
+Olá {USERNAME},
+
+Está a receber esta notificação porque está a observar o tópico, "{TOPIC_TITLE}" em "{SITENAME}". Este tópico recebeu uma resposta<!-- IF AUTHOR_NAME !== '' --> por {AUTHOR_NAME}<!-- ENDIF --> desde a sua última visita. Pode usar o link seguinte para ver as respostas. Não serão enviadas mais notificações até que visite o tópico.
+
+Se deseja ver a mensagem mais recente feita depois da sua última visita, clique no seguinte link:
+{U_NEWEST_POST}
+
+Se deseja ver o tópico, clique no seguinte link:
+{U_TOPIC}
+
+Se deseja ver o fórum, clique no seguinte link:
+{U_FORUM}
+
+Se não quer vigiar a este tópico, pode clicar em "Parar de Observar Tópico" na parte inferior do tópico acima indicado, ou clicando no seguinte link:
+{U_STOP_WATCHING_TOPIC}
+
+{EMAIL_SIG}

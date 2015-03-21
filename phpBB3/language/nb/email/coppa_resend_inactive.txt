@@ -1,0 +1,42 @@
+Subject: Velkommen til «{SITENAME}»
+
+{WELCOME_MSG}
+
+I henhold til COPPA er kontoen din for øyeblikket inaktiv.
+
+Skriv ut denne meldingen og få en forelder eller en verge til å datere og signere den. Send den deretter per telefaks til:
+
+{FAX_INFO}
+
+ELLER send den som brev til:
+
+{MAIL_INFO}
+
+------------------------------ KLIPP HER ------------------------------
+Tillatelse til å delte på «{SITENAME}» – {U_BOARD}
+
+Brukernavn: {USERNAME}
+E-post: {EMAIL_ADDRESS}
+
+JEG HAR GÅTT GJENNOM INFORMASJONEN SOM MITT BARN HAR GITT MEG, OG GIR HERVED TILLATELSE TIL AT «{SITENAME}» LAGRER DISSE OPPLYSNINGENE.
+JEG FORSTÅR AT DISSE OPPLYSNINGENE NÅR SOM HELST KAN ENDRES VED Å ANGI ET PASSORD.
+JEG FORSTÅR AT JEG NÅR SOM HELST KAN BE OM AT DISSE OPPLYSNINGENE FJERNES FRA «{SITENAME}».
+
+
+Forelder eller verge 
+(navn med blokkbokstaver her): _____________________
+
+(signer her): __________________ 
+
+Dato: _______________
+
+------------------------------ KLIPP HER ------------------------------
+
+
+Når administratoren har mottatt skjemaet ovenfor per telefaks eller brev, vil kontoen bli aktivert.
+
+Passordet er trygt lagret i databasen vår, og kan ikke hentes ut. Hvis du glemmer det, vil du kunne tilbakestille det ved hjelp av e-postadressen som er tilknyttet kontoen.
+
+Takk for at du registrerte deg.
+
+{EMAIL_SIG}

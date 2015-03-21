@@ -1,0 +1,23 @@
+
+Witaj {TO_USERNAME},
+
+Ta wiadomość została wysłana ze strony kontaktowej zespołu administracyjnego witryny „{SITENAME}”.
+
+<!-- IF S_IS_REGISTERED -->
+Ta wiadomość została wysłana z witryny.
+Nazwa użytkownika: {FROM_USERNAME}
+Adres e-mail: {FROM_EMAIL_ADDRESS}
+Adres IP: {FROM_IP_ADDRESS}
+Profil: {U_FROM_PROFILE}
+<!-- ELSE -->
+Ta wiadomość została wysłana przez Gościa, który poprosił o następujące informacje kontaktowe:
+Nazwa użytkownika: {FROM_USERNAME}
+Adres e-mail: {FROM_EMAIL_ADDRESS}
+Adres IP: {FROM_IP_ADDRESS}
+<!-- ENDIF -->
+
+
+Treść wiadomości
+~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+{MESSAGE}

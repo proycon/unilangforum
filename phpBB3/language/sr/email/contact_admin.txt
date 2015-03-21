@@ -1,0 +1,23 @@
+
+Поздрав {TO_USERNAME},
+
+Следи e-mail који вам је послат преко администрационе контакт странице на форуму "{SITENAME}".
+
+<!-- IF S_IS_REGISTERED -->
+Порука је послата са налога на сајту.
+Корисничко име: {FROM_USERNAME}
+E-mail адреса: {FROM_EMAIL_ADDRESS}
+IP Адреса: {FROM_IP_ADDRESS}
+Профил: {U_FROM_PROFILE}
+<!-- ELSE -->
+Порука је послата од госта који је пружио следеће контакт податке:
+Име: {FROM_USERNAME}
+E-mail адреса: {FROM_EMAIL_ADDRESS}
+IP Адреса: {FROM_IP_ADDRESS}
+<!-- ENDIF -->
+
+
+Следи порука која вам је послата
+~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+{MESSAGE}

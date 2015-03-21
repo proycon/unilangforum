@@ -1,0 +1,7 @@
+Subject: Rapport lukket - "{POST_SUBJECT}"
+
+Hej {USERNAME}
+
+Den rapport du har indgivet for indlægget "{POST_SUBJECT}" i "{TOPIC_TITLE}" på "{SITENAME}" er blevet behandlet af en redaktør eller administrator. Rapporten blev herefter lukket. Hvis du har yderligere spørgsmål, bedes du kontakte {CLOSER_NAME} via en privat besked.
+
+{EMAIL_SIG}

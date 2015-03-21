@@ -1,0 +1,12 @@
+Subject: Post air a dhì-aontachadh - "{POST_SUBJECT}"
+
+{USERNAME}, a charaid,
+
+Fhuair thu am fios seo a chionn 's gun deach am post "{POST_SUBJECT}" agad "{SITENAME}" a dhì-aontachadh le maor no rianaire.
+
+Seo adhbhar an dì-aontachaidh a chuireadh an cèill:
+
+{REASON}
+
+
+{EMAIL_SIG}

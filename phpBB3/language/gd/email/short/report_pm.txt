@@ -1,0 +1,10 @@
+Subject: Gearan air teachdaireachd phrìobhaideach - "{TOPIC_TITLE}"
+
+{USERNAME}, a charaid,
+
+Fhuair thu am brath seo on a rinn cuideigin gearan mu theachdaireachd phrìobhaideach air a bheil "{SUBJECT}" a chaidh sgrìobhadh le "{AUTHOR_NAME}" air "{SITENAME}". 
+
+Ma tha thu airson an gearan a shealltainn, lean air adhart leis a' cheangal seo:
+{U_VIEW_REPORT}
+
+{EMAIL_SIG}

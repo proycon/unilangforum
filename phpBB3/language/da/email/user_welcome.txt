@@ -1,0 +1,17 @@
+Subject: Velkommen til "{SITENAME}"
+
+{WELCOME_MSG}
+
+Gem denne email til fremtidig brug. Din kontoinformation er følgende:
+
+----------------------------
+Brugernavn: {USERNAME}
+
+Boardets URL: {U_BOARD}
+----------------------------
+
+Dit kodeord er gemt krypteret og sikkert i vores database, og kan derfor ikke genfindes. Glemmer du kodeordet, er du istand til at nulstille det ved brug af emailadressen knyttet til din konto.
+
+Tak for din tilmelding.
+
+{EMAIL_SIG}

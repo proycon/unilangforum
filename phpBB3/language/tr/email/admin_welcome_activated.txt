@@ -1,0 +1,9 @@
+Subject: Hesap aktif edilmiştir
+
+Merhaba {USERNAME},
+
+"{SITENAME}" mesaj panosunda bulunan hesabınız bir yönetici tarafından aktif edildi, şimdi giriş yapabilirsiniz.
+
+Şifreniz veritabanımızda güvenli bir şekilde saklanmaktadır ve ele geçirilemeyecek durumdadır. Eğer şifrenizi unutursanız, hesabınız ile tanımlı olan e-posta adresinizi kullanarak şifrenizi sıfırlayabilirsiniz.
+
+{EMAIL_SIG}

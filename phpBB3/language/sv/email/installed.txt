@@ -1,0 +1,19 @@
+Subject: phpBB installerat
+
+Grattis,
+
+phpBB har installerats på din server.
+
+Detta e-postmeddelande innehåller viktig information om din installation som du bör förvara säkert. Lösenordet har krypterats i databasen och kan inte återfås, men du kan begära ett nytt lösenord till e-postadressen som hör ihop med ditt användarkonto på forumet.
+
+----------------------------
+Användarnamn: {USERNAME}
+
+Forum-URL: {U_BOARD}
+----------------------------
+
+Användbar information om din phpBB installation kan hittas i docs-mappen i din installation, på phpBB.com's supportsida — https://www.phpbb.com/support/ samt på svenska supportsidan - http://www.phpbb.se/
+
+För att hålla ditt diskussionsforum säkert så är det varmt rekommenderat att hålla sig uppdaterad med nya versioner av mjukvaran vilket enkelt kan göras genom att börja prenumerera på phpBB.com's nyhetsbrev, som finns tillgänglig på http://www.phpbb.com/support/
+
+{EMAIL_SIG}

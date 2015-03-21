@@ -1,0 +1,13 @@
+Subject: Cuimhneachan air cunntas à gnìomh
+
+{USERNAME}, a charaid,
+
+Chlàraich thu cunntas air "{SITENAME}" {REGISTER_DATE}. Cha do ghnìomhaich thu an cunntas gu ruige seo agus feumaidh tu seo a dhèanamh mus dèid agad air logadh a-steach sa bhòrd-bhrath seo.
+
+Lean air adhart leis a' cheangal gus an cunntas agad a ghnìomhachadh a-nis.
+
+{U_ACTIVATE}
+
+Gun robh math agad airson clàradh air "{SITENAME}" is tha sinn a' gabhail fiughair ris gun gabh thu pàirt ann.
+
+{EMAIL_SIG}
