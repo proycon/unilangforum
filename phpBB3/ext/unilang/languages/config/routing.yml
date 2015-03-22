@@ -1,7 +1,7 @@
-unilang_languages_controller:
+unilang_languages_info:
     pattern: /lang_info
     defaults: { _controller:unilang.languages.controller:info }
 
-unilang_languages_controller:
+unilang_languages_wikidirect:
     pattern: /wikidirect
     defaults: { _controller:unilang.languages.controller:wikidirect }
