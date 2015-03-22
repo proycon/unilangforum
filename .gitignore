@@ -1,0 +1,9 @@
+*~
+/phpBB3/cache/*
+!/phpBB3/cache/.htaccess
+!/phpBB3/cache/index.htm
+/phpBB3/config*.php
+/phpBB3/files/*
+/phpBB3/images/avatars/gallery/*
+/phpBB3/images/avatars/upload/*
+/phpBB3/images/ranks/*
