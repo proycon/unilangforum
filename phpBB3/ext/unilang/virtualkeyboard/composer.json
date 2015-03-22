@@ -1,0 +1,25 @@
+{
+   "name": "unilang/virtualkeyboard",
+   "type": "phpbb-extension",
+   "description": "UniLang Virtual Keyboard for posts",
+   "homepage": "https://github.com/proycon/unilangforum",
+   "version": "0.1.0",
+   "time": "2015-03-22",
+   "license": "GPL-3.0",
+   "authors": [{
+      "name": "Patryk Kalinowski",
+      "email": "xivrox@gmail.com",
+      "homepage": "https://github.com/pkalein/",
+      "role": "Lead Developer"
+   }],
+   "require": {
+      "php": ">=5.3.3",
+      "composer/installers": "~1.0"
+   },
+   "extra": {
+      "display-name": "UniLang Virtual Keyboard Extension",
+      "soft-require" : {
+         "phpbb/phpbb": ">=3.1.0-RC2,<3.2.*@dev"
+      }
+   }
+}
