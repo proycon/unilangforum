@@ -64,7 +64,7 @@ class main_listener implements EventSubscriberInterface
     public function add_page_header_link($event) {
         //add the page link for the language list info page
         $this->template->assign_vars(array(
-            'U_LANG_INFO_PAGE'   => $this->helper->route('unilang_languages_controller'),
+            'U_LANG_INFO_PAGE'   => $this->helper->route('unilang_languages_info'),
         ));
     }
 
