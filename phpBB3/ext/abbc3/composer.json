@@ -1,0 +1,34 @@
+{
+	"name": "vse/abbc3",
+	"type": "phpbb-extension",
+	"description": "Replace phpBB3's BBCode buttons with icons in an attractive and customizable toolbar. This extension also adds many new and useful custom BBCodes giving users more ways to customize their posts, including BBvideo (embed videos from dozens of media sites). Custom BBCodes can be arranged and sorted in any order and assigned to specific usergroups (such as Moderators and Admins only).",
+	"homepage": "https://github.com/VSEphpbb/abbc3",
+	"version": "3.1.0",
+	"keywords": ["phpbb", "extension", "bbcodes", "bbvideo"],
+	"license": "GPL-2.0",
+	"authors": [
+		{
+			"name": "Matt Friedman (VSE)",
+			"homepage": "http://mattfriedman.me",
+			"role": "Developer"
+		}
+	],
+	"require": {
+		"php": ">=5.3.3",
+		"composer/installers": "~1.0"
+	},
+	"require-dev": {
+		"phpbb/epv": "dev-master"
+	},
+	"extra": {
+		"display-name": "Advanced BBCode Box",
+		"soft-require": {
+			"phpbb/phpbb": ">=3.1.2,<3.2.*@dev"
+		},
+		"version-check": {
+			"host": "vsephpbb.github.io",
+			"directory": "/version",
+			"filename": "abbc3.json"
+		}
+	}
+}
