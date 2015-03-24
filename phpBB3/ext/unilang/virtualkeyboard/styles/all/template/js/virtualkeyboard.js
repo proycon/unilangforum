@@ -74,7 +74,7 @@
       if ($.cookie('unilang_vkbd_scheme') != undefined)
         $("#ulvkbd-layout-select > select").val($.cookie('unilang_vkbd_scheme'));
       if ($.cookie('unilang_vkbd_ext') != undefined)
-        $("#ulvkbd-layout-extended").prop('checked', $.cookie('unilang_vkbd_ext'));
+        $("#ulvkbd-layout-extended").prop('checked', $.cookie('unilang_vkbd_ext') === 'true');
       if ($.cookie('unilang_vkbd_show') === 'true')
         showCharbox();
     });
