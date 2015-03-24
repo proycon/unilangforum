@@ -1,238 +1,63 @@
+<!-- IF not $INCLUDED_JQUERY_COOKIE -->
+  <!-- INCLUDEJS @unilang_virtualkeyboard/js/jquery.cookie.1.4.1.js -->
+  <!-- DEFINE $INCLUDED_JQUERY_COOKIE = true -->
+<!-- ENDIF -->
 <!-- IF not $INCLUDED_UNILANG_VIRTUALKEYBOARD -->
   <!-- INCLUDEJS @unilang_virtualkeyboard/js/virtualkeyboard.js -->
   <!-- DEFINE $INCLUDED_UNILANG_VIRTUALKEYBOARD = true -->
 <!-- ENDIF -->
 
 <style>
-  #ulkvbd .ulvkbd-buttonlist > label {
+  #ulvkbd .ulvkbd-buttonlist label {
     -webkit-border-radius: 4px; border-radius: 4px;
     color: #39392e; background-color: #c1c2b7;
     font-size: 0.9em;
     padding: 6px 5px;
-    float: left;
-    margin: 2px 7px;
+    margin: 2px 0;
   }
-  #ulkvbd .ulvkbd-buttonlist > label:first-child {
-    margin-left: 0px;
+  #ulvkbd .ulvkbd-buttonlist div {
+    display: inline;
   }
-  #ulkvbd .ulvkbd-buttonlist > button {
+
+  #ulvkbd .ulvkbd-buttonlist div > span {
+    display: inline-block;
+  }
+  #ulvkbd .ulvkbd-buttonlist button {
+    min-width: 20px;
     margin: 2px 0; padding: 5px;
     border: 0;
-    float: left;
   }
-  #ulkvbd .ulvkbd-buttonlist > button:hover {
+  #ulvkbd .ulvkbd-buttonlist button:hover {
     cursor: pointer; cursor: hand;
     background-color: #EBEBEB;
   }
 </style>
 
-<div id="ulkvbd">
+<div id="ulvkbd">
 
-  <div id="ulkvbd-toggle" style="display: inline">
-    <a href="#" style="display: none">Hide virtual keyboard</a>
-    <a href="#">Show virtual keyboard</a>
+  <div id="ulvkbd-toggle">
+    <a href="#" style="display: none">{L_VKBD_HIDE}</a>
+    <a href="#">{L_VKBD_SHOW}</a>
 
-    <span id="ulkvbd-layout-select" style="display: none">
+    <span id="ulvkbd-layout-select" style="display: none">
       <select style="display: inline">
-        <option value="IPA">IPA</option>
-<!--         <option value="Latn">Latin/Roman</option>
-        <option value="Cyrl">Cyrillic</option>
-        <option value="Grek">Greek</option> -->
+        <option value="IPA">{L_VKBD_IPA}</option>
+        <option value="Latn" data-showext="1">{L_VKBD_LATN}</option>
+        <option value="Cyrl" data-showext="1">{L_VKBD_CYRL}</option>
+        <option value="Grek" data-showext="1">{L_VKBD_GREK}</option>
       </select>
+
+      <span id="ulvkbd-layout-extended-toggle" style="display: none">
+        <label>
+          <input type="checkbox" id="ulvkbd-layout-extended">
+          {L_VKBD_EXTENDED}
+        </label>
+      </span>
     </span>
   </div>
 
-  <div id="ulkvbd-box" data-loaded="1" style="display: none">
-
-    <div data-layout="IPA" class="ulvkbd-buttonlist ulkvbd-layout-IPA" style="display: none">
-      <label>Vowels</label>
-
-      <button title="close central unrounded vowel">ɨ</button>
-      <button title="close central rounded vowel">ʉ</button>
-      <button title="close back unrounded vowel">ɯ</button>
-      <button title="near-close near-front unrounded vowel">ɪ</button>
-      <button title="near-close near-front rounded vowel">ʏ</button>
-      <button title="near-close near-back rounded vowel">ʊ</button>
-      <button title="close-mid front rounded vowel">ø</button>
-      <button title="close-mid central unrounded vowel">ɘ</button>
-      <button title="close-mid central rounded vowel">ɵ</button>
-      <button title="close-mid back unrounded vowel">ɤ</button>
-      <button title="mid-central vowel">ə</button>
-      <button title="open-mid front unrounded vowel">ɛ</button>
-      <button title="open-mid front rounded vowel">œ</button>
-      <button title="open-mid central unrounded vowel">ɜ</button>
-      <button title="open-mid central rounded vowel">ɞ</button>
-      <button title="open-mid back unrounded vowel">ʌ</button>
-      <button title="open-mid back rounded vowel">ɔ</button>
-      <button title="near-open front unrounded vowel">æ</button>
-      <button title="near-open central vowel">ɐ</button>
-      <button title="open front rounded vowel">ɶ</button>
-      <button title="open back unrounded vowel">ɑ</button>
-      <button title="open back rounded vowel">ɒ</button>
-
-      <label>Pulmonic consonants</label>
-
-      <button title="voiceless retroflex plosive">ʈ</button>
-      <button title="voiced retroflex plosive">ɖ</button>
-      <button title="voiced palatal plosive">ɟ</button>
-      <button title="voiced uvular plosive">ɢ</button>
-      <button title="glottal stop">ʔ</button>
-      <button title="labiodental nasal">ɱ</button>
-      <button title="retroflex nasal">ɳ</button>
-      <button title="palatal nasal">ɲ</button>
-      <button title="velar nasal">ŋ</button>
-      <button title="uvular nasal">ɴ</button>
-      <button title="bilabial trill">ʙ</button>
-      <button title="uvular trill">ʀ</button>
-      <button title="labiodental flap">ⱱ</button>
-      <button title="alveolar tap">ɾ</button>
-      <button title="retroflex flap">ɽ</button>
-      <button title="voiceless vilabial fricative">ɸ</button>
-      <button title="voiced vilabial fricative">β</button>
-      <button title="voiceless dental fricative">θ</button>
-      <button title="voiced dental fricative">ð</button>
-      <button title="voiceless postalveolar fricative">ʃ</button>
-      <button title="voiced postalveolar fricative">ʒ</button>
-      <button title="voiceless retroflex fricative">ʂ</button>
-      <button title="voiced retroflex fricative">ʐ</button>
-      <button title="voiceless palatal fricative">ç</button>
-      <button title="voiced palatal fricative">ʝ</button>
-      <button title="voiced velar fricative">ɣ</button>
-      <button title="voiceless uvular fricative">χ</button>
-      <button title="voiced uvular fricative">ʁ</button>
-      <button title="voiceless pharyngeal fricative">ħ</button>
-      <button title="voiced pharyngeal fricative">ʕ</button>
-      <button title="voiced glottal fricative">ɦ</button>
-      <button title="voiceless alveolar lateral fricative">ɬ</button>
-      <button title="voiced alveolar lateral fricative">ɮ</button>
-      <button title="labiodental approximant">ʋ</button>
-      <button title="alveolar approximant">ɹ</button>
-      <button title="retroflex approximant">ɻ</button>
-      <button title="velar approximant">ɰ</button>
-      <button title="retroflex lateral approximant">ɭ</button>
-      <button title="palatal lateral approximant">ʎ</button>
-      <button title="velar lateral approximant">ʟ</button>
-      <button title="voiceless labio-velar approximant">ʍ</button>
-      <button title="voiced labial-palatal approximant">ɥ</button>
-      <button title="voiceless epiglottal fricative">ʜ</button>
-      <button title="voiced epiglottal fricative">ʢ</button>
-      <button title="epiglottal plosive">ʡ</button>
-      <button title="voiceless alveo-palatal fricative">ɕ</button>
-      <button title="voiceless alveo-palatal fricative">ʑ</button>
-      <button title="alveolar lateral flap">ɺ</button>
-      <button title="simultaneous [ʃ] and [x]">ɧ</button>
-      <button title="velarized alveolar lateral approximant">ɫ</button>
-
-      <button title="voiceless alveolar affricate">t͡s</button>
-      <button title="voiced alveolar affricate">d͡z</button>
-      <button title="voiceless postalveolar affricate">t͡ʃ</button>
-      <button title="voiced postalveolar affricate">d͡ʒ</button>
-      <button title="voiceless alveo-palatal affricate">t͡ɕ</button>
-      <button title="voiced alveo-palatal affricate">d͡ʑ</button>
-
-      <label>Non-pulmonic consonants</label>
-
-      <button title="bilabial click">ʘ</button>
-      <button title="dental click">ǀ</button>
-      <button title="(post)alveolar click">ǃ</button>
-      <button title="palatoalveolar click">ǂ</button>
-      <button title="alveolar lateral click">ǁ</button>
-      <button title="voiced bilabial implosive">ɓ</button>
-      <button title="voiced dental/alveolar implosive">ɗ</button>
-      <button title="voiced palatal implosive">ʄ</button>
-      <button title="voiced velar implosive">ɠ</button>
-      <button title="voiced uvular implosive">ʛ</button>
-      <button title="ejective">ʼ</button>
-
-      <label>Suprasegmentals</label>
-
-      <button title="primary stress">ˈ</button>
-      <button title="secondary stress">ˌ</button>
-      <button title="long">ː</button>
-      <button title="half-long">ˑ</button>
-      <button data-char="̆" title="extra-short">&nbsp; ̆</button>
-      <button title="linking">‿</button>
-
-      <label>Tones and word accents</label>
-
-      <button title="extra-high">˥</button>
-      <button title="high">˦</button>
-      <button title="mid">˧</button>
-      <button title="low">˨</button>
-      <button title="extra-low">˩</button>
-      <button title="rising">˩˥</button>
-      <button title="falling">˥˩</button>
-      <button title="high rising">˦˥</button>
-      <button title="low rising">˩˨</button>
-      <button title="rising-falling">˧˦˧</button>
-
-<!--       <button data-char="̋" title="extra-high">&nbsp; ̋</button>
-      <button data-char="́" title="high">&nbsp; ́</button>
-      <button data-char="̄" title="mid">&nbsp; ̄</button>
-      <button data-char="̀" title="low">&nbsp; ̀</button>
-      <button data-char="̏" title="extra-low">&nbsp; ̏</button>
-      <button data-char="̌" title="rising">&nbsp; ̌</button>
-      <button data-char="̂" title="falling">&nbsp; ̂</button>
-      <button data-char="᷄" title="high rising">&nbsp; ᷄</button>
-      <button data-char="᷅" title="low rising">&nbsp; ᷅</button>
-      <button data-char="᷈" title="rising-falling">&nbsp; ᷈</button> -->
-
-      <button title="downstep">↓</button>
-      <button title="upstep">↑</button>
-      <button title="global rise">↗</button>
-      <button title="global fall">↘</button>
-
-      <label>Diacritics</label>
-
-      <button data-char="̥" title="voiceless">&nbsp; ̥</button>
-      <button data-char="̊" title="voiceless">&nbsp; ̊</button>
-      <button data-char="̬" title="voiced">&nbsp; ̬</button>
-      <button data-char="̃" title="nasalized">&nbsp; ̃</button>
-      <button data-char="̩" title="syllabic">&nbsp; ̩</button>
-      <button data-char="̯" title="non-syllabic">&nbsp; ̯</button>
-      <button data-char="̝" title="raised">&nbsp; ̝</button>
-      <button data-char="̞" title="lowered">&nbsp; ̞</button>
-      <button data-char="̟" title="advanced">&nbsp; ̟</button>
-      <button data-char="̠" title="retracted">&nbsp; ̠</button>
-      <button data-char="̪" title="dental">&nbsp; ̪</button>
-      <button data-char="̺" title="apical">&nbsp; ̺</button>
-      <button data-char="̹" title="more rounded">&nbsp; ̹</button>
-      <button data-char="̜" title="less rounded">&nbsp; ̜</button>
-      <button data-char="̽" title="mid-centralized">&nbsp; ̽</button>
-      <button data-char="̤" title="breathy voiced">&nbsp; ̤</button>
-      <button data-char="̰" title="creaky voiced">&nbsp; ̰</button>
-      <button data-char="̼" title="linguolabial">&nbsp; ̼</button>
-      <button data-char="̴" title="velarized or pharyngealized">&nbsp; ̴</button>
-      <button data-char="̘" title="advanced tongue root">&nbsp; ̘</button>
-      <button data-char="̙" title="retracted tongue root">&nbsp; ̙</button>
-      <button data-char="̻" title="laminal">&nbsp; ̻</button>
-      <button data-char="̚" title="not audibly released">&nbsp; ̚</button>
-
-      <button title="syllabic or schwa">ᵊ</button>
-      <button title="aspirated">ʰ</button>
-      <button title="labialized">ʷ</button>
-      <button title="palatalized">ʲ</button>
-      <button title="velarized">ˠ</button>
-      <button title="pharyngealized">ˤ</button>
-      <button title="nasal release">ⁿ</button>
-      <button title="lateral release">ˡ</button>
-      <button title="breathy-voice aspirated">ʱ</button>
-      <button title="rhotacized">˞</button>
-
-    </div>
-
-<!--     <div data-layout="Latn" class="ulvkbd-buttonlist ulkvbd-layout-Latn" style="display: none">
-      
-    </div>
-
-    <div data-layout="Cyrl" class="ulvkbd-buttonlist ulkvbd-layout-Cyrl" style="display: none">
-
-    </div>
-
-    <div data-layout="Grek" class="ulvkbd-buttonlist ulkvbd-layout-Grek" style="display: none">
-
-    </div> -->
-
+  <div id="ulvkbd-box" data-loaded="0" data-uri="{U_AJAX_VK_CHARSETS}" style="display: none">
+    <em>{L_VKBD_PLEASE_WAIT}</em>
   </div>
 
   <div style="clear:both"></div>

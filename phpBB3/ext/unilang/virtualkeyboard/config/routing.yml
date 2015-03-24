@@ -1,0 +1,4 @@
+unilang_virtualkeyboard_ajax_charsets:
+  pattern: /virtualkeyboard/charsets
+  defaults:
+    _controller: unilang.virtualkeyboard.controller:ajax_charsets

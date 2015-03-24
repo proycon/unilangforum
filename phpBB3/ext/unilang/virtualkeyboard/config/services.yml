@@ -1,0 +1,15 @@
+services:
+    unilang.virtualkeyboard.controller:
+        class: unilang\virtualkeyboard\controller\main
+        arguments:
+            - @config
+            - @controller.helper
+            - @template
+            - @request
+    unilang.virtualkeyboard.listener:
+        class: unilang\virtualkeyboard\event\main_listener
+        arguments:
+            - @controller.helper
+            - @template
+        tags:
+            - { name: event.listener }
