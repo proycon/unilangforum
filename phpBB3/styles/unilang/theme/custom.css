@@ -108,3 +108,26 @@ div.subforums { /* hides the commas between subforums */
     color: #abcce8;
     font-size: 120px;
 }
+
+/* Custom BBCode classes */
+.Arab_big {
+    /* Use special Arabic fonts whenever possible */
+    font-family: Amiri,'Arabic Transparent','Droid Arabic Naskh',Scheherazade,Lateef,'Segoe UI','Sakkal Majalla','Microsoft Uighur','Arabic Typesetting',sans-serif;
+    font-size: 20px;
+    line-height: 1.6em;
+}
+.Hans_big, .Hant_big, .Japn_big {
+    font-size: 15px;
+    line-height: 1.6em;
+}
+.Thai_big, .Deva_big {
+    font-size: 16px;
+    line-height: 1.5em;
+}
+.ipa-text {
+    /* Prefer SIL fonts for IPA transcription */
+    font-family: Andika,'Charis SIL','Doulos SIL','Gentium Plus','Arial Unicode MS',sans-serif;
+    font-size: 14px;
+    line-height: 1.5em;
+}
+
