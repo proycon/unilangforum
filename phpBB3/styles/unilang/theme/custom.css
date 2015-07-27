@@ -126,7 +126,7 @@ div.subforums { /* hides the commas between subforums */
 }
 .ipa-text {
     /* Prefer SIL fonts for IPA transcription */
-    font-family: Andika,'Charis SIL','Doulos SIL','Gentium Plus','Arial Unicode MS',sans-serif;
+    font-family: 'Charis SIL','Doulos SIL','Gentium Plus','Arial Unicode MS',sans-serif;
     font-size: 14px;
     line-height: 1.5em;
 }
