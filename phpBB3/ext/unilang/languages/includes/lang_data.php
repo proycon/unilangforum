@@ -167,7 +167,7 @@ class lang_data {
     'grn' => "Guaraní",
     'got' => "Gutiska",
     'gu' => "ગુજરાતી",
-    'zhc' => '文言文', //ad-hoc code!
+    'zhc' => '文言', //ad-hoc code!
     'ha' => array('.Latn' => 'Hausa', '.Arab' => 'هَوُس'),
     'zh' => array('.Hans' => '汉语', '.Hant' => '漢語'), //Mandarin
     'yue' => array('.Hans' => '粤语', '.Hant' => '粵語'), //Cantonese
@@ -431,7 +431,7 @@ class lang_data {
     'ti' => "ትግርኛ",
     'ddo' => 'Цезйас мец',
     've' => "tshiVenda",
-    'tr' => "Türkçe",
+    'tr' => array("Türkçe",'-CY' => "Kıbrıslıca")
     'ota' => "عثمانلیجہ",
     'tk' => "Türkmençe",
     'tyv' => 'Тыва дыл',
@@ -867,7 +867,7 @@ class lang_data {
     'ddo' => 'Tsez',
     'ts' => 'Tsonga',
     'tn' => 'Tswana',
-    'tr' => 'Turkish',
+    'tr' => array("Turkish",'-CY' => "Cypriot Turkish"),
     'tk' => 'Turkmen',
     'tyv' => 'Tuvan',
     'twi' => 'Twi',
