@@ -431,7 +431,7 @@ class lang_data {
     'ti' => "ትግርኛ",
     'ddo' => 'Цезйас мец',
     've' => "tshiVenda",
-    'tr' => array("Türkçe",'-CY' => "Kıbrıslıca")
+    'tr' => array("Türkçe",'-CY' => "Kıbrıslıca"),
     'ota' => "عثمانلیجہ",
     'tk' => "Türkmençe",
     'tyv' => 'Тыва дыл',
