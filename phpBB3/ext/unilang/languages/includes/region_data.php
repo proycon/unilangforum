@@ -1267,7 +1267,7 @@ class region_data {
         '27' => 'Шумен',
         '28' => 'Ямбол'
     ),
-        'CY' => array(
+    'CY' => array(
         'CY-01' => 'Λευκωσία / Lefkoşa',
         'CY-02' => 'Λεμεσός / Leymosun',
         'CY-03' => 'Λάρνακα / Larnaka',
