@@ -178,6 +178,7 @@ class lang_data {
     'cdo' => array('.Hans' => "闽东语",'.Hant' => "閩東語"), //Mindong
     'ko' => array("한국어", "_mid" => "중세한국어"),
     'xal' => 'Хальмг келн',
+    'kjh' => 'Хакас тілі',
     'haw' => "`Ōlelo Hawai`i",
     'hy' => array('Հայերեն', '-E' => "արևելահայերեն", '-W' => "Արեւմտահայերէն", '-H' => "Հոմշեցի", '_mid' => "միջին հայերեն", '_clas' => "գրաբար"),
     'grc' => "Ἑλληνική",
@@ -211,6 +212,7 @@ class lang_data {
     'kjj' => "каьтш мицI",
     'kab' => "Къэбэрдеибзэ",
     'mh' => "Kajin M̧ajeļ",
+    'kvj' => 'Kajkavski',
     'kl' => "Kalaallisut",
     'mwp' => "Kala Lagaw Ya",
     'moh' => "Kanien’kéha",
@@ -278,6 +280,7 @@ class lang_data {
     'mnc' => "Manju gisun",
     'mns' => "Маньси",
     'xmf' => "მარგალური ნინა",
+    'fit' => "Meänkieli",
     'mr' => "मराठी",
     'mic' => "Míkmaq",
     'mwl' => "Mirandés",
@@ -653,6 +656,7 @@ class lang_data {
     'ja' => array('Japanese','_clas' => 'Classical Japanese'), //the latter is ad-hoc code!
     'jv' => array('Javanese','-bms' => 'Banyumasan'), //the latter is ad-hoc code!
     'kbd' => 'Kabardian',
+    'kvj' => 'Kajkavian',
     'mwp' => 'Kala Lagaw Ya',
     'xal' => 'Kalmyk',
     'kn' => 'Kannada',
@@ -669,6 +673,7 @@ class lang_data {
     'gbb' => 'Kaytetye',
     'kk' => 'Kazakh',
     'ket' => 'Ket',
+    'kjh' => 'Khakas',
     'kca' => "Khanty",
     'km' => 'Khmer',
     'kjj' => 'Khinalug',
@@ -729,6 +734,7 @@ class lang_data {
     'mrj' => "Mari (Hill)",
     'mh' => 'Marshallese',
     'mfe' => 'Mauritian',
+    'fit' => "Meänkieli",
     'mia' => 'Miami-Illinois',
     'mic' => 'Micmac',
     'xmf' => 'Mingrelian',
