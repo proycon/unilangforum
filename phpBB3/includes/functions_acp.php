@@ -55,6 +55,8 @@ function adm_page_header($page_title)
 		return;
 	}
 
+	$user->update_session_infos();
+
 	// gzip_compression
 	if ($config['gzip_compress'])
 	{
@@ -245,50 +247,58 @@ function build_cfg_template($tpl_type, $key, &$new, $config_key, $vars)
 
 	switch ($tpl_type[0])
 	{
-		case 'text':
 		case 'password':
+			if ($new[$config_key] !== '')
+			{
+				// replace passwords with asterixes
+				$new[$config_key] = '********';
+			}
+		case 'text':
 		case 'url':
 		case 'email':
-		case 'color':
-		case 'date':
-		case 'time':
-		case 'datetime':
-		case 'datetime-local':
-		case 'month':
-		case 'range':
-		case 'search':
 		case 'tel':
-		case 'week':
+		case 'search':
+			// maxlength and size are only valid for these types and will be
+			// ignored for other input types.
 			$size = (int) $tpl_type[1];
 			$maxlength = (int) $tpl_type[2];
 
 			$tpl = '<input id="' . $key . '" type="' . $tpl_type[0] . '"' . (($size) ? ' size="' . $size . '"' : '') . ' maxlength="' . (($maxlength) ? $maxlength : 255) . '" name="' . $name . '" value="' . $new[$config_key] . '"' . (($tpl_type[0] === 'password') ?  ' autocomplete="off"' : '') . ' />';
 		break;
 
+		case 'color':
+		case 'datetime':
+		case 'datetime-local':
+		case 'month':
+		case 'week':
+			$tpl = '<input id="' . $key . '" type="' . $tpl_type[0] . '" name="' . $name . '" value="' . $new[$config_key] . '" />';
+		break;
+
+		case 'date':
+		case 'time':
 		case 'number':
-			$min = $max = $maxlength = '';
+		case 'range':
+			$max = '';
 			$min = ( isset($tpl_type[1]) ) ? (int) $tpl_type[1] : false;
 			if ( isset($tpl_type[2]) )
 			{
 				$max = (int) $tpl_type[2];
-				$maxlength = strlen( (string) $max );
 			}
 
-			$tpl = '<input id="' . $key . '" type="number" maxlength="' . (( $maxlength != '' ) ? $maxlength : 255) . '"' . (( $min != '' ) ? ' min="' . $min . '"' : '') . (( $max != '' ) ? ' max="' . $max . '"' : '') . ' name="' . $name . '" value="' . $new[$config_key] . '" />';
+			$tpl = '<input id="' . $key . '" type="' . $tpl_type[0] . '"' . (( $min != '' ) ? ' min="' . $min . '"' : '') . (( $max != '' ) ? ' max="' . $max . '"' : '') . ' name="' . $name . '" value="' . $new[$config_key] . '" />';
 		break;
 
 		case 'dimension':
-			$min = $max = $maxlength = $size = '';
+			$max = '';
 
 			$min = (int) $tpl_type[1];
 
 			if ( isset($tpl_type[2]) )
 			{
 				$max = (int) $tpl_type[2];
-				$size = $maxlength = strlen( (string) $max );
 			}
 
-			$tpl = '<input id="' . $key . '" type="number"' . (( $size != '' ) ? ' size="' . $size . '"' : '') . ' maxlength="' . (($maxlength != '') ? $maxlength : 255) . '"' . (( $min !== '' ) ? ' min="' . $min . '"' : '') . (( $max != '' ) ? ' max="' . $max . '"' : '') . ' name="config[' . $config_key . '_width]" value="' . $new[$config_key . '_width'] . '" /> x <input type="number"' . (( $size != '' ) ? ' size="' . $size . '"' : '') . ' maxlength="' . (($maxlength != '') ? $maxlength : 255) . '"' . (( $min !== '' ) ? ' min="' . $min . '"' : '') . (( $max != '' ) ? ' max="' . $max . '"' : '') . ' name="config[' . $config_key . '_height]" value="' . $new[$config_key . '_height'] . '" />';
+			$tpl = '<input id="' . $key . '" type="number"' . (( $min !== '' ) ? ' min="' . $min . '"' : '') . (( $max != '' ) ? ' max="' . $max . '"' : '') . ' name="config[' . $config_key . '_width]" value="' . $new[$config_key . '_width'] . '" /> x <input type="number"' . (( $min !== '' ) ? ' min="' . $min . '"' : '') . (( $max != '' ) ? ' max="' . $max . '"' : '') . ' name="config[' . $config_key . '_height]" value="' . $new[$config_key . '_height'] . '" />';
 		break;
 
 		case 'textarea':
@@ -550,6 +560,9 @@ function validate_config_vars($config_vars, &$cfg_array, &$error)
 
 				$cfg_array[$config_name] = trim($destination);
 
+			// Absolute file path
+			case 'absolute_path':
+			case 'absolute_path_writable':
 			// Path being relative (still prefixed by phpbb_root_path), but with the ability to escape the root dir...
 			case 'path':
 			case 'wpath':
@@ -568,20 +581,22 @@ function validate_config_vars($config_vars, &$cfg_array, &$error)
 					break;
 				}
 
-				if (!file_exists($phpbb_root_path . $cfg_array[$config_name]))
+				$path = in_array($config_definition['validate'], array('wpath', 'path', 'rpath', 'rwpath')) ? $phpbb_root_path . $cfg_array[$config_name] : $cfg_array[$config_name];
+
+				if (!file_exists($path))
 				{
 					$error[] = sprintf($user->lang['DIRECTORY_DOES_NOT_EXIST'], $cfg_array[$config_name]);
 				}
 
-				if (file_exists($phpbb_root_path . $cfg_array[$config_name]) && !is_dir($phpbb_root_path . $cfg_array[$config_name]))
+				if (file_exists($path) && !is_dir($path))
 				{
 					$error[] = sprintf($user->lang['DIRECTORY_NOT_DIR'], $cfg_array[$config_name]);
 				}
 
 				// Check if the path is writable
-				if ($config_definition['validate'] == 'wpath' || $config_definition['validate'] == 'rwpath')
+				if ($config_definition['validate'] == 'wpath' || $config_definition['validate'] == 'rwpath' || $config_definition['validate'] === 'absolute_path_writable')
 				{
-					if (file_exists($phpbb_root_path . $cfg_array[$config_name]) && !phpbb_is_writable($phpbb_root_path . $cfg_array[$config_name]))
+					if (file_exists($path) && !phpbb_is_writable($path))
 					{
 						$error[] = sprintf($user->lang['DIRECTORY_NOT_WRITABLE'], $cfg_array[$config_name]);
 					}

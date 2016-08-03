@@ -500,7 +500,7 @@ class acp_board
 		}
 
 		// We go through the display_vars to make sure no one is trying to set variables he/she is not allowed to...
-		foreach ($display_vars['vars'] as $config_name => $null)
+		foreach ($display_vars['vars'] as $config_name => $data)
 		{
 			if (!isset($cfg_array[$config_name]) || strpos($config_name, 'legend') !== false)
 			{
@@ -514,7 +514,8 @@ class acp_board
 
 			if ($config_name == 'guest_style')
 			{
-				if (isset($cfg_array[$config_name])) {
+				if (isset($cfg_array[$config_name]))
+				{
 					$this->guest_style_set($cfg_array[$config_name]);
 				}
 				continue;
@@ -531,6 +532,13 @@ class acp_board
 
 			if ($submit)
 			{
+				if (strpos($data['type'], 'password') === 0 && $config_value === '********')
+				{
+					// Do not update password fields if the content is ********,
+					// because that is the password replacement we use to not
+					// send the password to the output
+					continue;
+				}
 				set_config($config_name, $config_value);
 
 				if ($config_name == 'allow_quick_reply' && isset($_POST['allow_quick_reply_enable']))
@@ -559,6 +567,7 @@ class acp_board
 			$old_auth_config = array();
 			foreach ($auth_providers as $provider)
 			{
+				/** @var \phpbb\auth\provider\provider_interface $provider */
 				if ($fields = $provider->acp())
 				{
 					// Check if we need to create config fields for this plugin and save config when submit was pressed
@@ -571,6 +580,14 @@ class acp_board
 
 						if (!isset($cfg_array[$field]) || strpos($field, 'legend') !== false)
 						{
+							continue;
+						}
+
+						if (substr($field, -9) === '_password' && $cfg_array[$field] === '********')
+						{
+							// Do not update password fields if the content is ********,
+							// because that is the password replacement we use to not
+							// send the password to the output
 							continue;
 						}
 
@@ -825,7 +842,7 @@ class acp_board
 	{
 		global $user;
 
-		return '<input id="' . $key . '" type="number" size="3" maxlength="3" min="1" max="999" name="config[min_name_chars]" value="' . $value . '" /> ' . $user->lang['MIN_CHARS'] . '&nbsp;&nbsp;<input type="number" size="3" maxlength="3" min="8" max="180" name="config[max_name_chars]" value="' . $this->new_config['max_name_chars'] . '" /> ' . $user->lang['MAX_CHARS'];
+		return '<input id="' . $key . '" type="number" min="1" max="999" name="config[min_name_chars]" value="' . $value . '" /> ' . $user->lang['MIN_CHARS'] . '&nbsp;&nbsp;<input type="number" min="8" max="180" name="config[max_name_chars]" value="' . $this->new_config['max_name_chars'] . '" /> ' . $user->lang['MAX_CHARS'];
 	}
 
 	/**
@@ -853,7 +870,7 @@ class acp_board
 	{
 		global $user;
 
-		return '<input id="' . $key . '" type="number" size="3" maxlength="3" min="1" max="999" name="config[min_pass_chars]" value="' . $value . '" /> ' . $user->lang['MIN_CHARS'] . '&nbsp;&nbsp;<input type="number" size="3" maxlength="3" min="8" max="255" name="config[max_pass_chars]" value="' . $this->new_config['max_pass_chars'] . '" /> ' . $user->lang['MAX_CHARS'];
+		return '<input id="' . $key . '" type="number" min="1" max="999" name="config[min_pass_chars]" value="' . $value . '" /> ' . $user->lang['MIN_CHARS'] . '&nbsp;&nbsp;<input type="number" min="8" max="255" name="config[max_pass_chars]" value="' . $this->new_config['max_pass_chars'] . '" /> ' . $user->lang['MAX_CHARS'];
 	}
 
 	/**

@@ -108,6 +108,7 @@ function wrap_img_in_html($src, $title)
 	echo '<html>';
 	echo '<head>';
 	echo '<meta charset="utf-8">';
+	echo '<meta http-equiv="X-UA-Compatible" content="IE=edge">';
 	echo '<title>' . $title . '</title>';
 	echo '</head>';
 	echo '<body>';
@@ -210,11 +211,6 @@ function send_file_to_browser($attachment, $upload_dir, $category)
 		}
 	}
 
-	if ($size)
-	{
-		header("Content-Length: $size");
-	}
-
 	// Close the db connection before sending the file etc.
 	file_gc(false);
 
@@ -236,6 +232,11 @@ function send_file_to_browser($attachment, $upload_dir, $category)
 			// and always requires an absolute path.
 			header('X-Sendfile: ' . dirname(__FILE__) . "/../$upload_dir/{$attachment['physical_filename']}");
 			exit;
+		}
+
+		if ($size)
+		{
+			header("Content-Length: $size");
 		}
 
 		// Try to deliver in chunks
@@ -412,7 +413,7 @@ function set_modified_headers($stamp, $browser)
 	global $request;
 
 	// let's see if we have to send the file at all
-	$last_load 	=  $request->header('Modified-Since') ? strtotime(trim($request->header('Modified-Since'))) : false;
+	$last_load 	=  $request->header('If-Modified-Since') ? strtotime(trim($request->header('If-Modified-Since'))) : false;
 
 	if (strpos(strtolower($browser), 'msie 6.0') === false && !phpbb_is_greater_ie_version($browser, 7))
 	{
