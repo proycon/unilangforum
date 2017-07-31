@@ -866,7 +866,7 @@ class lang_functions {
     }
 
     function member_add_language($user_id, $baselang,$complexlang,$proficiency, $canhelp = 0,$wanthelp = 0, $table = 'member_lang') {
-        $sql = "INSERT INTO $table (`user_id`,`baselang`,`complexlang`,`proficiency`,`canhelp`,`wanthelp`) VALUES ('$user_id','$baselang','$complexlang','$proficiency','$canhelp','$wanthelp')";
+        $sql = "INSERT INTO $table (`user_id`,`baselang`,`complexlang`,`proficiency`,`canhelp`,`wanthelp`) VALUES ('$user_id','$baselang','$complexlang','$proficiency','$canhelp','$wanthelp') ON DUPLICATE KEY UPDATE $table SET baselang='$baselang', complexlang='$complexlang', proficiency='$proficiency',canhelp=$canhelp,wanthelp='$wanthelp' WHERE user_id='$user_id' AND baselang='$old_baselang' AND complexlang='$old_complexlang' AND proficiency='$old_proficiency";
         if ($baselang == '') die("No baselang: " .$sql);
         $this->db->sql_query($sql);
 
