@@ -177,6 +177,7 @@ class lang_data {
     'nan' => array('.Hans' => "闽南语",'.Hant' => "閩南語"), //Minnan
     'cdo' => array('.Hans' => "闽东语",'.Hant' => "閩東語"), //Mindong
     'ko' => array("한국어", "_mid" => "중세한국어"),
+    'kg' => 'Kikongo',
     'xal' => 'Хальмг келн',
     'kjh' => 'Хакас тілі',
     'haw' => "`Ōlelo Hawai`i",
@@ -685,6 +686,7 @@ class lang_data {
     'kv' => array('Komi', '-koi' => "Komi-Permyak", '-kpv' => "Komi-Zyrian"),
     'kmk' => 'Konkani',
     'ko' => array('Korean','_mid' => 'Middle Korean'),
+    'kg' => 'Kongo',
     'kpy' => 'Koryak',
     'koy' => 'Koyukon',
     'kry' => 'Kryts',
