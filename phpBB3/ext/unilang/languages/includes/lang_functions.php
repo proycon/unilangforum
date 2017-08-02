@@ -52,7 +52,7 @@ class lang_functions {
 
 
     function language_names() {
-        return sort($this->langdata->language_names);
+        return $this->langdata->language_names;
     }
 
     function language_names_en() {
