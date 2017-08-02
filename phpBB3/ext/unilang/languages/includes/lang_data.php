@@ -225,7 +225,7 @@ class lang_data {
     'mh' => "Kajin M̧ajeļ",
     'men' => 'Mɛnde yia',
     'kvj' => 'Kajkavski',
-    'kl' =>  'kl' => array("Kalaallisut", '-EA' => "Tunumiit", '-NO' => "Inuktun"),
+    'kl' =>  array("Kalaallisut", '-EA' => "Tunumiit", '-NO' => "Inuktun"),
     'mwp' => "Kala Lagaw Ya",
     'moh' => "Kanien’kéha",
     'kn' => "ಕನ್ನಡ",
