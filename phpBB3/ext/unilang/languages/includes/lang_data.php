@@ -149,6 +149,7 @@ class lang_data {
     'fa' => array('فارسی','-AF' => 'درى','_old' => '*Pārsīka','_mid' => 'Pārsīk','-TJ' => 'тоҷикӣ'),
     'fj' => "Na vosa Vakaviti",
     'fo' => "Føroyskt",
+    'fon' => "Fon gbè",
     'fr' => array("Français",'-AC' => 'Acadien', '-BE' => 'Français Belge', '-CA' => 'Français du Canada','-CH' => 'Français de la Suisse', '-frc' => "Français Cadien", '_old' => "Ancien français", '-QC' => 'Québécois'),
     'frr' => "Nordfriisk",
     'fy' => "Frysk",
@@ -184,7 +185,10 @@ class lang_data {
     'haw' => "`Ōlelo Hawai`i",
     'hy' => array('Հայերեն', '-E' => "Արևելահայերեն", '-W' => "Արեւմտահայերէն", '-H' => "Հոմշեցի", '_mid' => "միջին հայերեն", '_clas' => "գրաբար"),
     'grc' => "Ἑλληνική",
+    'grb' => 'Grebo',
     'hif' => "Fiji Baat",
+    'ff' => 'Fulfulde',
+    'fuc' => 'Pulaar',
     'hi' => "हिन्दी",
     'gin' => "гьинузас мец",
     'arp' => "Hinóno'eitíít",
@@ -215,6 +219,7 @@ class lang_data {
     'kjj' => "каьтш мицI",
     'kab' => "Къэбэрдеибзэ",
     'mh' => "Kajin M̧ajeļ",
+    'men' => 'Mɛnde yia',
     'kvj' => 'Kajkavski',
     'kl' => "Kalaallisut",
     'mwp' => "Kala Lagaw Ya",
@@ -292,6 +297,7 @@ class lang_data {
     'mdf' => "Мокшень",
     'mnw' => "Mon",
     'mn' => "Монгол хэл",
+    'mkw' => 'Monokutuba',
     'cmg' => "Mongɣol kele",
     'arn' => "Mapudungun",
     'mfe' => "Morisyen",
@@ -485,7 +491,8 @@ class lang_data {
     'sgs' => "Žemaitėška",
     'zu' => "isiZulu",
     'zun' => "Zuni",
-    'art' => array("Constructed Language",'-ido' => 'Ido', '-ina' => 'Interlingua', '-jbo' => 'Lojban', '-lfn' => 'Lingua Franca Nova', '-nov' => 'Novial', '-sjn' => 'Sindarin', '-tlh' => 'tlhIngan-Hol','-tkp' => 'Toki Pona', '-qya' => 'Quenya','-srs' => 'Solresol', '-vo' => 'Volapük')
+    'art' => array("Constructed Language",'-ido' => 'Ido', '-ina' => 'Interlingua', '-jbo' => 'Lojban', '-lfn' => 'Lingua Franca Nova', '-nov' => 'Novial', '-sjn' => 'Sindarin', '-tlh' => 'tlhIngan-Hol','-tkp' => 'Toki Pona', '-qya' => 'Quenya','-srs' => 'Solresol', '-vo' => 'Volapük'),
+    'bci' => 'Baoulé'
     );
 
 
@@ -612,7 +619,10 @@ class lang_data {
     'ee' => 'Ewe',
     'ext' => 'Extremaduran',
     'fo' => 'Faroese',
+    'fon' => 'Fon',
     'hif' => 'Fiji Hindi',
+    'ff' => 'Fula',
+    'fuc'=> 'Pulaar',
     'fj' => 'Fijian',
     'fi' => 'Finnish',
     'frp' => 'Franco-Provençal',
@@ -630,6 +640,7 @@ class lang_data {
     'got' => "Gothic",
     'el' => array("Greek", '-CY' => "Greek, Cypriot", '_KA' => "Greek, Katharevousa"),
     'grc' => 'Greek, ancient',
+    'grb' => 'Grebo',
     'grn' => 'Guarani',
     'kl' => 'Greenlandic',
     'gu' => 'Gujarati',
@@ -695,6 +706,7 @@ class lang_data {
     'ktu' => 'DR Congo Kituba',
     'kpy' => 'Koryak',
     'koy' => 'Koyukon',
+    'kr' => 'Kanuri',
     'kry' => 'Kryts',
     'ksk' => 'Kumyk',
     'ku' => array('Kurdish','.Latn' => 'Kurdish [Latin script]', '.Arab' => 'Kurdish [Arabic script]'),
@@ -742,6 +754,7 @@ class lang_data {
     'mhr' => "Mari (Meadow)",
     'mrj' => "Mari (Hill)",
     'mh' => 'Marshallese',
+    'men' => 'Mende',
     'mfe' => 'Mauritian',
     'fit' => "Meänkieli",
     'mia' => 'Miami-Illinois',
@@ -753,6 +766,7 @@ class lang_data {
     'mo' => 'Moldovan',
     'mnw' => "Mon",
     'mn' => 'Mongolian',
+    'mkw' => 'Congolese Kituba',
     'mdf' => 'Moksha',
     'cmg' => 'Classical Mongolian',
     'nah' => 'Nahuatl',
@@ -930,7 +944,8 @@ class lang_data {
     'za' => 'Zhuang',
     'zu' => 'Zulu',
     'zun' => 'Zuni',
-    'art' => array("Constructed Language",'-ido' => 'Ido', '-ina' => 'Interlingua', '-tlh' => 'Klingon', '-lfn' => 'Lingua Franca Nova', '-nov' => 'Novial', '-jbo' => 'Lojban' ,'-sjn' => 'Sindarin','-tkp' => 'Toki Pona', '-qya' => 'Quenya','-srs' => 'Solresol','-vo' => 'Volapuk')
+    'art' => array("Constructed Language",'-ido' => 'Ido', '-ina' => 'Interlingua', '-tlh' => 'Klingon', '-lfn' => 'Lingua Franca Nova', '-nov' => 'Novial', '-jbo' => 'Lojban' ,'-sjn' => 'Sindarin','-tkp' => 'Toki Pona', '-qya' => 'Quenya','-srs' => 'Solresol','-vo' => 'Volapuk'),
+    'bci' => 'Baoulé'
     );
 
     /*
@@ -1033,6 +1048,7 @@ class lang_data {
         'ky' => 'Cyrl',
         'kv' => 'Cyrl',
         'kmk' => 'Knda',
+        'kr' => 'Kanuri',
         'ksk' => 'Cyrl',
         'ku' => array('Latn','Arab'),
         'lo' => 'Laoo',
