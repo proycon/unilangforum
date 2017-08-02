@@ -49,6 +49,7 @@ class main {
 
     public function info()
     {
+	    
         foreach ($this->lf->language_names() as $baselang => $value) {
             if (is_array($value)) {
                 foreach ($value as $complexlang => $name) {
