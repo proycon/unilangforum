@@ -632,7 +632,7 @@ class lang_data {
     'ett' => "Etruscan",
     'evn' => "Evenki",
     'ee' => 'Ewe',
-    'ess' => 'Siberian Yupik',
+    'ess' => 'Central Siberian Yupik',
     'ext' => 'Extremaduran',
     'fo' => 'Faroese',
     'fon' => 'Fon',
