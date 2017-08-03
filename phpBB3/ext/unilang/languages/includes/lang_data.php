@@ -166,8 +166,6 @@ class lang_data {
     'gez' => "ግዕዝ",
     'glk' => "گیلکی",
     'gdo' => "ГъибдилIи мицци",
-    'gsw' => 'Alsatian',
-
     'gsw' => 'Elsässisch',
     'sga' => "Goídelc",
     'huz' => "гьонкьос мыц",
@@ -654,6 +652,7 @@ class lang_data {
     'glk' => "Gilaki",
     'gil' => "Gilbertese",
     'gdo' => "Godoberi",
+    'gsw' => 'Alsatian',
     'got' => "Gothic",
     'el' => array("Greek", '-CY' => "Greek, Cypriot", '_KA' => "Greek, Katharevousa"),
     'grc' => 'Greek, ancient',
@@ -882,11 +881,7 @@ class lang_data {
     'sml' => 'Sinama, Central',
     'sog' => 'Sogdian',
     'sjo' => 'Xibe',
-
-
-
-    'sty' => 'Сыбыр тел
-    '
+    'sty' => 'Сыбыр тел'
     'so' => 'Somali',
     'ckb' => 'Soranî',
     'dsb' => 'Sorbian (lower)',
