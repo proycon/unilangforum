@@ -881,7 +881,7 @@ class lang_data {
     'sml' => 'Sinama, Central',
     'sog' => 'Sogdian',
     'sjo' => 'Xibe',
-    'sty' => 'Сыбыр тел'
+    'sty' => 'Сыбыр тел',
     'so' => 'Somali',
     'ckb' => 'Soranî',
     'dsb' => 'Sorbian (lower)',
