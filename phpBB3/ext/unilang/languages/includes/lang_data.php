@@ -421,7 +421,7 @@ class lang_data {
     'ss' => "siSwati",
     'su' => "Bahasa Sunda",
     'fi' => "Suomi",
-    'sgn' => array("Sign language", "-AU" => 'Auslan', "-US" => 'American Sign Language',"-GB" => 'British Sign Language',"-EE" => 'Estonian Sign Language',"-CY" => 'Κυπριακή Νοηματική Γλώσσα',"-GR" => 'GSL',"-IE" => 'Irish Sign Language','-CN' => '中国手语', '-DE' => 'DGS',"-FR" => 'LSF', "-CA-QC" => 'LSQ', '-ES' => 'LSE', '-BR' => 'LIBRAS', '-IT' => 'LIS', "-NL" => 'NGT','-JP' => '日本手話', "-PT" => 'Língua Gestual Portuguesa' '-NO' => 'NSL',"-CA-QC" => 'LSQ','-RU' => 'РЖЯ','-RS' => 'Српски знаковни језик','-IL' => "שפת סימנים ישראלית",'-SE' => 'TSP', "-TR" => 'Türk İşaret Dili', "-UA" => 'УЖМ'),
+    'sgn' => array("Sign language", "-AU" => 'Auslan', "-US" => 'American Sign Language',"-GB" => 'British Sign Language',"-EE" => 'Estonian Sign Language',"-CY" => 'Κυπριακή Νοηματική Γλώσσα',"-GR" => 'GSL',"-IE" => 'Irish Sign Language','-CN' => '中国手语', '-DE' => 'DGS',"-FR" => 'LSF', "-CA-QC" => 'LSQ', '-ES' => 'LSE', '-BR' => 'LIBRAS', '-IT' => 'LIS', "-NL" => 'NGT','-JP' => '日本手話', "-PT" => 'Língua Gestual Portuguesa', '-NO' => 'NSL',"-CA-QC" => 'LSQ','-RU' => 'РЖЯ','-RS' => 'Српски знаковни језик','-IL' => "שפת סימנים ישראלית",'-SE' => 'TSP', "-TR" => 'Türk İşaret Dili', "-UA" => 'УЖМ'),
     'sv' => array("Svenska",'-FI' => "Finlandssvenska"),
     'syc' => "ܣܘܪܝܝܐ",
     'ta' => array('தமிழ்','-LK' => 'தமிழ் (இலங்கை)'),
