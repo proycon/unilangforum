@@ -457,7 +457,7 @@ class lang_data {
     'ti' => "ትግርኛ",
     'ddo' => 'Цезйас мец',
     've' => "tshiVenda",
-    'tr' => array("Türkçe",'-CY' => "Kıbrıslıca", '-ANT' => "Anadolu Türkçesi", '-ota' => 'عثمانلیجہ)'),
+    'tr' => array("Türkçe",'-CY' => "Kıbrıslıca", '-ANT' => "Anadolu Türkçesi", '-ota' => 'عثمانلیجہ'),
     'tk' => "Türkmençe",
     'tyv' => 'Тыва дыл',
     'uby' => 'tʷaχəbza',
