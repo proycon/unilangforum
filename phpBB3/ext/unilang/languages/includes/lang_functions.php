@@ -920,7 +920,7 @@ class lang_functions {
 
         usort($languages, array($this,"secondarySort"));
         print ("Test123");
-        print (array_values($languages));
+        print_r (array_values($languages));
         print ("Test456");
 
         foreach ($languages as $language) {
