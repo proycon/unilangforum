@@ -52,11 +52,15 @@ class lang_functions {
 
 
     function language_names() {
-        return $this->langdata->language_names;
+        $langs = $this->langdata->language_names;
+        asort($langs);
+        return $langs;
     }
 
     function language_names_en() {
-        return $this->langdata->language_names_en;
+        $langs = $this->langdata->language_names_en;
+        asort($langs);
+        return $langs;
     }
 
     function country_names() {
@@ -182,7 +186,7 @@ class lang_functions {
             $extra = "$args ";
         }
         $name = $this->get_language_name($lang);
-        if (file_exists($this->phpbb_root_path . $imgsrc)) { 
+        if (file_exists($this->phpbb_root_path . $imgsrc)) {
             if ($absolute) {
                 return "/" . $imgsrc;
             } elseif ($lang != 'ne') {
@@ -914,7 +918,7 @@ class lang_functions {
         $prevprof = -1;
         $min_proficiency = 0; 
 
-        usort($languages, array($this,"secondarySort"));
+        uasort($languages, array($this,"secondarySort"));
 
         foreach ($languages as $language) {
          if ($language['proficiency'] >= $min_proficiency) {
@@ -957,6 +961,7 @@ class lang_functions {
                 'U_DELETELINK' => append_sid("{$this->lf->phpbb_root_path}ucp.php","i=-unilang-languages-ucp-main_module&mode=view&amp;delete=$langcode"),
             );
 
+
             $prevprof = $language['proficiency'];
 
             $template->assign_block_vars($templatevar, $language_vars);
@@ -967,8 +972,8 @@ class lang_functions {
     function secondarySort($a, $b) {
         if ( $a["proficiency"] == $b["proficiency"] )
             return strcasecmp(
-                $this->get_language_name($a["baselang"] . $a["complexlang"], $GLOBALS['sourcelang'], ( ($GLOBALS['mode'] == 0) || ($GLOBALS['mode'] == 2) )),
-                $this->get_language_name($b["baselang"] . $b["complexlang"], $GLOBALS['sourcelang'], ( ($GLOBALS['mode'] == 0) || ($GLOBALS['mode'] == 2) )));
+                $this->get_language_name($a["baselang"] . $a["complexlang"], 'en', ( ($GLOBALS['mode'] == 0) || ($GLOBALS['mode'] == 2) )),
+                $this->get_language_name($b["baselang"] . $b["complexlang"], 'en', ( ($GLOBALS['mode'] == 0) || ($GLOBALS['mode'] == 2) )));
         else
             return ( $b["proficiency"] < $a["proficiency"] ) ? -1 : 1;
     }
