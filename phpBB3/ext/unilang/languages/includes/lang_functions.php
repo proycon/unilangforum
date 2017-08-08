@@ -919,7 +919,7 @@ class lang_functions {
         $min_proficiency = 0; 
 
         usort($languages, array($this,"secondarySort"));
-        print ($languages);
+        print (array_values($languages));
 
         foreach ($languages as $language) {
          if ($language['proficiency'] >= $min_proficiency) {
