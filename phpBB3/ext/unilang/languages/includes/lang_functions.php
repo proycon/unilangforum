@@ -186,7 +186,7 @@ class lang_functions {
             $extra = "$args ";
         }
         $name = $this->get_language_name($lang);
-        if (file_exists($this->phpbb_root_path . $imgsrc)) { 
+        if (file_exists($this->phpbb_root_path . $imgsrc)) {
             if ($absolute) {
                 return "/" . $imgsrc;
             } elseif ($lang != 'ne') {
@@ -290,7 +290,7 @@ class lang_functions {
     * @param $addnative Boolean indicating whether to append the native language to the returned name, only has an effect if $sourcelang != false, returns for example: "German (Deutsch)"
     * @return string
     */
-    function get_language_name($lang,$sourcelang = 'en',$addnative = true) {
+    function get_language_name($lang,$sourcelang = 'en',$addnative = false) {
         if (!$lang) return '';
         list($baselang,$script,$region,$temporal) = $this->split_language_code($lang,false);
         if ($sourcelang == false) {
@@ -971,10 +971,8 @@ class lang_functions {
     function secondarySort($a, $b) {
         if ( $a["proficiency"] == $b["proficiency"] )
             return strcasecmp(
-//                $this->get_language_name($a["baselang"] . $a["complexlang"], $GLOBALS['sourcelang'], ( ($GLOBALS['mode'] == 0) || ($GLOBALS['mode'] == 2) )),
-//                $this->get_language_name($b["baselang"] . $b["complexlang"], $GLOBALS['sourcelang'], ( ($GLOBALS['mode'] == 0) || ($GLOBALS['mode'] == 2) )));
-                  $this->get_language_name($a["baselang"] . $a["complexlang"], $GLOBALS['sourcelang'],false),
-                  $this->get_language_name($b["baselang"] . $b["complexlang"], $GLOBALS['sourcelang'],false ));
+                $this->get_language_name($a["baselang"] . $a["complexlang"], $GLOBALS['sourcelang'], ( ($GLOBALS['mode'] == 0) || ($GLOBALS['mode'] == 2) )),
+                $this->get_language_name($b["baselang"] . $b["complexlang"], $GLOBALS['sourcelang'], ( ($GLOBALS['mode'] == 0) || ($GLOBALS['mode'] == 2) )));
         else
             return ( $b["proficiency"] < $a["proficiency"] ) ? -1 : 1;
     }
