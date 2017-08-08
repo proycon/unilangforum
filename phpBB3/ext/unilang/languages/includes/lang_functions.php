@@ -914,6 +914,7 @@ class lang_functions {
 
 
     function assignlanguages($template, $templatevar, $user_id, $sourcelang = "en", $min_proficiency = 0) {
+        print ("Test");
         $languages = $this->get_member_languages($user_id);
         $prevprof = -1;
         $min_proficiency = 0; 
