@@ -290,7 +290,7 @@ class lang_functions {
     * @param $addnative Boolean indicating whether to append the native language to the returned name, only has an effect if $sourcelang != false, returns for example: "German (Deutsch)"
     * @return string
     */
-    function get_language_name($lang,$sourcelang = 'en',$addnative = false) {
+    function get_language_name($lang,$sourcelang = 'en',$addnative = true) {
         if (!$lang) return '';
         list($baselang,$script,$region,$temporal) = $this->split_language_code($lang,false);
         if ($sourcelang == false) {
@@ -919,7 +919,6 @@ class lang_functions {
         $min_proficiency = 0; 
 
         uasort($languages, array($this,"secondarySort"));
-        print_r (array_values($languages));
 
         foreach ($languages as $language) {
          if ($language['proficiency'] >= $min_proficiency) {
@@ -962,7 +961,6 @@ class lang_functions {
                 'U_DELETELINK' => append_sid("{$this->lf->phpbb_root_path}ucp.php","i=-unilang-languages-ucp-main_module&mode=view&amp;delete=$langcode"),
             );
 
-            print_r($language_vars['NAME']);
 
             $prevprof = $language['proficiency'];
 
