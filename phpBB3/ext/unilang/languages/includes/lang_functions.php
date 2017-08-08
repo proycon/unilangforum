@@ -971,8 +971,10 @@ class lang_functions {
     function secondarySort($a, $b) {
         if ( $a["proficiency"] == $b["proficiency"] )
             return strcasecmp(
-                $this->get_language_name($a["baselang"] . $a["complexlang"], $GLOBALS['sourcelang'], ( ($GLOBALS['mode'] == 0) || ($GLOBALS['mode'] == 2) )),
-                $this->get_language_name($b["baselang"] . $b["complexlang"], $GLOBALS['sourcelang'], ( ($GLOBALS['mode'] == 0) || ($GLOBALS['mode'] == 2) )));
+//                $this->get_language_name($a["baselang"] . $a["complexlang"], $GLOBALS['sourcelang'], ( ($GLOBALS['mode'] == 0) || ($GLOBALS['mode'] == 2) )),
+//                $this->get_language_name($b["baselang"] . $b["complexlang"], $GLOBALS['sourcelang'], ( ($GLOBALS['mode'] == 0) || ($GLOBALS['mode'] == 2) )));
+                  $this->get_language_name($a["baselang"] . $a["complexlang"], $GLOBALS['sourcelang'],false),
+                  $this->get_language_name($b["baselang"] . $b["complexlang"], $GLOBALS['sourcelang'],false ));
         else
             return ( $b["proficiency"] < $a["proficiency"] ) ? -1 : 1;
     }
