@@ -52,11 +52,13 @@ class lang_functions {
 
 
     function language_names() {
-        return $this->langdata->language_names;
+        $langs = $this->langdata->language_names;
+        return asort($langs);
     }
 
     function language_names_en() {
-        return $this->langdata->language_names_en;
+        $langs = $this->langdata->language_names_en;
+        return asort($langs);
     }
 
     function country_names() {
