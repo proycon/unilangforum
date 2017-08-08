@@ -962,6 +962,8 @@ class lang_functions {
                 'U_DELETELINK' => append_sid("{$this->lf->phpbb_root_path}ucp.php","i=-unilang-languages-ucp-main_module&mode=view&amp;delete=$langcode"),
             );
 
+            print_r($language_vars['NAME']);
+
             $prevprof = $language['proficiency'];
 
             $template->assign_block_vars($templatevar, $language_vars);
@@ -972,8 +974,8 @@ class lang_functions {
     function secondarySort($a, $b) {
         if ( $a["proficiency"] == $b["proficiency"] )
             return strcasecmp(
-                $this->get_language_name($a["baselang"] . $a["complexlang"], $GLOBALS['sourcelang'], ( ($GLOBALS['mode'] == 0) || ($GLOBALS['mode'] == 2) )),
-                $this->get_language_name($b["baselang"] . $b["complexlang"], $GLOBALS['sourcelang'], ( ($GLOBALS['mode'] == 0) || ($GLOBALS['mode'] == 2) )));
+                $this->get_language_name($a["baselang"] . $a["complexlang"], 'en', ( ($GLOBALS['mode'] == 0) || ($GLOBALS['mode'] == 2) )),
+                $this->get_language_name($b["baselang"] . $b["complexlang"], 'en', ( ($GLOBALS['mode'] == 0) || ($GLOBALS['mode'] == 2) )));
         else
             return ( $b["proficiency"] < $a["proficiency"] ) ? -1 : 1;
     }
