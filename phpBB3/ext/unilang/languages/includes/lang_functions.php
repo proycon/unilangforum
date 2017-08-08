@@ -53,12 +53,14 @@ class lang_functions {
 
     function language_names() {
         $langs = $this->langdata->language_names;
-        return asort($langs);
+        asort($langs);
+        return $langs;
     }
 
     function language_names_en() {
         $langs = $this->langdata->language_names_en;
-        return asort($langs);
+        asort($langs);
+        return $langs;
     }
 
     function country_names() {
