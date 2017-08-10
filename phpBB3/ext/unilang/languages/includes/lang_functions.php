@@ -293,6 +293,9 @@ class lang_functions {
     function get_language_name($lang,$sourcelang = 'en',$addnative = true) {
         if (!$lang) return '';
         list($baselang,$script,$region,$temporal) = $this->split_language_code($lang,false);
+        print("LANG ");
+        print($baselang);
+        print($temporal);
         if ($sourcelang == false) {
             if (isset($this->langdata->language_names[$baselang])) {
                 if (is_array($this->langdata->language_names[$baselang])) {
@@ -325,7 +328,8 @@ class lang_functions {
             if (isset($this->langdata->language_names_en[$baselang])) {
                 if (is_array($this->langdata->language_names_en[$baselang])) {
                     if ($temporal) {
-                        return $loc_language_names[$baselang]["_$temporal"];
+                        print("TEMPORAL");
+                        return $this->langdata->language_names_en[$baselang]["_$temporal"];
                     } elseif (($script) && ($region) && (isset($loc_language_names[$baselang][".$script-$region"]))) {
                         if ($extra != ' ('.$this->langdata->language_names_en[$baselang][".$script-$region"].')') {
                             return $this->langdata->language_names_en[$baselang][".$script-$region"].$extra;
