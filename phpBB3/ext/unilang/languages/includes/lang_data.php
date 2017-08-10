@@ -139,8 +139,8 @@ class lang_data {
     'egy' => "Egyptian, ancient",
     'elx' => 'Elamite',
     'el' => array("Ελληνικά", '-CY' => "Κυπριακά", '_KA' => "Καθαρεύουσα"),
-    'en' => array("English",'-US' => 'American English', '-GB' => 'British English','-AU' => 'Australian English','-CA' => 'Canadian English','-NZ' => 'New Zealand English','-IE' => 'Irish English','-SG' => 'Singapore English','.old' => 'Ænglisc', '.mid' => 'Middle English', '-ZA' => 'South African English'),
-    'es' => array("Español",'-ES' => 'Español de España', '-MX' => 'Español de México', '-AR' => 'Español de Argentina','-CL' => 'Español de Chile','-PE' => 'Español de Perú','-VE' => 'Español de Venezuela', '-CO' => 'Español de Colombia', '-BO' => 'Español de Bolivia', '-PY' => 'Español de Paraguay', '-UY' => 'Español de Uruguay', '-CU' => 'Español de Cuba','-DO' => 'Español de la República Dominicana', '-PA' => 'Español de Panamá','-CR' => 'Español de Costa Rica','-HN' => 'Español de Honduras', '-NI' => 'Español de Nicaragua','.old' => "Castellano antiguo", '-SV' => "Español de El Salvador", '-GT' => "Español de Guatemala",'-PR' => "Español de Puerto Rico", '-AN' => 'Español de Andalucía'), //es_old = osp
+    'en' => array("English",'-US' => 'American English', '-GB' => 'British English','-AU' => 'Australian English','-CA' => 'Canadian English','-NZ' => 'New Zealand English','-IE' => 'Irish English','-SG' => 'Singapore English','_old' => 'Ænglisc', '.mid' => 'Middle English', '-ZA' => 'South African English'),
+    'es' => array("Español",'-ES' => 'Español de España', '-MX' => 'Español de México', '-AR' => 'Español de Argentina','-CL' => 'Español de Chile','-PE' => 'Español de Perú','-VE' => 'Español de Venezuela', '-CO' => 'Español de Colombia', '-BO' => 'Español de Bolivia', '-PY' => 'Español de Paraguay', '-UY' => 'Español de Uruguay', '-CU' => 'Español de Cuba','-DO' => 'Español de la República Dominicana', '-PA' => 'Español de Panamá','-CR' => 'Español de Costa Rica','-HN' => 'Español de Honduras', '-NI' => 'Español de Nicaragua','_old' => "Castellano antiguo", '-SV' => "Español de El Salvador", '-GT' => "Español de Guatemala",'-PR' => "Español de Puerto Rico", '-AN' => 'Español de Andalucía'), //es_old = osp
     'sux' => "eme-ĝir",
     'egl' => "Emigliàn",
     'enq' => "Enga",
@@ -629,7 +629,7 @@ class lang_data {
     'elx' => 'Elamite',
     'egl' => 'Emiliano',
     'enq' => "Enga",
-    'en' => array("English",'-US' => 'American English', '-GB' => 'British English','-AU' => 'Australian English','-CA' => 'Canadian English','-NZ' => 'New Zealand English','-IE' => 'Irish English','-SG' => 'Singapore English','.old' => 'Old English', '.mid' => 'Middle English', '-ZA' => 'South African English'),
+    'en' => array("English",'-US' => 'American English', '-GB' => 'British English','-AU' => 'Australian English','-CA' => 'Canadian English','-NZ' => 'New Zealand English','-IE' => 'Irish English','-SG' => 'Singapore English','_old' => 'Old English', '.mid' => 'Middle English', '-ZA' => 'South African English'),
     'myv' => 'Erzya',
     'eo' => 'Esperanto',
     'et' => 'Estonian',
@@ -892,7 +892,7 @@ class lang_data {
     'dsb' => 'Sorbian (lower)',
     'hsb' => 'Sorbian (upper)',
     'st' => 'Sotho',
-    'es' => array("Spanish",'-ES' => 'Spanish, Spain', '-MX' => 'Mexican Spanish', '-AR' => 'Argentinian Spanish','-CL' => 'Chilean Spanish','-PE' => 'Peruvian Spanish','-VE' => 'Venezuelan Spanish', '-CO' => 'Colombian Spanish', '-BO' => 'Bolivian Spanish', '-PY' => 'Paraguayan Spanish', '-UY' => 'Uruguayan Spanish', '-CU' => 'Cuban Spanish', '-DO' => 'Dominican Spanish', '-PA' => 'Panamanian Spanish','-CR' => 'Costa Rican Spanish','-HN' => 'Honduran Spanish', '-NI' => 'Nicaraguan Spanish', '.old' => "Old Spanish", '-SV' => "Salvadoran Spanish", '-GT' => "Guatemalan Spanish",'-PR' => "Puerto Rican Spanish", '-AN' => 'Andalusian Spanish' ),
+    'es' => array("Spanish",'-ES' => 'Spanish, Spain', '-MX' => 'Mexican Spanish', '-AR' => 'Argentinian Spanish','-CL' => 'Chilean Spanish','-PE' => 'Peruvian Spanish','-VE' => 'Venezuelan Spanish', '-CO' => 'Colombian Spanish', '-BO' => 'Bolivian Spanish', '-PY' => 'Paraguayan Spanish', '-UY' => 'Uruguayan Spanish', '-CU' => 'Cuban Spanish', '-DO' => 'Dominican Spanish', '-PA' => 'Panamanian Spanish','-CR' => 'Costa Rican Spanish','-HN' => 'Honduran Spanish', '-NI' => 'Nicaraguan Spanish', '_old' => "Old Spanish", '-SV' => "Salvadoran Spanish", '-GT' => "Guatemalan Spanish",'-PR' => "Puerto Rican Spanish", '-AN' => 'Andalusian Spanish' ),
     'srn' => 'Sranan Tongo',
     'su' => 'Sundanese',
     'sux' => 'Sumerian',
