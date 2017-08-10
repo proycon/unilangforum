@@ -325,8 +325,8 @@ class lang_functions {
             if (isset($this->langdata->language_names_en[$baselang])) {
                 if (is_array($this->langdata->language_names_en[$baselang])) {
                     if ($temporal) {
-                        return $loc_language_names[$baselang]["_$temporal"];
-                    } elseif (($script) && ($region) && (isset($loc_language_names[$baselang][".$script-$region"]))) {
+                        return $this->langdata->language_names_en[$baselang]["_$temporal"].$extra;
+                    } elseif (($script) && ($region) && (isset($this->langdata->language_names[$baselang][".$script-$region"]))) {
                         if ($extra != ' ('.$this->langdata->language_names_en[$baselang][".$script-$region"].')') {
                             return $this->langdata->language_names_en[$baselang][".$script-$region"].$extra;
                         } else {
