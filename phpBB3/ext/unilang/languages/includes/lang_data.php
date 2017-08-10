@@ -139,7 +139,7 @@ class lang_data {
     'egy' => "Egyptian, ancient",
     'elx' => 'Elamite',
     'el' => array("Ελληνικά", '-CY' => "Κυπριακά", '_KA' => "Καθαρεύουσα"),
-    'en' => array("English",'-US' => 'American English', '-GB' => 'British English','-AU' => 'Australian English','-CA' => 'Canadian English','-NZ' => 'New Zealand English','-IE' => 'Irish English','-SG' => 'Singapore English','_old' => 'Ænglisc', '.mid' => 'Middle English', '-ZA' => 'South African English'),
+    'en' => array("English",'-US' => 'American English', '-GB' => 'British English','-AU' => 'Australian English','-CA' => 'Canadian English','-NZ' => 'New Zealand English','-IE' => 'Irish English','-SG' => 'Singapore English','_old' => 'Ænglisc', '_mid' => 'Middle English', '-ZA' => 'South African English'),
     'es' => array("Español",'-ES' => 'Español de España', '-MX' => 'Español de México', '-AR' => 'Español de Argentina','-CL' => 'Español de Chile','-PE' => 'Español de Perú','-VE' => 'Español de Venezuela', '-CO' => 'Español de Colombia', '-BO' => 'Español de Bolivia', '-PY' => 'Español de Paraguay', '-UY' => 'Español de Uruguay', '-CU' => 'Español de Cuba','-DO' => 'Español de la República Dominicana', '-PA' => 'Español de Panamá','-CR' => 'Español de Costa Rica','-HN' => 'Español de Honduras', '-NI' => 'Español de Nicaragua','_old' => "Castellano antiguo", '-SV' => "Español de El Salvador", '-GT' => "Español de Guatemala",'-PR' => "Español de Puerto Rico", '-AN' => 'Español de Andalucía'), //es_old = osp
     'sux' => "eme-ĝir",
     'egl' => "Emigliàn",
@@ -629,7 +629,7 @@ class lang_data {
     'elx' => 'Elamite',
     'egl' => 'Emiliano',
     'enq' => "Enga",
-    'en' => array("English",'-US' => 'American English', '-GB' => 'British English','-AU' => 'Australian English','-CA' => 'Canadian English','-NZ' => 'New Zealand English','-IE' => 'Irish English','-SG' => 'Singapore English','_old' => 'Old English', '.mid' => 'Middle English', '-ZA' => 'South African English'),
+    'en' => array("English",'-US' => 'American English', '-GB' => 'British English','-AU' => 'Australian English','-CA' => 'Canadian English','-NZ' => 'New Zealand English','-IE' => 'Irish English','-SG' => 'Singapore English','_old' => 'Old English', '_mid' => 'Middle English', '-ZA' => 'South African English'),
     'myv' => 'Erzya',
     'eo' => 'Esperanto',
     'et' => 'Estonian',
