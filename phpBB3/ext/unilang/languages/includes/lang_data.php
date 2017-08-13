@@ -229,7 +229,6 @@ class lang_data {
     'kab' => "Къэбэрдеибзэ",
     'mh' => "Kajin M̧ajeļ",
     'men' => 'Mɛnde yia',
-    'kvj' => 'Kajkavski',
     'kl' =>  array("Kalaallisut", '-EA' => "Tunumiit", '-NO' => "Inuktun"),
     'mwp' => "Kala Lagaw Ya",
     'moh' => "Kanien’kéha",
@@ -698,7 +697,6 @@ class lang_data {
     'jam' => 'Jamaican Patois',
     'jv' => array('Javanese','-bms' => 'Banyumasan'), //the latter is ad-hoc code!
     'kbd' => 'Kabardian',
-    'kvj' => 'Kajkavian',
     'mwp' => 'Kala Lagaw Ya',
     'xal' => 'Kalmyk',
     'kn' => 'Kannada',
