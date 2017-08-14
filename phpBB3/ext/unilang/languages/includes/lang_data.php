@@ -334,7 +334,7 @@ class lang_data {
     'nog' => "Ногай тили",
     'ce' => "Нохчийн мотт",
     'cr' => "ᓂᐦᔭᐘᒃ",
-    'ja' => array("日本語", '.clas' => '和文'),
+    'ja' => array("日本語", '.clas' => '和文', 'ho' => '北海道弁', '-to' => '東北弁', '-ka'=> '関東弁', '-kan' => '西弁', '-ha' => '博多弁'),
     'jam' => "Patwa",
     'nd' => "isiNdebele",
     'nl' => array("Nederlands",'_nbr' => 'Braobans','-BE' => 'Vlaams','_mid' => 'Middelnederlands'), //_mid = dum
@@ -693,7 +693,7 @@ class lang_data {
     'itl' => 'Itelmen',
     'jmk' => 'Jamtlandic',
     'kri' => 'Sierra Leonean Creole',
-    'ja' => array('Japanese','.clas' => 'Classical Japanese'), //the latter is ad-hoc code!
+    'ja' => array('Japanese','.clas' => 'Classical Japanese', 'ho' => 'Hokkaido-ben', '-to' => 'Tohoku-ben', '-ka'=> 'Kanto-ben', '-kan' => 'Kansai-ben', '-ha' => 'Hakata-ben'), //the latter is ad-hoc code!
     'jam' => 'Jamaican Patois',
     'jv' => array('Javanese','-bms' => 'Banyumasan'), //the latter is ad-hoc code!
     'kbd' => 'Kabardian',
