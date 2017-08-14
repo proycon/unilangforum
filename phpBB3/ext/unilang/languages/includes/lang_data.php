@@ -308,6 +308,8 @@ class lang_data {
     'mdf' => "Мокшень",
     'mnw' => "Mon",
     'mn' => "Монгол хэл",
+    'mku' => 'Maninkakan',
+    'mnk' => "Mandi'nka kango",    
     'mkw' => 'Monokutuba',
     'cmg' => "Mongɣol kele",
     'arn' => "Mapudungun",
@@ -334,7 +336,7 @@ class lang_data {
     'nog' => "Ногай тили",
     'ce' => "Нохчийн мотт",
     'cr' => "ᓂᐦᔭᐘᒃ",
-    'ja' => array("日本語", '.clas' => '和文', 'ho' => '北海道弁', '-to' => '東北弁', '-ka'=> '関東弁', '-kan' => '西弁', '-ha' => '博多弁'),
+    'ja' => array("日本語", '.clas' => '和文', '-ho' => '北海道弁', '-to' => '東北弁', '-ka'=> '関東弁', '-kan' => '西弁', '-ha' => '博多弁'),
     'jam' => "Patwa",
     'nd' => "isiNdebele",
     'nl' => array("Nederlands",'_nbr' => 'Braobans','-BE' => 'Vlaams','_mid' => 'Middelnederlands'), //_mid = dum
@@ -693,7 +695,7 @@ class lang_data {
     'itl' => 'Itelmen',
     'jmk' => 'Jamtlandic',
     'kri' => 'Sierra Leonean Creole',
-    'ja' => array('Japanese','.clas' => 'Classical Japanese', 'ho' => 'Hokkaido-ben', '-to' => 'Tohoku-ben', '-ka'=> 'Kanto-ben', '-kan' => 'Kansai-ben', '-ha' => 'Hakata-ben'), //the latter is ad-hoc code!
+    'ja' => array('Japanese','.clas' => 'Classical Japanese', '-ho' => 'Hokkaido-ben', '-to' => 'Tohoku-ben', '-ka'=> 'Kanto-ben', '-kan' => 'Kansai-ben', '-ha' => 'Hakata-ben'), //the latter is ad-hoc code!
     'jam' => 'Jamaican Patois',
     'jv' => array('Javanese','-bms' => 'Banyumasan'), //the latter is ad-hoc code!
     'kbd' => 'Kabardian',
@@ -702,6 +704,7 @@ class lang_data {
     'kn' => 'Kannada',
     'pam' => "Kapampangan",
     'cak' => "Kaqchikel Mayan",
+        
     'krc' => 'Karachay-Balkar',
     'kdr' => 'Karaim',
     'kaa' => 'Karakalpak',
@@ -793,6 +796,8 @@ class lang_data {
     'mnw' => "Mon",
     'mn' => 'Mongolian',
     'mkw' => 'Congolese Kituba',
+    'mku' => 'Maninka',    
+    'mnk' => 'Mandinka',
     'mdf' => 'Moksha',
     'cmg' => 'Classical Mongolian',
     'nah' => 'Nahuatl',
