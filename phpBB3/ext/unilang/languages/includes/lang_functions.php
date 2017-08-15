@@ -176,8 +176,10 @@ class lang_functions {
         } else {
             $imgsrc = "ext/unilang/languages/styles/all/theme/images/langicons/$lang.$ext";
         }
-        print ("IMGSRC: ");
-        print ($imgsrc);
+        if ($lang == 'see') {
+           return $imgsrc;  
+        }
+
         $extra = '';
         if (is_array($args)) {
             foreach ($args as $key => $value) {
