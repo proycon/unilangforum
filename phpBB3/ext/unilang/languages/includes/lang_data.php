@@ -336,7 +336,7 @@ class lang_data {
     'nog' => "Ногай тили",
     'ce' => "Нохчийн мотт",
     'cr' => "ᓂᐦᔭᐘᒃ",
-    'ja' => array("日本語", '.clas' => '和文', '-ho' => '北海道弁', '-to' => '東北弁', '-ka'=> '関東弁', '-kan' => '西弁', '-ha' => '博多弁'),
+    'ja' => array("日本語", '.clas' => '和文', '-ho' => '北海道弁', '-to' => '東北弁', '-ka'=> '関東弁', '-kan' => '関西弁', '-ha' => '博多弁'),
     'jam' => "Patwa",
     'nd' => "isiNdebele",
     'nl' => array("Nederlands",'_nbr' => 'Braobans','-BE' => 'Vlaams','_mid' => 'Middelnederlands'), //_mid = dum
