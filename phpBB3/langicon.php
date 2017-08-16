@@ -12,6 +12,7 @@ if (isset($_GET['lang'])) {
     $lang = $_GET['lang'];
     $lang = str_replace("..","", $lang);
     $lang = str_replace("/","", $lang);
+    $country = ' ';    
     if (strlen($lang) > 3 && strpos($lang, '-')) {
        $seplang = explode ('-', $lang);
        $country = $seplang[1];
