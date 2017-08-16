@@ -21,9 +21,9 @@ if (isset($_GET['lang'])) {
     if (file_exists($phpbb_root_path . "ext/unilang/languages/styles/all/theme/images/langicons/$lang.png")) {
         cat($phpbb_root_path . "ext/unilang/languages/styles/all/theme/images/langicons/$lang.png");
     } 
-    elseif (file_exists($phpbb_root_path . "ext/unilang/languages/styles/all/theme/images/countryicons/$country.png")) {    
+    elseif (file_exists($phpbb_root_path . "ext/unilang/languages/styles/all/theme/images/countryicons/FR.png")) {    
                  header('Content-type: image/png');
-                 cat($phpbb_root_path . "ext/unilang/languages/styles/all/theme/images/countryicons/$country.png");     
+                 cat($phpbb_root_path . "ext/unilang/languages/styles/all/theme/images/countryicons/FR.png");     
      }            
     else {
                  header('Content-type: image/png');
