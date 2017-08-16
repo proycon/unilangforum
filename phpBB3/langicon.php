@@ -22,10 +22,10 @@ if (isset($_GET['lang'])) {
         cat($phpbb_root_path . "ext/unilang/languages/styles/all/theme/images/langicons/$lang.png");
     } 
     else { 
-           if (file_exists($phpbb_root_path . "ext/unilang/languages/styles/all/theme/images/countryicons/$country.png")) {     
+       /*    if (file_exists($phpbb_root_path . "ext/unilang/languages/styles/all/theme/images/countryicons/$country.png")) {     
                  cat($phpbb_root_path . "ext/unilang/languages/styles/all/theme/images/countryicons/$country.png");     
              }
-            else {
+            else { */
                  header('Content-type: image/png');
                  cat($phpbb_root_path."ext/unilang/languages/styles/all/theme/images/langicons/noflag.png");
            }
