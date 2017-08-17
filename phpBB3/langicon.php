@@ -15,7 +15,7 @@ if (isset($_GET['lang'])) {
     $country = ' ';    
     if (strlen($lang) > 3 && strpos($lang, '-')) {
        $seplang = explode ('-', $lang);
-       $country = $seplang[1];
+       $country = strtoupper($seplang[1]);
     }
     header('Content-type: image/png');
     if (file_exists($phpbb_root_path . "ext/unilang/languages/styles/all/theme/images/langicons/$lang.png")) {
