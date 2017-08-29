@@ -5,3 +5,7 @@ unilang_languages_info:
 unilang_languages_wikidirect:
     pattern: /wikidirect
     defaults: { _controller:unilang.languages.controller:wikidirect }
+
+unilang_languages_langtext:
+    pattern: /langtext
+    defaults: { _controller:unilang.languages.controller:langtext }

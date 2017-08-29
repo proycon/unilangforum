@@ -92,4 +92,12 @@ class main {
 
         
     }
+
+
+   public function langtext() {
+        $lang = $this->request->variable('lang','');
+        $langname = $this->lf->get_language_name($lang,'en',false),
+        return $langname;
+    }
+
 }
