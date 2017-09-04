@@ -637,7 +637,7 @@ class lang_data {
     'din' => 'Dinka',
     'dgr' => 'Dogrib',
     'dng' => 'Dungan',
-    'dng' => 'Dan',
+    'dnj' => 'Dan',
     'nl' => array("Dutch",'-BE' => 'Flemish','_nbr' => "Dutch, Brabantian",'_mid' => 'Middelnederlands'), //_mid = dum),
     'dz' => 'Dzongkha',
     'egy' => 'Egyptian, ancient',
