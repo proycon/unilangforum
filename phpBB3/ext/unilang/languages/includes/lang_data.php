@@ -172,7 +172,7 @@ class lang_data {
     'gd' => "Gàidhlig",
     'gan' => array('.Hans' => '赣语', '.Hant' => '赣語'),
     'gl' => "Galego",
-    'gal' => "Galo",
+    'gal' => "Gallo",
     'gez' => "ግዕዝ",
     'glk' => "گیلکی",
     'gdo' => "ГъибдилIи мицци",
