@@ -37,7 +37,7 @@ class bbcode
 	* Constructor
 	* Init bbcode cache entries if bitfield is specified
 	*/
-	function bbcode($bitfield = '')
+	public function __construct($bitfield = '')
 	{
 		if ($bitfield)
 		{
@@ -77,11 +77,12 @@ class bbcode
 
 		$str = array('search' => array(), 'replace' => array());
 		$preg = array('search' => array(), 'replace' => array());
+		$callback = array('search' => array(), 'replace' => array());
 
 		$bitfield = new bitfield($this->bbcode_bitfield);
 		$bbcodes_set = $bitfield->get_all_set();
-
 		$undid_bbcode_specialchars = false;
+
 		foreach ($bbcodes_set as $bbcode_id)
 		{
 			if (!empty($this->bbcode_cache[$bbcode_id]))
@@ -112,6 +113,21 @@ class bbcode
 
 						$message = preg_replace($preg['search'], $preg['replace'], $message);
 						$preg = array('search' => array(), 'replace' => array());
+					}
+					$cb = sizeof($callback['search']);
+					if ($cb) {
+						// we need to turn the entities back into their original form to allow the
+						// search patterns to work properly
+						if (!$undid_bbcode_specialchars)
+						{
+							$message = str_replace(array('&#58;', '&#46;'), array(':', '.'), $message);
+							$undid_bbcode_specialchars = true;
+						}
+
+						for ($i=0; $i<$cb; $i++) {
+							$message = preg_replace_callback($callback['search'][$i], $callback['replace'][$i], $message);
+						}
+						$callback = array('search' => array(), 'replace' => array());
 					}
 				}
 			}
@@ -176,6 +192,7 @@ class bbcode
 				// we use carriage returns here. They are later changed back to newlines
 				$row['bbcode_tpl'] = str_replace("\n", "\r", $row['bbcode_tpl']);
 				$row['second_pass_replace'] = str_replace("\n", "\r", $row['second_pass_replace']);
+//				$row['second_pass_replace'] = preg_replace_callback('`\{L_([A-Z0-9_]+)\}`', function($matches){global $user;return array_map(array($user, 'lang'), $matches[1]);}, str_replace("\n", "\r", $row['second_pass_replace']));
 
 				$rowset[$row['bbcode_id']] = $row;
 			}
@@ -193,8 +210,8 @@ class bbcode
 						'str' => array(
 							'[/quote:$uid]'	=> $this->bbcode_tpl('quote_close', $bbcode_id)
 						),
-						'preg' => array(
-							'#\[quote(?:=&quot;(.*?)&quot;)?:$uid\]((?!\[quote(?:=&quot;.*?&quot;)?:$uid\]).)?#ise'	=> "\$this->bbcode_second_pass_quote('\$1', '\$2')"
+						'callback' => array(
+							'#\[quote(?:=&quot;(.*?)&quot;)?:$uid\]((?!\[quote(?:=&quot;.*?&quot;)?:$uid\]).)?#is'	=> function($matches){if(empty($matches[2])){$quote = '';}else{$quote = $matches[2];}return $this->bbcode_second_pass_quote($matches[1], $quote);}
 						)
 					);
 				break;
@@ -272,8 +289,8 @@ class bbcode
 
 				case 8:
 					$this->bbcode_cache[$bbcode_id] = array(
-						'preg' => array(
-							'#\[code(?:=([a-z]+))?:$uid\](.*?)\[/code:$uid\]#ise'	=> "\$this->bbcode_second_pass_code('\$1', '\$2')",
+						'callback' => array(
+							'#\[code(?:=([a-z]+))?:$uid\](.*?)\[/code:$uid\]#is' => function($matches){return $this->bbcode_second_pass_code($matches[1], $matches[2]);},
 						)
 					);
 				break;
@@ -283,7 +300,9 @@ class bbcode
 						'preg' => array(
 							'#(\[\/?(list|\*):[mou]?:?$uid\])[\n]{1}#'	=> "\$1",
 							'#(\[list=([^\[]+):$uid\])[\n]{1}#'			=> "\$1",
-							'#\[list=([^\[]+):$uid\]#e'					=> "\$this->bbcode_list('\$1')",
+						),
+						'callback' => array(
+							'#\[list=([^\[]+):$uid\]#' => function($matches){return $this->bbcode_list($matches[1]);},
 						),
 						'str' => array(
 							'[list:$uid]'		=> $this->bbcode_tpl('ulist_open_default', $bbcode_id),
@@ -367,7 +386,9 @@ class bbcode
 						}
 
 						// Replace {L_*} lang strings
-						$bbcode_tpl = preg_replace('/{L_([A-Z0-9_]+)}/e', "(!empty(\$user->lang['\$1'])) ? \$user->lang['\$1'] : ucwords(strtolower(str_replace('_', ' ', '\$1')))", $bbcode_tpl);
+						$bbcode_tpl = preg_replace_callback('/{L_([A-Z0-9_]+)}/', function ($match) use ($user) {
+							return (!empty($user->lang[$match[1]])) ? $user->lang($match[1]) : ucwords(strtolower(str_replace('_', ' ', $match[1])));
+						}, $bbcode_tpl);
 
 						if (!empty($rowset[$bbcode_id]['second_pass_replace']))
 						{
@@ -491,7 +512,9 @@ class bbcode
 			'email'					=> array('{EMAIL}'		=> '$1', '{DESCRIPTION}'	=> '$2')
 		);
 
-		$tpl = preg_replace('/{L_([A-Z0-9_]+)}/e', "(!empty(\$user->lang['\$1'])) ? \$user->lang['\$1'] : ucwords(strtolower(str_replace('_', ' ', '\$1')))", $tpl);
+		$tpl = preg_replace_callback('/{L_([A-Z0-9_]+)}/', function ($match) use ($user) {
+			return (!empty($user->lang[$match[1]])) ? $user->lang($match[1]) : ucwords(strtolower(str_replace('_', ' ', $match[1])));
+		}, $tpl);
 
 		if (!empty($replacements[$tpl_name]))
 		{

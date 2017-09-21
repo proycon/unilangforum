@@ -16,7 +16,7 @@ namespace phpbb\cache\driver;
 /**
 * ACM Null Caching
 */
-class null extends \phpbb\cache\driver\base
+class dummy extends \phpbb\cache\driver\base
 {
 	/**
 	* Set cache path
