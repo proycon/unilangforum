@@ -541,7 +541,7 @@ function generate_text_for_display($text, $uid, $bitfield, $flags, $censor_text 
 		}
 		else
 		{
-			$bbcode->bbcode($bitfield);
+			$bbcode->__construct($bitfield);
 		}
 
 		$bbcode->bbcode_second_pass($text, $uid);
@@ -1362,6 +1362,13 @@ function truncate_string($string, $max_length = 60, $max_store_length = 255, $al
 		$string = substr($string, 4);
 	}
 
+	if (@extension_loaded('mbstring'))
+	{
+		$string = preg_replace_callback('/(&#x1f[0-9a-f]{3};)/', function($matches) {
+			return mb_convert_encoding($matches[1], 'UTF-8', 'HTML-ENTITIES');
+		}, $string);
+	}
+
 	$_chars = utf8_str_split(htmlspecialchars_decode($string));
 	$chars = array_map('utf8_htmlspecialchars', $_chars);
 
@@ -1396,6 +1403,13 @@ function truncate_string($string, $max_length = 60, $max_store_length = 255, $al
 	if ($append != '' && $stripped)
 	{
 		$string = $string . $append;
+	}
+
+	if (@extension_loaded('mbstring'))
+	{
+		$string = preg_replace_callback('/([\x{1f000}-\x{1ffff}])/u', function($matches) {
+			return strtolower('&#x' . dechex(substr(mb_convert_encoding($matches[1], 'HTML-ENTITIES', 'UTF-8'), 2, -1)) . ';');
+		}, $string);
 	}
 
 	return $string;
@@ -1595,7 +1609,7 @@ class bitfield
 {
 	var $data;
 
-	function bitfield($bitfield = '')
+	public function __construct($bitfield = '')
 	{
 		$this->data = base64_decode($bitfield);
 	}

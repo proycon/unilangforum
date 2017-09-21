@@ -122,6 +122,13 @@ class type_cast_helper implements \phpbb\request\type_cast_helper_interface
 					{
 						$result = '';
 					}
+					else if (@extension_loaded('mbstring'))
+					{
+						// convert emojis to HTML entities
+						$result = preg_replace_callback('/([\x{1f000}-\x{1ffff}])/u', function($matches) {
+							return strtolower('&#x' . dechex(substr(mb_convert_encoding($matches[1], 'HTML-ENTITIES', 'UTF-8'), 2, -1)) . ';');
+						}, $result);
+					}
 				}
 				else
 				{

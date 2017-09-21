@@ -419,8 +419,6 @@ class acp_bbcodes
 		// Allow unicode characters for URL|LOCAL_URL|RELATIVE_URL|INTTEXT tokens
 		$utf8 = preg_match('/(URL|LOCAL_URL|RELATIVE_URL|INTTEXT)/', $bbcode_match);
 
-		$utf8_pcre_properties = phpbb_pcre_utf8_support();
-
 		$fp_match = preg_quote($bbcode_match, '!');
 		$fp_replace = preg_replace('#^\[(.*?)\]#', '[$1:$uid]', $bbcode_match);
 		$fp_replace = preg_replace('#\[/(.*?)\]$#', '[/$1:$uid]', $fp_replace);
@@ -433,53 +431,53 @@ class acp_bbcodes
 		// @todo Make sure to change this too if something changed in message parsing
 		$tokens = array(
 			'URL'	 => array(
-				'!(?:(' . str_replace(array('!', '\#'), array('\!', '#'), get_preg_expression('url')) . ')|(' . str_replace(array('!', '\#'), array('\!', '#'), get_preg_expression('www_url')) . '))!ie'	=>	"\$this->bbcode_specialchars(('\$1') ? '\$1' : 'http://\$2')"
+				'!(' . str_replace(array('!', '\#'), array('\!', '#'), get_preg_expression('url')) . ')!s'	=> '$this->bbcode_specialchars($matches[1])'
 			),
 			'LOCAL_URL'	 => array(
-				'!(' . str_replace(array('!', '\#'), array('\!', '#'), get_preg_expression('relative_url')) . ')!e'	=>	"\$this->bbcode_specialchars('$1')"
+				'!(' . str_replace(array('!', '\#'), array('\!', '#'), get_preg_expression('relative_url')) . ')!s' => '$this->bbcode_specialchars($matches[1])'
 			),
 			'RELATIVE_URL'	=> array(
-				'!(' . str_replace(array('!', '\#'), array('\!', '#'), get_preg_expression('relative_url')) . ')!e'	=>	"\$this->bbcode_specialchars('$1')"
+				'!(' . str_replace(array('!', '\#'), array('\!', '#'), get_preg_expression('relative_url')) . ')!s' => '$this->bbcode_specialchars($matches[1])'
 			),
 			'EMAIL' => array(
-				'!(' . get_preg_expression('email') . ')!ie'	=>	"\$this->bbcode_specialchars('$1')"
+				'!(' . str_replace(array('!', '\/'), array('\!', '/'), get_preg_expression('email')) . ')!s' => '$this->bbcode_specialchars($matches[1])'
 			),
 			'TEXT' => array(
-				'!(.*?)!es'	 =>	"str_replace(array(\"\\r\\n\", '\\\"', '\\'', '(', ')'), array(\"\\n\", '\"', '&#39;', '&#40;', '&#41;'), trim('\$1'))"
+				'!(.*?)!s'	 =>	"str_replace(array(\"\\r\\n\", '\\\"', '\\'', '(', ')'), array(\"\\n\", '\"', '&#39;', '&#40;', '&#41;'), trim(\$matches[1]))"
 			),
 			'SIMPLETEXT' => array(
-				'!([a-zA-Z0-9-+.,_ ]+)!'	 =>	"$1"
+				'!([a-zA-Z0-9-+.,_ ]+)!s' => '$matches[1]'
 			),
 			'INTTEXT' => array(
-				($utf8_pcre_properties) ? '!([\p{L}\p{N}\-+,_. ]+)!u' : '!([a-zA-Z0-9\-+,_. ]+)!u'	 =>	"$1"
+				'!([\p{L}\p{N}\-+,_. ]+)!u'  => '$matches[1]'
 			),
 			'IDENTIFIER' => array(
-				'!([a-zA-Z0-9-_]+)!'	 =>	"$1"
+				'!([a-zA-Z0-9-_]+)!s' => '$matches[1]'
 			),
 			'COLOR' => array(
-				'!([a-z]+|#[0-9abcdef]+)!i'	=>	'$1'
+				'!([a-z]+|#[0-9abcdef]+)!s' => '$matches[1]'
 			),
 			'NUMBER' => array(
-				'!([0-9]+)!'	=>	'$1'
+				'!([0-9]+)!s' => '$matches[1]'
 			)
 		);
 
 		$sp_tokens = array(
-			'URL'	 => '(?i)((?:' . str_replace(array('!', '\#'), array('\!', '#'), get_preg_expression('url')) . ')|(?:' . str_replace(array('!', '\#'), array('\!', '#'), get_preg_expression('www_url')) . '))(?-i)',
+			'URL'	 => '(?i)(' . str_replace(array('!', '\#'), array('\!', '#'), get_preg_expression('url')) . ')(?-i)',
 			'LOCAL_URL'	 => '(?i)(' . str_replace(array('!', '\#'), array('\!', '#'), get_preg_expression('relative_url')) . ')(?-i)',
 			'RELATIVE_URL'	 => '(?i)(' . str_replace(array('!', '\#'), array('\!', '#'), get_preg_expression('relative_url')) . ')(?-i)',
-			'EMAIL' => '(' . get_preg_expression('email') . ')',
+			'EMAIL' => '(' . str_replace(array('!', '\/'), array('\!', '/'), get_preg_expression('email')) . ')',
 			'TEXT' => '(.*?)',
 			'SIMPLETEXT' => '([a-zA-Z0-9-+.,_ ]+)',
-			'INTTEXT' => ($utf8_pcre_properties) ? '([\p{L}\p{N}\-+,_. ]+)' : '([a-zA-Z0-9\-+,_. ]+)',
+			'INTTEXT' => '([\p{L}\p{N}\-+,_. ]+)',
 			'IDENTIFIER' => '([a-zA-Z0-9-_]+)',
 			'COLOR' => '([a-zA-Z]+|#[0-9abcdefABCDEF]+)',
 			'NUMBER' => '([0-9]+)',
 		);
 
-		$pad = 0;
+		$pad = 1;
 		$modifiers = 'i';
-		$modifiers .= ($utf8 && $utf8_pcre_properties) ? 'u' : '';
+		$modifiers .= ($utf8) ? 'u' : '';
 
 		if (preg_match_all('/\{(' . implode('|', array_keys($tokens)) . ')[0-9]*\}/i', $bbcode_match, $m))
 		{
@@ -490,34 +488,21 @@ class acp_bbcodes
 				reset($tokens[strtoupper($token_type)]);
 				list($match, $replace) = each($tokens[strtoupper($token_type)]);
 
-				// Pad backreference numbers from tokens
-				if (preg_match_all('/(?<!\\\\)\$([0-9]+)/', $replace, $repad))
-				{
-					$repad = $pad + sizeof(array_unique($repad[0]));
-					$replace = preg_replace('/(?<!\\\\)\$([0-9]+)/e', "'\${' . (\$1 + \$pad) . '}'", $replace);
-					$pad = $repad;
-				}
+				$replace = preg_replace_callback('/\[(\d+)\]/', function($matches) use ($pad){return "[{$pad}]";}, $replace);
+				$pad++;
 
 				// Obtain pattern modifiers to use and alter the regex accordingly
 				$regex = preg_replace('/!(.*)!([a-z]*)/', '$1', $match);
 				$regex_modifiers = preg_replace('/!(.*)!([a-z]*)/', '$2', $match);
-
 				for ($i = 0, $size = strlen($regex_modifiers); $i < $size; ++$i)
 				{
 					if (strpos($modifiers, $regex_modifiers[$i]) === false)
 					{
 						$modifiers .= $regex_modifiers[$i];
-
-						if ($regex_modifiers[$i] == 'e')
-						{
-							$fp_replace = "'" . str_replace("'", "\\'", $fp_replace) . "'";
-						}
+						$fp_replace = "'" . $fp_replace . "'";
 					}
 
-					if ($regex_modifiers[$i] == 'e')
-					{
-						$replace = "'.$replace.'";
-					}
+					$replace = "' . $replace . '";
 				}
 
 				$fp_match = str_replace(preg_quote($token, '!'), $regex, $fp_match);
@@ -528,8 +513,9 @@ class acp_bbcodes
 				// Prepend the board url to local relative links
 				$replace_prepend = ($token_type === 'LOCAL_URL') ? generate_board_url() . '/' : '';
 
-				$sp_replace = str_replace($token, $replace_prepend . '${' . ($n + 1) . '}', $sp_replace);
+				$sp_replace = str_replace($token, $replace_prepend . '$' . ($n + 1), $sp_replace);
 			}
+
 
 			$fp_match = '!' . $fp_match . '!' . $modifiers;
 			$sp_match = '!' . $sp_match . '!s' . (($utf8) ? 'u' : '');
@@ -537,7 +523,7 @@ class acp_bbcodes
 			if (strpos($fp_match, 'e') !== false)
 			{
 				$fp_replace = str_replace("'.'", '', $fp_replace);
-				$fp_replace = str_replace(".''.", '.', $fp_replace);
+				$fp_replace = str_replace(".'.", '.', $fp_replace);
 			}
 		}
 		else
@@ -555,14 +541,13 @@ class acp_bbcodes
 
 		if (!preg_match('/^[a-zA-Z0-9_-]+=?$/', $bbcode_tag))
 		{
-			global $user;
-			trigger_error($user->lang['BBCODE_INVALID'] . adm_back_link($this->u_action), E_USER_WARNING);
+			return false;
 		}
 
-		$fp_match = preg_replace('#\[/?' . $bbcode_search . '#ie', "strtolower('\$0')", $fp_match);
-		$fp_replace = preg_replace('#\[/?' . $bbcode_search . '#ie', "strtolower('\$0')", $fp_replace);
-		$sp_match = preg_replace('#\[/?' . $bbcode_search . '#ie', "strtolower('\$0')", $sp_match);
-		$sp_replace = preg_replace('#\[/?' . $bbcode_search . '#ie', "strtolower('\$0')", $sp_replace);
+		$fp_match = preg_replace_callback('#\[/?' . $bbcode_search . '#i', function($matches){return strtolower($matches[0]);}, $fp_match);
+		$fp_replace = preg_replace_callback('#\[/?' . $bbcode_search . '#i', function($matches){return strtolower($matches[0]);}, $fp_replace);
+		$sp_match = preg_replace_callback('#\[/?' . $bbcode_search . '#i', function($matches){return strtolower($matches[0]);}, $sp_match);
+		$sp_replace = preg_replace_callback('#\[/?' . $bbcode_search . '#i', function($matches){return strtolower($matches[0]);}, $sp_replace);
 
 		return array(
 			'bbcode_tag'				=> $bbcode_tag,
