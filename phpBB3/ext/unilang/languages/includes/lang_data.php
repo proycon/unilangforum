@@ -634,8 +634,7 @@ class lang_data {
     'co' => 'Corsican',
     'cr' => 'Cree',
     'crg' => "Michif",
-    'mue' => "Salcedo Media Lengua"
-
+    'mue' => "Salcedo Media Lengua",
     'mus' => 'Creek',
     'crh' => 'Crimean Tatar',
     'hr' => array("Croatian",'-CHA' => 'Chakavian'),
