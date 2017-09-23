@@ -18,7 +18,11 @@ if (isset($_GET['lang'])) {
        $seplang = explode ('-', $lang);
        $country = strtoupper($seplang[1]);
        $pos = strpos($lang, '-');
-        substr_replace($lang_alt, $country, $pos + 1, 3);
+       $lang_alt[$pos + 1] = $country[0];
+       $lang_alt[$pos + 2] = $country[1];
+       if strlen($country) == 3 {
+        $lang_alt[$pos + 2] = $country[2];
+       }
 
     }
     header('Content-type: image/png');
