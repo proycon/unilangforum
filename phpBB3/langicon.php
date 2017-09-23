@@ -21,7 +21,7 @@ if (isset($_GET['lang'])) {
        $lang_alt[$pos + 1] = $country[0];
        $lang_alt[$pos + 2] = $country[1];
        if (strlen($country) == 3) {
-        $lang_alt[$pos + 2] = $country[2];
+        $lang_alt[$pos + 3] = $country[2];
        }
 
     }
