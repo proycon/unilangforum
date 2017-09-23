@@ -503,7 +503,7 @@ class lang_data {
     'vro' => 'Võro kiil',
     'vep' => 'Vepsän kel\'',
     'wa' => 'Walon',
-    'wbp' => 'wbp' => array('Warlpiri', '-L' => "Light Warlpiri"),
+    'wbp' => array('Warlpiri', '-L' => "Light Warlpiri"),
     'wrm' => "Warumungu",
     'wac' => 'Wasco-Wishram',
     'was' => "Washo",
