@@ -296,6 +296,7 @@ class lang_data {
     'lim' => "Limburgs",
     'ln' => 'Lingála',
     'loz' => "Lozi",
+    'lua' => "Tshiluba",
     'ckt' => "Ԓыгъоравэтԓьэн йиԓыйиԓ",
     'lud' => "lyydin kiel'",
     'lmo' => "lumbaart",
@@ -611,7 +612,6 @@ class lang_data {
     'cbk' => 'Chavacano',
     'kea' => "Cape Verdean Creole",
     'kek' => "Q'eqchi'",
-    
     'ceb' => 'Cebuano',
     'cji' => 'Chamalal',
     'ch' => 'Chamorro',
@@ -800,6 +800,7 @@ class lang_data {
     'lmo' => 'Lombard',
     'nds' => 'Low Saxon',
     'loz' => "Lozi",
+    'lua' => "Luba-Kasai",
     'lud' => "Ludic",
     'lut' => 'Lushootseed',
     'lb' => 'Luxembourgish',
