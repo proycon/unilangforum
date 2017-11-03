@@ -184,6 +184,7 @@ class lang_data {
     'gu' => "ગુજરાતી",
     'zhc' => '文言', //ad-hoc code!
     'ha' => array('.Latn' => 'Hausa', '.Arab' => 'هَوُس'),
+    'har' => "ሐራሪ",
     'zh' => array('.Hans' => '汉语', '.Hant' => '漢語'), //Mandarin
     'yue' => array('.Hans' => '粤语', '.Hant' => '粵語'), //Cantonese
     'hak' => array('.Hans' => "客家话",'.Hant' => "客家語"), //Hakka
@@ -240,6 +241,7 @@ class lang_data {
     'kjj' => "каьтш мицI",
     'kab' => "Къэбэрдеибзэ",
     'mh' => "Kajin M̧ajeļ",
+    'me' => "Crnogorski",
     'men' => 'Mɛnde yia',
     'kl' =>  array("Kalaallisut", '-EA' => "Tunumiit", '-NO' => "Inuktun"),
     'mwp' => "Kala Lagaw Ya",
@@ -394,6 +396,7 @@ class lang_data {
     'phn' => "Phoenician",
     'phr' => 'پہاڑی-پوٹھواری ',   
     'pms' => "piemontèis",
+    'pmt' => "Reʻo Paʻumotu/Reko Paʻumotu",
     'piu' => "Pintupi-Luritja",
     'pjt' => "Pitjantjatjara",
     'kaa' => "Qaraqalpaq tili",
@@ -491,6 +494,7 @@ class lang_data {
     'tr' => array("Türkçe",'-CY' => "Kıbrıslıca", '-ANT' => "Anadolu Türkçesi", '-ota' => 'عثمانلیجہ', '-old' => 'تُركجٔٔٔٔ'),
     'tk' => "Türkmençe",
     'tyv' => 'Тыва дыл',
+    'tvl' => 'Te Gagana Tuvalu',
     'uby' => 'tʷaχəbza',
     'twe' => "Pitarau",
     'twi' => 'Twi',
@@ -709,6 +713,7 @@ class lang_data {
     'ht' => 'Haitian Creole',
     'hur' => 'Halkomelem',
     'ha' => array('Hausa','.Latn' => 'Hausa [Latin script]', '.Arab' => 'Hausa [Arabic script]'),
+    'har' => "Harari",
     'haw' => 'Hawaiian',
     'he' => array('Hebrew', '-hbo' => 'Hebrew, Biblical'),
     'hz' => 'Herero',
@@ -824,6 +829,7 @@ class lang_data {
     'mhr' => "Mari (Meadow)",
     'mrj' => "Mari (Hill)",
     'mh' => 'Marshallese',
+    'me' => "Montenegrin",
     'men' => 'Mende',
     'mfe' => 'Mauritian',
     'fit' => "Meänkieli",
@@ -885,6 +891,7 @@ class lang_data {
     'phn' => 'Phoenician',
     'phr' =>  'Pahari-Potwari',   
     'pms' => "Piedmontese",
+    'pmt' => "Tuamotuan",
     'piu' => "Pintupi-Luritja",
     'ppl' => "Pipil",
     'myp' => "Pirahã",
@@ -985,6 +992,7 @@ class lang_data {
     'tr' => array("Turkish",'-CY' => "Cypriot Turkish", '-ANT' => "Anatolian Turkish", '-ota' => "Ottoman Turkish", '-old' => 'Old Anatolian Turkish'),
     'tk' => 'Turkmen',
     'tyv' => 'Tuvan',
+    'tvl' => "Tuvaluan",
     'twe' => "Teiwa",
     'twi' => 'Twi',
     'uby' => 'Ubykh',
