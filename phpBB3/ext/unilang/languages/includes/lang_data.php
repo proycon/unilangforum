@@ -991,7 +991,7 @@ class lang_data {
     'tr' => array("Turkish",'-CY' => "Cypriot Turkish", '-ANT' => "Anatolian Turkish", '-ota' => "Ottoman Turkish", '-old' => 'Old Anatolian Turkish'),
     'tk' => 'Turkmen',
     'tyv' => 'Tuvan',
-    'tvl' = "Tuvaluan",
+    'tvl' => "Tuvaluan",
     'twe' => "Teiwa",
     'twi' => 'Twi',
     'uby' => 'Ubykh',
