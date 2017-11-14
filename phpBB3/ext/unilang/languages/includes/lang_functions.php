@@ -528,7 +528,7 @@ class lang_functions {
                     }
                 }
             }
-            ksort($prerender_content);
+            asort($prerender_content);
             $r .= implode("",$prerender_content);
             /*if (count($prerendered) > 0) {
                 $r .= "<option disabled=\"disabled\" value=\"".$code."\">-----------</option>";	
