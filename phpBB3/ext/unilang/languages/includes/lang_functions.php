@@ -528,7 +528,7 @@ class lang_functions {
                     }
                 }
             }
-            asort($prerender_content);
+            ksort($prerender_content);
             $r .= implode("",$prerender_content);
             /*if (count($prerendered) > 0) {
                 $r .= "<option disabled=\"disabled\" value=\"".$code."\">-----------</option>";	
@@ -540,7 +540,8 @@ class lang_functions {
 
 
         //foreach ($this->langdata->language_names_en as $baselang => $value) {
-        foreach (asort($this->langdata->language_names_en) as $baselang => $value) {
+        $langarray = asort($this->langdata->language_names_en);
+        foreach ($langarray as $baselang => $value) {
             if (($langs == false) || (in_array($baselang,$langs))) {
             if (is_array($value)) {
                 foreach ($value as $complexlang => $v) {
