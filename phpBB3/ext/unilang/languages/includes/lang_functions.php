@@ -15,7 +15,7 @@ if (!defined('IN_PHPBB')) {
     exit;
 }
 
-//ini_set('display_errors', 1);
+ini_set('display_errors', 1);
 
 class lang_functions {
 
@@ -538,8 +538,8 @@ class lang_functions {
         }
 
 
-           //$language_names = $this->langdata->language_names_en;
-           //sortByLangNameComplex($language_names);
+           $language_names = $this->langdata->language_names_en;
+           sortByLangNameComplex($language_names);
           // foreach ($this->langdata->language_names_en as $baselang => $value) {        
            foreach ($language_names as $baselang => $value) {        
             if (($langs == false) || (in_array($baselang,$langs))) {
