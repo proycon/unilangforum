@@ -538,8 +538,8 @@ class lang_functions {
         }
 
 
-           $language_names = $this->langdata->language_names_en;
-           sortByLangNameComplex($language_names);
+           //$language_names = $this->langdata->language_names_en;
+           //sortByLangNameComplex($language_names);
           // foreach ($this->langdata->language_names_en as $baselang => $value) {        
            foreach ($language_names as $baselang => $value) {        
             if (($langs == false) || (in_array($baselang,$langs))) {
@@ -989,7 +989,7 @@ class lang_functions {
 function sortByLangNameComplex($arr){ 
 $newarr = array(); 
 foreach ($arr as $langcode => $lang){ 
-    print "OK";
+
     if (is_array($lang)){ 
         ksort($lang); 
             
@@ -997,9 +997,9 @@ foreach ($arr as $langcode => $lang){
      $newarr[$langcode] = $lang; 
 } 
 
-  print "OK2";
+
 uasort($newarr, 'cmp'); 
-  print "OK3";
+
 return $newarr; 
 } 
 
