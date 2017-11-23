@@ -989,6 +989,7 @@ class lang_functions {
 function sortByLangNameComplex($arr){ 
 $newarr = array(); 
 foreach ($arr as $langcode => $lang){ 
+    print "OK";
     if (is_array($lang)){ 
         ksort($lang); 
             
@@ -996,7 +997,9 @@ foreach ($arr as $langcode => $lang){
      $newarr[$langcode] = $lang; 
 } 
 
+  print "OK2";
 uasort($newarr, 'cmp'); 
+  print "OK3";
 return $newarr; 
 } 
 
