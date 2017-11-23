@@ -60,8 +60,8 @@ class lang_functions {
 
     function language_names_en() {
         $langs = $this->langdata->language_names_en;
-        asort($langs);
-        return $langs;
+        //asort($langs);
+        return  $this->sortByLangNameComplex($langs);
     }
 
     function country_names() {
@@ -538,10 +538,8 @@ class lang_functions {
         }
 
 
-           $language_names = $this->sortByLangNameComplex($this->langdata->language_names_en);
-           print_r($language_names);
-          // foreach ($this->langdata->language_names_en as $baselang => $value) {        
-           foreach ($language_names as $baselang => $value) {        
+        
+           foreach ($this->langdata->language_names_en as $baselang => $value) {            
             if (($langs == false) || (in_array($baselang,$langs))) {
             if (is_array($value)) {
                 foreach ($value as $complexlang => $v) {
