@@ -15,6 +15,7 @@ if (!defined('IN_PHPBB')) {
     exit;
 }
 
+ini_set('display_errors', 1);
 
 class lang_functions {
 
