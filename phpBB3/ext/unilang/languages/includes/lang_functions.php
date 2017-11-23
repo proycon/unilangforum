@@ -539,7 +539,7 @@ class lang_functions {
 
 
            $language_names = $this->langdata->language_names_en;
-           sortByLangNameComplex($language_names);
+           $this->sortByLangNameComplex($language_names);
           // foreach ($this->langdata->language_names_en as $baselang => $value) {        
            foreach ($language_names as $baselang => $value) {        
             if (($langs == false) || (in_array($baselang,$langs))) {
@@ -986,24 +986,24 @@ class lang_functions {
             return ( $b["proficiency"] < $a["proficiency"] ) ? -1 : 1;
     }
 
-function sortByLangNameComplex($arr){ 
-$newarr = array(); 
-foreach ($arr as $langcode => $lang){ 
+    function sortByLangNameComplex($arr){ 
+    $newarr = array(); 
+    foreach ($arr as $langcode => $lang){ 
 
     if (is_array($lang)){ 
         ksort($lang); 
             
     } 
      $newarr[$langcode] = $lang; 
-} 
+    } 
 
 
-uasort($newarr, 'cmp'); 
+    uasort($newarr, 'cmp'); 
 
-return $newarr; 
-} 
+    return $newarr; 
+    } 
 
-function cmp ($a, $b){ 
+    function cmp ($a, $b){ 
     
     if(is_array($a) and is_array($b)){ 
         if (current($a) < current($b)) { return - 1; } 
@@ -1027,7 +1027,7 @@ function cmp ($a, $b){
     }   
    
     
-} 
+    } 
 
 }
 
