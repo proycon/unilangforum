@@ -15,6 +15,7 @@ if (!defined('IN_PHPBB')) {
     exit;
 }
 
+//ini_set('display_errors', 1);
 
 class lang_functions {
 
@@ -59,8 +60,8 @@ class lang_functions {
 
     function language_names_en() {
         $langs = $this->langdata->language_names_en;
-        asort($langs);
-        return $langs;
+        //asort($langs);
+        return  $this->sortByLangNameComplex($langs);
     }
 
     function country_names() {
@@ -537,9 +538,9 @@ class lang_functions {
         }
 
 
-
-           //asort($this->langdata->language_names_en);
-           foreach ($this->langdata->language_names_en as $baselang => $value) {        
+           
+           //foreach ($this->langdata->language_names_en as $baselang => $value) {          
+           foreach ($this->language_names_en() as $baselang => $value) {            
             if (($langs == false) || (in_array($baselang,$langs))) {
             if (is_array($value)) {
                 foreach ($value as $complexlang => $v) {
@@ -983,6 +984,50 @@ class lang_functions {
         else
             return ( $b["proficiency"] < $a["proficiency"] ) ? -1 : 1;
     }
+
+    function sortByLangNameComplex($arr){ 
+    $newarr = array(); 
+    foreach ($arr as $langcode => $lang){ 
+
+    if (is_array($lang)){ 
+        ksort($lang); 
+            
+    } 
+     $newarr[$langcode] = $lang; 
+    } 
+
+
+    uasort($newarr, array($this,"cmp")); 
+
+    return $newarr; 
+    } 
+
+    function cmp ($a, $b){ 
+    
+    if(is_array($a) and is_array($b)){ 
+        if (current($a) < current($b)) { return - 1; } 
+        elseif (current($a) > current($b)) {return 1; } 
+        else {return 0;} 
+    } 
+     if(is_array($a) and !is_array($b)){ 
+        if (current($a) < $b) { return - 1; } 
+        elseif (current($a) > $b) {return 1; } 
+        else {return 0;} 
+    }   
+         if(!is_array($a) and is_array($b)){ 
+        if ($a < current($b)) { return - 1; } 
+        elseif ($a > current($b)) {return 1; } 
+        else {return 0;} 
+    }   
+             if(!is_array($a) and !is_array($b)){ 
+        if ($a < $b) { return - 1; } 
+        elseif ($a > $b) {return 1; } 
+        else {return 0;} 
+    }   
+   
+    
+    } 
+
 }
 
 ?>
