@@ -539,7 +539,9 @@ class lang_functions {
 
 
            
-           //foreach ($this->langdata->language_names_en as $baselang => $value) {            
+           //foreach ($this->langdata->language_names_en as $baselang => $value) {    
+           print phpversion();
+           print_r($this->language_names_en());        
            foreach ($this->language_names_en() as $baselang => $value) {            
             if (($langs == false) || (in_array($baselang,$langs))) {
             if (is_array($value)) {
