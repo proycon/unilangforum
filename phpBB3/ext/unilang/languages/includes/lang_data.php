@@ -960,7 +960,7 @@ class lang_data {
     'dsb' => 'Sorbian (lower)',
     'hsb' => 'Sorbian (upper)',
     'st' => 'Sotho',
-    'es' => array("Spanish",'-ES' => 'Spanish, Spain', '-MX' => 'Mexican Spanish', '-AR' => 'Argentinian Spanish','-CL' => 'Chilean Spanish','-PE' => 'Peruvian Spanish','-VE' => 'Venezuelan Spanish', '-CO' => 'Colombian Spanish', '-BO' => 'Bolivian Spanish', '-PY' => 'Paraguayan Spanish', '-UY' => 'Uruguayan Spanish', '-CU' => 'Cuban Spanish', '-DO' => 'Dominican Spanish', '-PA' => 'Panamanian Spanish','-CR' => 'Costa Rican Spanish','-HN' => 'Honduran Spanish', '-NI' => 'Nicaraguan Spanish', '_old' => "Old Spanish", '-SV' => "Salvadoran Spanish", '-GT' => "Guatemalan Spanish",'-PR' => "Puerto Rican Spanish", '-AN' => 'Andalusian Spanish', 'EC' => 'Ecuadorian Spanish' ),
+    'es' => array("Spanish",'-ES' => 'Spanish, Spain', '-MX' => 'Mexican Spanish', '-AR' => 'Argentinian Spanish','-CL' => 'Chilean Spanish','-PE' => 'Peruvian Spanish','-VE' => 'Venezuelan Spanish', '-CO' => 'Colombian Spanish', '-BO' => 'Bolivian Spanish', '-PY' => 'Paraguayan Spanish', '-UY' => 'Uruguayan Spanish', '-CU' => 'Cuban Spanish', '-DO' => 'Dominican Spanish', '-PA' => 'Panamanian Spanish','-CR' => 'Costa Rican Spanish','-HN' => 'Honduran Spanish', '-NI' => 'Nicaraguan Spanish', '_old' => "Old Spanish", '-SV' => "Salvadoran Spanish", '-GT' => "Guatemalan Spanish",'-PR' => "Puerto Rican Spanish", '-AN' => 'Andalusian Spanish', '-EC' => 'Ecuadorian Spanish' ),
     'srn' => 'Sranan Tongo',
     'su' => 'Sundanese',
     'sux' => 'Sumerian',
