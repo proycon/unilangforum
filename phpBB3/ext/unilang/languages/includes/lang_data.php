@@ -148,7 +148,7 @@ class lang_data {
     'elx' => 'Elamite',
     'el' => array("Ελληνικά", '-CY' => "Κυπριακά", '_KA' => "Καθαρεύουσα", "-PNT" => 'ποντιακά'),
     'en' => array("English",'-US' => 'American English', '-GB' => 'British English','-AU' => 'Australian English','-CA' => 'Canadian English','-NZ' => 'New Zealand English','-IE' => 'Irish English','-SG' => 'Singapore English','_old' => 'Ænglisc', '_mid' => 'Middle English', '-ZA' => 'South African English'),
-    'es' => array("Español",'-ES' => 'Español de España', '-MX' => 'Español de México', '-AR' => 'Español de Argentina','-CL' => 'Español de Chile','-PE' => 'Español de Perú','-VE' => 'Español de Venezuela', '-CO' => 'Español de Colombia', '-BO' => 'Español de Bolivia', '-PY' => 'Español de Paraguay', '-UY' => 'Español de Uruguay', '-CU' => 'Español de Cuba','-DO' => 'Español de la República Dominicana', '-PA' => 'Español de Panamá','-CR' => 'Español de Costa Rica','-HN' => 'Español de Honduras', '-NI' => 'Español de Nicaragua','_old' => "Castellano antiguo", '-SV' => "Español de El Salvador", '-GT' => "Español de Guatemala",'-PR' => "Español de Puerto Rico", '-AN' => 'Español de Andalucía'), //es_old = osp
+    'es' => array("Español",'-ES' => 'Español de España', '-MX' => 'Español de México', '-AR' => 'Español de Argentina','-CL' => 'Español de Chile','-PE' => 'Español de Perú','-VE' => 'Español de Venezuela', '-CO' => 'Español de Colombia', '-BO' => 'Español de Bolivia', '-PY' => 'Español de Paraguay', '-UY' => 'Español de Uruguay', '-CU' => 'Español de Cuba','-DO' => 'Español de la República Dominicana', '-PA' => 'Español de Panamá','-CR' => 'Español de Costa Rica','-HN' => 'Español de Honduras', '-NI' => 'Español de Nicaragua','_old' => "Castellano antiguo", '-SV' => "Español de El Salvador", '-GT' => "Español de Guatemala",'-PR' => "Español de Puerto Rico", '-AN' => 'Español de Andalucía', '-EC' => 'Español de Ecuador'), //es_old = osp
     'sux' => "eme-ĝir",
     'egl' => "Emigliàn",
     'enq' => "Enga",
@@ -436,7 +436,7 @@ class lang_data {
     'sr' => array('.Cyrl' => 'Српски', '.Latn' => 'Srpski'),
     'sh' => "srpskohrvatski",
     'srn' => "Sranantogo",
-    'sq' => "Shqipe",
+     'sq' => array ('Shqip', '-ALN' => "Gegnisht", '-ALS' => "Toskë"),
     'ii' => array('.Hans' => '四川话', '.Hant' => '四川語'),
     'za' => "Saw cuəŋ",
     'smi' => array('Sámi', '-smn' => 'anarâškielâ', '-smk' /* ad-hoc */ => 'самь кӣлл', '-smj' => 'julevsábme', '-sme' => 'davvisámegiella', '-smp' /* ad-hoc */ => 'biđonsámegiella', '-sms' => 'sääˊmǩiõll', '-sma' => 'åarjelsaemien gïele', '-smt' /* ad-hoc */ => 'saa´mekiill', '-smu' /* ad-hoc */ => 'ubmisámegiella'),
@@ -541,7 +541,10 @@ class lang_data {
     'sgs' => "Žemaitėška",
     'zu' => "isiZulu",
     'zun' => "Zuni",
-    'art' => array("Constructed Language",'-ido' => 'Ido', '-ina' => 'Interlingua', '-jbo' => 'Lojban', '-lfn' => 'Lingua Franca Nova', '-nov' => 'Novial', '-sjn' => 'Sindarin', '-tlh' => 'tlhIngan-Hol','-tkp' => 'Toki Pona', '-qya' => 'Quenya','-srs' => 'Solresol', '-vo' => 'Volapük')
+    'art' => array("Constructed Language",'-ido' => 'Ido', '-ina' => 'Interlingua', '-jbo' => 'Lojban', '-lfn' => 'Lingua Franca Nova', '-nov' => 'Novial', '-sjn' => 'Sindarin', '-tlh' => 'tlhIngan-Hol','-tkp' => 'Toki Pona', '-qya' => 'Quenya','-srs' => 'Solresol', '-vo' => 'Volapük'),
+    'wbl' => 'X̌ik zik',
+    'ane' => "Xârâcùù",
+    'bal' => "بلوچی‎"
     );
 
 
@@ -556,7 +559,7 @@ class lang_data {
     'aoi' => 'Anindilyakwa',
     'ain' => 'Ainu',
     'akk' => 'Akkadian',
-    'sq' => 'Albanian',
+    'sq' => array ('Albanian', '-ALN' => "Gheg Albanian", '-ALS' => "Tosk Albanian"),
     'ale' => 'Aleut',
     'ofs' => 'Old Frisian',
     'alq' => 'Algonquin',
@@ -736,7 +739,7 @@ class lang_data {
     'inh' => 'Ingush',
     'iu' => 'Inuktitut',
     'ipk' => 'Iñupiaq',
-    'ga' =>  array('Irish Gaelic', '-M' => 'Munster Irish', '-C' => 'Connacht Irish', '-U' => 'Ulster Irish', '-SGA' => 'Old Irish'),
+    'ga' =>  array('Irish', '-M' => 'Munster Irish', '-C' => 'Connacht Irish', '-U' => 'Ulster Irish', '-SGA' => 'Old Irish'),
     'it' => 'Italian',
     'itl' => 'Itelmen',
     'jmk' => 'Jamtlandic',
@@ -957,7 +960,7 @@ class lang_data {
     'dsb' => 'Sorbian (lower)',
     'hsb' => 'Sorbian (upper)',
     'st' => 'Sotho',
-    'es' => array("Spanish",'-ES' => 'Spanish, Spain', '-MX' => 'Mexican Spanish', '-AR' => 'Argentinian Spanish','-CL' => 'Chilean Spanish','-PE' => 'Peruvian Spanish','-VE' => 'Venezuelan Spanish', '-CO' => 'Colombian Spanish', '-BO' => 'Bolivian Spanish', '-PY' => 'Paraguayan Spanish', '-UY' => 'Uruguayan Spanish', '-CU' => 'Cuban Spanish', '-DO' => 'Dominican Spanish', '-PA' => 'Panamanian Spanish','-CR' => 'Costa Rican Spanish','-HN' => 'Honduran Spanish', '-NI' => 'Nicaraguan Spanish', '_old' => "Old Spanish", '-SV' => "Salvadoran Spanish", '-GT' => "Guatemalan Spanish",'-PR' => "Puerto Rican Spanish", '-AN' => 'Andalusian Spanish' ),
+    'es' => array("Spanish",'-ES' => 'Spanish, Spain', '-MX' => 'Mexican Spanish', '-AR' => 'Argentinian Spanish','-CL' => 'Chilean Spanish','-PE' => 'Peruvian Spanish','-VE' => 'Venezuelan Spanish', '-CO' => 'Colombian Spanish', '-BO' => 'Bolivian Spanish', '-PY' => 'Paraguayan Spanish', '-UY' => 'Uruguayan Spanish', '-CU' => 'Cuban Spanish', '-DO' => 'Dominican Spanish', '-PA' => 'Panamanian Spanish','-CR' => 'Costa Rican Spanish','-HN' => 'Honduran Spanish', '-NI' => 'Nicaraguan Spanish', '_old' => "Old Spanish", '-SV' => "Salvadoran Spanish", '-GT' => "Guatemalan Spanish",'-PR' => "Puerto Rican Spanish", '-AN' => 'Andalusian Spanish', 'EC' => 'Ecuadorian Spanish' ),
     'srn' => 'Sranan Tongo',
     'su' => 'Sundanese',
     'sux' => 'Sumerian',
@@ -1044,7 +1047,10 @@ class lang_data {
     'zu' => 'Zulu',
     'zun' => 'Zuni',
     'art' => array("Constructed Language",'-ido' => 'Ido', '-ina' => 'Interlingua', '-tlh' => 'Klingon', '-lfn' => 'Lingua Franca Nova', '-nov' => 'Novial', '-jbo' => 'Lojban' ,'-sjn' => 'Sindarin','-tkp' => 'Toki Pona', '-qya' => 'Quenya','-srs' => 'Solresol','-vo' => 'Volapuk'),
-    'bci' => 'Baoulé'
+    'bci' => 'Baoulé',
+    'wbl' => "Wakhi",
+    'ane' => "Xârâcùù",
+    'bal' => "Balochi"
     );
 
     /*
