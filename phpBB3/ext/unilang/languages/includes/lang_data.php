@@ -1052,7 +1052,7 @@ class lang_data {
     'wbl' => "Wakhi",
     'ane' => "Xârâcùù",
     'bal' => "Balochi",
-    'cha' = >'Chatino'
+    'cha' => "Chatino"
     );
 
     /*
