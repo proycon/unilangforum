@@ -50,7 +50,7 @@ class lang_data {
     'ono' => 'Onoñda’gegá’/Onǫda’gegá’',
     'ain' => 'アイヌイタク',
     //'ar' => array("العربية", '-arv' => 'العربية (اللهجة البحرينية)''-arz' => "العربية (اللهجة المصري)", '-arb' => 'العربية (اللهجة الخليجة)', '-apc' => 'العربية (اللهجة الشامية)','-acm' => 'العربية (اللهجة العراقية)', '-arz' => 'العربية (اللهجة المصرية)', ),
-    'ar' => array("العربية", '-SA' => "العربية - اللهجة السعودية",'-DZ' => "العربية - اللهجة الجزائرية", '-acy' => 'Sanna', '-afb' => 'العربية - اللهجة الخليجية','-EG' => "العربية - اللهجة المصرية",'-MA' => "العربية - اللهجة المغربية",'-apc' => 'العربية - اللهجة الشامية','-LB' => "العربية - اللهجة اللبنانية", '-LY' => "العربية - اللهجة الشامية",'-IQ' => "العربية - اللهجة العراقية",'-SD' => "العربية - اللهجة السودانية",'-TN' => "العربية - اللهجة التونسية", '-arb' => "العربية - الفصحى"),
+    'ar' => array("العربية", '-SA' => "العربية - اللهجة السعودية",'-DZ' => "العربية - اللهجة الجزائرية", '-acy' => 'Sanna', '-afb' => 'العربية - اللهجة الخليجية','-EG' => "العربية - اللهجة المصرية",'-MA' => "العربية - اللهجة المغربية",'-apc' => 'العربية - اللهجة الشامية','-LB' => "العربية - اللهجة اللبنانية", '-LY' => "العربية - اللهجة الشامية",'-IQ' => "العربية - اللهجة العراقية",'-SD' => "العربية - اللهجة السودانية",'-TN' => "العربية - اللهجة التونسية", '-arb' => "العربية - الفصحى", '-SY' => "اللهجة السورية", '-JO' => "اللهجة الأردن", '-PA' => "اللهجة الفلسطينية"),
     'akk' => "lišānum akkadītum",
     'agx' => "агъул чӀал",
     'aoi' => 'Anindilyakwa',
@@ -437,7 +437,7 @@ class lang_data {
     'sr' => array('.Cyrl' => 'Српски', '.Latn' => 'Srpski'),
     'sh' => "srpskohrvatski",
     'srn' => "Sranantogo",
-     'sq' => array ('Shqip', '-ALN' => "Gegnisht", '-ALS' => "Toskë"),
+     'sq' => array ('Shqip', '-ALN' => "Gegnisht", '-ALS' => "Toskë", '-AEE' => "Arbërisht"),
     'ii' => array('.Hans' => '四川话', '.Hant' => '四川語'),
     'za' => "Saw cuəŋ",
     'smi' => array('Sámi', '-smn' => 'anarâškielâ', '-smk' /* ad-hoc */ => 'самь кӣлл', '-smj' => 'julevsábme', '-sme' => 'davvisámegiella', '-smp' /* ad-hoc */ => 'biđonsámegiella', '-sms' => 'sääˊmǩiõll', '-sma' => 'åarjelsaemien gïele', '-smt' /* ad-hoc */ => 'saa´mekiill', '-smu' /* ad-hoc */ => 'ubmisámegiella'),
@@ -545,7 +545,8 @@ class lang_data {
     'art' => array("Constructed Language",'-ido' => 'Ido', '-ina' => 'Interlingua', '-jbo' => 'Lojban', '-lfn' => 'Lingua Franca Nova', '-nov' => 'Novial', '-sjn' => 'Sindarin', '-tlh' => 'tlhIngan-Hol','-tkp' => 'Toki Pona', '-qya' => 'Quenya','-srs' => 'Solresol', '-vo' => 'Volapük'),
     'wbl' => 'X̌ik zik',
     'ane' => "Xârâcùù",
-    'bal' => "بلوچی‎"
+    'bal' => "بلوچی‎",
+    'cha' => "Cha'cña"
     );
 
 
@@ -560,7 +561,7 @@ class lang_data {
     'aoi' => 'Anindilyakwa',
     'ain' => 'Ainu',
     'akk' => 'Akkadian',
-    'sq' => array ('Albanian', '-ALN' => "Gheg Albanian", '-ALS' => "Tosk Albanian"),
+    'sq' => array ('Albanian', '-ALN' => "Gheg Albanian", '-ALS' => "Tosk Albanian", '-AEE' => "Arbëresh"),
     'ale' => 'Aleut',
     'ofs' => 'Old Frisian',
     'alq' => 'Algonquin',
@@ -570,7 +571,7 @@ class lang_data {
     'ani' => 'Andi',
     'xno' => 'Anglo-Norman',
     'apw' => 'Apache (Western)',
-    'ar' => array('Arabic', '-SA' => "Arabic, Saudi Arabian", '-DZ' => "Arabic, Algerian", '-acy' => 'Arabic, Cypriot Maronite', '-afb' => 'Arabic, Gulf', '-EG' => "Arabic, Egyptian", '-MA' => "Arabic, Moroccan", '-apc' => 'Arabic, Levantine', '-LB' => "Arabic, Lebanese", '-LY' => "Arabic, Libyan", '-IQ' => "Arabic, Iraqi", '-SD' => "Arabic, Sudanese", '-TN' => "Arabic, Tunesian", '-arb' => "Arabic, Standard"),
+    'ar' => array('Arabic', '-SA' => "Arabic, Saudi Arabian", '-DZ' => "Arabic, Algerian", '-acy' => 'Arabic, Cypriot Maronite', '-afb' => 'Arabic, Gulf', '-EG' => "Arabic, Egyptian", '-MA' => "Arabic, Moroccan", '-apc' => 'Arabic, Levantine', '-LB' => "Arabic, Lebanese", '-LY' => "Arabic, Libyan", '-IQ' => "Arabic, Iraqi", '-SD' => "Arabic, Sudanese", '-TN' => "Arabic, Tunesian", '-arb' => "Arabic, Standard", '-SY' => "Arabic, Syrian", '-JO' => "Arabic, Jordanian", '-PA' => "Arabic, Palestinian"),
     'an' => 'Aragonese',
     'arc' => 'Aramaic',
     'arp' => 'Arapaho',
@@ -1052,7 +1053,8 @@ class lang_data {
     'bci' => 'Baoulé',
     'wbl' => "Wakhi",
     'ane' => "Xârâcùù",
-    'bal' => "Balochi"
+    'bal' => "Balochi",
+    'cha' => "Chatino"
     );
 
     /*
