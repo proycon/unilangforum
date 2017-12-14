@@ -421,7 +421,7 @@ class lang_data {
     'sc' => "Sardu",
     'sah' => "Саха тыла",
     'sco' => "Scoats",
-    'see' => 'Onöndowa’ga:’ gawë:nö’',
+    'see' => 'Onöndowá’ga:’ gawë:nö’',
     'shs' => "Secwepemctsín",
     'fla' => "Séliš",
     'shn' => "Shan",
@@ -437,7 +437,7 @@ class lang_data {
     'sr' => array('.Cyrl' => 'Српски', '.Latn' => 'Srpski'),
     'sh' => "srpskohrvatski",
     'srn' => "Sranantogo",
-     'sq' => array ('Shqip', '-ALN' => "Gegnisht", '-ALS' => "Toskë", '-AEE' => "Arbërisht"),
+     'sq' => array ('Shqip', '-ALN' => "Gegnisht", '-ALS' => "Toskë", '-AAE' => "Arbërisht"),
     'ii' => array('.Hans' => '四川话', '.Hant' => '四川語'),
     'za' => "Saw cuəŋ",
     'smi' => array('Sámi', '-smn' => 'anarâškielâ', '-smk' /* ad-hoc */ => 'самь кӣлл', '-smj' => 'julevsábme', '-sme' => 'davvisámegiella', '-smp' /* ad-hoc */ => 'biđonsámegiella', '-sms' => 'sääˊmǩiõll', '-sma' => 'åarjelsaemien gïele', '-smt' /* ad-hoc */ => 'saa´mekiill', '-smu' /* ad-hoc */ => 'ubmisámegiella'),
@@ -546,7 +546,10 @@ class lang_data {
     'wbl' => 'X̌ik zik',
     'ane' => "Xârâcùù",
     'bal' => "بلوچی‎",
-    'cha' => "Cha'cña"
+    'cha' => "Cha'cña",
+    'dwu' => "Dhay'yi",
+    'gnn' => "Gumatj",
+    "gup" => "Gunwinygu"
     );
 
 
@@ -561,7 +564,7 @@ class lang_data {
     'aoi' => 'Anindilyakwa',
     'ain' => 'Ainu',
     'akk' => 'Akkadian',
-    'sq' => array ('Albanian', '-ALN' => "Gheg Albanian", '-ALS' => "Tosk Albanian", '-AEE' => "Arbëresh"),
+    'sq' => array ('Albanian', '-ALN' => "Gheg Albanian", '-ALS' => "Tosk Albanian", '-AAE' => "Arbëresh"),
     'ale' => 'Aleut',
     'ofs' => 'Old Frisian',
     'alq' => 'Algonquin',
@@ -1054,7 +1057,10 @@ class lang_data {
     'wbl' => "Wakhi",
     'ane' => "Xârâcùù",
     'bal' => "Balochi",
-    'cha' => "Chatino"
+    'cha' => "Chatino",
+    'dwu' => "Dhuwal",
+    'gnn' => "Gumatj",
+    'gup' => "Kunwinjku"
     );
 
     /*
