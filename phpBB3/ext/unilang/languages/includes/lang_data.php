@@ -164,7 +164,8 @@ class lang_data {
     'fj' => "Na vosa Vakaviti",
     'fo' => "Føroyskt",
     'fon' => "Fon gbè",
-    'fr' => array("Français",'-AC' => 'Acadien', '-BE' => 'Français Belge', '-CA' => 'Français du Canada','-CH' => 'Français de la Suisse', '-frc' => "Français Cadien", '_old' => "Ancien français", '-QC' => 'Québécois'),
+    'fr' => array("Français",'-AC' => 'Acadien', '-BE' => 'Français Belge', '-CA' => 'Français du Canada','-CH' => 'Français de la Suisse', '-frc' => "Français Cadien", '_old' => "Ancien français", '-QC' => 'Québécois',
+       '-PF' => "Français de la Polynésie française", '-NC' => "Français de la Nouvelle-Calédonie"),
     'frr' => "Nordfriisk",
     'fy' => "Frysk",
     'fud' => array('Futuna','-W' => 'Futuna-Aniwan','-E' => 'Faka futuna'),
@@ -550,7 +551,9 @@ class lang_data {
     'dwu' => "Dhay'yi",
     'gnn' => "Gumatj",
     "gup" => "Gunwinygu",
-    'tcy' => "ತುಳು"
+    'tcy' => "ತುಳು",
+    'yej' => "יעואני גלוסא‬",
+    'ruq' => "Vlăhește"
     );
 
 
@@ -700,7 +703,8 @@ class lang_data {
     'fj' => 'Fijian',
     'fi' => 'Finnish',
     'frp' => 'Franco-Provençal',
-    'fr' => array("French", '-AC' => 'Acadian French', '-BE' => 'Belgian French', '-CA' => 'Canadian French','-CH' => 'Swiss French', '-frc' => 'Cajun French', '_old' => 'Old French', '-QC' => 'Quebec French'),
+    'fr' => array("French", '-AC' => 'Acadian French', '-BE' => 'Belgian French', '-CA' => 'Canadian French','-CH' => 'Swiss French', '-frc' => 'Cajun French', '_old' => 'Old French', '-QC' => 'Quebec French',
+       '-PF' => "French Polynesia French", '-NC' => "New Caledonia French"),
     'fy' => 'West Frisian',
     'fud' => array('Futunan','-W' => 'West Futunan','-E' => 'East Futunan'),
     'fur' => 'Friulian',
@@ -1062,7 +1066,9 @@ class lang_data {
     'dwu' => "Dhuwal",
     'gnn' => "Gumatj",
     'gup' => "Kunwinjku",
-    'tcy' => "Tulu"
+    'tcy' => "Tulu",
+    'yej' => "Yevanic (Judæo-Greek)",
+    'ruq' => "Megleno-Romanian"
     );
 
     /*
