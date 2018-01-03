@@ -550,7 +550,6 @@ class lang_data {
     'cha' => "Cha'cña",
     'dwu' => "Dhay'yi",
     'gnn' => "Gumatj",
-    "gup" => "Gunwinygu"
     "gup" => "Gunwinygu",
     'tcy' => "ತುಳು",
     'yej' => "יעואני גלוסא‬",
@@ -1066,7 +1065,6 @@ class lang_data {
     'cha' => "Chatino",
     'dwu' => "Dhuwal",
     'gnn' => "Gumatj",
-    'gup' => "Kunwinjku"
     'gup' => "Kunwinjku",
     'tcy' => "Tulu",
     'yej' => "Yevanic (Judæo-Greek)",
