@@ -551,7 +551,8 @@ class lang_data {
     "gup" => "Gunwinygu",
     'tcy' => "ತುಳು",
     'yej' => "יעואני גלוסא‬",
-    'ruq' => "Vlăhește"
+    'ruq' => "Vlăhește",
+    'xsa' => ""
     );
 
 
@@ -1063,7 +1064,8 @@ class lang_data {
     'gup' => "Kunwinjku",
     'tcy' => "Tulu",
     'yej' => "Yevanic (Judæo-Greek)",
-    'ruq' => "Megleno-Romanian"
+    'ruq' => "Megleno-Romanian",
+    'xsa' => "Ancient South Arabian"
     );
 
     /*
