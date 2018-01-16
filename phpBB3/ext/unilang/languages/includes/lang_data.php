@@ -356,7 +356,8 @@ class lang_data {
     'ce' => "Нохчийн мотт",
     'cr' => "ᓂᐦᔭᐘᒃ",
     'crg' => "Michif",
-    'ja' => array("日本語", '.clas' => '和文', '-ho' => '北海道弁', '-to' => '東北弁', '-ka'=> '関東弁', '-kan' => '関西弁', '-ha' => '博多弁'),
+   //'ja' => array("日本語", '.clas' => '和文', '-ho' => '北海道弁', '-to' => '東北弁', '-ka'=> '関東弁', '-kan' => '関西弁', '-ha' => '博多弁'),
+    'ja' => array("日本語", '.clas' => '和文'),    
     'jam' => "Patwa",
     'nd' => "isiNdebele",
     'nl' => array("Nederlands",'_nbr' => 'Braobans','-BE' => 'Vlaams','_mid' => 'Middelnederlands'), //_mid = dum
@@ -436,7 +437,7 @@ class lang_data {
     'sr' => array('.Cyrl' => 'Српски', '.Latn' => 'Srpski'),
     'sh' => "srpskohrvatski",
     'srn' => "Sranantogo",
-     'sq' => array ('Shqip', '-ALN' => "Gegnisht", '-ALS' => "Toskë", '-AAE' => "Arbërisht"),
+     'sq' => array ('Shqip', '-ALN' => "Gegnisht", '-ALS' => "Toskërisht", '-AAE' => "Arbërisht"),
     'ii' => array('.Hans' => '四川话', '.Hant' => '四川語'),
     'za' => "Saw cuəŋ",
     'smi' => array('Sámi', '-smn' => 'anarâškielâ', '-smk' /* ad-hoc */ => 'самь кӣлл', '-smj' => 'julevsábme', '-sme' => 'davvisámegiella', '-smp' /* ad-hoc */ => 'biđonsámegiella', '-sms' => 'sääˊmǩiõll', '-sma' => 'åarjelsaemien gïele', '-smt' /* ad-hoc */ => 'saa´mekiill', '-smu' /* ad-hoc */ => 'ubmisámegiella'),
@@ -753,7 +754,8 @@ class lang_data {
     'itl' => 'Itelmen',
     'jmk' => 'Jamtlandic',
     'kri' => 'Sierra Leonean Creole',
-    'ja' => array('Japanese','.clas' => 'Classical Japanese', '-ho' => 'Hokkaido-ben', '-to' => 'Tohoku-ben', '-ka'=> 'Kanto-ben', '-kan' => 'Kansai-ben', '-ha' => 'Hakata-ben'), //the latter is ad-hoc code!
+    //'ja' => array('Japanese','.clas' => 'Classical Japanese', '-ho' => 'Hokkaido-ben', '-to' => 'Tohoku-ben', '-ka'=> 'Kanto-ben', '-kan' => 'Kansai-ben', '-ha' => 'Hakata-ben'), //the latter is ad-hoc code!
+    'ja' => array('Japanese','.clas' => 'Classical Japanese'), //the latter is ad-hoc code!
     'jam' => 'Jamaican Patois',
     'jv' => array('Javanese','-bms' => 'Banyumasan'), //the latter is ad-hoc code!
     'kbd' => 'Kabardian',
