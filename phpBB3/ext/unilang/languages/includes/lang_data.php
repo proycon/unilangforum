@@ -553,7 +553,8 @@ class lang_data {
     'tcy' => "ತುಳು",
     'yej' => "יעואני גלוסא‬",
     'ruq' => "Vlăhește",
-    'xsa' => ""
+    'xsa' => "",
+    'kue' => "Kuman"
     );
 
 
@@ -1067,7 +1068,8 @@ class lang_data {
     'tcy' => "Tulu",
     'yej' => "Yevanic (Judæo-Greek)",
     'ruq' => "Megleno-Romanian",
-    'xsa' => "Ancient South Arabian"
+    'xsa' => "Ancient South Arabian",
+    'kue' => "Kuman"
     );
 
     /*
