@@ -104,8 +104,7 @@ class lang_data {
     'bdk' => "Будад мез",
     'bph' => 'Буйхaлъи мицIцIи',
     'bua' => 'буряад',
-    'bug' => "Basa Ugi/ᨅᨔ ᨕᨘᨁᨗ
-    ",
+    'bug' => "Basa Ugi/ᨅᨔ ᨕᨘᨁᨗ",
     'bsk' => "بروشسکی",
     'bzj' => 'Belizean Creole',
     'ca' => "Català",
