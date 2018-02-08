@@ -85,7 +85,7 @@ class lang_data {
     'ban' => "Basa Bali",
     'bgx' => 'Rumeli Türkçesi',
     'bbl' => "batsba motjiti",
-    'be' => array('Беларуская,'.Tara' => 'тарашкевіца'),
+    'be' => array('Беларуская','.Tara' => 'тарашкевіца'),
     'bpy' => "ইমার ঠার/বিষ্ণুপ্রিয়া মণিপুরী",
     'bue' => "Beothukan",
     'bis' => "Bislama",
