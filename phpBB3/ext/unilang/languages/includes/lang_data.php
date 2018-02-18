@@ -506,7 +506,7 @@ class lang_data {
     'uga' => "Ugaritic",
     'ale' => "Unangam Tunuu",
     'udi' => array('удин муз','_old' => 'Old Udi'),
-    'uk' => array('Українська"','.Skryp' => 'Українська [Скрипникiвка]'),
+    'uk' => array('Українська','.Skryp' => 'Українська [Скрипникiвка]'),
     'ur' => "اُردو",
     'urh' => 'Urhobo',
     'ug' => "ﺋۇيغۇر",
