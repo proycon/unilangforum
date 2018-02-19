@@ -1,0 +1,9 @@
+Current Features
+****************
+	• Adds banned, suspended and inactive users to a special group
+	• Uses a special rank image for these groups (can be changed of course)
+	• Configurable cron task wich checks if a user is no more banned
+
+Planned Features
+****************
+	• None

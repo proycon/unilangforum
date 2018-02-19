@@ -1,0 +1,32 @@
+services:
+    wolfsblvt.primebantogroup.listener:
+        class: wolfsblvt\primebantogroup\event\listener
+        arguments:
+            - @wolfsblvt.primebantogroup.primebantogroup
+            - @path_helper
+            - @template
+            - @user
+            - @cache
+            - %core.php_ext%
+        tags:
+            - { name: event.listener }
+    wolfsblvt.primebantogroup.primebantogroup:
+        class: wolfsblvt\primebantogroup\core\primebantogroup
+        arguments:
+            - @config
+            - @dbal.conn
+            - @user
+            - %core.root_path%
+            - %core.php_ext%
+    cron.task.wolfsblvt.primebantogroup.check_primebantogroup:
+        class: wolfsblvt\primebantogroup\cron\task\cron_task_check_primebantogroup
+        arguments:
+            - @wolfsblvt.primebantogroup.primebantogroup
+            - @dbal.conn
+            - @config
+            - %core.root_path%
+            - %core.php_ext%
+        calls:
+            - [set_name, [cron.task.wolfsblvt.primebantogroup.check_primebantogroup]]
+        tags:
+            - { name: cron.task }
