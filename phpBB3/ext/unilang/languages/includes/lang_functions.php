@@ -931,7 +931,7 @@ class lang_functions {
          if ($language['proficiency'] >= $min_proficiency) {
             $langcode = $language['baselang']. $language['complexlang'];
             if (($language['wanthelp']) && ($language['canhelp'])) {
-                $rowstyle =  " style=\"background: #f0eff5;\"";
+                $rowstyle =  " style=\"background: #b672ee;\"";
             } elseif ($language['wanthelp']) {
                 $rowstyle =  " style=\"background: #f0e5e5;\"";
             } elseif ($language['canhelp']) {
