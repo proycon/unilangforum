@@ -1,0 +1,48 @@
+{
+    "name": "phpbbmodders/banhammer",
+    "type": "phpbb-extension",
+    "description": "Allows banning directly from a users profile. Option to ban email and/or IP, and delete avatar, posts, topics, private messages, signature, profile fields. Also option to add banned users to a selected user group and/or report them to Stop Forum Spam. Previously known as One Click Ban.",
+    "homepage": "https://phpbbmodders.net",
+    "version": "1.0.5",
+    "time": "2017-08-27",
+    "keywords": [
+        "phpbb",
+        "extension",
+        "ban",
+        "hammer",
+        "banhammer",
+        "moderator",
+        "tool"
+    ],
+    "license": "GPL-2.0",
+    "authors": [
+        {
+            "name": "Rich McGirr",
+            "role": "Developer"
+        },
+        {
+            "name": "Jari Kanerva",
+            "homepage": "https://phpbbmodders.net",
+            "email": "jari@tumba25.net",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.3",
+        "phpbb/phpbb": ">=3.1.2"
+    },
+    "require-dev": {
+        "phpbb/epv": "dev-master"
+    },
+    "extra": {
+        "display-name": "Ban Hammer",
+        "soft-require": {
+            "phpbb/phpbb": ">=3.1.2"
+        },
+        "version-check": {
+            "host": "www.phpbb.com",
+            "directory": "/customise/db/extension/ban_hammer_2",
+            "filename": "version_check"
+        }
+    }
+}
