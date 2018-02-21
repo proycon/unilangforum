@@ -1026,7 +1026,7 @@ class lang_data {
     've' => 'Venda',
     'vec' => 'Venetian',
     'vep' => 'Veps',
-    'vi' =>array('Vietnamese', "-S" => "Vietnamese (Southern)"
+    'vi' =>array('Vietnamese', "-S" => "Vietnamese (Southern)",
     'vro' => 'Voro',
     'vot' => 'Votic',
     'prk' => 'Wa',
