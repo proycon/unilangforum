@@ -1,7 +1,0 @@
-Subject: Raport suletud - "{POST_SUBJECT}"
-
-Tere, {USERNAME}.
-
-Sa saad selle kirja, sest sinu raporteeritud postitus "{POST_SUBJECT}" teemas "{TOPIC_TITLE}" lehel "{SITENAME}" võeti ette moderaatori või administraatorid poolt. Raport suleti pärast vajalikke modereerimisi. Kui sul on küsimusi, siis kontakteeru kasutaja {CLOSER_NAME} privaatsõnumi teel.
-
-{EMAIL_SIG}
