@@ -1,0 +1,20 @@
+Subject: phpBB on installeeritud
+
+Palju õnne,
+
+Sa oled oma serverisse edukalt installeerinud phpBB foorumitarkvara.
+
+See e-kiri sisaldab informatsiooni, mida peaksid hoidma turvaliselt. Sinu parool on meie andmebaasis turvaliselt salvestatud, seega ei saa me seda ununemise korral taastada. Kui sa siiski unustad oma parooli, saad sisestada uue parooli, mis aktiveeritakse sinu kasutajakontol märgitud e-posti aadressi kasutades.
+
+----------------------------
+Kasutajanimi: {USERNAME}
+
+Foorumi URL: {U_BOARD}
+----------------------------
+
+Kasulikku informatsiooni phpBB installeerimise ja kasutamise kohta leiab docs kaustast või phpBB.com Support veebilehelt -
+https://www.phpbb.com/support/
+
+Et hoida foorumit turvalisena, on rangelt soovitatav uuendada alati tarkvara, kui uuendused on olemas.
+
+{EMAIL_SIG}

@@ -1,0 +1,9 @@
+Subject: Kasutajakonto aktiveeritud
+
+Tere {USERNAME},
+
+Sinu kasutajakonto foorumis "{SITENAME}" on nüüd aktiveeritud foorumi administraatori poolt, võid nüüd sisse logida.
+
+Sinu parool on meie andmebaasis turvaliselt salvestatud, seega ei saa me seda ununemise korral taastada. Kui sa siiski unustad oma parooli, saad sisestada uue parooli, mis aktiveeritakse sinu kasutajakontol märgitud e-postiaadressi kasutades.
+
+{EMAIL_SIG}

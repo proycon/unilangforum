@@ -1,0 +1,13 @@
+Subject: Uuest teemast teatamine - "{FORUM_NAME}"
+
+Tere {USERNAME},
+
+Saad selle kirja, kuna oled tellinud foorumi "{FORUM_NAME}", "{SITENAME}". Foorumisse on tehtud uus teema<!-- IF AUTHOR_NAME != '' --> {AUTHOR_NAME}<!-- ENDIF --> peale sinu viimast külastust, "{TOPIC_TITLE}". Võid kasutada järgnevat linki foorumi vaatamiseks, sulle ei saadeta rohkem teateid, kuni sa pole külastanud foorumit
+
+{U_FORUM}
+
+Kui sa ei soovi rohkem seda foorumit tellida, võid vajutada "Ära telli foorumit" lingile foorumis, või vajutada järgnevale lingile:
+
+{U_STOP_WATCHING_FORUM}
+
+{EMAIL_SIG}

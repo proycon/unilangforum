@@ -1,0 +1,9 @@
+Subject: Sinu kasutaja on deaktiveeritud
+
+Tere {USERNAME},
+
+Sinu kasutaja "{SITENAME}" foorumis on deaktiveeritud, tõenäoliselt profiilis tehtud muudatuste pärast. Et aktiveerida oma kasutaja uuesti, pead vajutama järgnevale lingile:
+
+{U_ACTIVATE}
+
+{EMAIL_SIG}

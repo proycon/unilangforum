@@ -1,0 +1,10 @@
+Subject: Teema on heaks kiidetud - "{TOPIC_TITLE}"
+
+Tere {USERNAME},
+
+Sulle tuli see kiri, sest sinu teema "{TOPIC_TITLE}" lehel "{SITENAME}" on heaks kiidetud moderaatori või administraatori poolt.
+
+Kui sa tahad vaadata teemat, vajuta järgnevat linki:
+{U_VIEW_TOPIC}
+
+{EMAIL_SIG}

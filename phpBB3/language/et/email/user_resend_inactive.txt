@@ -1,0 +1,19 @@
+Subject: Tere tulemast "{SITENAME}" foorumisse!
+
+{WELCOME_MSG}
+
+Palun hoia see e-kiri alles. Sinu kasutaja andmed on järgnevad:
+
+----------------------------
+Kasutajanimi: {USERNAME}
+----------------------------
+
+Sinu parool on meie andmebaasis turvaliselt salvestatud, seega ei saa me seda ununemise korral taastada. Kui sa siiski unustad oma parooli, saad sisestada uue parooli, mis aktiveeritakse sinu kasutajakontol märgitud e-postiaadressi kasutades.
+
+Sinu kasutaja pole hetkel aktiveeritud. Külasta järgnevat linki aktiveerimiseks:
+
+{U_ACTIVATE}
+
+Täname registreerimast.
+
+{EMAIL_SIG}

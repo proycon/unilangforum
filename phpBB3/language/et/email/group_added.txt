@@ -1,0 +1,11 @@
+Subject: Sa oled lisatud kasutajagruppi
+
+Õnnitleme,
+
+Sa oled lisatud "{GROUP_NAME}" gruppi "{SITENAME}" foorumites.
+Sind lisas grupi liider või foorumi administraator, kontakteeru nendega täpsema informatsiooni saamiseks.
+
+Võid vaadata grupi andmeid siin:
+{U_GROUP}
+
+{EMAIL_SIG}

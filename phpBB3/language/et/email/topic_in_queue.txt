@@ -1,0 +1,13 @@
+Subject: Teema vajab modereerimist - "{TOPIC_TITLE}"
+
+Tere, {USERNAME}.
+
+Saad selle teate, kuna teema "{TOPIC_TITLE}" foorumis "{SITENAME}" vajab heaks kiitu.
+
+Kui sa soovid vaadata teemat, siis vajuta järgnevale lingile:
+{U_VIEW_TOPIC}
+
+Kui sa soovid vaadata foorumit, siis vajuta järgnevat linki:
+{U_FORUM}
+
+{EMAIL_SIG}

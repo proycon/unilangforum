@@ -1,0 +1,10 @@
+Subject: Privaatsõnum raporteeritud - "{TOPIC_TITLE}"
+
+Tere, {USERNAME}.
+
+Sa saad selle teate, kuna privaatsõnum pealkirjaga "{SUBJECT}", kasutajalt "{AUTHOR_NAME}" foorumis "{SITENAME}" on raporteeritud.
+
+Kui sa soovid vaadata raportit, siis vajuta järgnevale lingile:
+{U_VIEW_REPORT}
+
+{EMAIL_SIG}

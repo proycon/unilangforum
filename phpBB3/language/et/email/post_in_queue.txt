@@ -1,0 +1,13 @@
+Subject: Postitus vajab kinnitust - "{TOPIC_TITLE}"
+
+Tere {USERNAME},
+
+Sulle tul see kiri, kuna postitus "{POST_SUBJECT}" lehel "{SITENAME}" vajab kinnitamist.
+
+Kui sa tahad vaadata postitust, vajuta allpool olevale lingile:
+{U_VIEW_POST}
+
+Kui sa tahad vaadata teemat, vajuta allpool olevale lingile:
+{U_TOPIC}
+
+{EMAIL_SIG}
