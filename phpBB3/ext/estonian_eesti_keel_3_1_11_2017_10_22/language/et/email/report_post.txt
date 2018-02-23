@@ -1,0 +1,13 @@
+Subject: Postitus raporteeritud - "{TOPIC_TITLE}"
+
+Tere, {USERNAME}.
+
+Sa saad selle teate, kuna postitus "{POST_SUBJECT}" foorumis "{SITENAME}" on raporteeritud.
+
+Kui sa soovid vaadata raportit, siis vajuta järgnevale lingile:
+{U_VIEW_REPORT}
+
+Kui sa soovid vaadata postitust, siis vajuta järgnevale lingile:
+{U_VIEW_POST}
+
+{EMAIL_SIG}

@@ -1,0 +1,42 @@
+Subject: Tere tulemast "{SITENAME}" foorumile
+
+{WELCOME_MSG}
+
+COPPA lepinguga on su konto hetkel mitteaktiivne.
+
+Palun prindi see välja, lase vanemal või hooldajal alla kirjutada ning faksi see:
+
+{FAX_INFO}
+
+VõI saada e-post:
+
+{MAIL_INFO}
+
+------------------------------ LÕIKA SIIN ------------------------------
+Luba osa võtta lehest "{SITENAME}" - {U_BOARD}
+
+Kasutajanimi: {USERNAME}
+E-post: {EMAIL_ADDRESS}
+
+MA OLEN OMA LAPSE ANTUD ANDMED ÜLE VAADANUD JA LUBAN LEHEKÜLJEL "{SITENAME}" NEED SALVESTADA.
+MA MÕISTAN, ET SEDA INFOT SAAB MUUTA IGAL AJAL, SISESTADES PAROOLI.
+MA MÕISTAN, ET VÕIN IGAL AJAL NÕUDA SELLE INFO EEMALDAMIST "{SITENAME}" LEHELT.
+
+
+Vanem või hooldaja
+(trüki siia oma nimi): _____________________
+
+(allkiri): __________________
+
+Kuupäev: _______________
+
+------------------------------ LÕIKA SIIN ------------------------------
+
+
+Kui administraator on selle faksi või postiga saanud, aktiveeritakse su konto ja sulle teatatakse.
+
+Palun ära unusta oma parooli, kuna andmebaasis on see kodeeritud ja me ei saa seda sulle hiljem öelda. Kui juhtub, et unustad parooli, siis tuleb see aktiveerida samal viisil mis kontogi.
+
+Täname, et registreerisid.
+
+{EMAIL_SIG}

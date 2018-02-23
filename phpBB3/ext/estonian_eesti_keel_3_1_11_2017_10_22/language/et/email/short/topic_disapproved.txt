@@ -1,0 +1,11 @@
+Subject: Teema ei ole heaks kiidetud - "{TOPIC_TITLE}"
+
+Tere {USERNAME},
+
+Sulle tuli see kiri, sest sinu teema "{TOPIC_TITLE}" lehel "{SITENAME}" ei ole heaks kiidetud moderaatori või administraatori poolt.
+
+Põhjus:
+
+{REASON}
+
+{EMAIL_SIG}

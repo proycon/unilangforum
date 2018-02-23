@@ -1,0 +1,17 @@
+Subject: "{SITENAME}" - E-kiri sõbralt
+
+Tere {TO_USERNAME},
+
+Selle e-kirja saatis "{SITENAME}" foorumilt kasutaja {FROM_USERNAME}, kes arvas, et sa võid olla huvitatud järgnevast teemast:
+
+{TOPIC_NAME}
+
+Leiad selle:
+
+{U_TOPIC}
+
+Sõnum kasutajalt {FROM_USERNAME} on ka kaasa pandud all. Seda kirja pole näinud foorumi administraatorid. Kui sa ei soovi seda e-kirja saada, võta ühendust administraatoriga: {BOARD_CONTACT}. Palun kopeeri selle kirja päis administraatoriga kontakteerumisel.
+
+----------
+
+{MESSAGE}

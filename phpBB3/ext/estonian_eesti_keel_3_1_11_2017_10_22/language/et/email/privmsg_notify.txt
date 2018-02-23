@@ -1,0 +1,16 @@
+Subject: Sulle on saabunud uus privaatsõnum
+
+Tere, {USERNAME}.
+
+Sulle saatis uue privaatsõnumi kasutaja "{AUTHOR_NAME}" sinu kasutajale "{SITENAME}" foorumites järgneva pealkirjaga:
+
+{SUBJECT}
+
+Saad vaadata sõnumit, kasutades järgnevat linki:
+
+{U_VIEW_MESSAGE}
+
+Oled soovinud, et sind teavitataks uue sõnumi saabumisest. Alati võid profiili muutes ka teavitamisest keelduda.
+
+
+{EMAIL_SIG}

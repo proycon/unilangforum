@@ -1,0 +1,14 @@
+Subject: Postitus on heaks kiidetud - "{POST_SUBJECT}"
+
+Tere {USERNAME},
+
+Sulle tuli see kiri, sest sinu postitus "{POST_SUBJECT}" lehel "{SITENAME}" on heakskiidetud moderaatori või administraatori poolt.
+
+Kui sa tahad vaadata postitust, vajuta allpool olevale lingile:
+{U_VIEW_POST}
+
+Kui sa tahad vaadata teemat, vajuta allpool olevale lingile:
+{U_VIEW_TOPIC}
+
+
+{EMAIL_SIG}

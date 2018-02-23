@@ -1,0 +1,20 @@
+Subject: Uuest vastusest teemas teatamine - "{TOPIC_TITLE}"
+
+Tere, {USERNAME}!
+
+Saad selle teate foorumilt "{SITENAME}", kuna teema "{TOPIC_TITLE}", mille oled lisanud omal järjehoidjasse on saanud uue vastuse. Kasuta allolevaid linke, et vaadata vastust:
+
+Kui sa soovid vaadata uusimat postitust, mis on tehtud Sinu viimasest külastamisest, kasuta alljärgnevat linki:
+{U_NEWEST_POST}
+
+Kui sa soovid vaadata teemat, siis kasuta alljärgnevat linki:
+{U_TOPIC}
+
+Kui sa soovid vaadata foorumit, siis kasuta alljärgnevat linki:
+{U_FORUM}
+
+Kui sa aga ei soovi enam saada uuendusi uutest vastustest teemades, mis lisatud järjehoidjasse, siis palun uuenda oma seadeid alljärgneva lingi kaudus:
+
+{U_NOTIFICATION_SETTINGS}
+
+{EMAIL_SIG}
