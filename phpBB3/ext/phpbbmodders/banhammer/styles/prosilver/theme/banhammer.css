@@ -1,0 +1,15 @@
+.bh {
+	padding: 0 0;
+	margin: 3px 0 !important;
+	font-size: 1.4em;
+}
+
+.bh-click {
+	color: #105289;
+}
+
+.bh-click:hover {
+	text-decoration: underline;
+	color: #d31141;
+	cursor: pointer;
+}

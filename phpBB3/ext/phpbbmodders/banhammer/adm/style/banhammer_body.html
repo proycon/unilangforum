@@ -1,0 +1,88 @@
+<!-- INCLUDE overall_header.html -->
+
+<h1>{L_ACP_BH_SETTINGS}</h1>
+
+<!-- IF S_SAVED -->
+	<div class="successbox">{L_SETTINGS_SAVED}</div>
+<!-- ENDIF -->
+
+<form id="acp_board" method="post" action="{U_ACTION}">
+	<fieldset>
+		<dl>
+			<dt><label for="ban_email">{L_ACP_BAN_EMAIL}{L_COLON}</label></dt>
+			<dd>
+				<label><input type="radio" class="radio" name="ban_email" value="1" <!-- IF BAN_EMAIL -->id="ban_email" checked="checked"<!-- ENDIF -->/> {L_YES}</label> &nbsp;
+				<label><input type="radio" class="radio" name="ban_email" value="0" <!-- IF not BAN_EMAIL -->id="ban_email" checked="checked"<!-- ENDIF -->/> {L_NO}</label>
+			</dd>
+		</dl>
+		<dl>
+			<dt><label for="ban_ip">{L_ACP_BAN_IP}{L_COLON}</label><br /><span>{L_ACP_BAN_IP_EXPLAIN}</span></dt>
+			<dd>
+				<label><input type="radio" class="radio" name="ban_ip" value="1" <!-- IF BAN_IP -->id="ban_ip" checked="checked"<!-- ENDIF -->/> {L_YES}</label> &nbsp;
+				<label><input type="radio" class="radio" name="ban_ip" value="0" <!-- IF not BAN_IP -->id="ban_ip" checked="checked"<!-- ENDIF --> />{L_NO}</label>
+			</dd>
+		</dl>
+		<dl>
+			<dt><label for="ban_time">{L_BAN_LENGTH}{L_COLON}</label><br /><span>{L_BAN_LENGTH_EXPLAIN}</span></dt>
+			<dd><select name="ban_time" id="ban_time">{BAN_TIME}</select></dd>
+		</dl>		
+		<dl>
+			<dt><label for="del_posts">{L_ACP_DEL_POSTS}{L_COLON}</label></dt>
+			<dd>
+				<label><input type="radio" class="radio" name="del_posts" value="1" <!-- IF DEL_POSTS -->id="del_posts" checked="checked"<!-- ENDIF -->/> {L_YES}</label> &nbsp;
+				<label><input type="radio" class="radio" name="del_posts" value="0" <!-- IF not DEL_POSTS -->id="del_posts" checked="checked"<!-- ENDIF -->/> {L_NO}</label>
+			</dd>
+		</dl>
+		<dl>
+			<dt><label for="del_privmsgs">{L_ACP_DEL_PRIVMSGS}{L_COLON}</label></dt>
+			<dd>
+				<label><input type="radio" class="radio" name="del_privmsgs" value="1" <!-- IF DEL_PRIVMSGS -->id="del_privmsgs" checked="checked"<!-- ENDIF -->/> {L_YES}</label> &nbsp;
+				<label><input type="radio" class="radio" name="del_privmsgs" value="0" <!-- IF not DEL_PRIVMSGS -->id="del_privmsgs" checked="checked"<!-- ENDIF -->/> {L_NO}</label>
+			</dd>
+		</dl>
+		<dl>
+			<dt><label for="del_avatar">{L_ACP_DEL_AVATAR}{L_COLON}</label></dt>
+			<dd>
+				<label><input type="radio" class="radio" name="del_avatar" value="1" <!-- IF DEL_AVATAR -->id="del_avatar" checked="checked"<!-- ENDIF -->/> {L_YES}</label> &nbsp;
+				<label><input type="radio" class="radio" name="del_avatar" value="0" <!-- IF not DEL_AVATAR -->id="del_avatar" checked="checked"<!-- ENDIF -->/> {L_NO}</label>
+			</dd>
+		</dl>
+		<dl>
+			<dt><label for="del_signature">{L_ACP_DEL_SIGNATURE}{L_COLON}</label></dt>
+			<dd>
+				<label><input type="radio" class="radio" name="del_signature" value="1" <!-- IF DEL_SIGNATURE -->id="del_signature" checked="checked"<!-- ENDIF -->/> {L_YES}</label> &nbsp;
+				<label><input type="radio" class="radio" name="del_signature" value="0" <!-- IF not DEL_SIGNATURE -->id="del_signature" checked="checked"<!-- ENDIF -->/> {L_NO}</label>
+			</dd>
+		</dl>
+		<dl>
+			<dt><label for="del_profile">{L_ACP_DEL_PROFILE}{L_COLON}</label></dt>
+			<dd>
+				<label><input type="radio" class="radio" name="del_profile" value="1" <!-- IF DEL_PROFILE -->id="del_profile" checked="checked"<!-- ENDIF -->/> {L_YES}</label> &nbsp;
+				<label><input type="radio" class="radio" name="del_profile" value="0" <!-- IF not DEL_PROFILE -->id="del_profile" checked="checked"<!-- ENDIF -->/> {L_NO}</label>
+			</dd>
+		</dl>
+		<dl>
+			<dt><label for="move_group">{L_ACP_MOVE_GROUP}{L_COLON}</label><br /><span>{L_ACP_MOVE_GROUP_EXPLAIN}</span></dt>
+			<dd><select id="move_group" name="move_group">{MOVE_GROUP}</select></dd>
+		</dl>
+		<dl>
+			<dt><label for="sfs_api_key">{L_SFS_API_KEY}{L_COLON}</label><br /><span>{L_SFS_API_KEY_EXPLAIN}</span></dt>
+			<dd>
+				<!-- IF not SFS_CURL -->
+					{L_SFS_NEEDS_CURL}
+				<!-- ELSE -->
+					<input type="text" class="input small" name="sfs_api_key" id="sfs_api_key" value="{SFS_API_KEY}" />
+				<!-- ENDIF -->
+			</dd>
+		</dl>
+
+		<p class="submit-buttons">
+			<input class="button1" type="submit" id="submit" name="submit" value="{L_SUBMIT}" />&nbsp;
+			<input class="button2" type="reset" id="reset" name="reset" value="{L_RESET}" />
+		</p>
+
+		{S_FORM_TOKEN}
+	</fieldset>
+</form>
+
+<!-- INCLUDE overall_footer.html -->
