@@ -1,7 +1,0 @@
-Subject: Raport kustutatud - "{POST_SUBJECT}"
-
-Tere, {USERNAME}.
-
-Sa saad selle kirja, sest sinu raporteeritud postitus "{POST_SUBJECT}" teemas "{TOPIC_TITLE}" lehel "{SITENAME}" on kustutatud moderaatori või administraatorid poolt.
-
-{EMAIL_SIG}

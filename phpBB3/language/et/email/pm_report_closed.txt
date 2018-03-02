@@ -1,7 +1,0 @@
-Subject: Raport suletud - "{PM_SUBJECT}"
-
-Tere, {USERNAME}.
-
-Saad selle teate, sest raport, mille esitasid privaatsõnumi "{PM_SUBJECT}" suhtes "{SITENAME}" foorumitese, on vaadatud üle moderaatori või administraatori poolt. Raport on nüüd suletud. Edasiste küsimuste tekkimise kontakteeru kasutajaga {CLOSER_NAME} privaatsõnumi teel.
-
-{EMAIL_SIG}
