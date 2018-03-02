@@ -1,7 +1,7 @@
 body {
 	background-image: url("./images/bg_back.gif");
     background-repeat: repeat-x;
-    font-family: "Trebuchet MS","Lucida Grande",Verdana, Arial, Helvetica, sans-serif;
+    font-family: sans-serif;
 }
 
 
@@ -64,7 +64,7 @@ h1#title span {
 
 a.subforum {
     display: inline-block;
-    width: 180px;
+    width: 200px;
     overflow: hidden;
 } 
 a.subforum img {
