@@ -732,7 +732,7 @@ class lang_data {
     'ha' => array('Hausa','.Latn' => 'Hausa [Latin script]', '.Arab' => 'Hausa [Arabic script]'),
     'har' => "Harari",
     'haw' => 'Hawaiian',
-    'he' => array('Hebrew', '-hbo' => 'Hebrew, Biblical'),
+    'he' => array('Hebrew', '-hbo' => 'Biblical Hebrew'),
     'hz' => 'Herero',
     'hi' => 'Hindi',
     'gin' => 'Hinukh',
