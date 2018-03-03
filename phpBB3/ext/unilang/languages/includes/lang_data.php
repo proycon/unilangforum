@@ -961,7 +961,7 @@ class lang_data {
     'den' => 'Slavey',
     'sk' => 'Slovak',
     'sl' => 'Slovenian',
-    'sml' => 'Sinama, Central',
+    'sml' => 'Central Sinama',
     'sog' => 'Sogdian',
     'sjo' => 'Xibe',
     'skr' => 'Saraiki',
