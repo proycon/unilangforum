@@ -1,0 +1,6 @@
+{% if S_SIMILAR_TOPICS %}
+	<tr>
+		<td class="row1" width="50%"><b class="genmed">{{ lang('DISPLAY_SIMILAR_TOPICS') ~ lang('COLON') }}</b></td>
+		<td class="row2"><input type="radio" class="radio" name="similar_topics" value="1"{% if S_DISPLAY_SIMILAR_TOPICS %} checked="checked"{% endif %} /><span class="gen">{{ lang('YES') }}</span>&nbsp; &nbsp;<input type="radio" class="radio" name="similar_topics" value="0"{% if not S_DISPLAY_SIMILAR_TOPICS %} checked="checked"{% endif %} /><span class="gen">{{ lang('NO') }}</span></td>
+	</tr>
+{% endif %}
