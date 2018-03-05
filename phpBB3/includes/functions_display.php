@@ -574,7 +574,8 @@ function display_forums($root_data = '', $display_moderators = true, $return_mod
 				'S_UNREAD'		=> $subforum['unread'],
 			);
 		}
-		$s_subforums_list = (string) implode($user->lang['COMMA_SEPARATOR'], $s_subforums_list);
+		//$s_subforums_list = (string) implode($user->lang['COMMA_SEPARATOR'], $s_subforums_list);
+		$s_subforums_list = (string) implode($s_subforums_list);
 		$catless = ($row['parent_id'] == $root_data['forum_id']) ? true : false;
 
 		if ($row['forum_type'] != FORUM_LINK)
