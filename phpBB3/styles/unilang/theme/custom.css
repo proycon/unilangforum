@@ -82,7 +82,7 @@ div.subforums { /* hides the commas between subforums */
 }
 @media only screen and (min-width: 700px), only screen and (min-device-width: 700px) {
     div.subforums { 
-        width: 180%;
+        width: 160%;
     }
     #wrap {
         background-image: url("./images/hellocorner.png");
@@ -101,7 +101,7 @@ div.subforums { /* hides the commas between subforums */
 }
 @media only screen and (max-width: 700px), only screen and (max-device-width: 700px) {
     div.subforums { 
-        width: 140%;
+        width: 120%;
     }
 }
 .responsive-menu-link {
