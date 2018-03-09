@@ -554,7 +554,9 @@ class lang_data {
     'yej' => "יעואני גלוסא‬",
     'ruq' => "Vlăhește",
     'xsa' => "Ancient South Arabian",
-    'kue' => "Kuman"
+    'kue' => "Kuman",
+    'trv' => "Seejiq",
+    'ami' => "Pangcah"
     );
 
 
@@ -1069,7 +1071,9 @@ class lang_data {
     'yej' => "Yevanic (Judæo-Greek)",
     'ruq' => "Megleno-Romanian",
     'xsa' => "Ancient South Arabian",
-    'kue' => "Kuman"
+    'kue' => "Kuman",
+    'trv' => "Seediq",
+    'ami' => "Amis"
     );
 
     /*
