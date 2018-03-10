@@ -556,7 +556,12 @@ class lang_data {
     'xsa' => "Ancient South Arabian",
     'kue' => "Kuman",
     'trv' => "Seejiq",
-    'ami' => "Pangcah"
+    'ami' => "Pangcah",
+    'bnn' => "Bunun",
+    'pyu' => "Pinuyumayan",
+    'dru' => "Drekay",
+    'tsu' => "Cou",
+    'sxr' => "Hla'alua"
     );
 
 
@@ -1073,7 +1078,12 @@ class lang_data {
     'xsa' => "Ancient South Arabian",
     'kue' => "Kuman",
     'trv' => "Seediq",
-    'ami' => "Amis"
+    'ami' => "Amis",
+    'bnn' => "Bunun",
+    'pyu' => "Puyuma",
+    'dru' => "Rukai",
+    'tsu' => "Tsou",
+    'sxr' => "Saaroa"
     );
 
     /*
