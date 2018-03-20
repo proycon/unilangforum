@@ -1,0 +1,106 @@
+/*
+ *	.rh_tag is used in viewforum etc to show that an item is tagged with this tag.
+ *	For the tag cloud rh_topictags_smallest etc. are used to define the size of the tags.
+ */
+
+.rh_topictags_tagcloud
+{
+	width:	85%;
+	margin:	0 auto;
+}
+
+.rh_topictags_tagcloud ul
+{
+	margin:		0;
+	padding:	0;
+}
+
+.rh_topictags_tagcloud li,
+.rh_tag,
+tags-input .tags .tag-item
+{
+	list-style-type:	none;
+	display:			inline-block;
+	text-align:			center;
+	background: none;
+	border-radius:		10px;
+	background-color:	#cadceb;
+
+}
+
+.rh_topictags_tagcloud li
+{
+	padding:			5px 15px;
+	margin:				5px;
+	font-weight:		bold;
+}
+
+.rh_tag,
+tags-input .tags .tag-item
+{
+	padding:		1px 8px;
+	margin:			3px 2px 2px 2px;
+}
+
+.rh_topictags_count
+{
+	color:		#555;
+	font-size:	x-small;
+}
+
+.rh_topictags_tagcloud li:hover,
+.rh_tag:hover
+,tags-input .tags .tag-item:hover
+{
+	background-color:	#105289;
+}
+
+.rh_topictags_tagcloud li:hover .rh_topictags_count,
+.rh_topictags_tagcloud li:hover a,
+.rh_tag:hover a,
+tags-input .tags .tag-item:hover,
+tags-input .tags .tag-item:hover a
+{
+	color:				#cadceb;
+	background-color:	#105289;
+}
+
+/* ----------- tag sizes for tag-cloud ----------- */
+
+.rh_topictags_smallest
+{
+	font-size:	x-small;
+}
+ 
+.rh_topictags_small
+{
+	font-size:	small;
+}
+ 
+.rh_topictags_medium
+{
+	font-size:	medium;
+}
+ 
+.rh_topictags_large
+{
+	font-size:	large;
+}
+ 
+.rh_topictags_largest
+{
+	font-size:	x-large;
+}
+/* --------- END tag sizes for tag-cloud --------- */
+
+/* Smartphones (portrait and landscape) ----------- */
+@media only screen 
+and (min-width : 320px) 
+and (max-width : 480px)
+{
+/* Styles */
+	.rh_topictags_tagcloud li
+	{
+		display:	block;
+	}
+}
