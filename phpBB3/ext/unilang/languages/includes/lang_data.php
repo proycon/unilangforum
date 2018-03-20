@@ -8,7 +8,7 @@
 * @license http://opensource.org/licenses/gpl-license.php GNU Public License 
 *
 */
-
+   
 
 /*
 * FOR DEVELOPERS: INSTRUCTIONS FOR ADDING LANGUAGES:
@@ -19,7 +19,7 @@
 *
 * Don't change any existing language codes, there are database references to them that will suddenly get dereferenced!
 *
-* Don't add any personal conlangs, only some larger conlangs (klingon, volapük, tokipona etc) are allowed under the 'art' parent tag. 
+* Don't add any personal conlangs, only some larger conlangs (klingon, volapük, tokipona etc) are allowed under the 'art' parent tag . 
 */
 
 namespace unilang\languages\includes;
