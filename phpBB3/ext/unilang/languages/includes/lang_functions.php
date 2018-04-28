@@ -54,8 +54,9 @@ class lang_functions {
 
     function language_names() {
         $langs = $this->langdata->language_names;
-        asort($langs);
-        return $langs;
+        //asort($langs);
+        return  $this->sortByLangNameComplex($langs);
+        //return $langs;
     }
 
     function language_names_en() {
