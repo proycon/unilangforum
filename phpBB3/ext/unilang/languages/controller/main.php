@@ -58,8 +58,10 @@ class main {
                     'FLAG' => $this->lf->langicon($baselang.$complexlang),
                     'BASELANG' => $baselang,
                     'COMPLEXLANG' => $complexlang,
-                    'S_ENGLISHNAME' => $this->lf->get_language_name($baselang.$complexlang,'en',false),
-                    'S_NATIVENAME' => $name,
+         //           'S_ENGLISHNAME' => $this->lf->get_language_name($baselang.$complexlang,'en',false),
+         //           'S_NATIVENAME' => $name,
+                    'S_ENGLISHNAME' => $name,
+                    'S_NATIVENAME' => $this->lf->get_language_name($baselang.$complexlang,false,false),
                     'S_SCRIPTNAME' => $this->lf->get_script_name($this->lf->get_language_script($baselang.$complexlang))
                 ));			
                 }
