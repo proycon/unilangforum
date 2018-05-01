@@ -73,7 +73,7 @@ class main {
             //        'S_ENGLISHNAME' => $this->lf->get_language_name($baselang,'en',false),
             //        'S_NATIVENAME' => $value,
                     'S_ENGLISHNAME' => $value,
-                    'S_NATIVENAME' => $this->lf->get_language_name($baselang,false,false)
+                    'S_NATIVENAME' => $this->lf->get_language_name($baselang,false,false),
                     'S_SCRIPTNAME' => $this->lf->get_script_name($this->lf->get_language_script($baselang))
                 ));					
             }
