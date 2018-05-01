@@ -274,7 +274,7 @@ class lang_data {
     'kea' => "Kriólu Kabuberdiánu",
     'kek' => "Q'eqchi'",
     'ani' => "къIaваннаб мицци",
-    'ksk' => "Къумукъ тил",
+    'kum' => "Къумукъ тил",
     'kr' => 'Kanuri',
     'ku' => array('Kurdî / کوردی','-KU' => 'Kurmancî', '-SO' => 'سۆرانی'),
     'kwk' => "Kwak'wala",
@@ -561,7 +561,9 @@ class lang_data {
     'pyu' => "Pinuyumayan",
     'dru' => "Drekay",
     'tsu' => "Cou",
-    'sxr' => "Hla'alua"
+    'sxr' => "Hla'alua",
+    'klj' => "خلج تیلی",
+    'slr' => "Salırça"
     );
 
 
@@ -803,7 +805,7 @@ class lang_data {
     'koy' => 'Koyukon',
     'kr' => 'Kanuri',
     'kry' => 'Kryts',
-    'ksk' => 'Kumyk',
+    'kum' => 'Kumyk',
     'ku' => array('Kurdish','-KU' => 'Kurmanji Kurdish', '-SO' => 'Sorani Kurdish'),
     'kwk' => "Kwak'wala",
     'lg'  => "Luganda",
@@ -1083,7 +1085,9 @@ class lang_data {
     'pyu' => "Puyuma",
     'dru' => "Rukai",
     'tsu' => "Tsou",
-    'sxr' => "Saaroa"
+    'sxr' => "Saaroa",
+    'klj' => "Khalaj",
+    'slr' => "Salar"
     );
 
     /*
