@@ -167,12 +167,12 @@ class lang_functions {
             if (file_exists($this->phpbb_root_path ."ext/unilang/languages/styles/all/theme/images/langicons/$lang.$ext")) {
                 $imgsrc = "ext/unilang/languages/styles/all/theme/images/langicons/$lang.$ext";
             } else {
-                list($lang,$script,$region) = $this->split_language_code($lang,false);
+                list($langb,$script,$region) = $this->split_language_code($lang,false);
                 $region = strtoupper($region);
                 if (file_exists($this->phpbb_root_path ."ext/unilang/languages/styles/all/theme/images/countryicons/$region.$ext")) { 
                     $imgsrc = "ext/unilang/languages/styles/all/theme/images/countryicons/$region.$ext";
                 } else {
-                    $imgsrc = "ext/unilang/languages/styles/all/theme/images/langicons/$lang.$ext";
+                    $imgsrc = "ext/unilang/languages/styles/all/theme/images/langicons/$langb.$ext";
                 }
             }
         } else {
