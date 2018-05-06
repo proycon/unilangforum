@@ -17,6 +17,7 @@ if (isset($_GET['lang'])) {
     if (strlen($lang) > 3 && strpos($lang, '-')) {
        $seplang = explode ('-', $lang);
        $country = strtoupper($seplang[1]);
+       $baselang = ($seplang[0]);
        $pos = strpos($lang, '-');
        $lang_alt[$pos + 1] = $country[0];
          if (strlen($country) > 1) {
@@ -36,7 +37,10 @@ if (isset($_GET['lang'])) {
      }    
     elseif (file_exists($phpbb_root_path . "ext/unilang/languages/styles/all/theme/images/countryicons/$country.png")) {
         cat($phpbb_root_path . "ext/unilang/languages/styles/all/theme/images/countryicons/$country.png");   
-     }             
+     }    
+     elseif (file_exists($phpbb_root_path . "ext/unilang/languages/styles/all/theme/images/langicons/$baselang.png")) {
+        cat($phpbb_root_path . "ext/unilang/languages/styles/all/theme/images/langicons/$baselang.png");   
+     }                      
     else {
                  header('Content-type: image/png');
                  cat($phpbb_root_path."ext/unilang/languages/styles/all/theme/images/langicons/noflag.png");
