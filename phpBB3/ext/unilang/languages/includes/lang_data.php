@@ -726,6 +726,7 @@ class lang_data {
     'de' => array("German", '-AT' => "Austrian German", '-CH' => "Swiss Standard German", '-gsw' => "Swiss German",'_goh' => "Old High German",'_gmh' => 'Middle High German','_osx' => 'Old Saxon', '-BAR' => 'Bavarian German',  '-AL' => 'Alsatian', '-SWG' => 'Swabian'),
     'glk' => "Gilaki",
     'gil' => "Gilbertese",
+    'rn' => "Kirundi",
     'gdo' => "Godoberi",
     'got' => "Gothic",
     'el' => array("Greek", '-CY' => "Cypriot Greek", '_KA' => "Katharevousa Greek", "-PNT" => "Pontic Greek"),
@@ -1087,7 +1088,8 @@ class lang_data {
     'tsu' => "Tsou",
     'sxr' => "Saaroa",
     'klj' => "Khalaj",
-    'slr' => "Salar"
+    'slr' => "Salar",
+    'dlg' => "Dolgan"
     );
 
     /*
