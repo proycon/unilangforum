@@ -563,7 +563,8 @@ class lang_data {
     'tsu' => "Cou",
     'sxr' => "Hla'alua",
     'klj' => "خلج تیلی",
-    'slr' => "Salırça"
+    'slr' => "Salırça",
+    'dlg' => "дулҕан тыла"
     );
 
 
