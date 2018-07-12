@@ -1059,7 +1059,7 @@ class lang_data {
     'yol' => "Yola",
     'yo' => 'Yoruba',
     'ypk' => array("Yupik Languages",'-ESS' => 'Central Siberian Yupik','-ESU' => "Central Alaskan Yup’ik",'-YSR' => 'Sirenik'), 
-    'myn' => array("Mayan Languages", '-YUA' => "Yucatec", '-CAK' => "Kaqchikel", '-QUC' => "K'iche'", '-TZO' => "Tzotzil", '-TZH' => "Tzetzal" ),
+    'myn' => array("Mayan Languages", '-YUA' => "Yucatec", '-CAK' => "Kaqchikel", '-QUC' => "K'iche'", '-TZO' => "Tzotzil", '-TZH' => "Tzeltal" ),
     'yux' => 'Yukaghir',
     'zap' => 'Zapotec',
     'zza' => 'Zazaki',
