@@ -28,7 +28,7 @@ $lang = array_merge($lang, array(
     'VKBD_CYRL' => "Cyrillic",
     'VKBD_GREK' => "Greek",
     'VKBD_HEBR' => "Hebrew",
-    'VKBD_LOGIC' => "Logic Symbols",
+    'VKBD_LOGIC' => "Logic"
 ));
 
 ?>
