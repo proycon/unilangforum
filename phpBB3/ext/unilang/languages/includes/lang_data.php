@@ -564,7 +564,8 @@ class lang_data {
     'sxr' => "Hla'alua",
     'klj' => "خلج تیلی",
     'slr' => "Salırça",
-    'dlg' => "дулҕан тыла"
+    'dlg' => "дулҕан тыла",
+    'ljp' => "Lampung"
     );
 
 
@@ -1090,7 +1091,8 @@ class lang_data {
     'sxr' => "Saaroa",
     'klj' => "Khalaj",
     'slr' => "Salar",
-    'dlg' => "Dolgan"
+    'dlg' => "Dolgan",
+    'ljp' => "Lampung"
     );
 
     /*
