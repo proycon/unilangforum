@@ -565,7 +565,10 @@ class lang_data {
     'klj' => "خلج تیلی",
     'slr' => "Salırça",
     'dlg' => "дулҕан тыла",
-    'ljp' => "Lampung"
+    'ljp' => "Lampung",
+    'abs' => "Malayu Ambong",
+    'htu' => "Hitu",
+    'tlu' => "Tulehu"
     );
 
 
@@ -1092,7 +1095,10 @@ class lang_data {
     'klj' => "Khalaj",
     'slr' => "Salar",
     'dlg' => "Dolgan",
-    'ljp' => "Lampung"
+    'ljp' => "Lampung",
+    'abs' => "Ambonese Malay",
+    'htu' => "Hitu",
+    'tlu' => "Tulehu"
     );
 
     /*
