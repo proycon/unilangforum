@@ -215,7 +215,7 @@ ul.linklist.bulletin > li.small-icon:before {
 
 .quote-icon:before							{ background-position: -122px 0; }
 .quote-icon:hover:before					{ background-position: -122px -21px; }
-.edit-icon:before							{ background-position: -137px 0; }
+.edit-icon:before							{ background-position: -137px -21px; }
 .edit-icon:hover:before						{ background-position: -137px -21px; }
 .warn-icon:before							{ background-position: -208px 0; }
 .warn-icon:hover:before						{ background-position: -208px -21px; }
