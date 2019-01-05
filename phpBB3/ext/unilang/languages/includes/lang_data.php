@@ -568,7 +568,11 @@ class lang_data {
     'ljp' => "Lampung",
     'abs' => "Malayu Ambong",
     'htu' => "Hitu",
-    'tlu' => "Tulehu"
+    'tlu' => "Tulehu",
+    'ist' => "Istriot",
+    'pdc' => "Pennsylvania German",
+    'pis' => "Solomon Islands Pidgin",
+    'qxq' => "Qashqai"
     );
 
 
@@ -1098,7 +1102,11 @@ class lang_data {
     'ljp' => "Lampung",
     'abs' => "Ambonese Malay",
     'htu' => "Hitu",
-    'tlu' => "Tulehu"
+    'tlu' => "Tulehu",
+    'ist' => "Rovignese",
+    'pdc' => "Deitsch",
+    'pis' => "Pijin",
+    'qxq' => "Qaşqayıca"
     );
 
     /*
