@@ -219,7 +219,7 @@ class lang_data {
     'hop' => "Hopilavayi",
     'hsb' => "Hornjoserbšćina",
     'inh' => "гӀалгӀайн мотт",
-    'jv' => array("Basa Jawa", '-bms' => "Basa Banyumasan"), //the latter is ad-hoc code!
+    'jv' => array("Basa Jawa", '-bms' => "Basa Banyumasan", '-kaw' => "Bhāṣa Kawi"), //the latter is ad-hoc code!
     'hr' => array('Hrvatski','-CHA' => 'Čakavski'),
     'hur' => "Hul'q'umín'um'",
     'rw' => 'Ikinyarwanda',
@@ -777,7 +777,7 @@ class lang_data {
     //'ja' => array('Japanese','.clas' => 'Classical Japanese', '-ho' => 'Hokkaido-ben', '-to' => 'Tohoku-ben', '-ka'=> 'Kanto-ben', '-kan' => 'Kansai-ben', '-ha' => 'Hakata-ben'), //the latter is ad-hoc code!
     'ja' => array('Japanese','.clas' => 'Classical Japanese'), //the latter is ad-hoc code!
     'jam' => 'Jamaican Patois',
-    'jv' => array('Javanese','-bms' => 'Banyumasan'), //the latter is ad-hoc code!
+    'jv' => array('Javanese','-bms' => 'Banyumasan', '-kaw' => 'Old Javanese'), //the latter is ad-hoc code!
     'kbd' => 'Kabardian',
     'mwp' => 'Kala Lagaw Ya',
     'xal' => 'Kalmyk',
