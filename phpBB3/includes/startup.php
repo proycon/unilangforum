@@ -23,7 +23,7 @@ if (!defined('E_DEPRECATED'))
 {
 	define('E_DEPRECATED', 8192);
 }
-$level = E_ALL & ~E_NOTICE & ~E_DEPRECATED;
+$level = E_ALL & ~E_WARNING & ~E_NOTICE & ~E_DEPRECATED;
 error_reporting($level);
 
 /*
