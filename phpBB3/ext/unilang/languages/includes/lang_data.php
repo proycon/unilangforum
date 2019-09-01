@@ -572,7 +572,11 @@ class lang_data {
     'ist' => "Istriot",
     'pdc' => "Pennsylvania German",
     'pis' => "Solomon Islands Pidgin",
-    'qxq' => "Qashqai"
+    'qxq' => "Qashqai",
+    'bqy' => "Kata Kolok",
+    'psg' => "Bahasa Isyarat Pulau Pinang",
+    'jah' => "Jah Hut",
+    'izh' => "Ižoran keeli"
     );
 
 
@@ -1106,7 +1110,11 @@ class lang_data {
     'ist' => "Rovignese",
     'pdc' => "Deitsch",
     'pis' => "Pijin",
-    'qxq' => "Qaşqayıca"
+    'qxq' => "Qaşqayıca",
+    'bqy' => "Bengkala Sign Language",
+    'psg' => "Penang Sign Language",
+    'jah' => "Jah Hut",
+    'izh' => "Ingrian(Izhorian)"
     );
 
     /*
