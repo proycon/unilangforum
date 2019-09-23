@@ -576,7 +576,11 @@ class lang_data {
     'bqy' => "Kata Kolok",
     'psg' => "Bahasa Isyarat Pulau Pinang",
     'jah' => "Jah Hut",
-    'izh' => "Ižoran keeli"
+    'izh' => "Ižoran keeli",
+    'lhh' => "Laha",
+    'ium' => "Iu Mienh",
+    'gaa' => "Ga",
+    'mix' => "Tu'un savi"
     );
 
 
@@ -1114,7 +1118,11 @@ class lang_data {
     'bqy' => "Bengkala Sign Language",
     'psg' => "Penang Sign Language",
     'jah' => "Jah Hut",
-    'izh' => "Ingrian(Izhorian)"
+    'izh' => "Ingrian(Izhorian)",
+    'lhh' => "Laha",
+    'ium' => "Iu Mien",
+    'gaa' => "Ga",
+    'mix' => "Mixtec"
     );
 
     /*
