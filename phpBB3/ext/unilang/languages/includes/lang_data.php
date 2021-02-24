@@ -191,8 +191,7 @@ class lang_data {
     'hak' => array('.Hans' => "客家话",'.Hant' => "客家語"), //Hakka
     'hsn' => array('.Hans' => '湘语', '.Hant' => '湘語'), //Xiang
     'czh' => array('.Hans' => '徽语', '.Hant' => '徽語'), //Hui
-    'nan' => array('.Hans' => "闽南语",'.Hant' => "閩南語"), //Minnan
-    'nan-TW' => '台語',   
+    'nan' => array('.Hans' => "闽南语",'.Hant' => "閩南語", '.tw' => "台語"), //Minnan
     'cdo' => array('.Hans' => "闽东语",'.Hant' => "閩東語"), //Mindong
     'ko' => array("한국어", "_mid" => "중세한국어"),
     'kgg' => 'Kikongo',
@@ -674,8 +673,7 @@ class lang_data {
     'czh' => array('Hui Chinese','.Hans' => 'Hui [Simplified script]', '.Hant' => 'Hui [Traditional script]'), //Hui
     'cjy' => array('Jin Chinese', '.Hans' => 'Jin Chinese [Simplified script]', '.Hant' => 'Jin Chinese [Traditional script]'), //Jin
     'zh' =>  array('Mandarin Chinese','.Hans' => 'Mandarin Chinese [Simplified script]', '.Hant' => 'Mandarin Chinese [Traditional Script]'),
-    'nan' => array('Minnan Chinese','.Hans' => "Minnan Chinese [Simplified script]",'.Hant' => "Minnan Chinese [Traditional script]"),
-    'nan-TW' =>'Taiwanese Hokkien',   
+    'nan' => array('Minnan Chinese','.Hans' => "Minnan Chinese [Simplified script]",'.Hant' => "Minnan Chinese [Traditional script]", '.tw' => "Taiwanese Hokkien"),
     'cdo' => array('Mindong Chinese','.Hans' => "Mindong Chinese [Simplified script]",'.Hant' => "Mindong Chinese [Traditional script]"),
     'wuu' => array('Wu Chinese','.Hans' => 'Wu Chinese [Simplified script]','.Hant' => 'Wu Chinese [Traditional script]'), //Wu
     'hsn' => array('Xiang Chinese','.Hans' => 'Xiang Chinese [Simplified script]', '.Hant' => 'Xiang Chinese [Traditional script]'), //Xiang
