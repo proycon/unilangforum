@@ -192,6 +192,7 @@ class lang_data {
     'hsn' => array('.Hans' => '湘语', '.Hant' => '湘語'), //Xiang
     'czh' => array('.Hans' => '徽语', '.Hant' => '徽語'), //Hui
     'nan' => array('.Hans' => "闽南语",'.Hant' => "閩南語"), //Minnan
+    'nan-TW' => '台語',   
     'cdo' => array('.Hans' => "闽东语",'.Hant' => "閩東語"), //Mindong
     'ko' => array("한국어", "_mid" => "중세한국어"),
     'kgg' => 'Kikongo',
@@ -674,6 +675,7 @@ class lang_data {
     'cjy' => array('Jin Chinese', '.Hans' => 'Jin Chinese [Simplified script]', '.Hant' => 'Jin Chinese [Traditional script]'), //Jin
     'zh' =>  array('Mandarin Chinese','.Hans' => 'Mandarin Chinese [Simplified script]', '.Hant' => 'Mandarin Chinese [Traditional Script]'),
     'nan' => array('Minnan Chinese','.Hans' => "Minnan Chinese [Simplified script]",'.Hant' => "Minnan Chinese [Traditional script]"),
+    'nan-TW' =>'Taiwanese Hokkien',   
     'cdo' => array('Mindong Chinese','.Hans' => "Mindong Chinese [Simplified script]",'.Hant' => "Mindong Chinese [Traditional script]"),
     'wuu' => array('Wu Chinese','.Hans' => 'Wu Chinese [Simplified script]','.Hant' => 'Wu Chinese [Traditional script]'), //Wu
     'hsn' => array('Xiang Chinese','.Hans' => 'Xiang Chinese [Simplified script]', '.Hant' => 'Xiang Chinese [Traditional script]'), //Xiang
@@ -981,7 +983,7 @@ class lang_data {
     'shs' => 'Shuswap',
     'scn' => array('Sicilian', '-tara' /* ad-hoc */ => 'Tarantino'),
     'sgn' => array("Sign language", "-AU" => 'Auslan', "-US" => 'American Sign Language', '-BR' => 'Brazilian Sign Language', "-GB" => 'British Sign Language', "-CY" => 'Cyprus Sign Language', "-GR" => 'Greek Sign Language', "-IE" => 'Irish Sign Language','-CN' => 'Chinese Sign Language', "-NL" => 'Dutch Sign Language', '-DE' => 'German Sign Language', "-EE" => 'Estonian Sign Language', "-FR" => 'French Sign Language', '-IL' => 'Israeli Sign Language', '-IT' => 'Italian Sign Language','-JP' => 'Japanese Sign Language', "-PT" => 'Portuguese Sign Language', '-RS' => 'Serbian Sign Language','-ES' => 'Spanish Sign Language', '-NO' => 'Norwegian Sign Language', "-CA-QC" => 'Quebec Sign Language', '-RU' => 'Russian Sign Language', '-SE' => 'Swedish Sign Language', "-TR" => 'Turkish Sign Language', "-UA" => 'Ukrainian Sign Language', 
-                   "-AT" => "Austrian Sign Language", "-PL" => "Polish Sign Language", "-HU" => "Hungarian Sign Language", "-RO" => "Romanian Sign Language", "-BG" => "Bulgarian Sign Language", "-ID" => "Indonesia Sign Language"),
+                   "-AT" => "Austrian Sign Language", "-PL" => "Polish Sign Language", "-HU" => "Hungarian Sign Language", "-RO" => "Romanian Sign Language", "-BG" => "Bulgarian Sign Language", "-ID" => "Indonesian Sign Language"),
     'sd' => array('Sindhi','.Deva' => 'Sindhi [Devanagari script]', '.Arab' => 'Sindhi [Arabic script]'),
     'szl' => 'Silesian',
     'si' => 'Sinhalese',
