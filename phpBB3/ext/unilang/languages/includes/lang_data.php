@@ -580,7 +580,10 @@ class lang_data {
     'lhh' => "Laha",
     'ium' => "Iu Mienh",
     'gaa' => "Ga",
-    'mix' => "Tu'un savi"
+    'mix' => "Tu'un savi",
+    'sth' => "Sheldru",
+    'tlr' => "Scottish Cant",
+    'avk' => "Kotava"   
     );
 
 
@@ -1122,7 +1125,10 @@ class lang_data {
     'lhh' => "Laha",
     'ium' => "Iu Mien",
     'gaa' => "Ga",
-    'mix' => "Mixtec"
+    'mix' => "Mixtec",
+    'sth' => "Shelta",
+    'tlr' => "Scottish Cant",
+    'avk' => "Kotava"      
     );
 
     /*
