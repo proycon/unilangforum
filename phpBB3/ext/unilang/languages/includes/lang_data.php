@@ -306,7 +306,7 @@ class lang_data {
     'sva' => "ლუშნუ ნინ",
     'mas' => "ɔl Maa",
     'yux' => 'Yukagir',
-    'myn' => array("", '-YUA' => "Maaya t'aan", '-CAK' => "Kaqchikel Ch'ab'äl", '-QUC' => "Qatzijob'al", '-TZO' => "Bats'i K'op", '-TZH' => " Batz'il K'op" ),
+    'myn' => array("", '-YUA' => "Maaya t'aan", '-CAK' => "Kaqchikel Ch'ab'äl", '-QUC' => "Qatzijob'al", '-TZO' => "Bats'i K'op", '-TZH' => " Batz'il K'op", '-EMY' => "Ch'olti' tziij"  ),
     'mdh' => "Maguindanao",
     'hu' => "Magyar",
     'mkz' => "Makassai",
@@ -583,7 +583,8 @@ class lang_data {
     'mix' => "Tu'un savi",
     'sth' => "Sheldru",
     'tlr' => "Scottish Cant",
-    'avk' => "Kotava"   
+    'avk' => "Kotava",
+    'ldn' => "Láadan"   
     );
 
 
@@ -1078,7 +1079,7 @@ class lang_data {
     'yol' => "Yola",
     'yo' => 'Yoruba',
     'ypk' => array("Yupik Languages",'-ESS' => 'Central Siberian Yupik','-ESU' => "Central Alaskan Yup’ik",'-YSR' => 'Sirenik'), 
-    'myn' => array("Mayan Languages", '-YUA' => "Yucatec", '-CAK' => "Kaqchikel", '-QUC' => "K'iche'", '-TZO' => "Tzotzil", '-TZH' => "Tzeltal" ),
+    'myn' => array("Mayan Languages", '-YUA' => "Yucatec", '-CAK' => "Kaqchikel", '-QUC' => "K'iche'", '-TZO' => "Tzotzil", '-TZH' => "Tzeltal", '-EMY' => "Classic Maya"   ),
     'yux' => 'Yukaghir',
     'zap' => 'Zapotec',
     'zza' => 'Zazaki',
@@ -1128,7 +1129,8 @@ class lang_data {
     'mix' => "Mixtec",
     'sth' => "Shelta",
     'tlr' => "Scottish Cant",
-    'avk' => "Kotava"      
+    'avk' => "Kotava",
+    'ldn' => "Láadan"    
     );
 
     /*
