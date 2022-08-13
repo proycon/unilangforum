@@ -191,7 +191,7 @@ class lang_data {
     'hak' => array('.Hans' => "客家话",'.Hant' => "客家語"), //Hakka
     'hsn' => array('.Hans' => '湘语', '.Hant' => '湘語'), //Xiang
     'czh' => array('.Hans' => '徽语', '.Hant' => '徽語'), //Hui
-    'nan' => array('.Hans' => "闽南语",'.Hant' => "閩南語", '.tw' => "台語"), //Minnan
+    'nan' => array('.Hans' => "闽南语",'.Hant' => "閩南語", '.tw' => "Tâi-gí / 台語"), //Minnan
     'cdo' => array('.Hans' => "闽东语",'.Hant' => "閩東語"), //Mindong
     'ko' => array("한국어", "_mid" => "중세한국어"),
     'kgg' => 'Kikongo',
