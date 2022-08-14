@@ -607,14 +607,14 @@ class lang_data {
     'xcr' => "Carian",
     'xpm' => "Pumpokol",
     'xnr' => "Arin",
-    'tcs' => "Torres Strait Creole",
+    'tcs' => "Yumplatok",
     'hwc' => "Hawaiian Pidgin",
     'gac' => "Great Andamanese",
-    'oon' => "Onge",
-    'anq' => "Jarawa",
+    'oon' => "Öñge",
+    'anq' => "Aong",
     'kyc' => "Kyaka",
-    'ulk' => "Meriam",
-    'sii' => "Shompen"   
+    'ulk' => "Meriam Mir",
+    'sii' => "Shom Peng"     
     );
 
 
@@ -1183,14 +1183,14 @@ class lang_data {
     'xcr' => "Carian",
     'xpm' => "Pumpokol",
     'xnr' => "Arin",
-    'tcs' => "Yumplatok",
+    'tcs' => "Torres Strait Creole",
     'hwc' => "Hawaiian Pidgin",
     'gac' => "Great Andamanese",
-    'oon' => "Öñge",
-    'anq' => "Aong",
+    'oon' => "Onge",
+    'anq' => "Jarawa",
     'kyc' => "Kyaka",
-    'ulk' => "Meriam Mir",
-    'sii' => "Shom Peng"     
+    'ulk' => "Meriam",
+    'sii' => "Shompen"       
     );
 
     /*
