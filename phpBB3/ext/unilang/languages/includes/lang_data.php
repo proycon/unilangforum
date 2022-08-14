@@ -1212,7 +1212,7 @@ class lang_data {
     'tnq' => "Taíno",
     'mod' => "Mobilian Jargon",
     'dep' => "Pidgin Delaware",
-    'kut' => "Ktunaxa"      
+    'kut' => "Kutenai"      
     );
 
     /*
