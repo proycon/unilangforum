@@ -258,6 +258,7 @@ class lang_data {
     'ks' => array('.Deva' => "कश्मीरी", '.Arab' => "كشميري"),
     'kk' => "қазақша",
     'km' => "ខ្មែរ",
+    'kw' => "Kernewek",      
     'khi' => "Khoisan",
     'kca' => "хӑнты ясӑӈ",
     'khv' => "Khwarshi",
