@@ -606,7 +606,15 @@ class lang_data {
     'xce' => "Celtiberian",
     'xcr' => "Carian",
     'xpm' => "Pumpokol",
-    'xnr' => "Arin"
+    'xnr' => "Arin",
+    'tcs' => "Torres Strait Creole",
+    'hwc' => "Hawaiian Pidgin",
+    'gac' => "Great Andamanese",
+    'oon' => "Onge",
+    'anq' => "Jarawa",
+    'kyc' => "Kyaka",
+    'ulk' => "Meriam",
+    'sii' => "Shompen"   
     );
 
 
@@ -1174,7 +1182,15 @@ class lang_data {
     'xce' => "Celtiberian",
     'xcr' => "Carian",
     'xpm' => "Pumpokol",
-    'xnr' => "Arin"
+    'xnr' => "Arin",
+    'tcs' => "Yumplatok",
+    'hwc' => "Hawaiian Pidgin",
+    'gac' => "Great Andamanese",
+    'oon' => "Öñge",
+    'anq' => "Aong",
+    'kyc' => "Kyaka",
+    'ulk' => "Meriam Mir",
+    'sii' => "Shom Peng"     
     );
 
     /*
