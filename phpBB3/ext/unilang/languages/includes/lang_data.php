@@ -614,7 +614,18 @@ class lang_data {
     'anq' => "Aong",
     'kyc' => "Kyaka",
     'ulk' => "Meriam Mir",
-    'sii' => "Shom Peng"     
+    'sii' => "Shom Peng",
+    'yag' => "Yágankuta",
+    'pue' => "Gününa Küne",
+    'teh' => "Tehuelche",
+    'ona' => "Selk'nam",
+    'alc' => "Kawésqar",
+    'kuz' => "Likanantaí",
+    'tjm' => "Timucua",
+    'tnq' => "Taíno",
+    'mod' => "Mobilian Jargon",
+    'dep' => "Pidgin Delaware",
+    'kut' => "Ktunaxa"   
     );
 
 
@@ -1190,7 +1201,18 @@ class lang_data {
     'anq' => "Jarawa",
     'kyc' => "Kyaka",
     'ulk' => "Meriam",
-    'sii' => "Shompen"       
+    'sii' => "Shompen",
+    'yag' => "Yahgan",
+    'pue' => "Puelche",
+    'teh' => "Tehuelche",
+    'ona' => "Selk'nam",
+    'alc' => "Kawésqar",
+    'kuz' => "Kunza",
+    'tjm' => "Timucua",
+    'tnq' => "Taíno",
+    'mod' => "Mobilian Jargon",
+    'dep' => "Pidgin Delaware",
+    'kut' => "Ktunaxa"      
     );
 
     /*
