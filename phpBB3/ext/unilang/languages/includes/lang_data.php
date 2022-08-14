@@ -409,7 +409,7 @@ class lang_data {
     'ro' => array("Română", '-MD' => 'Moldovenească', '-TR' => 'Ромынэ'),
     'rop' => "Kriol",
     'rgn' => "Romagnòl",
-    'rom' => array('.Latn' => 'Romani','.Cyrl' => 'Романи'),
+    'rom' => array('.Latn' => 'Romani','.Cyrl' => 'Романи', '-RME' => "Pogadi Chib", '-RNW' => "Welsh Kalá"),
     'roo' => "Rotokas",
     'rtm' => "Fäeag Rotuma",
     'rm' => "Rumantsch",
@@ -584,7 +584,16 @@ class lang_data {
     'sth' => "Sheldru",
     'tlr' => "Scottish Cant",
     'avk' => "Kotava",
-    'ldn' => "Láadan"   
+    'ldn' => "Láadan",
+    'xcb' => "Cumbric",
+    'nrn' => "Norn",
+    'nrf' => "Guernésiais, Jèrriais",
+    'tzl' => "Talossan",
+    'bzt' => "Brithenig",
+    'ile' => "Interlingue/Occidental",
+    'igs' => "Interglossa",
+    'rmv' => "Romanova",
+    'neu' => "Neo"   
     );
 
 
@@ -956,7 +965,7 @@ class lang_data {
     'ro' => array("Romanian", '-MD' => 'Moldovan Romanian', '-TR' => 'Transnistrian Romanian'),
     'rop' => "Australian Kriol",
     'rm' => 'Romansh',
-    'rom' => array('Romany','.Latn' => 'Romany [Latin script]','.Cyrl' => 'Romany [Cyrillic script]'),
+    'rom' => array('Romany','.Latn' => 'Romany [Latin script]','.Cyrl' => 'Romany [Cyrillic script]', '-RME' => "Angloromani", '-RNW' => "Welsh Romani" ),
     'roo' => 'Rotokas',
     'rtm' => 'Rotuman',
     'ru' => 'Russian',
@@ -1130,7 +1139,16 @@ class lang_data {
     'sth' => "Shelta",
     'tlr' => "Scottish Cant",
     'avk' => "Kotava",
-    'ldn' => "Láadan"    
+    'ldn' => "Láadan",
+    'xcb' => "Cumbric",
+    'nrn' => "Norn",
+    'nrf' => "Guernésiais, Jèrriais",
+    'tzl' => "Talossan",
+    'bzt' => "Brithenig",
+    'ile' => "Interlingue/Occidental",
+    'igs' => "Interglossa",
+    'rmv' => "Romanova",
+    'neu' => "Neo"      
     );
 
     /*
