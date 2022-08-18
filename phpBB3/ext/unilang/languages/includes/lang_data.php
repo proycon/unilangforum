@@ -431,7 +431,7 @@ class lang_data {
     'sog' => 'Sogdian',
     'sjo' => 'ᠰᡞᠪᡝ ᡤᡞᠰᡠᠨ',
     'skr' => ' سرائیکی',
-    'sty' => 'Siberian Tatar',
+    'sty' => 'Сыбыр тел',
     'ckb' => 'سۆرانی',
     'shh' => "Sosoni’da̲i̲gwape",
     'sr' => array('.Cyrl' => 'Српски', '.Latn' => 'Srpski'),
@@ -494,7 +494,8 @@ class lang_data {
     'ti' => "ትግርኛ",
     'ddo' => 'Цезйас мец',
     've' => "tshiVenda",
-    'tr' => array("Türkçe",'-CY' => "Kıbrıslıca", '-ANT' => "Anadolu Türkçesi", '-ota' => 'عثمانلیجہ', '-old' => 'تُركجٔٔٔٔ'),
+    'tr' => array("Türkçe",'-CY' => "Kıbrıslıca", '-ANT' => "Anadolu Türkçesi", '-ota' => 'عثمانلیجہ', '-old' => 'تُركجٔٔٔٔ',
+     '-KA' => "Καραμανλήτ̇ζα"),
     'tk' => "Türkmençe",
     'tyv' => 'Тыва дыл',
     'tvl' => 'Te Gagana Tuvalu',
@@ -573,7 +574,7 @@ class lang_data {
     'ist' => "Istriot",
     'pdc' => "Pennsylvania German",
     'pis' => "Solomon Islands Pidgin",
-    'qxq' => "Qashqai",
+    'qxq' => "قشقایی ديلى",
     'bqy' => "Kata Kolok",
     'psg' => "Bahasa Isyarat Pulau Pinang",
     'jah' => "Jah Hut",
@@ -647,7 +648,10 @@ class lang_data {
     'chb' => "Muysccubun",
     'omc' => "Mochica",
     'ine' => "Pr̥mo-Sendʰro-U̯erokᵘ̯esi̯om",
-    'nxq' => "Naqxi geezheeq"
+    'nxq' => "Naqxi geezheeq",
+    'xqa' => "Karakhanid",
+    'oui' => "Old Uyghur",
+    'otk' => "Orkhon Turkic"   
     );
 
 
@@ -1059,7 +1063,7 @@ class lang_data {
     'sog' => 'Sogdian',
     'sjo' => 'Xibe',
     'skr' => 'Saraiki',
-    'sty' => 'Сыбыр тел',
+    'sty' => 'Siberian Tatar',
     'so' => 'Somali',
     'ckb' => 'Soranî',
     'dsb' => 'Lower Sorbian',
@@ -1100,7 +1104,7 @@ class lang_data {
     'ddo' => 'Tsez',
     'ts' => 'Tsonga',
     'tn' => 'Tswana',
-    'tr' => array("Turkish",'-CY' => "Cypriot Turkish", '-ANT' => "Anatolian Turkish", '-ota' => "Ottoman Turkish", '-old' => 'Old Anatolian Turkish'),
+    'tr' => array("Turkish",'-CY' => "Cypriot Turkish", '-ANT' => "Anatolian Turkish", '-ota' => "Ottoman Turkish", '-old' => 'Old Anatolian Turkish', '-KA' => "Karamanli Turkish"),
     'tk' => 'Turkmen',
     'tyv' => 'Tuvan',
     'tvl' => "Tuvaluan",
@@ -1182,7 +1186,7 @@ class lang_data {
     'ist' => "Rovignese",
     'pdc' => "Deitsch",
     'pis' => "Pijin",
-    'qxq' => "Qaşqayıca",
+    'qxq' => "Qashqai",
     'bqy' => "Bengkala Sign Language",
     'psg' => "Penang Sign Language",
     'jah' => "Jah Hut",
@@ -1255,8 +1259,11 @@ class lang_data {
     'xiv' => "Harappan",
     'chb' => "Chibcha",
     'omc' => "Mochica",
-    'ine' => "Naxi",
-    'nxq' => "Naqxi geezheeq"      
+    'ine' => "Proto Indo-European",
+    'nxq' => "Naxi",
+    'xqa' => "Karakhanid",
+    'oui' => "Old Uyghur",
+    'otk' => "Orkhon Turkic"      
     );
 
     /*
