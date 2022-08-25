@@ -655,7 +655,7 @@ class lang_data {
     'xbc' => " Αριαο",
     'xpr' => "Pahlawānīg",
     'xco' => "Khwārezmian",
-    'xsc' => "Scythian"
+    'xsc' => "Scythian",
     'xln' => "Alanian",
     'oos' => "Old Ossetian",
     'tsi' => "Sm'algyax",
@@ -1278,7 +1278,7 @@ class lang_data {
     'xbc' => "Bactrian",
     'xpr' => "Parthian",
     'xco' => "Khwārezmian",
-    'xsc' => "Scythian"
+    'xsc' => "Scythian",
     'xln' => "Alanian",
     'oos' => "Old Ossetian",
     'tsi' => "Tsimshian",
