@@ -544,7 +544,7 @@ class lang_data {
     'zu' => "isiZulu",
     'zun' => "Zuni",
     'art' => array("Constructed Language",'-ido' => 'Ido', '-ina' => 'Interlingua', '-jbo' => 'Lojban', '-lfn' => 'Lingua Franca Nova', '-nov' => 'Novial', '-sjn' => 'Sindarin', '-tlh' => 'tlhIngan-Hol','-tkp' => 'Toki Pona', '-qya' => 'Quenya','-srs' => 'Solresol', '-vo' => 'Volapük', '-avk' => 'Kotava', '-ldn' => 'Láadan', '-tzl' => 'Talossan','-bzt' => 'Brithenig', '-ile' => 'Interlingue/Occidental','-igs' => 'Interglossa','-rmv' => 'Romanova', '-neu' => 'Neo',
-      '-qrh' => 'Rihan','-qnv' => "Na'vi",'-qfk' => 'Folksprak','-qtl' => 'Tsolyáni' ),
+      '-qrh' => 'Rihan','-qnv' => "Na'vi",'-qfk' => 'Folksprak','-qtl' => 'Tsolyáni', '-qpa' => "Palawa Kani", '-qaz' => "Adûnaic", '-qbs' => "Black Speech", '-qku' => "Khuzdul", '-qhv' => "High Valyrian", '-qdo' => "Dothraki" ),
     'wbl' => 'X̌ik zik',
     'ane' => "Xârâcùù",
     'bal' => "بلوچی‎",
@@ -651,7 +651,18 @@ class lang_data {
     'nxq' => "Naqxi geezheeq",
     'xqa' => "Karakhanid",
     'oui' => "Old Uyghur",
-    'otk' => "Orkhon Turkic"   
+    'otk' => "Orkhon Turkic",
+    'xbc' => " Αριαο",
+    'xpr' => "Pahlawānīg",
+    'xco' => "Khwārezmian",
+    'xsc' => "Scythian"
+    'xln' => "Alanian",
+    'oos' => "Old Ossetian",
+    'tsi' => "Sm'algyax",
+    'squ' => "Sḵwx̱wú7mesh sníchim",
+    'uma' => "Tamalúut",
+    'clm' => "Nəxʷsƛ̓ay̓əmúcən",
+    'aqp' => "Yukhiti"   
     );
 
 
@@ -1155,7 +1166,7 @@ class lang_data {
     'zu' => 'Zulu',
     'zun' => 'Zuni',
     'art' => array("Constructed Language",'-ido' => 'Ido', '-ina' => 'Interlingua', '-tlh' => 'Klingon', '-lfn' => 'Lingua Franca Nova', '-nov' => 'Novial', '-jbo' => 'Lojban' ,'-sjn' => 'Sindarin','-tkp' => 'Toki Pona', '-qya' => 'Quenya','-srs' => 'Solresol','-vo' => 'Volapuk',  '-avk' => 'Kotava', '-ldn' => 'Láadan', '-tzl' => 'Talossan','-bzt' => 'Brithenig', '-ile' => 'Interlingue/Occidental','-igs' => 'Interglossa','-rmv' => 'Romanova', '-neu' => 'Neo',
-      '-qrh' => 'Romulan','-qnv' => "Na'vi",'-qfk' => 'Folksprak','-qtl' => 'Tsolyáni'),
+      '-qrh' => 'Romulan','-qnv' => "Na'vi",'-qfk' => 'Folksprak','-qtl' => 'Tsolyáni', '-qpa' => "Palawa Kani", '-qaz' => "Adûnaic", '-qbs' => "Black Speech", '-qku' => "Khuzdul", '-qhv' => "High Valyrian", '-qdo' => "Dothraki"),
     'bci' => 'Baoulé',
     'wbl' => "Wakhi",
     'ane' => "Xârâcùù",
@@ -1263,7 +1274,18 @@ class lang_data {
     'nxq' => "Naxi",
     'xqa' => "Karakhanid",
     'oui' => "Old Uyghur",
-    'otk' => "Orkhon Turkic"      
+    'otk' => "Orkhon Turkic",
+    'xbc' => "Bactrian",
+    'xpr' => "Parthian",
+    'xco' => "Khwārezmian",
+    'xsc' => "Scythian"
+    'xln' => "Alanian",
+    'oos' => "Old Ossetian",
+    'tsi' => "Tsimshian",
+    'squ' => "Squamish",
+    'uma' => "Umatilla",
+    'clm' => "Klallam",
+    'aqp' => "Atakapa"
     );
 
     /*
