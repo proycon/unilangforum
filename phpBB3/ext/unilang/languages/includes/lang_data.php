@@ -544,7 +544,7 @@ class lang_data {
     'zu' => "isiZulu",
     'zun' => "Zuni",
     'art' => array("Constructed Language",'-ido' => 'Ido', '-ina' => 'Interlingua', '-jbo' => 'Lojban', '-lfn' => 'Lingua Franca Nova', '-nov' => 'Novial', '-sjn' => 'Sindarin', '-tlh' => 'tlhIngan-Hol','-tkp' => 'Toki Pona', '-qya' => 'Quenya','-srs' => 'Solresol', '-vo' => 'Volapük', '-avk' => 'Kotava', '-ldn' => 'Láadan', '-tzl' => 'Talossan','-bzt' => 'Brithenig', '-ile' => 'Interlingue/Occidental','-igs' => 'Interglossa','-rmv' => 'Romanova', '-neu' => 'Neo',
-      '-qrh' => 'Rihan','-qnv' => "Na'vi",'-qfk' => 'Folksprak','-qtl' => 'Tsolyáni', '-qpa' => "Palawa Kani", '-qaz' => "Adûnaic", '-qbs' => "Black Speech", '-qku' => "Khuzdul", '-qhv' => "High Valyrian", '-qdo' => "Dothraki" ),
+      '-qrh' => 'Rihan','-qnv' => "Na'vi",'-qfk' => 'Folksprak','-qtl' => 'Tsolyáni', '-qpa' => "Palawa Kani", '-qaz' => "Adûnaic", '-qbs' => "Black Speech", '-qku' => "Khuzdul", '-qhv' => "High Valyrian", '-qdo' => "Dothraki", "-qbl" => "Bäladiri", '-qnz' => "Buruya Nzaysa", '-qsf' => "Verdurian", '-qau' => "Alurhsa" ),
     'wbl' => 'X̌ik zik',
     'ane' => "Xârâcùù",
     'bal' => "بلوچی‎",
@@ -662,7 +662,19 @@ class lang_data {
     'squ' => "Sḵwx̱wú7mesh sníchim",
     'uma' => "Tamalúut",
     'clm' => "Nəxʷsƛ̓ay̓əmúcən",
-    'aqp' => "Yukhiti"   
+    'aqp' => "Yukhiti" ,
+    'hrx' => "Riograndenser Hunsrückisch" ,
+    'dcr' => "Negerhollands",
+    'cab' => "Garifuna",
+    'gmy' => "Mycenaean Greek",
+    'sel' => "Selkup",
+    'win' => "Hocąk",
+    'akz' => "Albaamo innaaɬiilka",
+    'qiq' => "Ivernic",
+    'cms' => "Messapic",
+    'rmt' => "Domari",
+    'srm' => "Saamáka",
+    'djk' => "Aukan"
     );
 
 
@@ -1166,7 +1178,7 @@ class lang_data {
     'zu' => 'Zulu',
     'zun' => 'Zuni',
     'art' => array("Constructed Language",'-ido' => 'Ido', '-ina' => 'Interlingua', '-tlh' => 'Klingon', '-lfn' => 'Lingua Franca Nova', '-nov' => 'Novial', '-jbo' => 'Lojban' ,'-sjn' => 'Sindarin','-tkp' => 'Toki Pona', '-qya' => 'Quenya','-srs' => 'Solresol','-vo' => 'Volapuk',  '-avk' => 'Kotava', '-ldn' => 'Láadan', '-tzl' => 'Talossan','-bzt' => 'Brithenig', '-ile' => 'Interlingue/Occidental','-igs' => 'Interglossa','-rmv' => 'Romanova', '-neu' => 'Neo',
-      '-qrh' => 'Romulan','-qnv' => "Na'vi",'-qfk' => 'Folksprak','-qtl' => 'Tsolyáni', '-qpa' => "Palawa Kani", '-qaz' => "Adûnaic", '-qbs' => "Black Speech", '-qku' => "Khuzdul", '-qhv' => "High Valyrian", '-qdo' => "Dothraki"),
+      '-qrh' => 'Romulan','-qnv' => "Na'vi",'-qfk' => 'Folksprak','-qtl' => 'Tsolyáni', '-qpa' => "Palawa Kani", '-qaz' => "Adûnaic", '-qbs' => "Black Speech", '-qku' => "Khuzdul", '-qhv' => "High Valyrian", '-qdo' => "Dothraki", '-qbl' => "Bäladiri", '-qnz' => "Buruya Nzaysa", '-qsf' => "Verdurian", '-qau' => "Alurhsa"),
     'bci' => 'Baoulé',
     'wbl' => "Wakhi",
     'ane' => "Xârâcùù",
@@ -1285,7 +1297,19 @@ class lang_data {
     'squ' => "Squamish",
     'uma' => "Umatilla",
     'clm' => "Klallam",
-    'aqp' => "Atakapa"
+    'aqp' => "Atakapa",
+    'hrx' => "Hunsrik",
+    'dcr' => "Negerhollands",
+    'cab' => "Garifuna",
+    'gmy' => "Mycenaean Greek",
+    'sel' => "Selkup",
+    'win' => "Winnebago",
+    'akz' => "Alabama",
+    'qiq' => "Ivernic" ,
+    'cms' => "Messapic",
+    'rmt' => "Domari",
+    'srm' => "Saramaccan",
+    'djk' => "Ndyuka"
     );
 
     /*
