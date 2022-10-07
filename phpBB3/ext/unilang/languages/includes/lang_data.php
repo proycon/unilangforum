@@ -682,7 +682,8 @@ class lang_data {
     'kim' => "Тоъфа дыл",
     'kmz' => "خراسان تركچىسى",
     'qwm' => "Фәрғона тили",
-    'uum' => "Урум"
+    'uum' => "Урум",
+    'jct' => "кърымчах тыльы"
     );
 
 
@@ -1325,7 +1326,8 @@ class lang_data {
     'kim' => "Tofa",
     'kmz' => "Khorasani Turkic",
     'qwm' => "Fergana Kipchak",
-    'uum' => "Urum"
+    'uum' => "Urum",
+    'jct' => "Krymchak"
     );
 
     /*
