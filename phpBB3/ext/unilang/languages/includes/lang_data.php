@@ -677,7 +677,12 @@ class lang_data {
     'djk' => "Aukan",
     'qbi' => "Basque-Icelandic Pidgin",
     'qbn' => "Bungi",
-    'pml' => "Sabir"
+    'pml' => "Sabir",
+    'clw' => "Ось тили",
+    'kim' => "Тоъфа дыл",
+    'kmz' => "خراسان تركچىسى",
+    'qwm' => "Фәрғона тили",
+    'uum' => "Урум"
     );
 
 
@@ -1315,7 +1320,12 @@ class lang_data {
     'djk' => "Ndyuka",
     'qbi' => "Basque-Icelandic Pidgin",
     'qbn' => "Bungi",
-    'pml' => "Mediterranean Lingua Franca"
+    'pml' => "Mediterranean Lingua Franca",
+    'clw' => "Chulym",
+    'kim' => "Tofa",
+    'kmz' => "Khorasani Turkic",
+    'qwm' => "Fergana Kipchak",
+    'uum' => "Urum"
     );
 
     /*
