@@ -544,7 +544,7 @@ class lang_data {
     'zu' => "isiZulu",
     'zun' => "Zuni",
     'art' => array("Constructed Language",'-ido' => 'Ido', '-ina' => 'Interlingua', '-jbo' => 'Lojban', '-lfn' => 'Lingua Franca Nova', '-nov' => 'Novial', '-sjn' => 'Sindarin', '-tlh' => 'tlhIngan-Hol','-tkp' => 'Toki Pona', '-qya' => 'Quenya','-srs' => 'Solresol', '-vo' => 'Volapük', '-avk' => 'Kotava', '-ldn' => 'Láadan', '-tzl' => 'Talossan','-bzt' => 'Brithenig', '-ile' => 'Interlingue/Occidental','-igs' => 'Interglossa','-rmv' => 'Romanova', '-neu' => 'Neo',
-      '-qrh' => 'Rihan','-qnv' => "Na'vi",'-qfk' => 'Folksprak','-qtl' => 'Tsolyáni', '-qpa' => "Palawa Kani", '-qaz' => "Adûnaic", '-qbs' => "Black Speech", '-qku' => "Khuzdul", '-qhv' => "High Valyrian", '-qdo' => "Dothraki", "-qbl" => "Bäladiri", '-qnz' => "Buruya Nzaysa", '-qsf' => "Verdurian", '-qau' => "Alurhsa" ),
+      '-qrh' => 'Rihannsu','-qnv' => "Na'vi",'-qfk' => 'Folksprak','-qtl' => 'Tsolyáni', '-qpa' => "Palawa Kani", '-qaz' => "Adûnaic", '-qbs' => "Black Speech", '-qku' => "Khuzdul", '-qhv' => "High Valyrian", '-qdo' => "Dothraki", "-qbl" => "Bäladiri", '-qnz' => "Buruya Nzaysa", '-qsf' => "Verdurian", '-qau' => "Alurhsa", '-qoo' => "Old Corellian", '-qpb' => "Proto-Basic", '-qol' => "Golic Vulcan", '-qch' => "Cheunh", '-qma' => "Mando'a"),
     'wbl' => 'X̌ik zik',
     'ane' => "Xârâcùù",
     'bal' => "بلوچی‎",
@@ -674,7 +674,10 @@ class lang_data {
     'cms' => "Messapic",
     'rmt' => "Domari",
     'srm' => "Saamáka",
-    'djk' => "Aukan"
+    'djk' => "Aukan",
+    'qbi' => "Basque-Icelandic Pidgin",
+    'qbn' => "Bungi",
+    'pml' => "Sabir"
     );
 
 
@@ -1178,7 +1181,7 @@ class lang_data {
     'zu' => 'Zulu',
     'zun' => 'Zuni',
     'art' => array("Constructed Language",'-ido' => 'Ido', '-ina' => 'Interlingua', '-tlh' => 'Klingon', '-lfn' => 'Lingua Franca Nova', '-nov' => 'Novial', '-jbo' => 'Lojban' ,'-sjn' => 'Sindarin','-tkp' => 'Toki Pona', '-qya' => 'Quenya','-srs' => 'Solresol','-vo' => 'Volapuk',  '-avk' => 'Kotava', '-ldn' => 'Láadan', '-tzl' => 'Talossan','-bzt' => 'Brithenig', '-ile' => 'Interlingue/Occidental','-igs' => 'Interglossa','-rmv' => 'Romanova', '-neu' => 'Neo',
-      '-qrh' => 'Romulan','-qnv' => "Na'vi",'-qfk' => 'Folksprak','-qtl' => 'Tsolyáni', '-qpa' => "Palawa Kani", '-qaz' => "Adûnaic", '-qbs' => "Black Speech", '-qku' => "Khuzdul", '-qhv' => "High Valyrian", '-qdo' => "Dothraki", '-qbl' => "Bäladiri", '-qnz' => "Buruya Nzaysa", '-qsf' => "Verdurian", '-qau' => "Alurhsa"),
+      '-qrh' => 'Romulan','-qnv' => "Na'vi",'-qfk' => 'Folksprak','-qtl' => 'Tsolyáni', '-qpa' => "Palawa Kani", '-qaz' => "Adûnaic", '-qbs' => "Black Speech", '-qku' => "Khuzdul", '-qhv' => "High Valyrian", '-qdo' => "Dothraki", '-qbl' => "Bäladiri", '-qnz' => "Buruya Nzaysa", '-qsf' => "Verdurian", '-qau' => "Alurhsa", '-qoo' => "Old Corellian", '-qpb' => "Proto-Basic", '-qol' => "Golic Vulcan", '-qch' => "Cheunh", '-qma' => "Mandalorian"),
     'bci' => 'Baoulé',
     'wbl' => "Wakhi",
     'ane' => "Xârâcùù",
@@ -1309,7 +1312,10 @@ class lang_data {
     'cms' => "Messapic",
     'rmt' => "Domari",
     'srm' => "Saramaccan",
-    'djk' => "Ndyuka"
+    'djk' => "Ndyuka",
+    'qbi' => "Basque-Icelandic Pidgin",
+    'qbn' => "Bungi",
+    'pml' => "Mediterranean Lingua Franca"
     );
 
     /*
