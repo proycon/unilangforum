@@ -409,7 +409,8 @@ class lang_data {
     'ro' => array("Română", '-MD' => 'Moldovenească', '-TR' => 'Ромынэ'),
     'rop' => "Kriol",
     'rgn' => "Romagnòl",
-    'rom' => array('.Latn' => 'Romani','.Cyrl' => 'Романи', '-RME' => "Pogadi Chib", '-RNW' => "Welsh Kalá", '-RMQ' => "Caló", '-RMU' => "Tavringer Romani", '-RMD' => "Traveller Danish", '-RMG' => "Traveller Norwegian"),
+    'rom' => array('.Latn' => 'Romani','.Cyrl' => 'Романи', '-RME' => "Pogadi Chib", '-RNW' => "Welsh Kalá", '-RMQ' => "Caló", '-RMU' => "Tavringer Romani", '-RMD' => "Traveller Danish", '-RMG' => "Traveller Norwegian",
+        '-RMF' => "Finnish Kalo", '-RML' => "Lomavren" , '-RMB' => "Baltic Romani", '-RMO' => "Sinte Romani", '-QMR' => "Michif Romani"),
     'roo' => "Rotokas",
     'rtm' => "Fäeag Rotuma",
     'rm' => "Rumantsch",
@@ -683,7 +684,11 @@ class lang_data {
     'kmz' => "خراسان تركچىسى",
     'qwm' => "Фәрғона тили",
     'uum' => "Урум",
-    'jct' => "кърымчах тыльы"
+    'jct' => "кърымчах тыльы",
+    'qcz' => "Scots-Yiddish",
+    'jge' => "קיברולי",
+    'jbe' => "Judeo-Berber",
+    'zrp' => "Zarphatic"
     );
 
 
@@ -1055,7 +1060,8 @@ class lang_data {
     'ro' => array("Romanian", '-MD' => 'Moldovan Romanian', '-TR' => 'Transnistrian Romanian'),
     'rop' => "Australian Kriol",
     'rm' => 'Romansh',
-    'rom' => array('Romany','.Latn' => 'Romany [Latin script]','.Cyrl' => 'Romany [Cyrillic script]', '-RME' => "Angloromani", '-RNW' => "Welsh Romani", '-RMQ' => "Caló", '-RMU' => "Tavringer Romani", '-RMD' => "Traveller Danish", '-RMG' => "Traveller Norwegian" ),
+    'rom' => array('Romany','.Latn' => 'Romany [Latin script]','.Cyrl' => 'Romany [Cyrillic script]', '-RME' => "Angloromani", '-RNW' => "Welsh Romani", '-RMQ' => "Caló", '-RMU' => "Tavringer Romani", '-RMD' => "Traveller Danish", '-RMG' => "Traveller Norwegian",
+    '-RMF' => "Finnish Kalo", '-RML' => "Lomavren" , '-RMB' => "Baltic Romani", '-RMO' => "Sinte Romani", '-QMR' => "Michif Romani"),
     'roo' => 'Rotokas',
     'rtm' => 'Rotuman',
     'ru' => 'Russian',
@@ -1327,7 +1333,11 @@ class lang_data {
     'kmz' => "Khorasani Turkic",
     'qwm' => "Fergana Kipchak",
     'uum' => "Urum",
-    'jct' => "Krymchak"
+    'jct' => "Krymchak",
+    'qcz' => "Scots-Yiddish",
+    'jge' => "Judaeo-Georgian",
+    'jbe' => "Judeo-Berber",
+    'zrp' => "Zarphatic"
     );
 
     /*
