@@ -688,7 +688,26 @@ class lang_data {
     'qcz' => "Scots-Yiddish",
     'jge' => "קיברולי",
     'jbe' => "Judeo-Berber",
-    'zrp' => "Zarphatic"
+    'zrp' => "Zarphatic",
+    'nrc' => "Noric",
+    'xfa' => "Faliscan",
+    'xlp' => "Leopontic",
+    'pro' => "Old Occitan",
+    'mxi' => "Mozarabic",
+    'umc' => "Marrucinian",
+    'xae' => "Aequian",
+    'xil' => "Illyrian",
+    'xvo' => "Volscian",
+    'yms' => "Mysian",
+    'xaq' => "Aquitanian",
+    'ims' => "Marsian",
+    'xeb' => "Eblaite",
+    'qgg' => "Ammonite",
+    'qpz' => "Philistine",
+    'xdm' => "Edomite",
+    'xsa' => "Sabaean",
+    'obm' => "Moabite",
+    'sdt' => "Shuadit"
     );
 
 
@@ -1337,7 +1356,26 @@ class lang_data {
     'qcz' => "Scots-Yiddish",
     'jge' => "Judaeo-Georgian",
     'jbe' => "Judeo-Berber",
-    'zrp' => "Zarphatic"
+    'zrp' => "Zarphatic",
+    'nrc' => "Noric",
+    'xfa' => "Faliscan",
+    'xlp' => "Leopontic",
+    'pro' => "Old Occitan",
+    'mxi' => "Mozarabic",
+    'umc' => "Marrucinian",
+    'xae' => "Aequian",
+    'xil' => "Illyrian",
+    'xvo' => "Volscian",
+    'yms' => "Mysian",
+    'xaq' => "Aquitanian",
+    'ims' => "Marsian",
+    'xeb' => "Eblaite",
+    'qgg' => "Ammonite",
+    'qpz' => "Philistine",
+    'xdm' => "Edomite",
+    'xsa' => "Sabaean",
+    'obm' => "Moabite",
+    'sdt' => "Shuadit"
     );
 
     /*
