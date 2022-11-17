@@ -556,7 +556,7 @@ class lang_data {
     'tcy' => "ತುಳು",
     'yej' => "יעואני גלוסא‬",
     'ruq' => "Vlăhește",
-    'xsa' => "Ancient South Arabian",
+    'xsa' => "Ancient South Arabian (Sabaean)",
     'kue' => "Kuman",
     'trv' => "Seejiq",
     'ami' => "Pangcah",
@@ -691,7 +691,7 @@ class lang_data {
     'zrp' => "Zarphatic",
     'nrc' => "Noric",
     'xfa' => "Faliscan",
-    'xlp' => "Leopontic",
+    'xlp' => "Lepontic",
     'pro' => "Old Occitan",
     'mxi' => "Mozarabic",
     'umc' => "Marrucinian",
@@ -705,9 +705,14 @@ class lang_data {
     'qgg' => "Ammonite",
     'qpz' => "Philistine",
     'xdm' => "Edomite",
-    'xsa' => "Sabaean",
     'obm' => "Moabite",
-    'sdt' => "Shuadit"
+    'sdt' => "Shuadit",
+    'yuh' => "D'uk",
+    'xss' => "Assan",
+    'omk' => "Omok",
+    'air' => "Alyutor",
+    'krk' => "Kerek",
+    'zkt' => "Khitan"
     );
 
 
@@ -1224,7 +1229,7 @@ class lang_data {
     'tcy' => "Tulu",
     'yej' => "Yevanic (Judæo-Greek)",
     'ruq' => "Megleno-Romanian",
-    'xsa' => "Ancient South Arabian",
+    'xsa' => "Ancient South Arabian (Sabaean)",
     'kue' => "Kuman",
     'trv' => "Seediq",
     'ami' => "Amis",
@@ -1357,9 +1362,9 @@ class lang_data {
     'jge' => "Judaeo-Georgian",
     'jbe' => "Judeo-Berber",
     'zrp' => "Zarphatic",
-    'nrc' => "Noric",
+        'nrc' => "Noric",
     'xfa' => "Faliscan",
-    'xlp' => "Leopontic",
+    'xlp' => "Lepontic",
     'pro' => "Old Occitan",
     'mxi' => "Mozarabic",
     'umc' => "Marrucinian",
@@ -1373,9 +1378,14 @@ class lang_data {
     'qgg' => "Ammonite",
     'qpz' => "Philistine",
     'xdm' => "Edomite",
-    'xsa' => "Sabaean",
     'obm' => "Moabite",
-    'sdt' => "Shuadit"
+    'sdt' => "Shuadit",
+    'yuh' => "Yugh",
+    'xss' => "Assan",
+    'omk' => "Omok",
+    'air' => "Alyutor",
+    'krk' => "Kerek",
+    'zkt' => "Khitan"
     );
 
     /*
