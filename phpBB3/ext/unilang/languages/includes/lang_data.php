@@ -410,7 +410,7 @@ class lang_data {
     'rop' => "Kriol",
     'rgn' => "Romagnòl",
     'rom' => array('.Latn' => 'Romani','.Cyrl' => 'Романи', '-RME' => "Pogadi Chib", '-RNW' => "Welsh Kalá", '-RMQ' => "Caló", '-RMU' => "Tavringer Romani", '-RMD' => "Traveller Danish", '-RMG' => "Traveller Norwegian",
-        '-RMF' => "Finnish Kalo", '-RML' => "Lomavren" , '-RMB' => "Baltic Romani", '-RMO' => "Sinte Romani", '-QMR' => "Michif Romani", '-RMC' =ּּ> "Carpathian Romani"),
+        '-RMF' => "Finnish Kalo", '-RML' => "Lomavren" , '-RMB' => "Baltic Romani", '-RMO' => "Sinte Romani", '-QMR' => "Michif Romani"),
     'roo' => "Rotokas",
     'rtm' => "Fäeag Rotuma",
     'rm' => "Rumantsch",
@@ -549,7 +549,7 @@ class lang_data {
       '-qdd' => "Adelic", '-qoy' => "Ayola", '-qcc' => "Cepperjoleddicg", '-qja' => "Jameld", '-qff' => "Frenkisch", '-qdv' => "Dovahzul", '-qdw' => "Drow", '-qhz' => "Ayleid", '-qtg' => "Ta'agra", '-qiu' => "Uthgardt", '-qmq' => "Asmodian",
       '-qlz' => "Azlanti", '-qlm' => "Alamarri", '-qbr' => "Bodorian", '-qsm' => "Aasimar", '-qde' => "Draenei", '-qhe' => "Dalish", '-qoz' => "Cryxian", '-qph' => "Phyrexian", '-qor' => "Ossiarch", '-qjl' => "Varjellan", '-qhq' => "Hurlock", '-qdx' => "Xendalian", '-qqm' => "Menite", '-qgx' => "Xulgath", '-qcn' => "Ascian", '-qht' => "Heortlander", '-qot' => "Orlanthi",
       '-qms' => "Mostali", '-qll' => "Aldryami", '-qtx' => "Tanassian", '-qhc' => "Thaecian", '-qgy' => "Githyanki", '-qlu' => "Lumineth", '-qsc' => "Seraphon", '-qdc' => "Daedra", '-qmz' => "Mazken", '-qqe' => "Eladrin", '-qhh' => "Charr", '-qqk' => "Skorne", '-qcl' => "Lucidian", '-qsw' => "Aslaran", '-qqz' => "Aerakyn", '-qlx' => "Xivkyn", '-qbn' => "Baersonling", '-qbv' => "Unberogen", '-qaq' => "Asoborn", 
-     '-qrb' => "Barindur", '-qbz' => "Sul-Menite", '-qih' => "Iţkuîl", '-qra' => "Androffan", '-qqa' => "Auroran", '-qon' => "Qunari", '-qdv' => "Devkarin"),
+     '-qrb' => "Barindur", '-qbz' => "Sul-Menite", '-qih' => "Iţkuîl"),
     'wbl' => 'X̌ik zik',
     'ane' => "Xârâcùù",
     'bal' => "بلوچی‎",
@@ -716,17 +716,7 @@ class lang_data {
     'omk' => "Omok",
     'air' => "Alyutor",
     'krk' => "Kerek",
-    'zkt' => "Khitan",
-    'has' => "X̄a'islak̓ala",
-    'nuk' => "Nuučaan̓uɫ",
-    'hei' => "Heiltsuk-Oowekyala",
-    'car' => "Kari'nja",
-    'com' => "Nʉmʉ Tekwapʉ̲",
-    'qba' => "Algonquian–Basque Pidgin",
-    'qnu' => "Nootka Jargon",
-    'qne' => "Eskimo Trade Jargon",
-    'qhj' => "Haida Jargon",
-    'chl' => "Ivilyuat"
+    'zkt' => "Khitan"
     );
 
 
@@ -1099,7 +1089,7 @@ class lang_data {
     'rop' => "Australian Kriol",
     'rm' => 'Romansh',
     'rom' => array('Romany','.Latn' => 'Romany [Latin script]','.Cyrl' => 'Romany [Cyrillic script]', '-RME' => "Angloromani", '-RNW' => "Welsh Romani", '-RMQ' => "Caló", '-RMU' => "Tavringer Romani", '-RMD' => "Traveller Danish", '-RMG' => "Traveller Norwegian",
-    '-RMF' => "Finnish Kalo", '-RML' => "Lomavren" , '-RMB' => "Baltic Romani", '-RMO' => "Sinte Romani", '-QMR' => "Michif Romani", '-RMC' =ּּ> "Carpathian Romani"),
+    '-RMF' => "Finnish Kalo", '-RML' => "Lomavren" , '-RMB' => "Baltic Romani", '-RMO' => "Sinte Romani", '-QMR' => "Michif Romani"),
     'roo' => 'Rotokas',
     'rtm' => 'Rotuman',
     'ru' => 'Russian',
@@ -1235,7 +1225,7 @@ class lang_data {
      '-qdd' => "Adelic", '-qoy' => "Ayola", '-qcc' => "Cepperjoleddicg", '-qja' => "Jameld", '-qff' => "Frenkisch", '-qdv' => "Dovahzul", '-qdw' => "Drow", '-qhz' => "Ayleid", '-qtg' => "Ta'agra", '-qiu' => "Uthgardt", '-qmq' => "Asmodian",
      '-qlz' => "Azlanti", '-qlm' => "Alamarri", '-qbr' => "Bodorian", '-qsm' => "Aasimar", '-qde' => "Draenei", '-qhe' => "Dalish", '-qoz' => "Cryxian", '-qph' => "Phyrexian", '-qor' => "Ossiarch", '-qjl' => "Varjellan", '-qhq' => "Hurlock", '-qdx' => "Xendalian", '-qqm' => "Menite", '-qgx' => "Xulgath", '-qcn' => "Ascian", '-qht' => "Heortlander", '-qot' => "Orlanthi",
      '-qms' => "Mostali", '-qll' => "Aldryami", '-qtx' => "Tanassian", '-qhc' => "Thaecian", '-qgy' => "Githyanki", '-qlu' => "Lumineth", '-qsc' => "Seraphon", '-qdc' => "Daedra", '-qmz' => "Mazken", '-qqe' => "Eladrin", '-qhh' => "Charr", '-qqk' => "Skorne", '-qcl' => "Lucidian", '-qsw' => "Aslaran", '-qqz' => "Aerakyn", '-qlx' => "Xivkyn", '-qbn' => "Baersonling", '-qbv' => "Unberogen", '-qaq' => "Asoborn", 
-     '-qrb' => "Barindur", '-qbz' => "Sul-Menite", '-qih' => "Ithkuil", '-qra' => "Androffan", '-qqa' => "Auroran", '-qon' => "Qunari", '-qdv' => "Devkarin"),
+     '-qrb' => "Barindur", '-qbz' => "Sul-Menite", '-qih' => "Ithkuil"),
     'bci' => 'Baoulé',
     'wbl' => "Wakhi",
     'ane' => "Xârâcùù",
@@ -1403,17 +1393,7 @@ class lang_data {
     'omk' => "Omok",
     'air' => "Alyutor",
     'krk' => "Kerek",
-    'zkt' => "Khitan",
-    'has' => "Haisla",
-    'nuk' => "Nuu-chah-nulth",
-    'hei' => "Heiltsuk-Oowekyala",
-    'car' => "Carib",
-    'com' => "Comanche",
-    'qba' => "Algonquian–Basque Pidgin",
-    'qnu' => "Nootka Jargon",
-    'qne' => "Eskimo Trade Jargon",
-    'qhj' => "Haida Jargon",
-    'chl' => "Cahuilla"
+    'zkt' => "Khitan"
     );
 
     /*
