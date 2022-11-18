@@ -716,7 +716,18 @@ class lang_data {
     'omk' => "Omok",
     'air' => "Alyutor",
     'krk' => "Kerek",
-    'zkt' => "Khitan"
+    'zkt' => "Khitan",
+    'has' => "X̄a'islak̓ala",
+    'nuk' => "Nuučaan̓uɫ",
+    'hei' => "Heiltsuk-Oowekyala",
+    'car' => "Kari'nja",
+    'com' => "Nʉmʉ Tekwapʉ̲",
+    'qba' => "Algonquian–Basque Pidgin",
+    'qnu' => "Nootka Jargon",
+    'qne' => "Eskimo Trade Jargon",
+    'qhj' => "Haida Jargon",
+    'chl' => "Ivilyuat"
+
     );
 
 
@@ -1370,7 +1381,7 @@ class lang_data {
     'jge' => "Judaeo-Georgian",
     'jbe' => "Judeo-Berber",
     'zrp' => "Zarphatic",
-        'nrc' => "Noric",
+    'nrc' => "Noric",
     'xfa' => "Faliscan",
     'xlp' => "Lepontic",
     'pro' => "Old Occitan",
@@ -1393,7 +1404,18 @@ class lang_data {
     'omk' => "Omok",
     'air' => "Alyutor",
     'krk' => "Kerek",
-    'zkt' => "Khitan"
+    'zkt' => "Khitan",
+    'has' => "Haisla",
+    'nuk' => "Nuu-chah-nulth",
+    'hei' => "Heiltsuk-Oowekyala",
+    'car' => "Carib",
+    'com' => "Comanche",
+    'qba' => "Algonquian–Basque Pidgin",
+    'qnu' => "Nootka Jargon",
+    'qne' => "Eskimo Trade Jargon",
+    'qhj' => "Haida Jargon",
+    'chl' => "Cahuilla"
+
     );
 
     /*
