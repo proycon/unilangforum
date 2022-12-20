@@ -549,7 +549,7 @@ class lang_data {
       '-qdd' => "Adelic", '-qoy' => "Ayola", '-qcc' => "Cepperjoleddicg", '-qja' => "Jameld", '-qff' => "Frenkisch", '-qdv' => "Dovahzul", '-qdw' => "Drow", '-qhz' => "Ayleid", '-qtg' => "Ta'agra", '-qiu' => "Uthgardt", '-qmq' => "Asmodian",
       '-qlz' => "Azlanti", '-qlm' => "Alamarri", '-qbr' => "Bodorian", '-qsm' => "Aasimar", '-qde' => "Draenei", '-qhe' => "Dalish", '-qoz' => "Cryxian", '-qph' => "Phyrexian", '-qor' => "Ossiarch", '-qjl' => "Varjellan", '-qhq' => "Hurlock", '-qdx' => "Xendalian", '-qqm' => "Menite", '-qgx' => "Xulgath", '-qcn' => "Ascian", '-qht' => "Heortlander", '-qot' => "Orlanthi",
       '-qms' => "Mostali", '-qll' => "Aldryami", '-qtx' => "Tanassian", '-qhc' => "Thaecian", '-qgy' => "Githyanki", '-qlu' => "Lumineth", '-qsc' => "Seraphon", '-qdc' => "Daedra", '-qmz' => "Mazken", '-qqe' => "Eladrin", '-qhh' => "Charr", '-qqk' => "Skorne", '-qcl' => "Lucidian", '-qsw' => "Aslaran", '-qqz' => "Aerakyn", '-qlx' => "Xivkyn", '-qbn' => "Baersonling", '-qbv' => "Unberogen", '-qaq' => "Asoborn", 
-     '-qrb' => "Barindur", '-qbz' => "Sul-Menite", '-qih' => "Iţkuîl", '-qra' => "Androffan", '-qqa' => "Auroran", '-qon' => "Qunari", '-qdn' => "Devkarin"),
+     '-qrb' => "Barindur", '-qbz' => "Sul-Menite", '-qih' => "Iţkuîl", '-qra' => "Androffan", '-qqa' => "Auroran", '-qon' => "Qunari", '-qdn' => "Devkarin", '-zba' => "Balaibalan", '-dmf' => "Medefaidrin", '-qli' => "Lingua Ignota", '-qen' => "Enochian", '-qoa' => "Oahspean"),
     'wbl' => 'X̌ik zik',
     'ane' => "Xârâcùù",
     'bal' => "بلوچی‎",
@@ -726,7 +726,8 @@ class lang_data {
     'qnu' => "Nootka Jargon",
     'qne' => "Eskimo Trade Jargon",
     'qhj' => "Haida Jargon",
-    'chl' => "Ivilyuat"
+    'chl' => "Ivilyuat",
+    'yec' => "Yenish"
 
     );
 
@@ -1236,7 +1237,7 @@ class lang_data {
      '-qdd' => "Adelic", '-qoy' => "Ayola", '-qcc' => "Cepperjoleddicg", '-qja' => "Jameld", '-qff' => "Frenkisch", '-qdv' => "Dovahzul", '-qdw' => "Drow", '-qhz' => "Ayleid", '-qtg' => "Ta'agra", '-qiu' => "Uthgardt", '-qmq' => "Asmodian",
      '-qlz' => "Azlanti", '-qlm' => "Alamarri", '-qbr' => "Bodorian", '-qsm' => "Aasimar", '-qde' => "Draenei", '-qhe' => "Dalish", '-qoz' => "Cryxian", '-qph' => "Phyrexian", '-qor' => "Ossiarch", '-qjl' => "Varjellan", '-qhq' => "Hurlock", '-qdx' => "Xendalian", '-qqm' => "Menite", '-qgx' => "Xulgath", '-qcn' => "Ascian", '-qht' => "Heortlander", '-qot' => "Orlanthi",
      '-qms' => "Mostali", '-qll' => "Aldryami", '-qtx' => "Tanassian", '-qhc' => "Thaecian", '-qgy' => "Githyanki", '-qlu' => "Lumineth", '-qsc' => "Seraphon", '-qdc' => "Daedra", '-qmz' => "Mazken", '-qqe' => "Eladrin", '-qhh' => "Charr", '-qqk' => "Skorne", '-qcl' => "Lucidian", '-qsw' => "Aslaran", '-qqz' => "Aerakyn", '-qlx' => "Xivkyn", '-qbn' => "Baersonling", '-qbv' => "Unberogen", '-qaq' => "Asoborn", 
-     '-qrb' => "Barindur", '-qbz' => "Sul-Menite", '-qih' => "Ithkuil", '-qra' => "Androffan", '-qqa' => "Auroran", '-qon' => "Qunari", '-qdn' => "Devkarin"),
+     '-qrb' => "Barindur", '-qbz' => "Sul-Menite", '-qih' => "Ithkuil", '-qra' => "Androffan", '-qqa' => "Auroran", '-qon' => "Qunari", '-qdn' => "Devkarin", '-zba' => "Balaibalan", '-dmf' => "Medefaidrin", '-qli' => "Lingua Ignota", '-qen' => "Enochian", '-qoa' => "Oahspean"),
     'bci' => 'Baoulé',
     'wbl' => "Wakhi",
     'ane' => "Xârâcùù",
@@ -1414,7 +1415,8 @@ class lang_data {
     'qnu' => "Nootka Jargon",
     'qne' => "Eskimo Trade Jargon",
     'qhj' => "Haida Jargon",
-    'chl' => "Cahuilla"
+    'chl' => "Cahuilla",
+    'yec' => "Yenish"
 
     );
 
