@@ -131,3 +131,8 @@ div.subforums { /* hides the commas between subforums */
     line-height: 1.5em;
 }
 
+/* fixes */
+
+.username {
+    padding-left: 2px;
+}
