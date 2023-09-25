@@ -71,6 +71,10 @@ hr {
 	color: #39392e;
 }
 
+.post {
+    background-color: #e4e5e0;
+}
+
 .post:target .content {
 	color: #000000;
 }
