@@ -31,6 +31,8 @@ body {
 
     #wrap {
         margin-top: 50px;
+        margin-left: auto;
+        margin-right: auto;
     }
     #page-body {
         width: 90%;
@@ -88,6 +90,8 @@ div.subforums { /* hides the commas between subforums */
         background-repeat: no-repeat;
         max-width: 1024px;
         background-size: 240px auto;
+        margin-left: auto;
+        margin-right: auto;
     }
     h1#title {
         margin-bottom: 30px;
