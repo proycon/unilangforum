@@ -133,6 +133,6 @@ div.subforums { /* hides the commas between subforums */
 
 /* fixes */
 
-.username .username-coloured {
+.username, .username-coloured {
     padding-left: 2px;
 }
