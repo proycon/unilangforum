@@ -283,7 +283,7 @@ class session
 		// it's pretty clear that in the majority of cases you'll at least be left with a proxy/cache ip.
 		$this->ip = htmlspecialchars_decode($request->server('REMOTE_ADDR'));
 		$this->ip = preg_replace('# {2,}#', ' ', str_replace(',', ' ', $this->ip));
-        if (substr($this->ip,0,2) == "10.") {
+        if (substr($this->ip,0,3) == "10.") {
             // local IP, assume our reverse proxy (unilang), fall back to X-Forwarded-For
             // reverse proxy should take care it can't be spoofed.
             $this->ip = htmlspecialchars_decode($request->server('HTTP_X_FORWARDED_FOR'));
