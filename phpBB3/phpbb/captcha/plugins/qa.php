@@ -222,7 +222,11 @@ class qa
 	{
 		global $phpbb_log, $template, $user;
 
-		if ($this->is_solved() || empty($this->question_text) || !count($this->question_ids))
+        if ($this->is_solved())
+                {
+                    return false;
+                }
+		else if (empty($this->question_text) || !count($this->question_ids))
 		{
 			/** @var \phpbb\log\log_interface $phpbb_log */
 			$phpbb_log->add('critical', $user->data['user_id'], $user->ip, 'LOG_ERROR_CAPTCHA', time(), array($user->lang('CONFIRM_QUESTION_MISSING')));
