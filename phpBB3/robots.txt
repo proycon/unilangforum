@@ -1,0 +1,110 @@
+#Baiduspider is too aggressive, and China won't be fond or our politics forum anyhow
+User-agent: Baiduspider
+Disallow: /
+
+#Microsoft is evil:
+User-agent: Bingbot
+Disallow: /
+
+#Blogs are old and over-crawled
+User-agent: *
+Disallow: /blog/
+
+User-agent: *
+Disallow: /viewtopic.php?lang=*
+
+User-agent: ChatGPT-User
+Disallow: /
+
+User-agent: Mediapartners-Google
+Disallow: /
+
+User-agent: AdsBot-Google
+Disallow: /
+
+User-agent: adidxbot
+Disallow: /
+
+User-agent: PerplexityBot
+Disallow: /
+
+
+# copied from sr.ht/robots.txt:
+
+# Too aggressive, marketing/SEO
+User-agent: SemrushBot
+Disallow: /
+
+# Too aggressive, marketing/SEO
+User-agent: SemrushBot-SA
+Disallow: /
+
+# Marketing/SEO
+User-agent: AhrefsBot
+Disallow: /
+
+# Marketing/SEO
+User-agent: dotbot
+Disallow: /
+
+# Marketing/SEO
+User-agent: rogerbot
+Disallow: /
+
+User-agent: BLEXBot
+Disallow: /
+
+# Huwei something or another, badly behaved
+User-agent: AspiegelBot
+Disallow: /
+
+# Marketing/SEO
+User-agent: ZoominfoBot
+Disallow: /
+
+# YandexBot is a dickhead, too aggressive
+User-agent: Yandex
+Disallow: /
+
+# Marketing/SEO
+User-agent: MJ12bot
+Disallow: /
+
+# Marketing/SEO
+User-agent: DataForSeoBot
+Disallow: /
+
+# Used for Alexa, I guess, who cares
+User-agent: Amazonbot
+Disallow: /
+
+# No
+User-agent: turnitinbot
+Disallow: /
+
+User-agent: Turnitin
+Disallow: /
+
+# Does not respect * directives
+User-agent: Seekport Crawler
+Disallow: /
+
+# No thanks
+User-agent: GPTBot
+Disallow: /
+
+# Fairly certain that this is an LLM data vacuum
+User-agent: ClaudeBot
+Disallow: /
+
+# Same
+User-agent: Google-Extended
+Disallow: /
+
+# Marketing
+User-agent: serpstatbot
+Disallow: /
+
+# Marketing/SEO
+User-agent: barkrowler
+Disallow: /
